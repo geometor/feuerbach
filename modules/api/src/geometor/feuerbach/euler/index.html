@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.feuerbach.euler &mdash; GEOMETOR • feuerbach — Euler (1765) &amp; Feuerbach (1822) Bilingual Book Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../../index.html">modules</a>
+            <span class="book-crumb-sep">/</span>
+            <a class="book-crumb-link" href="../index.html">src.geometor.feuerbach</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="module-src.geometor.feuerbach.euler">
+        <span id="src-geometor-feuerbach-euler"></span><h1>src.geometor.feuerbach.euler<a class="headerlink" href="#module-src.geometor.feuerbach.euler" title="Link to this heading">¶</a></h1>
+        <p>Symbolic proofs and Euclidean construction for Euler’s 1765 memoir (E325) and Feuerbach (1822).</p>
+        <p>Implements:</p>
+        <ol class="arabic">
+        <li><p><a class="reference internal" href="#src.geometor.feuerbach.euler.prove_euler_1765_identities" title="src.geometor.feuerbach.euler.prove_euler_1765_identities"><code class="xref py py-func docutils literal notranslate"><span class="pre">prove_euler_1765_identities()</span></code></a>: 100% exact rational-function proofs in <code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code>
+        over free side symbols <span class="math notranslate nohighlight">\((a, b, c)\)</span> for:</p>
+        <ul class="simple">
+        <li><p>Euler’s six squared mutual center distances (§ 18, Formulas I–VI, p. 114),</p></li>
+        <li><p>Euler’s collinearity ratio <span class="math notranslate nohighlight">\(EH = \frac{3}{2}EF\)</span>, <span class="math notranslate nohighlight">\(FH = \frac{1}{2}EF\)</span> (§ 16 &amp; § 18),</p></li>
+        <li><p>Euler’s Stewart relation <span class="math notranslate nohighlight">\(4GH^2 + 2EG^2 = 3EF^2 + 6FG^2\)</span> (§ 18, p. 114),</p></li>
+        <li><p>Feuerbach’s tritangent &amp; orthic identities (§§ 5, 28, 49–60, pp. 4–41), including
+        the four nine-point tangency quadrances <span class="math notranslate nohighlight">\(\overline{LS}^2 = (\frac{1}{2}R - r)^2\)</span>
+        and <span class="math notranslate nohighlight">\(\overline{LS^{(k)}}^2 = (\frac{1}{2}R + r^{(k)})^2\)</span> (§ 57, pp. 37–38) and the
+        corrected centroid-orthocenter sums <span class="math notranslate nohighlight">\(\sum \overline{OS_i}^2 = 16R(R - \rho)\)</span> (§ 52)
+        and <span class="math notranslate nohighlight">\(9\sum \overline{GS_i}^2 = 16R(7R - \rho)\)</span> (§ 60),</p></li>
+        </ul>
+        <p>evaluated concretely in exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Rational</span></code> arithmetic on the canonical Heronian
+        <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> triangle.</p>
+        </li>
+        <li><p><a class="reference internal" href="#src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic" title="src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic"><code class="xref py py-func docutils literal notranslate"><span class="pre">solve_euler_reconstruction_cubic()</span></code></a>: Exact symbolic solver for Euler’s inverse
+        problem (§§ 19–24, pp. 114–118), recovering <span class="math notranslate nohighlight">\(z^3 - pz^2 + qz - r = 0\)</span> from the
+        mutual quadrances of <code class="docutils literal notranslate"><span class="pre">(E,</span> <span class="pre">F,</span> <span class="pre">G,</span> <span class="pre">H)</span></code> and verifying Euler’s <code class="docutils literal notranslate"><span class="pre">(5,</span> <span class="pre">6,</span> <span class="pre">7)</span></code> test case.</p></li>
+        <li><p><a class="reference internal" href="#src.geometor.feuerbach.euler.construct_euler_1765_centers" title="src.geometor.feuerbach.euler.construct_euler_1765_centers"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_euler_1765_centers()</span></code></a>: Pure compass-and-straightedge <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>
+        proposition constructing <code class="docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">X(4)</span></code>, <code class="docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">X(2)</span></code>, <code class="docutils literal notranslate"><span class="pre">G</span> <span class="pre">=</span> <span class="pre">X(1)</span></code>, <code class="docutils literal notranslate"><span class="pre">H</span> <span class="pre">=</span> <span class="pre">X(3)</span></code>, the
+        circumcircle, the incircle, and the Euler line <code class="docutils literal notranslate"><span class="pre">[H</span> <span class="pre">E]</span></code>.</p></li>
+        </ol>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerCubicExample" title="src.geometor.feuerbach.euler.EulerCubicExample"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EulerCubicExample</span></code></a></p></td>
+        <td><p>Exact polynomial data for Euler's §§ 21–24 triangle reconstruction problem.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.HeronianNumericCheck" title="src.geometor.feuerbach.euler.HeronianNumericCheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HeronianNumericCheck</span></code></a></p></td>
+        <td><p>Exact rational invariants on the canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> triangle.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport" title="src.geometor.feuerbach.euler.EulerIdentitiesReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EulerIdentitiesReport</span></code></a></p></td>
+        <td><p>Verified symbolic residuals and concrete evaluations for Euler (1765) &amp; Feuerbach (1822).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerCentersResult" title="src.geometor.feuerbach.euler.EulerCentersResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EulerCentersResult</span></code></a></p></td>
+        <td><p>Constructed elements for Euler's 1765 memoir (E325) on <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic" title="src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solve_euler_reconstruction_cubic</span></code></a>(ef_sq, fg_sq, gh_sq) → tuple[sympy.Rational, sympy.Rational, sympy.Rational, sympy.Expr, tuple[sympy.Rational, ...]]</p></td>
+        <td><p>Recover <span class="math notranslate nohighlight">\((p, q, r)\)</span> and the side-length cubic <span class="math notranslate nohighlight">\(z^3 - pz^2 + qz - r = 0\)</span>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.prove_euler_1765_identities" title="src.geometor.feuerbach.euler.prove_euler_1765_identities"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prove_euler_1765_identities</span></code></a>() → EulerIdentitiesReport</p></td>
+        <td><p>Prove all distance and proportion identities of Euler (1765) and Feuerbach (1822).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.euler.construct_euler_1765_centers" title="src.geometor.feuerbach.euler.construct_euler_1765_centers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_euler_1765_centers</span></code></a>([model]) → EulerCentersResult</p></td>
+        <td><p>Construct Euler's four centers <code class="docutils literal notranslate"><span class="pre">(E,</span> <span class="pre">F,</span> <span class="pre">G,</span> <span class="pre">H)</span></code> and prove his 1765 collinearity theorems.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">EulerCubicExample</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact polynomial data for Euler’s §§ 21–24 triangle reconstruction problem.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.sides_expected">
+        <span class="sig-name descname"><span class="pre">sides_expected</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.sides_expected" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.ef_sq">
+        <span class="sig-name descname"><span class="pre">ef_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.ef_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.eg_sq">
+        <span class="sig-name descname"><span class="pre">eg_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.eg_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.eh_sq">
+        <span class="sig-name descname"><span class="pre">eh_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.eh_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.fg_sq">
+        <span class="sig-name descname"><span class="pre">fg_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.fg_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.fh_sq">
+        <span class="sig-name descname"><span class="pre">fh_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.fh_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.gh_sq">
+        <span class="sig-name descname"><span class="pre">gh_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.gh_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.p_sum">
+        <span class="sig-name descname"><span class="pre">p_sum</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.p_sum" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.q_pairs">
+        <span class="sig-name descname"><span class="pre">q_pairs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.q_pairs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.r_prod">
+        <span class="sig-name descname"><span class="pre">r_prod</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.r_prod" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.cubic_poly">
+        <span class="sig-name descname"><span class="pre">cubic_poly</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.cubic_poly" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCubicExample.recovered_roots">
+        <span class="sig-name descname"><span class="pre">recovered_roots</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCubicExample.recovered_roots" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">HeronianNumericCheck</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational invariants on the canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> triangle.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.sides">
+        <span class="sig-name descname"><span class="pre">sides</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.sides" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.area">
+        <span class="sig-name descname"><span class="pre">area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.semiperimeter">
+        <span class="sig-name descname"><span class="pre">semiperimeter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.semiperimeter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.circumradius">
+        <span class="sig-name descname"><span class="pre">circumradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.circumradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.nine_point_radius">
+        <span class="sig-name descname"><span class="pre">nine_point_radius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.nine_point_radius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.inradius">
+        <span class="sig-name descname"><span class="pre">inradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.inradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.exradii">
+        <span class="sig-name descname"><span class="pre">exradii</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.exradii" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.orthic_inradius">
+        <span class="sig-name descname"><span class="pre">orthic_inradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.orthic_inradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.euler_p_sum">
+        <span class="sig-name descname"><span class="pre">euler_p_sum</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.euler_p_sum" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.euler_q_pairs">
+        <span class="sig-name descname"><span class="pre">euler_q_pairs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.euler_q_pairs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.euler_r_prod">
+        <span class="sig-name descname"><span class="pre">euler_r_prod</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.euler_r_prod" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.quadrances_euler">
+        <span class="sig-name descname"><span class="pre">quadrances_euler</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.quadrances_euler" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.HeronianNumericCheck.quadrances_feuerbach">
+        <span class="sig-name descname"><span class="pre">quadrances_feuerbach</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.HeronianNumericCheck.quadrances_feuerbach" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">EulerIdentitiesReport</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Verified symbolic residuals and concrete evaluations for Euler (1765) &amp; Feuerbach (1822).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.symbolic_residuals">
+        <span class="sig-name descname"><span class="pre">symbolic_residuals</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.symbolic_residuals" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.euler_formulas_pqr">
+        <span class="sig-name descname"><span class="pre">euler_formulas_pqr</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.euler_formulas_pqr" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.feuerbach_formulas">
+        <span class="sig-name descname"><span class="pre">feuerbach_formulas</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.feuerbach_formulas" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.euler_cubic_567">
+        <span class="sig-name descname"><span class="pre">euler_cubic_567</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerCubicExample" title="src.geometor.feuerbach.euler.EulerCubicExample"><span class="pre">EulerCubicExample</span></a></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.euler_cubic_567" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.heronian_15_13_14">
+        <span class="sig-name descname"><span class="pre">heronian_15_13_14</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#src.geometor.feuerbach.euler.HeronianNumericCheck" title="src.geometor.feuerbach.euler.HeronianNumericCheck"><span class="pre">HeronianNumericCheck</span></a></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.heronian_15_13_14" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py property">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerIdentitiesReport.all_verified">
+        <span class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">all_verified</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport.all_verified" title="Link to this definition">¶</a></dt>
+        <dd><p>Return <code class="docutils literal notranslate"><span class="pre">True</span></code> iff every symbolic polynomial residual simplifies to exact zero.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">EulerCentersResult</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for Euler’s 1765 memoir (E325) on <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.triangle">
+        <span class="sig-name descname"><span class="pre">triangle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Polygon</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.triangle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.x1_incenter_G">
+        <span class="sig-name descname"><span class="pre">x1_incenter_G</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.x1_incenter_G" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.x2_centroid_F">
+        <span class="sig-name descname"><span class="pre">x2_centroid_F</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.x2_centroid_F" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.x3_circumcenter_H">
+        <span class="sig-name descname"><span class="pre">x3_circumcenter_H</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.x3_circumcenter_H" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.x4_orthocenter_E">
+        <span class="sig-name descname"><span class="pre">x4_orthocenter_E</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.x4_orthocenter_E" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.euler_line">
+        <span class="sig-name descname"><span class="pre">euler_line</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.euler_line" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.circumcircle">
+        <span class="sig-name descname"><span class="pre">circumcircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.circumcircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.EulerCentersResult.incircle">
+        <span class="sig-name descname"><span class="pre">incircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.EulerCentersResult.incircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">solve_euler_reconstruction_cubic</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ef_sq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fg_sq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gh_sq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eg_sq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic" title="Link to this definition">¶</a></dt>
+        <dd><p>Recover <span class="math notranslate nohighlight">\((p, q, r)\)</span> and the side-length cubic <span class="math notranslate nohighlight">\(z^3 - pz^2 + qz - r = 0\)</span>.</p>
+        <p>Follows Euler’s E325 §§ 19–22 (pp. 114–117):</p>
+        <ul class="simple">
+        <li><p>If <code class="docutils literal notranslate"><span class="pre">eg_sq</span></code> is omitted, determines <span class="math notranslate nohighlight">\(EG^2\)</span> from Stewart’s collinearity law
+        <span class="math notranslate nohighlight">\(4GH^2 + 2EG^2 = 3EF^2 + 6FG^2\)</span>.</p></li>
+        <li><p>Sets <span class="math notranslate nohighlight">\(f = EG^2 - GH^2\)</span>, <span class="math notranslate nohighlight">\(g = FG^2 - EF^2\)</span>, <span class="math notranslate nohighlight">\(h = \frac{9}{4}EF^2 - 3GH^2\)</span>,
+        recovers <span class="math notranslate nohighlight">\(Q = r/p\)</span>, <span class="math notranslate nohighlight">\(R = r^2/(4A^2) = 4(GH^2 + Q)\)</span>, <span class="math notranslate nohighlight">\(P = p^2\)</span>,
+        <span class="math notranslate nohighlight">\(q\)</span>, and <span class="math notranslate nohighlight">\(r = pQ\)</span>.</p></li>
+        </ul>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>ef_sq</strong> – Exact squared distance <span class="math notranslate nohighlight">\(EF^2 = Q(X_4, X_2)\)</span>.</p></li>
+        <li><p><strong>fg_sq</strong> – Exact squared distance <span class="math notranslate nohighlight">\(FG^2 = Q(X_2, X_1)\)</span>.</p></li>
+        <li><p><strong>gh_sq</strong> – Exact squared distance <span class="math notranslate nohighlight">\(GH^2 = Q(X_3, X_1)\)</span>.</p></li>
+        <li><p><strong>eg_sq</strong> – Optional <span class="math notranslate nohighlight">\(EG^2 = Q(X_4, X_1)\)</span>; verified against Stewart’s law if given.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Tuple <code class="docutils literal notranslate"><span class="pre">(p,</span> <span class="pre">q,</span> <span class="pre">r,</span> <span class="pre">cubic_expr,</span> <span class="pre">sorted_rational_roots)</span></code>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">eg_sq</span></code> violates Euler’s collinearity relation or <span class="math notranslate nohighlight">\(P = p^2\)</span> is
+        not a positive rational square.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.prove_euler_1765_identities">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">prove_euler_1765_identities</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport" title="src.geometor.feuerbach.euler.EulerIdentitiesReport"><span class="pre">EulerIdentitiesReport</span></a></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.prove_euler_1765_identities" title="Link to this definition">¶</a></dt>
+        <dd><p>Prove all distance and proportion identities of Euler (1765) and Feuerbach (1822).</p>
+        <p>Uses pure rational-function cancellation (<code class="xref py py-func docutils literal notranslate"><span class="pre">sympy.cancel()</span></code>) over free side lengths
+        <span class="math notranslate nohighlight">\((a, b, c)\)</span> without floating-point arithmetic or square-root branch ambiguity.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>A complete <a class="reference internal" href="#src.geometor.feuerbach.euler.EulerIdentitiesReport" title="src.geometor.feuerbach.euler.EulerIdentitiesReport"><code class="xref py py-class docutils literal notranslate"><span class="pre">EulerIdentitiesReport</span></code></a> with symbolic zero residuals and concrete
+        rational evaluations on <code class="docutils literal notranslate"><span class="pre">(5,</span> <span class="pre">6,</span> <span class="pre">7)</span></code> and <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.euler.construct_euler_1765_centers">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.euler.</span></span><span class="sig-name descname"><span class="pre">construct_euler_1765_centers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerCentersResult" title="src.geometor.feuerbach.euler.EulerCentersResult"><span class="pre">EulerCentersResult</span></a></span></span><a class="headerlink" href="#src.geometor.feuerbach.euler.construct_euler_1765_centers" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Euler’s four centers <code class="docutils literal notranslate"><span class="pre">(E,</span> <span class="pre">F,</span> <span class="pre">G,</span> <span class="pre">H)</span></code> and prove his 1765 collinearity theorems.</p>
+        <p>Uses the canonical acute scalene Heronian triangle <code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span></code>, <code class="docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">(14,</span> <span class="pre">0)</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">(5,</span> <span class="pre">12)</span></code> with integer sides <code class="docutils literal notranslate"><span class="pre">a</span> <span class="pre">=</span> <span class="pre">15</span></code>, <code class="docutils literal notranslate"><span class="pre">b</span> <span class="pre">=</span> <span class="pre">13</span></code>, <code class="docutils literal notranslate"><span class="pre">c</span> <span class="pre">=</span> <span class="pre">14</span></code> so every classical
+        center lands on exact rational coordinates over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>. When <code class="docutils literal notranslate"><span class="pre">None</span></code>, creates a new
+        model with <code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p><a class="reference internal" href="#src.geometor.feuerbach.euler.EulerCentersResult" title="src.geometor.feuerbach.euler.EulerCentersResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">EulerCentersResult</span></code></a> containing the model and constructed geometric entities.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ProofAssertionError</strong> – If any deductive concurrency, collinearity, or metric assertion fails.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../../../../../../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../../../../../../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

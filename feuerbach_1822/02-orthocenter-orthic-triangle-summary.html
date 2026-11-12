@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary — Unit II: Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48) &mdash; Eigenschaften einiger merkwürdigen Punkte (1822)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-tritangent-circles-summary.html" title="Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-nine-point-tangency-theorem-summary.html" title="Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="summary-unit-ii-orthocenter-orthic-triangle-inradius-1948">
+        <span id="fb-02-summary"></span><h1>Summary — Unit II: Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)<a class="headerlink" href="#summary-unit-ii-orthocenter-orthic-triangle-inradius-1948" title="Link to this heading">¶</a></h1>
+        <p class="rubric">The Orthic Invariant <span class="math notranslate nohighlight">\(\rho = 2R\cos\alpha\cos\beta\cos\gamma\)</span> as Third Fundamental Radius</p>
+        <p>Whereas <a class="person-ref" id="occ-person-euler-1" href="../persons.html#person-euler" data-person="euler" title="Leonhard Euler (1707–1783) — Swiss mathematician and physicist; author of E325 (1765/1767) establishing the six center distances and the Euler line">Euler</a> (1765) expressed triangle-center invariants through <span class="math notranslate nohighlight">\((p, q, r)\)</span> and modern texts typically choose <span class="math notranslate nohighlight">\((R, r, s)\)</span>, <a class="person-ref" id="occ-person-feuerbach-1" href="../persons.html#person-feuerbach" data-person="feuerbach" title="Karl Wilhelm Feuerbach (1800–1834) — German geometer; author of the 1822 Nuremberg monograph proving the fourfold tangency of the nine-point circle">Feuerbach</a> introduces in <strong>§ 24</strong> the signed orthic inradius <span class="math notranslate nohighlight">\(\rho = 2R\cos\alpha\cos\beta\cos\gamma\)</span>, unlocking clean radius formulas free of <span class="math notranslate nohighlight">\(s^2\)</span>:</p>
+        <table class="docutils align-default" id="id1">
+        <caption><span class="caption-text">Core Orthic Identities of Feuerbach’s Second Section (pp. 15–32)</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 16.0%" />
+        <col style="width: 44.0%" />
+        <col style="width: 40.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Locus</p></th>
+        <th class="head"><p>Identity</p></th>
+        <th class="head"><p>Significance</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><strong>§ 19</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(MN + MP + NP = \dfrac{2\Delta}{R}\)</span></p></td>
+        <td><p>Perimeter of <a class="person-ref" id="occ-person-fagnano-1" href="../persons.html#person-fagnano" data-person="fagnano" title="Giovanni Francesco Fagnano dei Toschi (1715–1797) — Italian mathematician; proved in 1775 that the orthic triangle minimizes inscribed perimeter inside an acute triangle (cited by Feuerbach § 19)">Fagnano</a>’s minimal-perimeter <a class="term-ref glossary-term" id="occ-term-orthic-triangle-1" href="../glossary.html#term-orthic-triangle" data-term="orthic-triangle" title="Orthic Triangle (Fußpunktdreieck MNP) (Pedal triangle of the orthocenter): The triangle MNP formed by the orthogonal feet of the three altitudes of ABC; for an acute triangle, its incenter is the orthocenter O = X(4) and its inradius is rho = 2R cos(alpha) cos(beta) cos(gamma) (Feuerbach §§ 19–25).">orthic triangle</a></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§§ 23–24</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\rho = 2R\cos\alpha\cos\beta\cos\gamma\)</span>, <span class="math notranslate nohighlight">\(\dfrac{\triangle MNP}{\Delta} = \dfrac{\rho}{R}\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\((A, B, C, O)\)</span> are the four tritangent centers of <span class="math notranslate nohighlight">\(\triangle MNP\)</span></p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 26</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(R_{MNP} = \dfrac{1}{2}R\)</span></p></td>
+        <td><p>Circumradius of <span class="math notranslate nohighlight">\(\triangle MNP\)</span> equals half the circumradius of <span class="math notranslate nohighlight">\(\triangle ABC\)</span></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§§ 27–28</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(a^2 + b^2 + c^2 = 8R^2 + 4\rho R\)</span>, <span class="math notranslate nohighlight">\(\sum r_i^2 = 4R(2R - \rho)\)</span></p></td>
+        <td><p>Eliminates <span class="math notranslate nohighlight">\(s^2\)</span> in favor of <span class="math notranslate nohighlight">\((R, \rho)\)</span></p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 33</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(R(BCO) = R(ACO) = R(ABO) = R\)</span></p></td>
+        <td><p>Equal circumradii of the three orthocentric sub-triangles</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§ 35</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(AO \cdot OM = BO \cdot ON = CO \cdot OP = 2\rho R\)</span></p></td>
+        <td><p>Power of <span class="math notranslate nohighlight">\(O\)</span> with respect to the nine-point and circumcircles</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 47</strong></p></td>
+        <td><p><span class="math notranslate nohighlight">\(Ka = \tfrac{1}{2}AO\)</span>, <span class="math notranslate nohighlight">\(Kb = \tfrac{1}{2}BO\)</span>, <span class="math notranslate nohighlight">\(Kc = \tfrac{1}{2}CO\)</span></p></td>
+        <td><p>Altitude vertex-to-orthocenter segment is twice the circumcenter-to-side distance</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-tritangent-circles-summary.html" title="Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)">&larr; <span class="nav-label">Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-nine-point-tangency-theorem-summary.html" title="Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete)"><span class="nav-label">Unit III: The Nine-Point Circle, Feuerbach’s Theorem & The Euler Line (§§ 49–60, Complete)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

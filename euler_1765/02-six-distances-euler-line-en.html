@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18) &mdash; Solutio facilis problematum (1765)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Solutio facilis problematum (1765)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-four-centers-en.html" title="Unit I: The Four Classical Triangle Centers &amp; Orthogonal Coordinates (§§ 1–9)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-six-distances-euler-line-la.html">Latin</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-six-distances-euler-line-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-six-distances-euler-line-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-reconstruction-cubic-en.html" title="Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-ii-symmetric-polynomials-six-mutual-quadrances-the-euler-line-1018">
+        <span id="euler-02-en"></span><h1>Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)<a class="headerlink" href="#unit-ii-symmetric-polynomials-six-mutual-quadrances-the-euler-line-1018" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Leonhard Euler — <em>An Easy Solution of Certain Very Difficult Geometric Problems</em> (1765/1767, pp. 107–114)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#expression-of-the-six-squared-inter-center-distances" id="id1">§ 10. Expression of the Six Squared Inter-Center Distances</a></p></li>
+        <li><p><a class="reference internal" href="#symmetric-polynomials-of-the-three-sides-and-heron-s-identity" id="id2">§ 11. Symmetric Polynomials of the Three Sides and Heron’s Identity</a></p></li>
+        <li><p><a class="reference internal" href="#i-investigation-of-the-distance-of-points-e-and-f" id="id3">§ 12. I. Investigation of the Distance of Points E and F</a></p></li>
+        <li><p><a class="reference internal" href="#ii-investigation-of-the-distance-of-points-e-and-g" id="id4">§ 13. II. Investigation of the Distance of Points E and G</a></p></li>
+        <li><p><a class="reference internal" href="#iii-investigation-of-the-distance-of-points-e-and-h" id="id5">§ 14. III. Investigation of the Distance of Points E and H</a></p></li>
+        <li><p><a class="reference internal" href="#iv-investigation-of-the-distance-of-points-f-and-g" id="id6">§ 15. IV. Investigation of the Distance of Points F and G</a></p></li>
+        <li><p><a class="reference internal" href="#v-investigation-of-the-distance-of-points-f-and-h-vectorial-euler-line-proof" id="id7">§ 16. V. Investigation of the Distance of Points F and H (Vectorial Euler Line Proof)</a></p></li>
+        <li><p><a class="reference internal" href="#vi-investigation-of-the-distance-of-points-g-and-h-euler-s-incentercircumcenter-theorem" id="id8">§ 17. VI. Investigation of the Distance of Points G and H (Euler’s Incenter–Circumcenter Theorem)</a></p></li>
+        <li><p><a class="reference internal" href="#synopsis-of-the-six-quadrances-discovery-of-the-euler-line-stewart-s-law" id="id9">§ 18. Synopsis of the Six Quadrances, Discovery of the Euler Line &amp; Stewart’s Law</a></p></li>
+        </ul>
+        </nav>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0114.g1" data-folio="0114" data-graphic="g1" viewBox="0 0 680 662" width="680" height="662" role="img" aria-label="Euler (1765/1767, E325): Four Classical Triangle Centers E, F, G, H and the Euler Line">
+          <title>Euler (1765/1767, E325): Four Classical Triangle Centers E, F, G, H and the Euler Line</title>
+          <defs>
+            <clipPath id="clip-0114-g1"><rect x="0" y="0" width="680" height="662"/></clipPath>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+          </defs>
+          <g id="elements" clip-path="url(#clip-0114-g1)">
+            <polygon class="polygon" data-ref="< A B C >" points="89.47,483.16 590.53,483.16 268.42,53.68" fill="var(--geom-fg)" fill-opacity="0.04" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <path class="segment" data-ref="/ A B /" d="M 89.47 483.16 L 340.00 483.16 L 590.53 483.16" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ B C /" d="M 590.53 483.16 L 429.47 268.42 L 268.42 53.68" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ C A /" d="M 268.42 53.68 L 178.95 268.42 L 89.47 483.16" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ A M1 /" d="M 89.47 483.16 L 259.47 375.79 L 429.47 268.42" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.40" stroke-dasharray="5,3"/>
+            <path class="segment" data-ref="/ B M2 /" d="M 590.53 483.16 L 384.74 375.79 L 178.95 268.42" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.40" stroke-dasharray="5,3"/>
+            <path class="segment" data-ref="/ C M3 /" d="M 268.42 53.68 L 304.21 268.42 L 340.00 483.16" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.40" stroke-dasharray="5,3"/>
+            <path class="segment" data-ref="/ X4 X1 /" d="M 268.42 348.95 L 286.32 344.47 L 304.21 340.00" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.78" stroke-dasharray="2,2"/>
+            <path class="segment" data-ref="/ X2 X1 /" d="M 316.14 340.00 L 310.18 340.00 L 304.21 340.00" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.78" stroke-dasharray="2,2"/>
+            <path class="segment" data-ref="/ X3 X1 /" d="M 340.00 335.53 L 322.11 337.76 L 304.21 340.00" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.78" stroke-dasharray="2,2"/>
+            <circle class="circle" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.53" r="290.79" fill="none" stroke="var(--geom-fg)" stroke-width="1.25" stroke-opacity="0.65" stroke-dasharray="6,3"/>
+            <circle class="circle" data-ref="( X1 T0 )" cx="304.21" cy="340.00" r="143.16" fill="none" stroke="var(--geom-assert)" stroke-width="1.45" stroke-opacity="0.88"/>
+          </g>
+          <g id="graphics" clip-path="url(#clip-0114-g1)">
+            <path class="line" data-ref="[ A X4 ]" d="M 0.00 550.26 L 340.00 295.26 L 680.00 40.26" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.42" stroke-dasharray="3,3"/>
+            <path class="line" data-ref="[ B X4 ]" d="M 0.00 237.11 L 340.00 378.77 L 680.00 520.44" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.42" stroke-dasharray="3,3"/>
+            <path class="line" data-ref="[ C X4 ]" d="M 268.42 662.11 L 268.42 331.05 L 268.42 0.00" fill="none" stroke="var(--geom-fg)" stroke-width="0.85" stroke-opacity="0.42" stroke-dasharray="3,3"/>
+            <path class="line" data-ref="[ X3 X4 ]" d="M 0.00 399.28 L 340.00 335.53 L 680.00 271.78" fill="none" stroke="var(--geom-accent)" stroke-width="2.10" stroke-opacity="0.95"/>
+          </g>
+          <g id="highlights" clip-path="url(#clip-0114-g1)" style="pointer-events: none;">
+            <polygon class="polygon geom-overlay" data-ref="< A B C >" points="89.47,483.16 590.53,483.16 268.42,53.68" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <path class="line geom-overlay" data-ref="[ A X4 ]" d="M 0.00 550.26 L 340.00 295.26 L 680.00 40.26" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ B X4 ]" d="M 0.00 237.11 L 340.00 378.77 L 680.00 520.44" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ C X4 ]" d="M 268.42 662.11 L 268.42 331.05 L 268.42 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ X3 X4 ]" d="M 0.00 399.28 L 340.00 335.53 L 680.00 271.78" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="segment geom-overlay" data-ref="/ A B /" d="M 89.47 483.16 L 340.00 483.16 L 590.53 483.16" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B C /" d="M 590.53 483.16 L 429.47 268.42 L 268.42 53.68" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C A /" d="M 268.42 53.68 L 178.95 268.42 L 89.47 483.16" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ A M1 /" d="M 89.47 483.16 L 259.47 375.79 L 429.47 268.42" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B M2 /" d="M 590.53 483.16 L 384.74 375.79 L 178.95 268.42" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C M3 /" d="M 268.42 53.68 L 304.21 268.42 L 340.00 483.16" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X4 X1 /" d="M 268.42 348.95 L 286.32 344.47 L 304.21 340.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X2 X1 /" d="M 316.14 340.00 L 310.18 340.00 L 304.21 340.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X3 X1 /" d="M 340.00 335.53 L 322.11 337.76 L 304.21 340.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.53" r="290.79" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X1 T0 )" cx="304.21" cy="340.00" r="143.16" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+          </g>
+          <g id="points">
+            <circle class="point geom-point" data-ref="A" cx="89.47" cy="483.16" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="B" cx="590.53" cy="483.16" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="C" cx="268.42" cy="53.68" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M1" cx="429.47" cy="268.42" r="2.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M2" cx="178.95" cy="268.42" r="2.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M3" cx="340.00" cy="483.16" r="2.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="T0" cx="304.21" cy="483.16" r="2.6" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X4" data-aliases="E" cx="268.42" cy="348.95" r="4.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X2" data-aliases="F" cx="316.14" cy="340.00" r="4.4" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X1" data-aliases="G" cx="304.21" cy="340.00" r="4.6" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X3" data-aliases="H" cx="340.00" cy="335.53" r="4.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+          </g>
+          <g id="labels">
+            <text class="label geom-label" data-ref="A" x="73.47" y="498.16" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A</text>
+            <text class="label geom-label" data-ref="B" x="598.53" y="498.16" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B</text>
+            <text class="label geom-label" data-ref="C" x="264.42" y="43.68" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C</text>
+            <text class="label geom-label" data-ref="M1" x="436.47" y="265.42" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">a</text>
+            <text class="label geom-label" data-ref="M2" x="164.95" y="265.42" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">b</text>
+            <text class="label geom-label" data-ref="M3" x="336.00" y="498.16" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S</text>
+            <text class="label geom-label" data-ref="T0" x="299.21" y="498.16" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">R</text>
+            <text class="label geom-label" data-ref="X4" data-aliases="E" x="226.42" y="361.95" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">E (X₄)</text>
+            <text class="label geom-label" data-ref="X2" data-aliases="F" x="310.14" y="330.00" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">F (X₂)</text>
+            <text class="label geom-label" data-ref="X1" data-aliases="G" x="290.21" y="357.00" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">G (X₁)</text>
+            <text class="label geom-label" data-ref="X3" data-aliases="H" x="349.00" y="330.53" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">H (X₃)</text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 10" data-folio="§ 10" data-page="107">[Folio § 10 | p. 107]</div>
+        <section class="level-2" id="expression-of-the-six-squared-inter-center-distances">
+        <h2>§ 10. Expression of the Six Squared Inter-Center Distances<a class="headerlink" href="#expression-of-the-six-squared-inter-center-distances" title="Link to this heading">¶</a></h2>
+        <p>Hence we shall now be able to define the distances among these four points, if indeed they are represented in the same figure; for by the Pythagorean theorem <span class="justification" data-ref-target="I.47" title="I.47">[I. 47]</span> we shall have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}EF^2 &amp;= (AP - AQ)^2 + (PE - QF)^2 \\
+        EG^2 &amp;= (AP - AR)^2 + (PE - RG)^2 \\
+        EH^2 &amp;= (AP - AS)^2 + (PE - SH)^2\end{split}\]</div>
+        <div class="folio-milestone" id="folio-§ 10 (cont.)" data-folio="§ 10 (cont.)" data-page="108">[Folio § 10 (cont.) | p. 108]</div>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}FG^2 &amp;= (AQ - AR)^2 + (QF - RG)^2 \\
+        FH^2 &amp;= (AQ - AS)^2 + (QF - SH)^2 \\
+        GH^2 &amp;= (AR - AS)^2 + (RG - SH)^2.\end{split}\]</div>
+        <p>Now these intervals ought to be gathered for this reason: that if any three of these four points are proposed as given, nothing else besides their mutual distances is assumed as known, whence thereafter the sides of the triangle are to be investigated.</p>
+        </section>
+        <section class="level-2" id="symmetric-polynomials-of-the-three-sides-and-heron-s-identity">
+        <span id="euler-en-s11"></span><h2>§ 11. Symmetric Polynomials of the Three Sides and Heron’s Identity<a class="headerlink" href="#symmetric-polynomials-of-the-three-sides-and-heron-s-identity" title="Link to this heading">¶</a></h2>
+        <p>Here, however, it must above all be observed that those distances among our four points must necessarily be so expressed that the three sides of the triangle enter equally into the expressions, since no prerogative whatever can be granted to any one side over the rest with respect to these distances. On account of which, intending to contemplate the sides of the triangle without any distinction, I set:</p>
+        <div class="math notranslate nohighlight">
+        \[a + b + c = p; \qquad ab + ac + bc = q \qquad \text{and} \qquad abc = r,\]</div>
+        <p>so that in place of the sides I am now going to introduce into the calculation those three quantities <span class="math notranslate nohighlight">\(p, q\)</span>, and <span class="math notranslate nohighlight">\(r\)</span> equally related to each side [<a class="term-ref glossary-term" id="occ-term-symmetric-polynomials-1" href="../glossary.html#term-symmetric-polynomials" data-term="symmetric-polynomials" title="Elementary Symmetric Polynomials (p, q, r) (Euler&#x27;s side-sum invariants): Euler&#x27;s symmetric generators p = a + b + c, q = ab + ac + bc, and r = abc (§ 10, p. 107; note that in Euler 1765 r denotes the product abc rather than the inradius).">elementary symmetric polynomials</a>]. Hence, since we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}a^2 + b^2 + c^2 &amp;= p^2 - 2q, \\
+        a^2b^2 + a^2c^2 + b^2c^2 &amp;= q^2 - 2pr, \\
+        a^4 + b^4 + c^4 &amp;= p^4 - 4p^2q + 2q^2 + 4pr,\end{split}\]</div>
+        <p>the area <span class="math notranslate nohighlight">\(\mathcal{A}\)</span> is so expressed that:</p>
+        <div class="math notranslate nohighlight">
+        \[\mathcal{A}^2 = \frac{1}{16}p\left(-p^3 + 4pq - 8r\right) = \frac{-p^4 + 4p^2q - 8pr}{16}.\]</div>
+        <p>Having noted this, I am going to reduce each of the six distances above separately to these new quantities.</p>
+        <div class="folio-milestone" id="folio-§ 12" data-folio="§ 12" data-page="109">[Folio § 12 | p. 109]</div>
+        </section>
+        <section class="level-2" id="i-investigation-of-the-distance-of-points-e-and-f">
+        <h2>§ 12. I. Investigation of the Distance of Points E and F<a class="headerlink" href="#i-investigation-of-the-distance-of-points-e-and-f" title="Link to this heading">¶</a></h2>
+        <p>Here first we have [between <span class="geom-ref" data-ref="0114.g1:X4" title="X4">E</span> and <span class="geom-ref" data-ref="0114.g1:X2" title="X2">F</span>]:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AP - AQ &amp;= \frac{c^2 + b^2 - a^2}{2c} - \frac{3c^2 + b^2 - a^2}{6c} = \frac{b^2 - a^2}{3c}, \\
+        PE - QF &amp;= \frac{(c^2 + b^2 - a^2)(a^2 + c^2 - b^2)}{8c\mathcal{A}} - \frac{2\mathcal{A}}{3c} \\
+                &amp;= \frac{3(c^2 + b^2 - a^2)(a^2 + c^2 - b^2) - 16\mathcal{A}^2}{24c\mathcal{A}},\end{split}\]</div>
+        <p>which expressions, reduced to a common denominator, become:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AP - AQ &amp;= \frac{(b^2 - a^2)\sqrt{2a^2b^2 + 2a^2c^2 + 2b^2c^2 - a^4 - b^4 - c^4}}{12c\mathcal{A}}, \\
+        PE - QF &amp;= \frac{2c^4 - a^4 - b^4 + 2a^2b^2 - b^2c^2 - a^2c^2}{12c\mathcal{A}},\end{split}\]</div>
+        <p>whose squares added together furnish [correcting the folio’s interim <code class="docutils literal notranslate"><span class="pre">16</span></code> to <code class="docutils literal notranslate"><span class="pre">36</span></code>]:</p>
+        <div class="math notranslate nohighlight">
+        \[EF^2 = \frac{1}{36\mathcal{A}^2}\left(a^6 + b^6 + c^6 - a^4b^2 - a^2b^4 - a^4c^2 - a^2c^4 - b^4c^2 - b^2c^4 + 3a^2b^2c^2\right),\]</div>
+        <p>wherein indeed the letters <span class="math notranslate nohighlight">\(a, b, c\)</span> enter symmetrically. Now we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\sum_{\text{sym}} a^4b^2 &amp;= p^2q^2 - 2q^3 - 2p^3r + 4pqr - 3r^2, \\
+        a^6 + b^6 + c^6 &amp;= p^6 - 6p^4q + 9p^2q^2 - 2q^3 + 6p^3r - 12pqr + 3r^2,\end{split}\]</div>
+        <p>from which we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[EF^2 = \frac{1}{36\mathcal{A}^2}\left(p^6 - 6p^4q + 8p^2q^2 + 8p^3r - 16pqr + 9r^2\right),\]</div>
+        <p>which expression may be reduced [using <span class="math notranslate nohighlight">\(16\mathcal{A}^2 = -p^4 + 4p^2q - 8pr\)</span>, correcting the folio’s <code class="docutils literal notranslate"><span class="pre">=</span></code> to <code class="docutils literal notranslate"><span class="pre">-</span></code>] to this form:</p>
+        <div class="math notranslate nohighlight">
+        \[EF^2 = \frac{r^2}{4\mathcal{A}^2} - \frac{4}{9}(p^2 - 2q).\]</div>
+        <div class="folio-milestone" id="folio-§ 13" data-folio="§ 13" data-page="110">[Folio § 13 | p. 110]</div>
+        </section>
+        <section class="level-2" id="ii-investigation-of-the-distance-of-points-e-and-g">
+        <h2>§ 13. II. Investigation of the Distance of Points E and G<a class="headerlink" href="#ii-investigation-of-the-distance-of-points-e-and-g" title="Link to this heading">¶</a></h2>
+        <p>Here we have [ along segment <span class="geom-ref" data-ref="0114.g1:/ X4 X1 /" title="/ X4 X1 /">EG</span> ]:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AP - AR &amp;= \frac{c^2 + b^2 - a^2}{2c} - \frac{c - b + a}{2} = \frac{b^2 - bc - a^2 + ac}{2c}, \\
+        PE - RG &amp;= \frac{(c^2 + b^2 - a^2)(a^2 + c^2 - b^2)}{8c\mathcal{A}} - \frac{2\mathcal{A}}{a + b + c} \\
+                &amp;= \frac{c^4 - a^4 - b^4 + 2a^2b^2}{8c\mathcal{A}} + \frac{p^3 - 4pq + 8r}{8\mathcal{A}},\end{split}\]</div>
+        <p>and upon reducing to a common denominator:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AP - AR &amp;= \frac{(b^2 - bc - a^2 + ac)\sqrt{2a^2b^2 + 2a^2c^2 + 2b^2c^2 - a^4 - b^4 - c^4}}{8c\mathcal{A}}, \\
+        PE - RG &amp;= \frac{2c^4 - (a + b)c^3 - (a - b)^2 c^2 + (a + b)(a - b)^2 c - (a^2 - b^2)^2}{8c\mathcal{A}},\end{split}\]</div>
+        <p>the sum of whose squares, divided by <span class="math notranslate nohighlight">\(4c^2\)</span>, returns to the symmetric degree-6 form:</p>
+        <div class="math notranslate nohighlight">
+        \[EG^2 = \frac{1}{16\mathcal{A}^2}\left(\sum a^6 - \sum_{\text{sym}} a^5b - \sum_{\text{sym}} a^4b^2 + 3\sum_{\text{cyc}} a^4bc - 2\sum_{\text{sym}} a^3b^2c + 2\sum_{\text{cyc}} a^3b^3 + 6a^2b^2c^2\right).\]</div>
+        <p>Before reducing this expression to the letters <span class="math notranslate nohighlight">\(p, q\)</span>, and <span class="math notranslate nohighlight">\(r\)</span>, I observe that adding <span class="math notranslate nohighlight">\(a^2 + b^2 + c^2 - ab - ac - bc\)</span> simplifies the numerator dramatically:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}EG^2 + a^2 + b^2 + c^2 - ab - ac - bc
+        &amp;= \frac{abc}{4\mathcal{A}^2}\left(a^3 + b^3 + c^3 - a^2b - ab^2 - a^2c - ac^2 - b^2c - bc^2 + 3abc\right) \\
+        &amp;= \frac{abc(a^2 + b^2 + c^2 - 2ab - 2ac - 2bc)(a + b + c)}{4\mathcal{A}^2} + \frac{9a^2b^2c^2}{4\mathcal{A}^2}.\end{split}\]</div>
+        <div class="folio-milestone" id="folio-§ 13 (cont.)" data-folio="§ 13 (cont.)" data-page="111">[Folio § 13 (cont.) | p. 111]</div>
+        <p>Now since <span class="math notranslate nohighlight">\(a^2 + b^2 + c^2 = p^2 - 2q\)</span>, the reduction is easy, inasmuch as there comes forth:</p>
+        <div class="math notranslate nohighlight">
+        \[EG^2 + p^2 - 3q = \frac{pr(p^2 - 4q) + 9r^2}{4\mathcal{A}^2},\]</div>
+        <p>and thus this distance is so defined that:</p>
+        <div class="math notranslate nohighlight">
+        \[EG^2 = \frac{r(p^3 - 4pq + 9r)}{4\mathcal{A}^2} - p^2 + 3q = \frac{r^2}{4\mathcal{A}^2} - \frac{4r}{p} - p^2 + 3q.\]</div>
+        </section>
+        <section class="level-2" id="iii-investigation-of-the-distance-of-points-e-and-h">
+        <span id="euler-en-s14"></span><h2>§ 14. III. Investigation of the Distance of Points E and H<a class="headerlink" href="#iii-investigation-of-the-distance-of-points-e-and-h" title="Link to this heading">¶</a></h2>
+        <p>Since here [between <span class="geom-ref" data-ref="0114.g1:X4" title="X4">E</span> and <span class="geom-ref" data-ref="0114.g1:X3" title="X3">H</span>] we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AP - AS &amp;= \frac{c^2 + b^2 - a^2}{2c} - \frac{1}{2}c = \frac{b^2 - a^2}{2c}, \\
+        PE - SH &amp;= \frac{(c^2 + b^2 - a^2)(a^2 + c^2 - b^2)}{8c\mathcal{A}} - \frac{c(a^2 + b^2 - c^2)}{8\mathcal{A}}
+                = \frac{2c^4 - (a^2 + b^2)c^2 - (a^2 - b^2)^2}{8c\mathcal{A}},\end{split}\]</div>
+        <p>adding the squares and dividing through by <span class="math notranslate nohighlight">\(4c^2\)</span>, there is obtained:</p>
+        <div class="math notranslate nohighlight">
+        \[EH^2 = \frac{1}{16\mathcal{A}^2}\left(a^6 + b^6 + c^6 - a^4b^2 - a^2b^4 - a^4c^2 - a^2c^4 - b^4c^2 - b^2c^4 + 3a^2b^2c^2\right),\]</div>
+        <p>which on account of <span class="math notranslate nohighlight">\(16\mathcal{A}^2 = -a^4 - b^4 - c^4 + 2a^2b^2 + 2a^2c^2 + 2b^2c^2\)</span> reduces to this form:</p>
+        <div class="math notranslate nohighlight">
+        \[EH^2 = \frac{9a^2b^2c^2}{16\mathcal{A}^2} - a^2 - b^2 - c^2,\]</div>
+        <p>wherein substitution is easily accomplished, for there results:</p>
+        <div class="math notranslate nohighlight">
+        \[EH^2 = \frac{9r^2}{16\mathcal{A}^2} - p^2 + 2q.\]</div>
+        <div class="folio-milestone" id="folio-§ 15" data-folio="§ 15" data-page="112">[Folio § 15 | p. 112]</div>
+        </section>
+        <section class="level-2" id="iv-investigation-of-the-distance-of-points-f-and-g">
+        <h2>§ 15. IV. Investigation of the Distance of Points F and G<a class="headerlink" href="#iv-investigation-of-the-distance-of-points-f-and-g" title="Link to this heading">¶</a></h2>
+        <p>From the formulas found above we have here [along segment <span class="geom-ref" data-ref="0114.g1:/ X2 X1 /" title="/ X2 X1 /">FG</span>]:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AQ - AR &amp;= \frac{3c^2 + b^2 - a^2}{6c} - \frac{c - b + a}{2} = \frac{3(a - b)c - a^2 + b^2}{6c}, \\
+        QF - RG &amp;= \frac{2\mathcal{A}}{3c} - \frac{2\mathcal{A}}{a + b + c} = \frac{2\mathcal{A}(a + b - 2c)}{3c(a + b + c)},\end{split}\]</div>
+        <p>the sum of whose squares reduces to this purely rational symmetric form (entirely free of <span class="math notranslate nohighlight">\(\mathcal{A}^2\)</span>!):</p>
+        <div class="math notranslate nohighlight">
+        \[FG^2 = \frac{1}{9(a + b + c)^2}\left(-(a^4 + b^4 + c^4) + \sum_{\text{sym}} a^3b + 4(a^2b^2 + a^2c^2 + b^2c^2) - 5abc(a + b + c)\right).\]</div>
+        <p>Since now we have <span class="math notranslate nohighlight">\(\sum_{\text{sym}} a^3b = p^2q - 2q^2 - pr\)</span> and <span class="math notranslate nohighlight">\(abc(a + b + c) = pr\)</span>, the expression found puts on this form:</p>
+        <div class="math notranslate nohighlight">
+        \[FG^2 = \frac{1}{9p^2}\left(-p^4 + 5p^2q - 18pr\right) = \frac{-p^3 + 5pq - 18r}{9p}.\]</div>
+        </section>
+        <section class="level-2" id="v-investigation-of-the-distance-of-points-f-and-h-vectorial-euler-line-proof">
+        <span id="euler-en-s16"></span><h2>§ 16. V. Investigation of the Distance of Points F and H (Vectorial Euler Line Proof)<a class="headerlink" href="#v-investigation-of-the-distance-of-points-f-and-h-vectorial-euler-line-proof" title="Link to this heading">¶</a></h2>
+        <p>For this case [between <span class="geom-ref" data-ref="0114.g1:X2" title="X2">F</span> and <span class="geom-ref" data-ref="0114.g1:X3" title="X3">H</span>] we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AQ - AS &amp;= \frac{3c^2 + b^2 - a^2}{6c} - \frac{1}{2}c = \frac{b^2 - a^2}{6c}, \\
+        QF - SH &amp;= \frac{2\mathcal{A}}{3c} - \frac{c(a^2 + b^2 - c^2)}{8\mathcal{A}} = \frac{2c^4 - (a^2 + b^2)c^2 - (a^2 - b^2)^2}{24c\mathcal{A}}.\end{split}\]</div>
+        <div class="folio-milestone" id="folio-§ 16 (cont.)" data-folio="§ 16 (cont.)" data-page="113">[Folio § 16 (cont.) | p. 113]</div>
+        <p>Now if we compare these formulas with the first case (§ 12), we discover that:</p>
+        <div class="math notranslate nohighlight">
+        \[AQ - AS = \frac{1}{2}(AP - AQ) \qquad \text{and} \qquad QF - SH = \frac{1}{2}(PE - QF),\]</div>
+        <p>whence it is manifest that <span class="math notranslate nohighlight">\(FH = \tfrac{1}{2}EF\)</span>, and therefore:</p>
+        <div class="math notranslate nohighlight">
+        \[FH^2 = \frac{r^2}{16\mathcal{A}^2} - \frac{1}{9}(p^2 - 2q).\]</div>
+        </section>
+        <section class="level-2" id="vi-investigation-of-the-distance-of-points-g-and-h-euler-s-incentercircumcenter-theorem">
+        <span id="euler-en-s17"></span><h2>§ 17. VI. Investigation of the Distance of Points G and H (Euler’s Incenter–Circumcenter Theorem)<a class="headerlink" href="#vi-investigation-of-the-distance-of-points-g-and-h-euler-s-incentercircumcenter-theorem" title="Link to this heading">¶</a></h2>
+        <p>For this last case [along segment <span class="geom-ref" data-ref="0114.g1:/ X3 X1 /" title="/ X3 X1 /">GH</span>] we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AR - AS &amp;= \frac{c + b - a}{2} - \frac{1}{2}c = \frac{b - a}{2}, \\
+        RG - SH &amp;= \frac{2\mathcal{A}}{a + b + c} - \frac{c(a^2 + b^2 - c^2)}{8\mathcal{A}}
+                = \frac{(a + b)c^3 + (a^2 + b^2)c^2 - (a + b)(a^2 + b^2)c - (a^2 - b^2)^2}{8(a + b + c)\mathcal{A}},\end{split}\]</div>
+        <p>and if the squares of these two formulas are added together, and reduced by <span class="math notranslate nohighlight">\(a + b + c\)</span>, there results:</p>
+        <div class="math notranslate nohighlight">
+        \[GH^2 = \frac{abc}{16(a + b + c)\mathcal{A}^2}\left(a^4 + b^4 + c^4 + abc(a + b + c) - 2a^2b^2 - 2a^2c^2 - 2b^2c^2\right),\]</div>
+        <p>whence upon performing the substitution we collect:</p>
+        <div class="math notranslate nohighlight">
+        \[GH^2 = \frac{r}{16p\mathcal{A}^2}\left(p^4 - 4p^2q + 9pr\right) = \frac{r(p^3 - 4pq + 9r)}{16\mathcal{A}^2}, \qquad \text{or} \qquad GH^2 = \frac{r^2}{16\mathcal{A}^2} - \frac{r}{p}.\]</div>
+        <div class="folio-milestone" id="folio-§ 18" data-folio="§ 18" data-page="114">[Folio § 18 | p. 114]</div>
+        </section>
+        <section class="level-2" id="synopsis-of-the-six-quadrances-discovery-of-the-euler-line-stewart-s-law">
+        <h2>§ 18. Synopsis of the Six Quadrances, Discovery of the Euler Line &amp; Stewart’s Law<a class="headerlink" href="#synopsis-of-the-six-quadrances-discovery-of-the-euler-line-stewart-s-law" title="Link to this heading">¶</a></h2>
+        <p>Behold therefore under a single view the squares of these six intervals:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\text{I.} \quad EF^2 &amp;= \frac{r^2}{4\mathcal{A}^2} - \frac{4}{9}(p^2 - 2q) \\
+        \text{II.} \quad EG^2 &amp;= \frac{r^2}{4\mathcal{A}^2} - p^2 + 3q - \frac{4r}{p} \\
+        \text{III.} \quad EH^2 &amp;= \frac{9r^2}{16\mathcal{A}^2} - p^2 + 2q \\
+        \text{IV.} \quad FG^2 &amp;= -\frac{1}{9}p^2 + \frac{5}{9}q - \frac{2r}{p} \\
+        \text{V.} \quad FH^2 &amp;= \frac{r^2}{16\mathcal{A}^2} - \frac{1}{9}(p^2 - 2q) \\
+        \text{VI.} \quad GH^2 &amp;= \frac{r^2}{16\mathcal{A}^2} - \frac{r}{p},\end{split}\]</div>
+        <p>wherein (<cite>Tab. II, Fig. 5</cite>) it is evident that <span class="math notranslate nohighlight">\(EH = \tfrac{3}{2}EF\)</span> and <span class="math notranslate nohighlight">\(FH = \tfrac{1}{2}EF\)</span>, and thus the point <span class="geom-ref" data-ref="0114.g1:X3" title="X3">H</span> is determined of its own accord by the points <span class="geom-ref" data-ref="0114.g1:X4" title="X4">E</span> and <span class="geom-ref" data-ref="0114.g1:X2" title="X2">F</span>: namely, if the three points <span class="math notranslate nohighlight">\(E, F, G\)</span> form a triangle <span class="math notranslate nohighlight">\(EFG\)</span>, then the fourth point <span class="math notranslate nohighlight">\(H\)</span> will be so situated on the straight line <span class="geom-ref" data-ref="0114.g1:[ X3 X4 ]" title="[ X3 X4 ]">EF</span> produced that <span class="math notranslate nohighlight">\(FH = \tfrac{1}{2}EF\)</span>, and therefore <span class="math notranslate nohighlight">\(EH = \tfrac{3}{2}EF\)</span> [<a class="term-ref glossary-term" id="occ-term-euler-line-1" href="../glossary.html#term-euler-line" data-term="euler-line" title="Euler Line (Linea Euleri / Eulersche Gerade) (Collinear axis of X(4), X(5), X(2), X(3)): The straight line discovered by Euler in E325 (§§ 16–18, 1765/1767) passing through the orthocenter E = X(4), centroid F = X(2), and circumcenter H = X(3) with ratio EF : FH = 2 : 1, and bisecting segment EH at the nine-point center L = X(5).">Euler Line</a>]. Moreover, from this there is deduced:</p>
+        <div class="math notranslate nohighlight">
+        \[4GH^2 + 2EG^2 = 3EF^2 + 6FG^2,\]</div>
+        <p>which agrees most admirably with the values found above.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-four-centers-en.html" title="Unit I: The Four Classical Triangle Centers &amp; Orthogonal Coordinates (§§ 1–9)">&larr; <span class="nav-label">Unit I: The Four Classical Triangle Centers & Orthogonal Coordinates (§§ 1–9)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-reconstruction-cubic-en.html" title="Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24)"><span class="nav-label">Unit III: The Inverse Reconstruction Problem & Side-Length Cubic (§§ 19–24)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

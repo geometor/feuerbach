@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24) &mdash; Solutio facilis problematum (1765)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Solutio facilis problematum (1765)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-en.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-reconstruction-cubic-la.html">Latin</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-reconstruction-cubic-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-reconstruction-cubic-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-collinear-isosceles-casus-en.html" title="Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-iii-the-inverse-reconstruction-problem-side-length-cubic-1924">
+        <span id="euler-03-en"></span><h1>Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24)<a class="headerlink" href="#unit-iii-the-inverse-reconstruction-problem-side-length-cubic-1924" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Leonhard Euler — <em>An Easy Solution of Certain Very Difficult Geometric Problems</em> (1765/1767, pp. 114–118)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#dimension-2-auxiliary-invariants-p-q-r" id="id1">§ 19. Dimension-2 Auxiliary Invariants P, Q, R</a></p></li>
+        <li><p><a class="reference internal" href="#statement-of-the-unified-inverse-problem" id="id2">§ 20. Statement of the Unified Inverse Problem</a></p></li>
+        <li><p><a class="reference internal" href="#rational-resolution-for-r-q-and-p" id="id3">§ 21. Rational Resolution for R, Q, and P</a></p></li>
+        <li><p><a class="reference internal" href="#formation-of-the-side-length-cubic-equation" id="id4">§ 22. Formation of the Side-Length Cubic Equation</a></p></li>
+        <li><p><a class="reference internal" href="#worked-numerical-example-the-5-6-7-triangle" id="id5">§ 23. Worked Numerical Example: The (5, 6, 7) Triangle</a></p></li>
+        <li><p><a class="reference internal" href="#verification-of-the-reconstructed-cubic" id="id6">§ 24. Verification of the Reconstructed Cubic</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 19" data-folio="§ 19" data-page="114">[Folio § 19 | p. 114]</div>
+        <section class="level-2" id="dimension-2-auxiliary-invariants-p-q-r">
+        <h2>§ 19. Dimension-2 Auxiliary Invariants P, Q, R<a class="headerlink" href="#dimension-2-auxiliary-invariants-p-q-r" title="Link to this heading">¶</a></h2>
+        <p>So that we may now recall these formulas to greater simplicity, let us set <span class="math notranslate nohighlight">\(4pq - p^3 - 8r = 4s\)</span>, so that <span class="math notranslate nohighlight">\(4\mathcal{A}^2 = ps\)</span> and <span class="math notranslate nohighlight">\(4q = p^2 + \frac{8r}{p} + \frac{4s}{p}\)</span>; next let us make:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{r^2}{ps} = R, \qquad \frac{r}{p} = Q, \qquad \text{and} \qquad p^2 = P,\]</div>
+        <p>so that <span class="math notranslate nohighlight">\(P, Q, R\)</span> are quantities involving two dimensions [of length]. Since therefore from this we have <span class="math notranslate nohighlight">\(\frac{s}{p} = \frac{Q^2}{R}\)</span> [printed <span class="math notranslate nohighlight">\(\frac{-s}{p}\)</span> in the folio], we shall obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[p = \sqrt{P}, \qquad q = \frac{1}{4}P + 2Q + \frac{Q^2}{R}, \qquad \text{and} \qquad r = Q\sqrt{P},\]</div>
+        <div class="folio-milestone" id="folio-§ 19 (cont.)" data-folio="§ 19 (cont.)" data-page="115">[Folio § 19 (cont.) | p. 115]</div>
+        <p>and <span class="math notranslate nohighlight">\(4\mathcal{A}^2 = \frac{PQ^2}{R}\)</span>, and our six intervals will be so expressed:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\text{I.} \quad EF^2 &amp;= R - \frac{2}{9}P + \frac{16}{9}Q + \frac{8Q^2}{9R} \\
+        \text{II.} \quad EG^2 &amp;= R - \frac{1}{4}P + 2Q + \frac{3Q^2}{R} \\
+        \text{III.} \quad EH^2 &amp;= \frac{9}{4}R - \frac{1}{2}P + 4Q + \frac{2Q^2}{R} \\
+        \text{IV.} \quad FG^2 &amp;= +\frac{1}{36}P - \frac{8}{9}Q + \frac{5Q^2}{9R} \\
+        \text{V.} \quad FH^2 &amp;= \frac{1}{4}R - \frac{1}{18}P + \frac{4}{9}Q + \frac{2Q^2}{9R} \\
+        \text{VI.} \quad GH^2 &amp;= \frac{1}{4}R - Q.\end{split}\]</div>
+        </section>
+        <section class="level-2" id="statement-of-the-unified-inverse-problem">
+        <span id="euler-en-s20"></span><h2>§ 20. Statement of the Unified Inverse Problem<a class="headerlink" href="#statement-of-the-unified-inverse-problem" title="Link to this heading">¶</a></h2>
+        <p>Since therefore any three of these four points—provided one does not take the collinear triad <span class="math notranslate nohighlight">\(E, F\)</span>, and <span class="math notranslate nohighlight">\(H\)</span>—already contain the determination of the fourth, a single problem results, which runs as follows.</p>
+        <p><strong>Problem</strong> (<cite>Tab. II, Fig. 5</cite>). <em>Given in position these four points assignable in any triangle—1° the intersection of the perpendiculars drawn from the several angles upon the opposite sides</em> <span class="math notranslate nohighlight">\(E\)</span>, <em>2° the center of gravity</em> <span class="math notranslate nohighlight">\(F\)</span>, <em>3° the center of the inscribed circle</em> <span class="math notranslate nohighlight">\(G\)</span>, <em>and 4° the center of the circumscribed circle</em> <span class="math notranslate nohighlight">\(H\)</span>—<em>to construct the triangle.</em></p>
+        <p>Which problem we shall be able to resolve concisely enough from the properties of these points elicited thus far.</p>
+        </section>
+        <section class="level-2" id="rational-resolution-for-r-q-and-p">
+        <span id="euler-en-s21"></span><h2>§ 21. Rational Resolution for R, Q, and P<a class="headerlink" href="#rational-resolution-for-r-q-and-p" title="Link to this heading">¶</a></h2>
+        <p><strong>Solution.</strong> Since the position of these four points is given through their mutual distances, let us call:</p>
+        <div class="folio-milestone" id="folio-§ 21 (cont.)" data-folio="§ 21 (cont.)" data-page="116">[Folio § 21 (cont.) | p. 116]</div>
+        <div class="math notranslate nohighlight">
+        \[GH = f, \qquad FH = g, \qquad \text{and} \qquad FG = h,\]</div>
+        <p>and we know that <span class="math notranslate nohighlight">\(EF = 2g\)</span> and <span class="math notranslate nohighlight">\(EH = 3g\)</span>, and likewise <span class="math notranslate nohighlight">\(EG = \sqrt{6g^2 + 3h^2 - 2f^2}\)</span>. Now therefore we immediately have these three equations:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\text{I.} \quad f^2 &amp;= \frac{1}{4}R - Q \\
+        \text{II.} \quad g^2 &amp;= \frac{1}{4}R - \frac{1}{18}P + \frac{4}{9}Q + \frac{2Q^2}{9R} \\
+        \text{III.} \quad h^2 &amp;= \frac{1}{36}P - \frac{8}{9}Q + \frac{5Q^2}{9R} \quad [\text{printed } \frac{6Q^2}{9R} \text{ in folio}],\end{split}\]</div>
+        <p>from whose resolution we collect:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}R &amp;= \frac{4f^4}{3g^2 + 6h^2 - 2f^2}, \qquad
+        Q = \frac{3f^2(f^2 - g^2 - 2h^2)}{3g^2 + 6h^2 - 2f^2}, \\
+        P &amp;= \frac{27f^4}{3g^2 + 6h^2 - 2f^2} - 12f^2 - 15g^2 + 6h^2,\end{split}\]</div>
+        <p>whence we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{Q^2}{R} = \frac{9(f^2 - g^2 - 2h^2)^2}{4(3g^2 + 6h^2 - 2f^2)}.\]</div>
+        </section>
+        <section class="level-2" id="formation-of-the-side-length-cubic-equation">
+        <span id="euler-en-s22"></span><h2>§ 22. Formation of the Side-Length Cubic Equation<a class="headerlink" href="#formation-of-the-side-length-cubic-equation" title="Link to this heading">¶</a></h2>
+        <p>Having found these values, let the three following expressions be computed:</p>
+        <div class="math notranslate nohighlight">
+        \[p = \sqrt{P}, \qquad q = \frac{1}{4}P + 2Q + \frac{Q^2}{R}, \qquad \text{and} \qquad r = Q\sqrt{P},\]</div>
+        <p>and therefrom let this cubic equation be formed:</p>
+        <div class="math notranslate nohighlight">
+        \[z^3 - pz^2 + qz - r = 0,\]</div>
+        <p>whose three roots will give the three sides of the sought triangle, whereby its construction is most easily obtained.</p>
+        </section>
+        <section class="level-2" id="worked-numerical-example-the-5-6-7-triangle">
+        <span id="euler-en-s23"></span><h2>§ 23. Worked Numerical Example: The (5, 6, 7) Triangle<a class="headerlink" href="#worked-numerical-example-the-5-6-7-triangle" title="Link to this heading">¶</a></h2>
+        <p><strong>Example.</strong> Taking the sides of the triangle <span class="math notranslate nohighlight">\(a = 5\)</span>, <span class="math notranslate nohighlight">\(b = 6\)</span>, and <span class="math notranslate nohighlight">\(c = 7\)</span>, so that the area is <span class="math notranslate nohighlight">\(\mathcal{A} = 6\sqrt{6}\)</span>, therefrom are collected the squared distances of the four points:</p>
+        <div class="folio-milestone" id="folio-§ 23 (cont.)" data-folio="§ 23 (cont.)" data-page="117">[Folio § 23 (cont.) | p. 117]</div>
+        <div class="math notranslate nohighlight">
+        \[EF^2 = \frac{155}{72}; \quad EG^2 = \frac{11}{8}; \quad EH^2 = \frac{155}{32}; \quad FG^2 = \frac{1}{9}; \quad FH^2 = \frac{155}{288}; \quad GH^2 = \frac{35}{32},\]</div>
+        <p>whence the position of these points comes forth such as is represented in <cite>Tab. II, Fig. 6</cite>. Since therefore we have:</p>
+        <div class="math notranslate nohighlight">
+        \[f^2 = \frac{35}{32}, \qquad g^2 = \frac{155}{288}, \qquad \text{and} \qquad h^2 = \frac{1}{9},\]</div>
+        <p>let us see whether the solution found leads back to the assumed triangle.</p>
+        </section>
+        <section class="level-2" id="verification-of-the-reconstructed-cubic">
+        <span id="euler-en-s24"></span><h2>§ 24. Verification of the Reconstructed Cubic<a class="headerlink" href="#verification-of-the-reconstructed-cubic" title="Link to this heading">¶</a></h2>
+        <p>Now from these we obtain <span class="math notranslate nohighlight">\(3g^2 + 6h^2 - 2f^2 = \frac{3}{32}\)</span>, and further <span class="math notranslate nohighlight">\(f^2 - g^2 - 2h^2 = \frac{1}{3}\)</span> and <span class="math notranslate nohighlight">\(4f^2 + 5g^2 - 2h^2 = \frac{219}{32}\)</span>; hence there is collected:</p>
+        <div class="math notranslate nohighlight">
+        \[R = \frac{1225}{24}, \qquad Q = \frac{35}{3}, \qquad P = 324, \qquad \text{and} \qquad \frac{Q^2}{R} = \frac{24}{9} = \frac{8}{3},\]</div>
+        <p>whence we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[p = \sqrt{P} = 18, \qquad q = 107, \qquad \text{and} \qquad r = \frac{35}{3} \cdot 18 = 5 \cdot 6 \cdot 7 = 210,\]</div>
+        <p>and hence this cubic equation arises:</p>
+        <div class="math notranslate nohighlight">
+        \[z^3 - 18z^2 + 107z - 210 = 0,\]</div>
+        <p>whose three roots are manifestly <span class="math notranslate nohighlight">\(5, 6, 7\)</span>, which are the very three sides of the satisfying triangle.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-en.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)">&larr; <span class="nav-label">Unit II: Symmetric Polynomials, Six Mutual Quadrances & The Euler Line (§§ 10–18)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-collinear-isosceles-casus-en.html" title="Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34)"><span class="nav-label">Unit IV: Collinear Centers, Isosceles Degeneracy & Casus Irreducibilis (§§ 25–34)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

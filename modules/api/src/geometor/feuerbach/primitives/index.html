@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.feuerbach.primitives &mdash; GEOMETOR • feuerbach — Euler (1765) &amp; Feuerbach (1822) Bilingual Book Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../../index.html">modules</a>
+            <span class="book-crumb-sep">/</span>
+            <a class="book-crumb-link" href="../index.html">src.geometor.feuerbach</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="module-src.geometor.feuerbach.primitives">
+        <span id="src-geometor-feuerbach-primitives"></span><h1>src.geometor.feuerbach.primitives<a class="headerlink" href="#module-src.geometor.feuerbach.primitives" title="Link to this heading">¶</a></h1>
+        <p>Euclidean compass-and-straightedge sub-constructions for triangle geometry.</p>
+        <p>Every helper in this module operates strictly inside a <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>
+        using exact symbolic <code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code> coordinates, targeted <code class="xref py py-meth docutils literal notranslate"><span class="pre">intersect()</span></code>
+        selectors, and <code class="xref py py-func docutils literal notranslate"><span class="pre">proposition()</span></code> guide encapsulation—never injecting
+        floating-point numbers or synthetic coordinate formulas.</p>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.primitives.construct_perp_bisector" title="src.geometor.feuerbach.primitives.construct_perp_bisector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_perp_bisector</span></code></a>(model, pt_a, pt_b, *[, ID, ...]) → sympy.geometry.Line</p></td>
+        <td><p>Construct the perpendicular bisector of segment <code class="docutils literal notranslate"><span class="pre">AB</span></code> via equilateral poles.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.primitives.construct_midpoint" title="src.geometor.feuerbach.primitives.construct_midpoint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_midpoint</span></code></a>(model, pt_a, pt_b, *[, ID, classes]) → sympy.geometry.Point</p></td>
+        <td><p>Construct the exact Euclidean midpoint of <code class="docutils literal notranslate"><span class="pre">pt_a</span></code> and <code class="docutils literal notranslate"><span class="pre">pt_b</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.primitives.construct_altitude_line" title="src.geometor.feuerbach.primitives.construct_altitude_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_altitude_line</span></code></a>(model, vertex, side_p1, side_p2, *) → sympy.geometry.Line</p></td>
+        <td><p>Construct the perpendicular line from <code class="docutils literal notranslate"><span class="pre">vertex</span></code> onto line <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.primitives.construct_altitude_foot" title="src.geometor.feuerbach.primitives.construct_altitude_foot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_altitude_foot</span></code></a>(model, vertex, side_p1, side_p2, *) → sympy.geometry.Point</p></td>
+        <td><p>Construct the orthogonal projection (pedal foot) of <code class="docutils literal notranslate"><span class="pre">vertex</span></code> onto <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.primitives.construct_angle_bisectors" title="src.geometor.feuerbach.primitives.construct_angle_bisectors"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_angle_bisectors</span></code></a>(model, vertex, ray_p1, ray_p2, *) → tuple[sympy.geometry.Line, sympy.geometry.Line]</p></td>
+        <td><p>Construct both the internal and external angle bisectors at <code class="docutils literal notranslate"><span class="pre">vertex</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.primitives.construct_perp_bisector">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.primitives.</span></span><span class="sig-name descname"><span class="pre">construct_perp_bisector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.primitives.construct_perp_bisector" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the perpendicular bisector of segment <code class="docutils literal notranslate"><span class="pre">AB</span></code> via equilateral poles.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>pt_a</strong> – First endpoint <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>pt_b</strong> – Second endpoint <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>ID</strong> – Optional identifier for the constructed line.</p></li>
+        <li><p><strong>classes</strong> – Optional CSS/semantic class labels.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>The exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> perpendicularly bisecting <code class="docutils literal notranslate"><span class="pre">AB</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.primitives.construct_midpoint">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.primitives.</span></span><span class="sig-name descname"><span class="pre">construct_midpoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.primitives.construct_midpoint" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the exact Euclidean midpoint of <code class="docutils literal notranslate"><span class="pre">pt_a</span></code> and <code class="docutils literal notranslate"><span class="pre">pt_b</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>pt_a</strong> – First endpoint <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>pt_b</strong> – Second endpoint <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>ID</strong> – Optional identifier for the midpoint.</p></li>
+        <li><p><strong>classes</strong> – Optional CSS/semantic class labels.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>The exact midpoint <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code> on <code class="docutils literal notranslate"><span class="pre">[pt_a,</span> <span class="pre">pt_b]</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.primitives.construct_altitude_line">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.primitives.</span></span><span class="sig-name descname"><span class="pre">construct_altitude_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">side_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">side_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.primitives.construct_altitude_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the perpendicular line from <code class="docutils literal notranslate"><span class="pre">vertex</span></code> onto line <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p>
+        <p>Reflects <code class="docutils literal notranslate"><span class="pre">vertex</span></code> across <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code> via circles <code class="docutils literal notranslate"><span class="pre">(side_p1,</span> <span class="pre">vertex)</span></code>
+        and <code class="docutils literal notranslate"><span class="pre">(side_p2,</span> <span class="pre">vertex)</span></code> so that no irrational intermediate radicals are introduced
+        when <code class="docutils literal notranslate"><span class="pre">vertex</span></code>, <code class="docutils literal notranslate"><span class="pre">side_p1</span></code>, and <code class="docutils literal notranslate"><span class="pre">side_p2</span></code> have rational coordinates.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>vertex</strong> – Point outside the line <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p></li>
+        <li><p><strong>side_p1</strong> – First distinct point defining the target line.</p></li>
+        <li><p><strong>side_p2</strong> – Second distinct point defining the target line.</p></li>
+        <li><p><strong>ID</strong> – Optional identifier for the altitude line.</p></li>
+        <li><p><strong>classes</strong> – Optional CSS/semantic class labels.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>The exact perpendicular <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> through <code class="docutils literal notranslate"><span class="pre">vertex</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.primitives.construct_altitude_foot">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.primitives.</span></span><span class="sig-name descname"><span class="pre">construct_altitude_foot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">side_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">side_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.primitives.construct_altitude_foot" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the orthogonal projection (pedal foot) of <code class="docutils literal notranslate"><span class="pre">vertex</span></code> onto <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>vertex</strong> – Point outside the line <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p></li>
+        <li><p><strong>side_p1</strong> – First distinct point defining the target line.</p></li>
+        <li><p><strong>side_p2</strong> – Second distinct point defining the target line.</p></li>
+        <li><p><strong>ID</strong> – Optional identifier for the pedal foot.</p></li>
+        <li><p><strong>classes</strong> – Optional CSS/semantic class labels.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>The orthogonal foot <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code> on <code class="docutils literal notranslate"><span class="pre">[side_p1,</span> <span class="pre">side_p2]</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.primitives.construct_angle_bisectors">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.primitives.</span></span><span class="sig-name descname"><span class="pre">construct_angle_bisectors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ray_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ray_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">internal_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">external_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Line</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.feuerbach.primitives.construct_angle_bisectors" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct both the internal and external angle bisectors at <code class="docutils literal notranslate"><span class="pre">vertex</span></code>.</p>
+        <p>Marks equal segments along <code class="docutils literal notranslate"><span class="pre">[vertex,</span> <span class="pre">ray_p2]</span></code> via circle <code class="docutils literal notranslate"><span class="pre">(vertex,</span> <span class="pre">ray_p1)</span></code>
+        and connects <code class="docutils literal notranslate"><span class="pre">vertex</span></code> to the midpoints of the two chords from <code class="docutils literal notranslate"><span class="pre">ray_p1</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>vertex</strong> – Angle vertex <code class="docutils literal notranslate"><span class="pre">V</span></code>.</p></li>
+        <li><p><strong>ray_p1</strong> – Point on the first side ray <code class="docutils literal notranslate"><span class="pre">VP1</span></code>.</p></li>
+        <li><p><strong>ray_p2</strong> – Point on the second side ray <code class="docutils literal notranslate"><span class="pre">VP2</span></code>.</p></li>
+        <li><p><strong>internal_id</strong> – Optional identifier for the internal angle bisector.</p></li>
+        <li><p><strong>external_id</strong> – Optional identifier for the external angle bisector.</p></li>
+        <li><p><strong>classes</strong> – Optional CSS/semantic class labels.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Tuple <code class="docutils literal notranslate"><span class="pre">(internal_bisector,</span> <span class="pre">external_bisector)</span></code> of orthogonal lines through <code class="docutils literal notranslate"><span class="pre">vertex</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../../../../../../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../../../../../../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.feuerbach.render &mdash; GEOMETOR • feuerbach — Euler (1765) &amp; Feuerbach (1822) Bilingual Book Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../../index.html">modules</a>
+            <span class="book-crumb-sep">/</span>
+            <a class="book-crumb-link" href="../index.html">src.geometor.feuerbach</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="module-src.geometor.feuerbach.render">
+        <span id="src-geometor-feuerbach-render"></span><h1>src.geometor.feuerbach.render<a class="headerlink" href="#module-src.geometor.feuerbach.render" title="Link to this heading">¶</a></h1>
+        <p>Theme-adaptive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG exporter for Euler (1765) and Feuerbach (1822).</p>
+        <p>Generates clean, standards-compliant <code class="docutils literal notranslate"><span class="pre">&lt;svg</span> <span class="pre">class=&quot;euclid-graphic&quot;&gt;</span></code> diagrams directly
+        from exact <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> constructions. Every geometric element carries:</p>
+        <ul class="simple">
+        <li><p>3-vertex midpoint paths <code class="docutils literal notranslate"><span class="pre">M</span> <span class="pre">x1</span> <span class="pre">y1</span> <span class="pre">L</span> <span class="pre">mx</span> <span class="pre">my</span> <span class="pre">L</span> <span class="pre">x2</span> <span class="pre">y2</span></code> supporting <code class="docutils literal notranslate"><span class="pre">#geom-tick-1..3</span></code> equality ticks,</p></li>
+        <li><p>Canonical <code class="docutils literal notranslate"><span class="pre">data-ref</span></code> tokens (<code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">X5</span></code>, <code class="docutils literal notranslate"><span class="pre">X11</span></code>, <code class="docutils literal notranslate"><span class="pre">/</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">/</span></code>, <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">X3</span> <span class="pre">X4</span> <span class="pre">]</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">X5</span> <span class="pre">H1</span> <span class="pre">)</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">&gt;</span></code>) compatible with <code class="docutils literal notranslate"><span class="pre">geometor_interactive.js</span></code>,</p></li>
+        <li><p>Presentation attributes bound to <code class="docutils literal notranslate"><span class="pre">var(--geom-fg)</span></code>, <code class="docutils literal notranslate"><span class="pre">var(--geom-accent)</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">var(--geom-assert)</span></code>, and <code class="docutils literal notranslate"><span class="pre">var(--geom-coincide)</span></code> so both standalone SVGs and
+        <code class="docutils literal notranslate"><span class="pre">publish</span></code> inline <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">picture::</span></code> book figures adapt seamlessly to light and dark themes.</p></li>
+        </ul>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.SvgSpec" title="src.geometor.feuerbach.render.SvgSpec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SvgSpec</span></code></a></p></td>
+        <td><p>Viewport and graphic metadata for an exported <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.render_euler_1765_svg" title="src.geometor.feuerbach.render.render_euler_1765_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_euler_1765_svg</span></code></a>([res]) → str</p></td>
+        <td><p>Render Euler's 1765 memoir configuration (<code class="docutils literal notranslate"><span class="pre">E,</span> <span class="pre">F,</span> <span class="pre">G,</span> <span class="pre">H</span></code> and the Euler line).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.render_nine_point_svg" title="src.geometor.feuerbach.render.render_nine_point_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_nine_point_svg</span></code></a>([res]) → str</p></td>
+        <td><p>Render the Nine-Point Circle, Orthic/Medial triangles, and Harmonic Euler Range.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.render_feuerbach_full_svg" title="src.geometor.feuerbach.render.render_feuerbach_full_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_feuerbach_full_svg</span></code></a>([res]) → str</p></td>
+        <td><p>Render Feuerbach's full fourfold tangency configuration (incircle + 3 excircles).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.render_feuerbach_zoom_svg" title="src.geometor.feuerbach.render.render_feuerbach_zoom_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_feuerbach_zoom_svg</span></code></a>([res]) → str</p></td>
+        <td><p>Render magnified close-up of the internal tangency at the Feuerbach point <code class="docutils literal notranslate"><span class="pre">X(11)</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.render_model_svg" title="src.geometor.feuerbach.render.render_model_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_model_svg</span></code></a>(model, spec[, title]) → str</p></td>
+        <td><p>Generic <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG serializer for an arbitrary <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.render.export_all_codex_svgs" title="src.geometor.feuerbach.render.export_all_codex_svgs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">export_all_codex_svgs</span></code></a>(output_dir) → dict[str, pathlib.Path]</p></td>
+        <td><p>Generate and write all four canonical codex SVGs into <code class="docutils literal notranslate"><span class="pre">output_dir</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">SvgSpec</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec" title="Link to this definition">¶</a></dt>
+        <dd><p>Viewport and graphic metadata for an exported <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.folio">
+        <span class="sig-name descname"><span class="pre">folio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.folio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.graphic">
+        <span class="sig-name descname"><span class="pre">graphic</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.graphic" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.xmin">
+        <span class="sig-name descname"><span class="pre">xmin</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.xmin" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.xmax">
+        <span class="sig-name descname"><span class="pre">xmax</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.xmax" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.ymin">
+        <span class="sig-name descname"><span class="pre">ymin</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.ymin" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.ymax">
+        <span class="sig-name descname"><span class="pre">ymax</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.ymax" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.width_px">
+        <span class="sig-name descname"><span class="pre">width_px</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">680</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.width_px" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py property">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.SvgSpec.graphic_id">
+        <span class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">graphic_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.render.SvgSpec.graphic_id" title="Link to this definition">¶</a></dt>
+        <dd><p>Return canonical <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.&lt;graphic&gt;</span></code> identifier.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.render_euler_1765_svg">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">render_euler_1765_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../euler/index.html#src.geometor.feuerbach.euler.EulerCentersResult" title="src.geometor.feuerbach.euler.EulerCentersResult"><span class="pre">geometor.feuerbach.euler.EulerCentersResult</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.render_euler_1765_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Render Euler’s 1765 memoir configuration (<code class="docutils literal notranslate"><span class="pre">E,</span> <span class="pre">F,</span> <span class="pre">G,</span> <span class="pre">H</span></code> and the Euler line).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.render_nine_point_svg">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">render_nine_point_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../tangency/index.html#src.geometor.feuerbach.tangency.FeuerbachTangencyResult" title="src.geometor.feuerbach.tangency.FeuerbachTangencyResult"><span class="pre">geometor.feuerbach.tangency.FeuerbachTangencyResult</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.render_nine_point_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Render the Nine-Point Circle, Orthic/Medial triangles, and Harmonic Euler Range.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.render_feuerbach_full_svg">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">render_feuerbach_full_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../tangency/index.html#src.geometor.feuerbach.tangency.FeuerbachTangencyResult" title="src.geometor.feuerbach.tangency.FeuerbachTangencyResult"><span class="pre">geometor.feuerbach.tangency.FeuerbachTangencyResult</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.render_feuerbach_full_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Render Feuerbach’s full fourfold tangency configuration (incircle + 3 excircles).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.render_feuerbach_zoom_svg">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">render_feuerbach_zoom_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../tangency/index.html#src.geometor.feuerbach.tangency.FeuerbachTangencyResult" title="src.geometor.feuerbach.tangency.FeuerbachTangencyResult"><span class="pre">geometor.feuerbach.tangency.FeuerbachTangencyResult</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.render_feuerbach_zoom_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Render magnified close-up of the internal tangency at the Feuerbach point <code class="docutils literal notranslate"><span class="pre">X(11)</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.render_model_svg">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">render_model_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spec</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.feuerbach.render.SvgSpec" title="src.geometor.feuerbach.render.SvgSpec"><span class="pre">SvgSpec</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'GEOMETOR</span> <span class="pre">Diagram'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.render_model_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Generic <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG serializer for an arbitrary <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.render.export_all_codex_svgs">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.render.</span></span><span class="sig-name descname"><span class="pre">export_all_codex_svgs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">pathlib.Path</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.feuerbach.render.export_all_codex_svgs" title="Link to this definition">¶</a></dt>
+        <dd><p>Generate and write all four canonical codex SVGs into <code class="docutils literal notranslate"><span class="pre">output_dir</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>output_dir</strong> – Destination directory (typically <code class="docutils literal notranslate"><span class="pre">docsrc/_static/constructions</span></code>).</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Mapping from diagram slug to written SVG <code class="xref py py-class docutils literal notranslate"><span class="pre">pathlib.Path</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../../../../../../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../../../../../../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

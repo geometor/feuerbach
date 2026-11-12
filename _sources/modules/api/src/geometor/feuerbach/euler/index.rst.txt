@@ -1,0 +1,295 @@
+src.geometor.feuerbach.euler
+============================
+
+.. py:module:: src.geometor.feuerbach.euler
+
+.. autoapi-nested-parse::
+
+   Symbolic proofs and Euclidean construction for Euler's 1765 memoir (E325) and Feuerbach (1822).
+
+   Implements:
+
+   1. :func:`prove_euler_1765_identities`: 100% exact rational-function proofs in :mod:`sympy`
+      over free side symbols :math:`(a, b, c)` for:
+
+      - Euler's six squared mutual center distances (§ 18, Formulas I–VI, p. 114),
+      - Euler's collinearity ratio :math:`EH = \frac{3}{2}EF`, :math:`FH = \frac{1}{2}EF` (§ 16 & § 18),
+      - Euler's Stewart relation :math:`4GH^2 + 2EG^2 = 3EF^2 + 6FG^2` (§ 18, p. 114),
+      - Feuerbach's tritangent & orthic identities (§§ 5, 28, 49–60, pp. 4–41), including
+        the four nine-point tangency quadrances :math:`\overline{LS}^2 = (\frac{1}{2}R - r)^2`
+        and :math:`\overline{LS^{(k)}}^2 = (\frac{1}{2}R + r^{(k)})^2` (§ 57, pp. 37–38) and the
+        corrected centroid-orthocenter sums :math:`\sum \overline{OS_i}^2 = 16R(R - \rho)` (§ 52)
+        and :math:`9\sum \overline{GS_i}^2 = 16R(7R - \rho)` (§ 60),
+
+      evaluated concretely in exact :class:`sympy.Rational` arithmetic on the canonical Heronian
+      ``(15, 13, 14)`` triangle.
+   2. :func:`solve_euler_reconstruction_cubic`: Exact symbolic solver for Euler's inverse
+      problem (§§ 19–24, pp. 114–118), recovering :math:`z^3 - pz^2 + qz - r = 0` from the
+      mutual quadrances of ``(E, F, G, H)`` and verifying Euler's ``(5, 6, 7)`` test case.
+   3. :func:`construct_euler_1765_centers`: Pure compass-and-straightedge :class:`~geometor.model.Model`
+      proposition constructing ``E = X(4)``, ``F = X(2)``, ``G = X(1)``, ``H = X(3)``, the
+      circumcircle, the incircle, and the Euler line ``[H E]``.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.euler.EulerCubicExample
+   src.geometor.feuerbach.euler.HeronianNumericCheck
+   src.geometor.feuerbach.euler.EulerIdentitiesReport
+   src.geometor.feuerbach.euler.EulerCentersResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.euler.solve_euler_reconstruction_cubic
+   src.geometor.feuerbach.euler.prove_euler_1765_identities
+   src.geometor.feuerbach.euler.construct_euler_1765_centers
+
+
+Module Contents
+---------------
+
+.. py:class:: EulerCubicExample
+
+   Exact polynomial data for Euler's §§ 21–24 triangle reconstruction problem.
+
+
+   .. py:attribute:: sides_expected
+      :type:  tuple[sympy.Rational, sympy.Rational, sympy.Rational]
+
+
+   .. py:attribute:: ef_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: eg_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: eh_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: fg_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: fh_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: gh_sq
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: p_sum
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: q_pairs
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: r_prod
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: cubic_poly
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: recovered_roots
+      :type:  tuple[sympy.Rational, sympy.Rational, sympy.Rational]
+
+
+.. py:class:: HeronianNumericCheck
+
+   Exact rational invariants on the canonical Heronian ``(15, 13, 14)`` triangle.
+
+
+   .. py:attribute:: sides
+      :type:  tuple[sympy.Integer, sympy.Integer, sympy.Integer]
+
+
+   .. py:attribute:: area
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: semiperimeter
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: circumradius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: nine_point_radius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: inradius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: exradii
+      :type:  tuple[sympy.Rational, sympy.Rational, sympy.Rational]
+
+
+   .. py:attribute:: orthic_inradius
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: euler_p_sum
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: euler_q_pairs
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: euler_r_prod
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: quadrances_euler
+      :type:  dict[str, sympy.Rational]
+
+
+   .. py:attribute:: quadrances_feuerbach
+      :type:  dict[str, sympy.Rational]
+
+
+.. py:class:: EulerIdentitiesReport
+
+   Verified symbolic residuals and concrete evaluations for Euler (1765) & Feuerbach (1822).
+
+
+   .. py:attribute:: symbolic_residuals
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: euler_formulas_pqr
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: feuerbach_formulas
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: euler_cubic_567
+      :type:  EulerCubicExample
+
+
+   .. py:attribute:: heronian_15_13_14
+      :type:  HeronianNumericCheck
+
+
+   .. py:property:: all_verified
+      :type: bool
+
+
+      Return ``True`` iff every symbolic polynomial residual simplifies to exact zero.
+
+
+.. py:class:: EulerCentersResult
+
+   Constructed elements for Euler's 1765 memoir (E325) on ``A=(0,0), B=(14,0), C=(5,12)``.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: triangle
+      :type:  sympy.geometry.Polygon
+
+
+   .. py:attribute:: x1_incenter_G
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x2_centroid_F
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x3_circumcenter_H
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x4_orthocenter_E
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: euler_line
+      :type:  sympy.geometry.Line
+
+
+   .. py:attribute:: circumcircle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: incircle
+      :type:  sympy.geometry.Circle
+
+
+.. py:function:: solve_euler_reconstruction_cubic(ef_sq: sympy.Rational, fg_sq: sympy.Rational, gh_sq: sympy.Rational, eg_sq: sympy.Rational | None = None) -> tuple[sympy.Rational, sympy.Rational, sympy.Rational, sympy.Expr, tuple[sympy.Rational, ...]]
+
+   Recover :math:`(p, q, r)` and the side-length cubic :math:`z^3 - pz^2 + qz - r = 0`.
+
+   Follows Euler's E325 §§ 19–22 (pp. 114–117):
+
+   - If ``eg_sq`` is omitted, determines :math:`EG^2` from Stewart's collinearity law
+     :math:`4GH^2 + 2EG^2 = 3EF^2 + 6FG^2`.
+   - Sets :math:`f = EG^2 - GH^2`, :math:`g = FG^2 - EF^2`, :math:`h = \frac{9}{4}EF^2 - 3GH^2`,
+     recovers :math:`Q = r/p`, :math:`R = r^2/(4A^2) = 4(GH^2 + Q)`, :math:`P = p^2`,
+     :math:`q`, and :math:`r = pQ`.
+
+   :param ef_sq: Exact squared distance :math:`EF^2 = Q(X_4, X_2)`.
+   :param fg_sq: Exact squared distance :math:`FG^2 = Q(X_2, X_1)`.
+   :param gh_sq: Exact squared distance :math:`GH^2 = Q(X_3, X_1)`.
+   :param eg_sq: Optional :math:`EG^2 = Q(X_4, X_1)`; verified against Stewart's law if given.
+
+   :returns: Tuple ``(p, q, r, cubic_expr, sorted_rational_roots)``.
+
+   :raises ValueError: If ``eg_sq`` violates Euler's collinearity relation or :math:`P = p^2` is
+       not a positive rational square.
+
+
+.. py:function:: prove_euler_1765_identities() -> EulerIdentitiesReport
+
+   Prove all distance and proportion identities of Euler (1765) and Feuerbach (1822).
+
+   Uses pure rational-function cancellation (:func:`sympy.cancel`) over free side lengths
+   :math:`(a, b, c)` without floating-point arithmetic or square-root branch ambiguity.
+
+   :returns: A complete :class:`EulerIdentitiesReport` with symbolic zero residuals and concrete
+             rational evaluations on ``(5, 6, 7)`` and ``(15, 13, 14)``.
+
+
+.. py:function:: construct_euler_1765_centers(model: geometor.model.Model | None = None) -> EulerCentersResult
+
+   Construct Euler's four centers ``(E, F, G, H)`` and prove his 1765 collinearity theorems.
+
+   Uses the canonical acute scalene Heronian triangle ``A = (0, 0)``, ``B = (14, 0)``,
+   ``C = (5, 12)`` with integer sides ``a = 15``, ``b = 13``, ``c = 14`` so every classical
+   center lands on exact rational coordinates over :math:`\mathbb{Q}`.
+
+   :param model: Optional existing :class:`~geometor.model.Model`. When ``None``, creates a new
+                 model with ``auto_intersect=False``.
+
+   :returns: :class:`EulerCentersResult` containing the model and constructed geometric entities.
+
+   :raises ProofAssertionError: If any deductive concurrency, collinearity, or metric assertion fails.
+
+

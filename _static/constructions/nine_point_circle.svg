@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0038.g1" data-folio="0038" data-graphic="g1" viewBox="0 0 680 658" width="680" height="658" role="img" aria-label="Feuerbach (1822, §§ 54–56 & 9. Satz): The Nine-Point Circle and Harmonic Euler Range">
+  <title>Feuerbach (1822, §§ 54–56 & 9. Satz): The Nine-Point Circle and Harmonic Euler Range</title>
+  <style>
+    :root { --geom-fg: #18181b; --geom-accent: #c88a1e; --geom-assert: #16a34a; --geom-coincide: #0891b2; --geom-point-stroke: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --geom-fg: #d6cfc5; --geom-accent: #e8b85a; --geom-assert: #5ec27e; --geom-coincide: #38bdf8; --geom-point-stroke: #1e1e20; } }
+    #highlights > * { opacity: 0; pointer-events: none; }
+  </style>
+  <defs>
+    <clipPath id="clip-0038-g1"><rect x="0" y="0" width="680" height="658"/></clipPath>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+    </marker>
+  </defs>
+  <g id="elements" clip-path="url(#clip-0038-g1)">
+    <polygon class="polygon" data-ref="< A B C >" points="81.30,487.83 598.70,487.83 266.09,44.35" fill="var(--geom-fg)" fill-opacity="0.03" stroke="var(--geom-fg)" stroke-width="1.6"/>
+    <polygon class="polygon" data-ref="< H1 H2 H3 >" points="412.43,239.48 157.84,304.14 266.09,487.83" fill="var(--geom-coincide)" fill-opacity="0.08" stroke="var(--geom-coincide)" stroke-width="1.6"/>
+    <polygon class="polygon" data-ref="< M1 M2 M3 >" points="432.39,266.09 173.70,266.09 340.00,487.83" fill="var(--geom-fg)" fill-opacity="0.02" stroke="var(--geom-fg)" stroke-width="1.6"/>
+    <path class="segment" data-ref="/ A B /" d="M 81.30 487.83 L 340.00 487.83 L 598.70 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+    <path class="segment" data-ref="/ B C /" d="M 598.70 487.83 L 432.39 266.09 L 266.09 44.35" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+    <path class="segment" data-ref="/ C A /" d="M 266.09 44.35 L 173.70 266.09 L 81.30 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+    <path class="segment" data-ref="/ A H1 /" d="M 81.30 487.83 L 246.87 363.65 L 412.43 239.48" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+    <path class="segment" data-ref="/ B H2 /" d="M 598.70 487.83 L 378.27 395.98 L 157.84 304.14" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+    <path class="segment" data-ref="/ C H3 /" d="M 266.09 44.35 L 266.09 266.09 L 266.09 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+    <circle class="circle" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.38" r="300.27" fill="none" stroke="var(--geom-fg)" stroke-width="1.10" stroke-opacity="0.48" stroke-dasharray="6,4"/>
+    <circle class="circle" data-ref="( X5 H1 )" data-aliases="( H1 H2 H3 )" cx="303.04" cy="342.31" r="150.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.20" stroke-opacity="0.98"/>
+  </g>
+  <g id="graphics" clip-path="url(#clip-0038-g1)">
+    <path class="line" data-ref="[ X3 X4 ]" d="M 0.00 399.13 L 340.00 335.38 L 680.00 271.63" fill="none" stroke="var(--geom-accent)" stroke-width="1.90" stroke-opacity="0.92"/>
+  </g>
+  <g id="highlights" clip-path="url(#clip-0038-g1)" style="pointer-events: none;">
+    <polygon class="polygon geom-overlay" data-ref="< A B C >" points="81.30,487.83 598.70,487.83 266.09,44.35" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+    <polygon class="polygon geom-overlay" data-ref="< H1 H2 H3 >" points="412.43,239.48 157.84,304.14 266.09,487.83" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+    <polygon class="polygon geom-overlay" data-ref="< M1 M2 M3 >" points="432.39,266.09 173.70,266.09 340.00,487.83" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+    <path class="line geom-overlay" data-ref="[ X3 X4 ]" d="M 0.00 399.13 L 340.00 335.38 L 680.00 271.63" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+    <path class="segment geom-overlay" data-ref="/ A B /" d="M 81.30 487.83 L 340.00 487.83 L 598.70 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <path class="segment geom-overlay" data-ref="/ B C /" d="M 598.70 487.83 L 432.39 266.09 L 266.09 44.35" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <path class="segment geom-overlay" data-ref="/ C A /" d="M 266.09 44.35 L 173.70 266.09 L 81.30 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <path class="segment geom-overlay" data-ref="/ A H1 /" d="M 81.30 487.83 L 246.87 363.65 L 412.43 239.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <path class="segment geom-overlay" data-ref="/ B H2 /" d="M 598.70 487.83 L 378.27 395.98 L 157.84 304.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <path class="segment geom-overlay" data-ref="/ C H3 /" d="M 266.09 44.35 L 266.09 266.09 L 266.09 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <circle class="circle geom-overlay" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.38" r="300.27" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+    <circle class="circle geom-overlay" data-ref="( X5 H1 )" data-aliases="( H1 H2 H3 )" cx="303.04" cy="342.31" r="150.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+  </g>
+  <g id="points">
+    <circle class="point geom-point" data-ref="A" cx="81.30" cy="487.83" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="B" cx="598.70" cy="487.83" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="C" cx="266.09" cy="44.35" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="M1" cx="432.39" cy="266.09" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="M2" cx="173.70" cy="266.09" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="M3" cx="340.00" cy="487.83" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="H1" data-aliases="M" cx="412.43" cy="239.48" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="H2" data-aliases="N" cx="157.84" cy="304.14" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="H3" data-aliases="P" cx="266.09" cy="487.83" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="E1" cx="173.70" cy="418.53" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="E2" cx="432.39" cy="418.53" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="E3" cx="266.09" cy="196.79" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="X4" data-aliases="O" cx="266.09" cy="349.24" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="X5" data-aliases="L" cx="303.04" cy="342.31" r="4.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="X2" data-aliases="G" cx="315.36" cy="340.00" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+    <circle class="point geom-point" data-ref="X3" data-aliases="K" cx="340.00" cy="335.38" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+  </g>
+  <g id="labels">
+    <text class="label geom-label" data-ref="A" x="66.30" y="501.83" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A</text>
+    <text class="label geom-label" data-ref="B" x="605.70" y="501.83" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B</text>
+    <text class="label geom-label" data-ref="C" x="262.09" y="34.35" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C</text>
+    <text class="label geom-label" data-ref="M1" x="439.39" y="263.09" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Mₐ</text>
+    <text class="label geom-label" data-ref="M2" x="151.70" y="263.09" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">b</tspan></text>
+    <text class="label geom-label" data-ref="M3" x="344.00" y="502.83" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">c</tspan></text>
+    <text class="label geom-label" data-ref="H1" data-aliases="M" x="419.43" y="244.48" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M (Hₐ)</text>
+    <text class="label geom-label" data-ref="H2" data-aliases="N" x="113.84" y="302.14" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">N (H<tspan dy="3" font-size="10.5">b)</tspan></text>
+    <text class="label geom-label" data-ref="H3" data-aliases="P" x="248.09" y="502.83" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">P (H<tspan dy="3" font-size="10.5">c)</tspan></text>
+    <text class="label geom-label" data-ref="E1" x="157.70" y="430.53" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Eₐ</text>
+    <text class="label geom-label" data-ref="E2" x="438.39" y="413.53" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">E<tspan dy="3" font-size="10.5">b</tspan></text>
+    <text class="label geom-label" data-ref="E3" x="272.09" y="200.79" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">E<tspan dy="3" font-size="10.5">c</tspan></text>
+    <text class="label geom-label" data-ref="X4" data-aliases="O" x="228.09" y="355.24" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">O (X₄)</text>
+    <text class="label geom-label" data-ref="X5" data-aliases="L" x="289.04" y="333.31" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">L (X₅)</text>
+    <text class="label geom-label" data-ref="X2" data-aliases="G" x="319.36" y="354.00" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">G (X₂)</text>
+    <text class="label geom-label" data-ref="X3" data-aliases="K" x="348.00" y="331.38" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">K (X₃)</text>
+  </g>
+</svg>

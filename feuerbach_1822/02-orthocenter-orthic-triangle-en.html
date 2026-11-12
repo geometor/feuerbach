@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48) &mdash; Eigenschaften einiger merkwürdigen Punkte (1822)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-tritangent-circles-en.html" title="Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="02-orthocenter-orthic-triangle-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-nine-point-tangency-theorem-en.html" title="Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-ii-second-section-the-orthocenter-orthic-triangle-inradius-1948">
+        <span id="fb-02-en"></span><h1>Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)<a class="headerlink" href="#unit-ii-second-section-the-orthocenter-orthic-triangle-inradius-1948" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Karl Wilhelm Feuerbach — <em>Properties of Several Remarkable Points of the Rectilinear Triangle</em> (1822, pp. 15–32, Fig. 2–5)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#fagnano-s-minimal-perimeter-orthic-triangle-mnp" id="id1">§ 19. Fagnano’s Minimal-Perimeter Orthic Triangle MNP</a></p></li>
+        <li><p><a class="reference internal" href="#area-of-mnp-the-orthic-inradius-and-circumradius-12r" id="id2">§§ 23–28. Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R</a></p></li>
+        <li><p><a class="reference internal" href="#exradii-of-mnp-and-altitude-segment-products-through-o" id="id3">§§ 30–36. Exradii of ΔMNP and Altitude-Segment Products Through O</a></p></li>
+        <li><p><a class="reference internal" href="#corner-orthocenters-m-n-p-and-circumcenter-sub-circles" id="id4">§§ 41–48. Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 19" data-folio="§ 19" data-page="15">[Folio § 19 | p. 15]</div>
+        <section class="level-2" id="fagnano-s-minimal-perimeter-orthic-triangle-mnp">
+        <h2>§ 19. Fagnano’s Minimal-Perimeter Orthic Triangle MNP<a class="headerlink" href="#fagnano-s-minimal-perimeter-orthic-triangle-mnp" title="Link to this heading">¶</a></h2>
+        <p>When from the three vertices of any triangle <span class="math notranslate nohighlight">\(ABC\)</span> one drops upon its opposite sides the perpendiculars <span class="math notranslate nohighlight">\(AM, BN, CP\)</span>—which, as is well known, intersect in one and the same point <span class="math notranslate nohighlight">\(O\)</span> [<span class="geom-ref" data-ref="0038.g1:X4" title="X4">X<sub>4</sub></span>]—the feet of these perpendiculars [<span class="geom-ref" data-ref="0038.g1:H1" title="H1">M</span>, <span class="geom-ref" data-ref="0038.g1:H2" title="H2">N</span>, <span class="geom-ref" data-ref="0038.g1:H3" title="H3">P</span>] determine a triangle <span class="math notranslate nohighlight">\(MNP\)</span> [<a class="term-ref glossary-term" id="occ-term-orthic-triangle-1" href="../glossary.html#term-orthic-triangle" data-term="orthic-triangle" title="Orthic Triangle (Fußpunktdreieck MNP) (Pedal triangle of the orthocenter): The triangle MNP formed by the orthogonal feet of the three altitudes of ABC; for an acute triangle, its incenter is the orthocenter O = X(4) and its inradius is rho = 2R cos(alpha) cos(beta) cos(gamma) (Feuerbach §§ 19–25).">orthic triangle</a>], which is remarkable because among all triangles inscribed in triangle <span class="math notranslate nohighlight">\(ABC\)</span> it possesses the <em>least perimeter</em> [<em>Footnote:</em> <a class="person-ref" id="occ-person-fagnano-1" href="../persons.html#person-fagnano" data-person="fagnano" title="Giovanni Francesco Fagnano dei Toschi (1715–1797) — Italian mathematician; proved in 1775 that the orthic triangle minimizes inscribed perimeter inside an acute triangle (cited by Feuerbach § 19)">Fagnano</a> perhaps first taught this in the memoir <a class="citation-ref" id="occ-cite-fagnano-1775-1" href="../bibliography.html#cite-fagnano-1775" data-cite="fagnano_1775" title="Giovanni Francesco Fagnano — Problemata quaedam ad methodum maximorum et minimorum spectantia (Nova Acta Eruditorum, Leipzig, 1775 (minimal-perimeter orthic triangle cited in Feuerbach § 19))"><em>Problemata quaedam ad methodum max. et min. spectantia</em>, <em>Acta Erud.</em>, June 1775</a>]. It will therefore not be without interest to consider this triangle more closely, and above all to determine its perimeter and area, together with their ratios to the perimeter and area of the given triangle <span class="math notranslate nohighlight">\(ABC\)</span>.</p>
+        <p>Retaining the notation of the preceding section, we have <span class="math notranslate nohighlight">\(AP = b\cos\alpha\)</span> and <span class="math notranslate nohighlight">\(AN = c\cos\alpha\)</span>, whence <span class="math notranslate nohighlight">\(\overline{NP}^2 = (b^2 + c^2 - 2bc\cos\alpha)\cos^2\alpha = a^2\cos^2\alpha\)</span>, and therefore:</p>
+        <div class="math notranslate nohighlight">
+        \[NP = a\cos\alpha = \frac{a(-a^2 + b^2 + c^2)}{2bc}, \quad
+        MP = b\cos\beta = \frac{b(a^2 - b^2 + c^2)}{2ac}, \quad
+        MN = c\cos\gamma = \frac{c(a^2 + b^2 - c^2)}{2ab}.\]</div>
+        <p>Adding these three values together, since <span class="math notranslate nohighlight">\(a^2(-a^2+b^2+c^2) + b^2(a^2-b^2+c^2) + c^2(a^2+b^2-c^2) = 16\Delta^2\)</span> and <span class="math notranslate nohighlight">\(\frac{abc}{4\Delta} = R\)</span>, one obtains the sought perimeter:</p>
+        <div class="math notranslate nohighlight">
+        \[MN + MP + NP = \frac{8\Delta^2}{abc} = \frac{2\Delta}{R}.\]</div>
+        <div class="folio-milestone" id="folio-§§ 23–28" data-folio="§§ 23–28" data-page="18">[Folio §§ 23–28 | p. 18]</div>
+        </section>
+        <section class="level-2" id="area-of-mnp-the-orthic-inradius-and-circumradius-12r">
+        <h2>§§ 23–28. Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R<a class="headerlink" href="#area-of-mnp-the-orthic-inradius-and-circumradius-12r" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§ 23 (Area of ΔMNP)</strong>: Since <span class="math notranslate nohighlight">\(\triangle ANP = \Delta\cos^2\alpha\)</span>, <span class="math notranslate nohighlight">\(\triangle BMP = \Delta\cos^2\beta\)</span>, <span class="math notranslate nohighlight">\(\triangle CMN = \Delta\cos^2\gamma\)</span> and <span class="math notranslate nohighlight">\(1 - (\cos^2\alpha + \cos^2\beta + \cos^2\gamma) = 2\cos\alpha\cos\beta\cos\gamma\)</span>, the area of the orthic triangle in an acute triangle <span class="math notranslate nohighlight">\(ABC\)</span> is</p>
+        <div class="math notranslate nohighlight">
+        \[\triangle MNP = 2\Delta\cos\alpha\cos\beta\cos\gamma.\]</div>
+        </li>
+        <li><p><strong>§ 24 (Orthic Inradius ρ and Tritangent Duality, p. 18)</strong>: Denoting by <span class="math notranslate nohighlight">\(\rho\)</span> the inradius of <span class="math notranslate nohighlight">\(\triangle MNP\)</span> and by <span class="math notranslate nohighlight">\(\rho^{(1)}, \rho^{(2)}, \rho^{(3)}\)</span> its three exradii, § 19 (<span class="math notranslate nohighlight">\(a\cos\alpha + b\cos\beta + c\cos\gamma = \frac{2\Delta}{R}\)</span>) gives for an acute triangle <span class="math notranslate nohighlight">\(ABC\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[\rho = \frac{2\,\triangle MNP}{MN + MP + NP}
+             = 2R\cos\alpha\cos\beta\cos\gamma
+             = \frac{(-a^2 + b^2 + c^2)(a^2 - b^2 + c^2)(a^2 + b^2 - c^2)}{16abc\Delta},\]</div>
+        <p>whence <span class="math notranslate nohighlight">\(\triangle MNP : \Delta = \rho : R\)</span>. Moreover, because quadrilaterals <span class="math notranslate nohighlight">\(ANOP\)</span> and <span class="math notranslate nohighlight">\(BMOP\)</span> are cyclic <span class="justification" data-ref-target="III.22" title="III.22">[III. 22]</span>, <span class="math notranslate nohighlight">\(\angle APN = \angle BPM\)</span>, so the altitudes <span class="math notranslate nohighlight">\(AM, BN, CP\)</span> bisect the interior angles of <span class="math notranslate nohighlight">\(\triangle MNP\)</span> while the sides <span class="math notranslate nohighlight">\(BC, AC, AB\)</span> bisect its exterior angles. Thus <strong>the vertices</strong> <span class="math notranslate nohighlight">\(A, B, C\)</span> <strong>together with the orthocenter</strong> <span class="math notranslate nohighlight">\(O\)</span> <strong>are themselves the four tritangent centers of the orthic triangle</strong> <span class="math notranslate nohighlight">\(\triangle MNP\)</span>! (When <span class="math notranslate nohighlight">\(\angle A &gt; 90^\circ\)</span>, <span class="math notranslate nohighlight">\(A\)</span> becomes the incenter of <span class="math notranslate nohighlight">\(\triangle MNP\)</span>, and <span class="math notranslate nohighlight">\(\rho\)</span> passes into <span class="math notranslate nohighlight">\(-\rho^{(1)}\)</span>.)</p>
+        </li>
+        <li><p><strong>§§ 26–28 (Orthic Circumradius ½R and Sum of Side Squares, pp. 19–20)</strong>: Applying <span class="math notranslate nohighlight">\(R_{MNP} = \frac{MN \cdot MP \cdot NP}{4\,\triangle MNP}\)</span> yields</p>
+        <div class="math notranslate nohighlight">
+        \[R_{MNP} = \frac{abc\cos\alpha\cos\beta\cos\gamma}{8\Delta\cos\alpha\cos\beta\cos\gamma} = \frac{1}{2}R,\]</div>
+        <p><em>the first appearance in the monograph of the nine-point radius</em> <span class="math notranslate nohighlight">\(\tfrac{1}{2}R\)</span>! Furthermore, since <span class="math notranslate nohighlight">\(\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1 - \frac{\rho}{R}\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[a^2 + b^2 + c^2 = 4R(2R + \rho) = 8R^2 + 4\rho R,
+        \qquad
+        r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho).\]</div>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 30–36" data-folio="§§ 30–36" data-page="21">[Folio §§ 30–36 | p. 21]</div>
+        </section>
+        <section class="level-2" id="exradii-of-mnp-and-altitude-segment-products-through-o">
+        <h2>§§ 30–36. Exradii of ΔMNP and Altitude-Segment Products Through O<a class="headerlink" href="#exradii-of-mnp-and-altitude-segment-products-through-o" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§§ 30–31 (p. 21)</strong>: The perpendiculars <span class="math notranslate nohighlight">\(Am, Bn, Cp\)</span> dropped from <span class="math notranslate nohighlight">\(A, B, C\)</span> onto the opposite sides of <span class="math notranslate nohighlight">\(\triangle MNP\)</span> are the three exradii <span class="math notranslate nohighlight">\(\rho^{(1)}, \rho^{(2)}, \rho^{(3)}\)</span> of <span class="math notranslate nohighlight">\(\triangle MNP\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[Am = \frac{2\Delta\cos\alpha}{a}, \quad
+        Bn = \frac{2\Delta\cos\beta}{b}, \quad
+        Cp = \frac{2\Delta\cos\gamma}{c}, \qquad
+        Am + Bn + Cp = \rho + 2R,\]</div>
+        <p>and the projection segments on the sides satisfy</p>
+        <div class="math notranslate nohighlight">
+        \[AP \cdot BM \cdot CN = AN \cdot BP \cdot CM = MN \cdot MP \cdot NP = 2R \cdot \triangle MNP = 2\rho\Delta.\]</div>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 35–36" data-folio="§§ 35–36" data-page="24">[Folio §§ 35–36 | p. 24]</div>
+        <ul>
+        <li><p><strong>§§ 32–36 (pp. 22–24)</strong>: The circumradii of <span class="math notranslate nohighlight">\(\triangle BCO, \triangle ACO, \triangle ABO\)</span> are each equal to <span class="math notranslate nohighlight">\(R\)</span> (§ 33). From <span class="math notranslate nohighlight">\(AO = 2R\cos\alpha\)</span> and <span class="math notranslate nohighlight">\(OM = 2R\cos\beta\cos\gamma\)</span>, the orthocenter <span class="math notranslate nohighlight">\(O\)</span> divides each altitude so that:</p>
+        <div class="math notranslate nohighlight">
+        \[AO \cdot OM = BO \cdot ON = CO \cdot OP = 2\rho R, \qquad
+        OM \cdot ON \cdot OP = 2\rho^2 R, \qquad
+        AO \cdot BO \cdot CO = 4\rho R^2.\]</div>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 41–48" data-folio="§§ 41–48" data-page="28">[Folio §§ 41–48 | p. 28]</div>
+        </section>
+        <section class="level-2" id="corner-orthocenters-m-n-p-and-circumcenter-sub-circles">
+        <h2>§§ 41–48. Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles<a class="headerlink" href="#corner-orthocenters-m-n-p-and-circumcenter-sub-circles" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§§ 41–42 (p. 28)</strong>: Let <span class="math notranslate nohighlight">\(M', N', P'\)</span> be the orthocenters of the corner triangles <span class="math notranslate nohighlight">\(\triangle ANP, \triangle BMP, \triangle CMN\)</span>. Since <span class="math notranslate nohighlight">\(AO\)</span> is the diameter of circle <span class="math notranslate nohighlight">\((ANP)\)</span>, <span class="math notranslate nohighlight">\(AM' = AO\cos\alpha = 2R\cos^2\alpha\)</span>, whence:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AM' + BN' + CP' &amp;= 2(R - \rho), \\
+        AM' \cdot BN' = \overline{OP}^2, \quad AM' \cdot CP' &amp;= \overline{ON}^2, \quad BN' \cdot CP' = \overline{OM}^2, \\
+        OM \cdot ON \cdot OP &amp;= AM' \cdot BN' \cdot CP'.\end{split}\]</div>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 47–48" data-folio="§§ 47–48" data-page="32">[Folio §§ 47–48 | p. 32]</div>
+        <ul>
+        <li><p><strong>§§ 47–48 (p. 32)</strong>: Denoting by <span class="math notranslate nohighlight">\(Ka, Kb, Kc\)</span> the distances from the circumcenter <span class="math notranslate nohighlight">\(K\)</span> [<span class="geom-ref" data-ref="0038.g1:X3" title="X3">X<sub>3</sub></span>] to the three sides (<span class="math notranslate nohighlight">\(Ka = \tfrac{1}{2}AO\)</span>, <span class="math notranslate nohighlight">\(Kb = \tfrac{1}{2}BO\)</span>, <span class="math notranslate nohighlight">\(Kc = \tfrac{1}{2}CO\)</span>), and by <span class="math notranslate nohighlight">\(R', R'', R'''\)</span> the circumradii of <span class="math notranslate nohighlight">\(\triangle BCK, \triangle ACK, \triangle ABK\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[R' \cdot AO = R'' \cdot BO = R''' \cdot CO = R^2, \qquad
+        R' + R'' + R''' : OM + ON + OP = R : 2\rho.\]</div>
+        </li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="01-tritangent-circles-en.html" title="Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)">&larr; <span class="nav-label">Unit I: First Section — On the Centers of the Four Tritangent Circles (§§ 1–18)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="03-nine-point-tangency-theorem-en.html" title="Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete)"><span class="nav-label">Unit III: The Nine-Point Circle, Feuerbach’s Theorem & The Euler Line (§§ 49–60, Complete)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

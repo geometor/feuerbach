@@ -1,0 +1,92 @@
+src.geometor.feuerbach.concordance
+==================================
+
+.. py:module:: src.geometor.feuerbach.concordance
+
+.. autoapi-nested-parse::
+
+   Structured loader and validator for the Euler–Feuerbach concordance and source manifest.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.concordance.ConcordanceEntry
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.concordance.default_resources_dir
+   src.geometor.feuerbach.concordance.load_concordance
+   src.geometor.feuerbach.concordance.load_sources_manifest
+
+
+Module Contents
+---------------
+
+.. py:class:: ConcordanceEntry
+
+   Single cross-treatise concordance mapping linking Euler, Feuerbach, ETC, and Euclid.
+
+
+   .. py:attribute:: entry_id
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: category
+      :type:  str
+
+
+   .. py:attribute:: euler_1765_ref
+      :type:  str
+
+
+   .. py:attribute:: feuerbach_1822_ref
+      :type:  str
+
+
+   .. py:attribute:: etc_centers
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: sister_refs
+      :type:  dict[str, str]
+
+
+   .. py:attribute:: symbolic_identity
+      :type:  str
+
+
+   .. py:attribute:: heronian_value
+      :type:  str
+
+
+.. py:function:: default_resources_dir() -> pathlib.Path
+
+   Locate ``resources/feuerbach`` relative to the repository checkout.
+
+
+.. py:function:: load_concordance(path: pathlib.Path | str | None = None) -> list[ConcordanceEntry]
+
+   Load and validate ``resources/feuerbach/concordance.json``.
+
+   :param path: Optional explicit JSON file path.
+
+   :returns: Ordered list of :class:`ConcordanceEntry` records.
+
+
+.. py:function:: load_sources_manifest(path: pathlib.Path | str | None = None) -> dict[str, Any]
+
+   Load ``resources/feuerbach/sources_manifest.json``.
+
+

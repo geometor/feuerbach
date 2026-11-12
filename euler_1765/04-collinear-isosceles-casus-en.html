@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34) &mdash; Solutio facilis problematum (1765)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Solutio facilis problematum (1765)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="03-reconstruction-cubic-en.html" title="Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="04-collinear-isosceles-casus-la.html">Latin</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="04-collinear-isosceles-casus-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="04-collinear-isosceles-casus-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../feuerbach_1822/index.html" title="EIGENSCHAFTEN EINIGER MERKWÜRDIGEN PUNKTE DES GERADLINIGEN DREIECKS UND MEHRERER LINIEN (1822)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-iv-collinear-centers-isosceles-degeneracy-casus-irreducibilis-2534">
+        <span id="euler-04-en"></span><h1>Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34)<a class="headerlink" href="#unit-iv-collinear-centers-isosceles-degeneracy-casus-irreducibilis-2534" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Leonhard Euler — <em>An Easy Solution of Certain Very Difficult Geometric Problems</em> (1765/1767, pp. 117–123)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#case-where-all-four-points-lie-in-a-straight-line" id="id1">§ 25. Case Where All Four Points Lie in a Straight Line</a></p></li>
+        <li><p><a class="reference internal" href="#double-root-of-the-cubic-and-isosceles-necessity" id="id2">§ 26. Double Root of the Cubic and Isosceles Necessity</a></p></li>
+        <li><p><a class="reference internal" href="#direct-verification-on-an-isosceles-triangle" id="id3">§ 27. Direct Verification on an Isosceles Triangle</a></p></li>
+        <li><p><a class="reference internal" href="#ordering-of-the-collinear-points-when-a-c-vs-a-c" id="id4">§ 28. Ordering of the Collinear Points When a &gt; c vs. a &lt; c</a></p></li>
+        <li><p><a class="reference internal" href="#explicit-isosceles-formulas-relative-to-the-midpoint-of-eh" id="id5">§ 29. Explicit Isosceles Formulas Relative to the Midpoint of EH</a></p></li>
+        <li><p><a class="reference internal" href="#concise-general-formulation-omitting-the-centroid-f" id="id6">§ 30. Concise General Formulation Omitting the Centroid F</a></p></li>
+        <li><p><a class="reference internal" href="#diorismos-positivity-inequalities-on-e-f-k" id="id7">§ 31. Diorismos: Positivity Inequalities on (e, f, k)</a></p></li>
+        <li><p><a class="reference internal" href="#reducible-family-e-f-60-angle-and-worked-example" id="id8">§ 32. Reducible Family e = f (60° Angle) and Worked Example</a></p></li>
+        <li><p><a class="reference internal" href="#universal-factorization-whenever-eg-gh" id="id9">§ 33. Universal Factorization Whenever EG = GH</a></p></li>
+        <li><p><a class="reference internal" href="#the-irreducible-general-case-solution-by-angle-trisection" id="id10">§ 34. The Irreducible General Case &amp; Solution by Angle Trisection</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 25" data-folio="§ 25" data-page="117">[Folio § 25 | p. 117]</div>
+        <section class="level-2" id="case-where-all-four-points-lie-in-a-straight-line">
+        <h2>§ 25. Case Where All Four Points Lie in a Straight Line<a class="headerlink" href="#case-where-all-four-points-lie-in-a-straight-line" title="Link to this heading">¶</a></h2>
+        <p><em>Case in which the four points are situated in a straight line</em> (<cite>Tab. II, Fig. 7</cite>). In this case therefore, since we have:</p>
+        <div class="math notranslate nohighlight">
+        \[FH = g; \quad FG = h; \quad GH = f; \quad EF = 2g; \quad EH = 3g \quad \text{and} \quad EG = 2g - h,\]</div>
+        <div class="folio-milestone" id="folio-§ 25 (cont.)" data-folio="§ 25 (cont.)" data-page="118">[Folio § 25 (cont.) | p. 118]</div>
+        <p>we shall have <span class="math notranslate nohighlight">\(g = f - h\)</span>, whence upon making this substitution we collect:</p>
+        <div class="math notranslate nohighlight">
+        \[R = \frac{4f^4}{(3h - f)^2}; \qquad Q = \frac{3f^2 h(2f - 3h)}{(f - 3h)^2}; \qquad P = \frac{3h(4f - 3h)^3}{(f - 3h)^2},\]</div>
+        <p>and therefore <span class="math notranslate nohighlight">\(\frac{Q^2}{R} = \frac{9h^2(2f - 3h)^2}{4(f - 3h)^2}\)</span>. From these we further elicit:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}p &amp;= \frac{(4f - 3h)\sqrt{3h(4f - 3h)}}{f - 3h}, \\
+        q &amp;= \frac{3fh(4f - 3h)(5f - 6h)}{(f - 3h)^2}, \\
+        r &amp;= \frac{3f^2 h(2f - 3h)(4f - 3h)\sqrt{3h(4f - 3h)}}{(f - 3h)^3}.\end{split}\]</div>
+        </section>
+        <section class="level-2" id="double-root-of-the-cubic-and-isosceles-necessity">
+        <span id="euler-en-s26"></span><h2>§ 26. Double Root of the Cubic and Isosceles Necessity<a class="headerlink" href="#double-root-of-the-cubic-and-isosceles-necessity" title="Link to this heading">¶</a></h2>
+        <p>Since now the roots of this cubic equation <span class="math notranslate nohighlight">\(z^3 - pz^2 + qz - r = 0\)</span> furnish the three sides <span class="math notranslate nohighlight">\(a, b, c\)</span> of the sought triangle, in order to render it neater let us set</p>
+        <div class="math notranslate nohighlight">
+        \[z = \frac{y\sqrt{3h(4f - 3h)}}{f - 3h},\]</div>
+        <p>and this equation will come forth:</p>
+        <div class="math notranslate nohighlight">
+        \[y^3 - (4f - 3h)y^2 + f(5f - 6h)y - f^2(2f - 3h) = 0,\]</div>
+        <p>whose roots are manifestly <span class="math notranslate nohighlight">\(f, f\)</span>, and <span class="math notranslate nohighlight">\(2f - 3h\)</span>. Wherefore the sides of the sought triangle, which becomes <strong>isosceles</strong>, will be:</p>
+        <div class="math notranslate nohighlight">
+        \[a = b = \frac{f\sqrt{3h(4f - 3h)}}{f - 3h}; \qquad \text{and} \qquad c = \frac{(2f - 3h)\sqrt{3h(4f - 3h)}}{f - 3h}.\]</div>
+        </section>
+        <section class="level-2" id="direct-verification-on-an-isosceles-triangle">
+        <span id="euler-en-s27"></span><h2>§ 27. Direct Verification on an Isosceles Triangle<a class="headerlink" href="#direct-verification-on-an-isosceles-triangle" title="Link to this heading">¶</a></h2>
+        <p>Now this case is also easy to solve in itself, since that straight line on which the given points lie necessarily cuts the triangle</p>
+        <div class="folio-milestone" id="folio-§ 27 (cont.)" data-folio="§ 27 (cont.)" data-page="119">[Folio § 27 (cont.) | p. 119]</div>
+        <p>into two similar halves, and therefore the triangle becomes isosceles. Indeed, setting <span class="math notranslate nohighlight">\(b = a\)</span> right from the start, we obtain <span class="math notranslate nohighlight">\(\mathcal{A} = \tfrac{1}{4}c\sqrt{4a^2 - c^2}\)</span> and <span class="math notranslate nohighlight">\(AP = AQ = AR = AS = \tfrac{1}{2}c\)</span>, and further:</p>
+        <div class="math notranslate nohighlight">
+        \[PE = \frac{c^3}{4\mathcal{A}}; \qquad QF = \frac{2\mathcal{A}}{3c}; \qquad RG = \frac{2\mathcal{A}}{2a + c}; \qquad SH = \frac{c(2a^2 - c^2)}{8\mathcal{A}},\]</div>
+        <p>whence, because the feet <span class="math notranslate nohighlight">\(P, Q, R, S\)</span> coincide at the midpoint of the base—let it be <span class="math notranslate nohighlight">\(O\)</span>—the intervals among these points will be:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}OF - OE &amp;= \frac{2(a^2 - c^2)}{3\sqrt{4a^2 - c^2}}; \qquad
+        OG - OE = \frac{c(a - c)}{\sqrt{4a^2 - c^2}}; \qquad
+        OH - OE = \frac{a^2 - c^2}{\sqrt{4a^2 - c^2}}; \\
+        OF - OG &amp;= \frac{(a - c)(2a - c)}{3\sqrt{4a^2 - c^2}}; \qquad
+        OH - OF = \frac{a^2 - c^2}{3\sqrt{4a^2 - c^2}}; \qquad
+        OH - OG = \frac{a(a - c)}{\sqrt{4a^2 - c^2}}.\end{split}\]</div>
+        </section>
+        <section class="level-2" id="ordering-of-the-collinear-points-when-a-c-vs-a-c">
+        <span id="euler-en-s28"></span><h2>§ 28. Ordering of the Collinear Points When a &gt; c vs. a &lt; c<a class="headerlink" href="#ordering-of-the-collinear-points-when-a-c-vs-a-c" title="Link to this heading">¶</a></h2>
+        <p>Here it is fitting to contemplate two cases according as <span class="math notranslate nohighlight">\(a &gt; c\)</span> or <span class="math notranslate nohighlight">\(a &lt; c\)</span>, for if <span class="math notranslate nohighlight">\(a = c\)</span>, i.e. an equilateral triangle, all four points coalesce into one:</p>
+        <ul class="simple">
+        <li><p><strong>I. If</strong> <span class="math notranslate nohighlight">\(a &gt; c\)</span>: the points will be arranged as <cite>Tab. II, Fig. 8</cite> shows, where <span class="math notranslate nohighlight">\(HF = \tfrac{1}{3}EH\)</span> or <span class="math notranslate nohighlight">\(EF = \tfrac{2}{3}EH\)</span> and <span class="math notranslate nohighlight">\(EG &lt; \tfrac{1}{2}EH\)</span>; and in this case the midpoint <span class="math notranslate nohighlight">\(O\)</span> of the base falls on the straight line <span class="math notranslate nohighlight">\(HE\)</span> produced beyond <span class="math notranslate nohighlight">\(E\)</span>, so that <span class="math notranslate nohighlight">\(OE = \frac{c^2}{2\sqrt{4a^2 - c^2}}\)</span>.</p></li>
+        <li><p><strong>II. If</strong> <span class="math notranslate nohighlight">\(a &lt; c\)</span>: the points will be arranged as <cite>Fig. 9</cite> shows, where again <span class="math notranslate nohighlight">\(HF = \tfrac{1}{3}EH\)</span> or <span class="math notranslate nohighlight">\(EF = \tfrac{2}{3}EH\)</span>, whereas <span class="math notranslate nohighlight">\(EG &gt; \tfrac{1}{2}EH\)</span>. In this case, however, the midpoint <span class="math notranslate nohighlight">\(O\)</span> of the base falls on the straight line <span class="math notranslate nohighlight">\(EH\)</span> produced beyond <span class="math notranslate nohighlight">\(H\)</span>, so that</p></li>
+        </ul>
+        <div class="folio-milestone" id="folio-§ 28 (cont.)" data-folio="§ 28 (cont.)" data-page="120">[Folio § 28 (cont.) | p. 120]</div>
+        <div class="math notranslate nohighlight">
+        \[HO = \frac{2a^2 - c^2}{2\sqrt{4a^2 - c^2}},\]</div>
+        <p>whence if <span class="math notranslate nohighlight">\(2a^2 &lt; c^2\)</span> [an obtuse isosceles triangle], the point <span class="math notranslate nohighlight">\(O\)</span> even falls between <span class="math notranslate nohighlight">\(H\)</span> and <span class="math notranslate nohighlight">\(E\)</span>.</p>
+        </section>
+        <section class="level-2" id="explicit-isosceles-formulas-relative-to-the-midpoint-of-eh">
+        <span id="euler-en-s29"></span><h2>§ 29. Explicit Isosceles Formulas Relative to the Midpoint of EH<a class="headerlink" href="#explicit-isosceles-formulas-relative-to-the-midpoint-of-eh" title="Link to this heading">¶</a></h2>
+        <p>Given therefore on a straight line the three points <span class="math notranslate nohighlight">\(E, G\)</span>, and <span class="math notranslate nohighlight">\(H\)</span> such that <span class="math notranslate nohighlight">\(G\)</span> is situated between the extremes <span class="math notranslate nohighlight">\(E\)</span> and <span class="math notranslate nohighlight">\(H\)</span>, one must inspect whether <span class="math notranslate nohighlight">\(EG &lt; \tfrac{1}{2}EH\)</span> or <span class="math notranslate nohighlight">\(EG &gt; \tfrac{1}{2}EH\)</span>:</p>
+        <ul>
+        <li><p><strong>In the former case</strong>, where <span class="math notranslate nohighlight">\(EG &lt; \tfrac{1}{2}EH\)</span> (<cite>Tab. II, Fig. 8</cite>), let <span class="math notranslate nohighlight">\(EH = 2d\)</span> and <span class="math notranslate nohighlight">\(EG = d - e\)</span>; hence there is found:</p>
+        <div class="math notranslate nohighlight">
+        \[a = b = \frac{d + e}{2e}\sqrt{(d + 3e)(3d + e)}, \qquad
+        c = \frac{d - e}{2e}\sqrt{(d + 3e)(3d + e)}, \qquad
+        OE = \frac{(d - e)^2}{4e}.\]</div>
+        </li>
+        <li><p><strong>In the latter case</strong>, where <span class="math notranslate nohighlight">\(EG &gt; \tfrac{1}{2}EH\)</span> (<cite>Fig. 9</cite>), let <span class="math notranslate nohighlight">\(EH = 2d\)</span> and <span class="math notranslate nohighlight">\(EG = d + e\)</span>; hence there is collected:</p>
+        <div class="math notranslate nohighlight">
+        \[a = b = \frac{d - e}{2e}\sqrt{(d - 3e)(3d - e)}, \qquad
+        c = \frac{d + e}{2e}\sqrt{(d - 3e)(3d - e)}, \qquad
+        OE = \frac{(d + e)^2}{4e} \quad [\text{printed } 2e \text{ in folio}],\]</div>
+        <p>whence it is clear that this case cannot take place if <span class="math notranslate nohighlight">\(d\)</span> lies between the limits <span class="math notranslate nohighlight">\(3e\)</span> and <span class="math notranslate nohighlight">\(\tfrac{1}{3}e\)</span>. Indeed, since we must have <span class="math notranslate nohighlight">\(2a &gt; c\)</span>, it is necessary that <span class="math notranslate nohighlight">\(d &gt; 3e\)</span> [so <span class="math notranslate nohighlight">\(EG &lt; \frac{2}{3}EH = EF\)</span>, meaning <span class="math notranslate nohighlight">\(G\)</span> always lies strictly between <span class="math notranslate nohighlight">\(E\)</span> and <span class="math notranslate nohighlight">\(F\)</span>!].</p>
+        </li>
+        </ul>
+        </section>
+        <section class="level-2" id="concise-general-formulation-omitting-the-centroid-f">
+        <span id="euler-en-s30"></span><h2>§ 30. Concise General Formulation Omitting the Centroid F<a class="headerlink" href="#concise-general-formulation-omitting-the-centroid-f" title="Link to this heading">¶</a></h2>
+        <p>From this case we may gather that in general, too (<cite>Fig. 5</cite>), a neater solution will come forth if, omitting the point <span class="math notranslate nohighlight">\(F\)</span>, the three points <span class="math notranslate nohighlight">\(E, G\)</span>, and <span class="math notranslate nohighlight">\(H\)</span> are considered. Let us therefore set:</p>
+        <div class="math notranslate nohighlight">
+        \[EG = e, \qquad GH = f, \qquad \text{and} \qquad EH = k;\]</div>
+        <p>then we shall have <span class="math notranslate nohighlight">\(FH = g = \tfrac{1}{3}k\)</span>, <span class="math notranslate nohighlight">\(EF = \tfrac{2}{3}k\)</span>, and <span class="math notranslate nohighlight">\(FG = h = \sqrt{\tfrac{1}{3}e^2 + \tfrac{2}{3}f^2 - \tfrac{2}{9}k^2}\)</span>, and hence we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[R = \frac{4f^4}{2f^2 + 2e^2 - k^2}, \qquad Q = \frac{f^2(k^2 - f^2 - 2e^2)}{2e^2 + 2f^2 - k^2},\]</div>
+        <div class="folio-milestone" id="folio-§ 30 (cont.)" data-folio="§ 30 (cont.)" data-page="121">[Folio § 30 (cont.) | p. 121]</div>
+        <div class="math notranslate nohighlight">
+        \[P = \frac{27f^4}{2e^2 + 2f^2 - k^2} + 2e^2 - 8f^2 - 3k^2
+          = \frac{4e^4 + 11f^4 + 3k^4 - 12e^2f^2 + 2f^2k^2 - 8e^2k^2}{2e^2 + 2f^2 - k^2},\]</div>
+        <p>and furthermore <span class="math notranslate nohighlight">\(\frac{Q^2}{R} = \frac{(k^2 - f^2 - 2e^2)^2}{4(2e^2 + 2f^2 - k^2)}\)</span>, whence we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[p = \sqrt{P}, \qquad
+        q = \frac{2e^4 + f^4 + k^4 - 6e^2f^2 - 3e^2k^2 + 2f^2k^2}{2e^2 + 2f^2 - k^2}, \qquad
+        r = Q\sqrt{P},\]</div>
+        <p>and the roots of the equation <span class="math notranslate nohighlight">\(z^3 - pz^2 + qz - r = 0\)</span> give the sides of the sought triangle; which equation, upon setting <span class="math notranslate nohighlight">\(z = y\sqrt{P}\)</span>, passes into this rational-coefficient form:</p>
+        <div class="math notranslate nohighlight">
+        \[y^3 - y^2 + \frac{(2e^4 + f^4 + k^4 - 6e^2f^2 - 3e^2k^2 + 2f^2k^2)y - f^2(k^2 - 2e^2 - f^2)(2e^2 + 2f^2 - k^2)/( \dots )}{P} = 0\]</div>
+        <p>[written in the folio with common denominator <span class="math notranslate nohighlight">\(4e^4 + 11f^4 + 3k^4 - 12e^2f^2 - 8e^2k^2 + 2f^2k^2\)</span>].</p>
+        </section>
+        <section class="level-2" id="diorismos-positivity-inequalities-on-e-f-k">
+        <span id="euler-en-s31"></span><h2>§ 31. Diorismos: Positivity Inequalities on (e, f, k)<a class="headerlink" href="#diorismos-positivity-inequalities-on-e-f-k" title="Link to this heading">¶</a></h2>
+        <p>Here, however, I observe that these given quantities <span class="math notranslate nohighlight">\(e, f, k\)</span> must not only be so assumed that they form a triangle, but since the sides <span class="math notranslate nohighlight">\(a, b, c\)</span> of the sought triangle must be regarded as positive, <span class="math notranslate nohighlight">\(P\)</span> as well as <span class="math notranslate nohighlight">\(Q\)</span> and <span class="math notranslate nohighlight">\(R\)</span> must also receive positive values. Not only, therefore, must <span class="math notranslate nohighlight">\(k^2 &lt; 2e^2 + 2f^2\)</span>, but also <span class="math notranslate nohighlight">\(k^2 &gt; 2e^2 + f^2\)</span>; and further, so that <span class="math notranslate nohighlight">\(P\)</span> may become positive, it is necessary that</p>
+        <div class="math notranslate nohighlight">
+        \[3k^2 &gt; 4e^2 + f^2 + 2\sqrt{e^4 + 11e^2f^2 - 8f^4},\]</div>
+        <p>and when this condition is compared with the preceding ones [requiring <span class="math notranslate nohighlight">\(3(2e^2 + 2f^2) &gt; 4e^2 + f^2 + 2\sqrt{e^4 + 11e^2f^2 - 8f^4}\)</span> and reality of the radical], there follows that <span class="math notranslate nohighlight">\(f^2\)</span> must exceed the lower bound of real configurations—otherwise the problem would admit no solution.</p>
+        </section>
+        <section class="level-2" id="reducible-family-e-f-60-angle-and-worked-example">
+        <span id="euler-en-s32"></span><h2>§ 32. Reducible Family e = f (60° Angle) and Worked Example<a class="headerlink" href="#reducible-family-e-f-60-angle-and-worked-example" title="Link to this heading">¶</a></h2>
+        <p><strong>Example.</strong> Let <span class="math notranslate nohighlight">\(e^2 = f^2\)</span> [i.e. <span class="math notranslate nohighlight">\(EG = GH\)</span>]; we shall have:</p>
+        <div class="math notranslate nohighlight">
+        \[R = \frac{4f^4}{4f^2 - k^2}; \qquad
+        Q = \frac{f^2(k^2 - 3f^2)}{4f^2 - k^2}; \qquad
+        P = \frac{3(k^2 - f^2)^2}{4f^2 - k^2}; \qquad
+        \frac{Q^2}{R} = \frac{(k^2 - 3f^2)^2}{4(4f^2 - k^2)},\]</div>
+        <p>and therefore:</p>
+        <div class="math notranslate nohighlight">
+        \[p = \frac{(k^2 - f^2)\sqrt{3}}{\sqrt{4f^2 - k^2}}; \qquad
+        q = \frac{k^4 - f^2k^2 - 3f^4}{4f^2 - k^2}; \qquad
+        r = \frac{f^2(k^2 - 3f^2)(k^2 - f^2)\sqrt{3}}{4(4f^2 - k^2)\sqrt{4f^2 - k^2}}.\]</div>
+        <div class="folio-milestone" id="folio-§ 32 (cont.)" data-folio="§ 32 (cont.)" data-page="122">[Folio § 32 (cont.) | p. 122]</div>
+        <p>Now let <span class="math notranslate nohighlight">\(e^2 = f^2 = 2\)</span> and <span class="math notranslate nohighlight">\(k^2 = 7\)</span>; there will come forth <span class="math notranslate nohighlight">\(p = 5\sqrt{3}\)</span>, <span class="math notranslate nohighlight">\(q = 23\)</span>, and <span class="math notranslate nohighlight">\(r = 10\sqrt{3}\)</span>, and the sides of the sought triangle will be the roots of this cubic equation:</p>
+        <div class="math notranslate nohighlight">
+        \[z^3 - 5z^2\sqrt{3} + 23z - 10\sqrt{3} = 0,\]</div>
+        <p>which upon setting <span class="math notranslate nohighlight">\(z = \frac{y}{\sqrt{3}}\)</span> passes into <span class="math notranslate nohighlight">\(y^3 - 15y^2 + 69y - 90 = 0\)</span>, one root of which is <span class="math notranslate nohighlight">\(y = 6\)</span>, whence the remaining two are <span class="math notranslate nohighlight">\(y = \frac{9 \pm \sqrt{21}}{2}\)</span>, and thus the sides of the sought triangle are:</p>
+        <div class="math notranslate nohighlight">
+        \[a = \frac{3\sqrt{3} + \sqrt{7}}{2}; \qquad b = \frac{3\sqrt{3} - \sqrt{7}}{2}; \qquad c = 2\sqrt{3}.\]</div>
+        </section>
+        <section class="level-2" id="universal-factorization-whenever-eg-gh">
+        <span id="euler-en-s33"></span><h2>§ 33. Universal Factorization Whenever EG = GH<a class="headerlink" href="#universal-factorization-whenever-eg-gh" title="Link to this heading">¶</a></h2>
+        <p>Indeed, even more generally, while <span class="math notranslate nohighlight">\(e^2 = f^2\)</span> remains, however <span class="math notranslate nohighlight">\(k\)</span> be chosen, if we set <span class="math notranslate nohighlight">\(z = \frac{y}{\sqrt{3(4f^2 - k^2)}}\)</span>, we have this equation to solve:</p>
+        <div class="math notranslate nohighlight">
+        \[y^3 - 3(k^2 - f^2)y^2 + 3(k^4 - f^2k^2 - 3f^4)y - 9f^2(k^2 - 3f^2)(k^2 - f^2) = 0,\]</div>
+        <p>which is satisfied first by <span class="math notranslate nohighlight">\(y = 3f^2\)</span>, and the remaining two roots come from the quadratic equation <span class="math notranslate nohighlight">\(y^2 - 3(k^2 - 2f^2)y + 3(k^2 - 3f^2)(k^2 - f^2) = 0\)</span>, namely <span class="math notranslate nohighlight">\(y = \frac{3(k^2 - 2f^2) \pm k\sqrt{3(4f^2 - k^2)}}{2}\)</span>; and thus the three sides of the sought triangle become:</p>
+        <div class="math notranslate nohighlight">
+        \[a = \frac{(k^2 - 2f^2)\sqrt{3}}{2\sqrt{4f^2 - k^2}} + \frac{1}{2}k, \qquad
+        b = \frac{(k^2 - 2f^2)\sqrt{3}}{2\sqrt{4f^2 - k^2}} - \frac{1}{2}k, \qquad
+        c = \frac{f^2\sqrt{3}}{\sqrt{4f^2 - k^2}}.\]</div>
+        <div class="folio-milestone" id="folio-§ 34" data-folio="§ 34" data-page="123">[Folio § 34 | p. 123]</div>
+        </section>
+        <section class="level-2" id="the-irreducible-general-case-solution-by-angle-trisection">
+        <h2>§ 34. The Irreducible General Case &amp; Solution by Angle Trisection<a class="headerlink" href="#the-irreducible-general-case-solution-by-angle-trisection" title="Link to this heading">¶</a></h2>
+        <p>In the remaining cases the business is not dispatched so easily, because the cubic equation does not admit rational factors [<a class="term-ref glossary-term" id="occ-term-casus-irreducibilis-1" href="../glossary.html#term-casus-irreducibilis" data-term="casus-irreducibilis" title="Casus Irreducibilis (Three-real-root cubic regime): The algebraic phenomenon identified at the close of Euler&#x27;s E325 (§ 34, p. 123) in which reconstructing the three real positive sides (a, b, c) from z^3 - pz^2 + qz - r = 0 requires complex intermediate cube roots or angle trisection.">casus irreducibilis</a>]. To show this by an example, let <span class="math notranslate nohighlight">\(e^2 = 3\)</span>, <span class="math notranslate nohighlight">\(f^2 = 2\)</span>, and <span class="math notranslate nohighlight">\(k^2 = 9\)</span>; whence the sides of the triangle are the roots of this cubic equation:</p>
+        <div class="math notranslate nohighlight">
+        \[z^3 - z^2\sqrt{71} + 22z - 2\sqrt{71} = 0;\]</div>
+        <p>to resolve which, let an acute angle <span class="math notranslate nohighlight">\(\alpha\)</span> be sought whose cosine is given by the trigonometric depressed-cubic formula [see Critical Notes on Euler’s printed <span class="math notranslate nohighlight">\(+\sqrt{\frac{71}{75}}\)</span> vs. <span class="math notranslate nohighlight">\(-\sqrt{\frac{71}{125}}\)</span>], and once this is found, the sides of the triangle will be expressed in the form:</p>
+        <div class="math notranslate nohighlight">
+        \[a = \frac{1}{3}\sqrt{71} + \frac{2}{3}\sqrt{5}\cos\left(60^\circ - \frac{1}{3}\alpha\right), \quad
+        b = \frac{1}{3}\sqrt{71} + \frac{2}{3}\sqrt{5}\cos\left(60^\circ + \frac{1}{3}\alpha\right), \quad
+        c = \frac{1}{3}\sqrt{71} - \frac{2}{3}\sqrt{5}\cos\frac{1}{3}\alpha;\]</div>
+        <p>and thus <strong>by the trisection of an angle</strong> the problem will always be resolved expeditiously enough.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="03-reconstruction-cubic-en.html" title="Unit III: The Inverse Reconstruction Problem &amp; Side-Length Cubic (§§ 19–24)">&larr; <span class="nav-label">Unit III: The Inverse Reconstruction Problem & Side-Length Cubic (§§ 19–24)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../feuerbach_1822/index.html" title="EIGENSCHAFTEN EINIGER MERKWÜRDIGEN PUNKTE DES GERADLINIGEN DREIECKS UND MEHRERER LINIEN (1822)"><span class="nav-label">EIGENSCHAFTEN EINIGER MERKWÜRDIGEN PUNKTE DES GERADLINIGEN DREIECKS UND MEHRERER LINIEN (1822)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

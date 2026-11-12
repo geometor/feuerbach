@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Critical &amp; Symbolic Notes — Unit III: Exact SymPy Audit of §§ 49–60 &amp; The § 51 Sign Slip &mdash; Eigenschaften einiger merkwürdigen Punkte (1822)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-orthocenter-orthic-triangle-notes.html" title="Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-proportional-triangles-notes.html" title="Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="critical-symbolic-notes-unit-iii-exact-sympy-audit-of-4960-the-51-sign-slip">
+        <span id="fb-03-notes"></span><h1>Critical &amp; Symbolic Notes — Unit III: Exact SymPy Audit of §§ 49–60 &amp; The § 51 Sign Slip<a class="headerlink" href="#critical-symbolic-notes-unit-iii-exact-sympy-audit-of-4960-the-51-sign-slip" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Why Symbolic Verification Matters in Historical Editions</p>
+        <section class="level-2" id="discovery-diagnosis-of-feuerbach-s-51-52-60-sign-substitution-slip">
+        <h2>1. Discovery &amp; Diagnosis of Feuerbach’s § 51 / § 52 / § 60 Sign-Substitution Slip<a class="headerlink" href="#discovery-diagnosis-of-feuerbach-s-51-52-60-sign-substitution-slip" title="Link to this heading">¶</a></h2>
+        <p>When encoding every equation of <a class="citation-ref" id="occ-cite-feuerbach-1822-1" href="../bibliography.html#cite-feuerbach-1822" data-cite="feuerbach_1822" title="Karl Wilhelm Feuerbach — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren (Mit einer Vorrede von Karl Buzengeiger, Nürnberg: Riegel und Wießner, 1822, pp. I–XVI, 1–62, Tab. I–II)">Feuerbach (1822)</a> §§ 49–60 in <code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.feuerbach.euler.prove_euler_1765_identities()</span></code> over <span class="math notranslate nohighlight">\(\mathbb{Q}(a, b, c)\)</span> in <code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code>, a striking philological fact emerged on pages 35, 36, and 40–41:</p>
+        <ul>
+        <li><p>In <strong>§ 51</strong> (p. 35), <a class="person-ref" id="occ-person-feuerbach-1" href="../persons.html#person-feuerbach" data-person="feuerbach" title="Karl Wilhelm Feuerbach (1800–1834) — German geometer; author of the 1822 Nuremberg monograph proving the fourfold tangency of the nine-point circle">Feuerbach</a> proves directly from coordinates the 100% exact incenter quadrance</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OS}^2 = 2r^2 - 2\rho R.\]</div>
+        </li>
+        <li><p>Immediately below on p. 35, he applies his customary substitution <span class="math notranslate nohighlight">\((a, b, c) \mapsto (-a, b, c)\)</span> (introduced in § 8, p. 6, where he noted <code class="docutils literal notranslate"><span class="pre">r</span> <span class="pre">wird</span> <span class="pre">zu</span> <span class="pre">r'</span> <span class="pre">und</span> <span class="pre">+R</span> <span class="pre">zu</span> <span class="pre">-R</span></code>) to write</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OS^{(k)}}^2 \stackrel{\text{1822 text}}{=} 2r^{(k)2} + 2\rho R \qquad \text{(printed slip!)}.\]</div>
+        </li>
+        <li><p><strong>Why this fails algebraically</strong>: By <strong>§ 24</strong> (p. 18) and <span class="math notranslate nohighlight">\(R = \frac{abc}{4\Delta}\)</span>,</p>
+        <div class="math notranslate nohighlight">
+        \[\rho = \frac{(-a^2+b^2+c^2)(a^2-b^2+c^2)(a^2+b^2-c^2)}{16abc\Delta},
+        \qquad
+        \rho R = \frac{(-a^2+b^2+c^2)(a^2-b^2+c^2)(a^2+b^2-c^2)}{64\Delta^2}.\]</div>
+        <p>Under <span class="math notranslate nohighlight">\(a \mapsto -a\)</span> (holding <span class="math notranslate nohighlight">\(+\Delta\)</span> positive), <strong>both</strong> <span class="math notranslate nohighlight">\(R\)</span> <strong>and</strong> <span class="math notranslate nohighlight">\(\rho\)</span> <strong>reverse sign</strong> (<span class="math notranslate nohighlight">\(R \mapsto -R\)</span> and <span class="math notranslate nohighlight">\(\rho \mapsto -\rho\)</span>), so their product <span class="math notranslate nohighlight">\(\rho R\)</span>—which depends solely on <span class="math notranslate nohighlight">\(a^2, b^2, c^2\)</span>—is <strong>strictly invariant</strong>!</p>
+        </li>
+        </ul>
+        <table class="docutils align-default" id="id1">
+        <caption><span class="caption-text">Exact Symbolic Comparison on <code class="docutils literal notranslate"><span class="pre">(a,</span> <span class="pre">b,</span> <span class="pre">c)</span> <span class="pre">=</span> <span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> (<span class="math notranslate nohighlight">\(R = \tfrac{65}{8}, r = 4, r_a = 14, \rho = \tfrac{99}{52}\)</span>)</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 18.0%" />
+        <col style="width: 28.0%" />
+        <col style="width: 28.0%" />
+        <col style="width: 26.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Locus</p></th>
+        <th class="head"><p>1822 Printed Formula</p></th>
+        <th class="head"><p>True Exact Formula (<code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code>)</p></th>
+        <th class="head"><p>Value on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> (<span class="math notranslate nohighlight">\(2\rho R = \frac{495}{16}\)</span>)</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><strong>§ 51</strong> (<span class="math notranslate nohighlight">\(\overline{OS}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(2r^2 - 2\rho R\)</span> (<strong>exact</strong>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(2r^2 - 2\rho R\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(32 - \frac{495}{16} = \frac{17}{16}\)</span></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§ 51</strong> (<span class="math notranslate nohighlight">\(\overline{OS_a}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(2r_a^2 + 2\rho R\)</span> (<em>slip</em>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(2r_a^2 - 2\rho R\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(392 - \frac{495}{16} = \frac{5777}{16}\)</span> (printed gives <span class="math notranslate nohighlight">\(\frac{6767}{16}\)</span>)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 52</strong> (<span class="math notranslate nohighlight">\(\sum \overline{OS_i}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(4R(4R - \rho)\)</span> (<em>slip</em>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(16R(R - \rho)\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{12935}{16}\)</span></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§ 57</strong> (<span class="math notranslate nohighlight">\(LS, LS_k\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{1}{2}R - r,\; \frac{1}{2}R + r_k\)</span> (<strong>exact!</strong>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(\left|\frac{1}{2}R - r\right|,\; \frac{1}{2}R + r_k\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{1}{16},\; \frac{289}{16},\; \frac{233}{16},\; \frac{257}{16}\)</span></p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 59</strong> (<span class="math notranslate nohighlight">\(\sum \overline{LS_i}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(13R^2 - 4\rho R\)</span> (<strong>exact!</strong>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(13R^2 - 4\rho R\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{52945}{64}\)</span></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>§ 60</strong> (<span class="math notranslate nohighlight">\(\overline{GS}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{2}{9}R(2R+\rho) - \frac{2}{3}r(2R-r)\)</span> (<strong>exact</strong>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{2}{9}R(2R+\rho) - \frac{2}{3}r(2R-r)\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{1}{9}\)</span></p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>§ 60</strong> (<span class="math notranslate nohighlight">\(9\sum \overline{GS_i}^2\)</span>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(7\sum \overline{OS_i}^2 = 28R(4R-\rho)\)</span> (<em>slip</em>)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(16R(7R - \rho)\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(\frac{116855}{16}\)</span></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="why-57-feuerbach-s-theorem-and-59-are-100-unscathed">
+        <h2>2. Why <strong>§ 57 (Feuerbach’s Theorem)</strong> and <strong>§ 59</strong> Are 100% Unscathed!<a class="headerlink" href="#why-57-feuerbach-s-theorem-and-59-are-100-unscathed" title="Link to this heading">¶</a></h2>
+        <p>Why did the § 51 sign slip fail to corrupt <strong>§ 57</strong> or <strong>§ 59</strong>? Look at the exact order of operations on page 38 (<cite>fb_058.jpg</cite>):</p>
+        <ol class="arabic simple">
+        <li><p>First, for the <strong>incenter</strong> <span class="math notranslate nohighlight">\(S\)</span> (where <span class="math notranslate nohighlight">\(\overline{OS}^2 = 2r^2 - 2\rho R\)</span> is 100% exact!), Apollonius’s median theorem <span class="math notranslate nohighlight">\(2\overline{LS}^2 + 2\overline{OL}^2 = \overline{KS}^2 + \overline{OS}^2\)</span> cancels <span class="math notranslate nohighlight">\(-2\rho R\)</span> against <span class="math notranslate nohighlight">\(2\overline{OL}^2 = \frac{1}{2}R^2 - 2\rho R\)</span>, leaving <span class="math notranslate nohighlight">\(LS = \frac{1}{2}R - r\)</span> <strong>with</strong> <span class="math notranslate nohighlight">\(\rho\)</span> <strong>eliminated</strong>.</p></li>
+        <li><p>Second, rather than substituting his § 51 expression for <span class="math notranslate nohighlight">\(\overline{OS'}^2\)</span> into the median theorem (which would have left a spurious <span class="math notranslate nohighlight">\(+4\rho R\)</span>), Feuerbach substituted <span class="math notranslate nohighlight">\(a, b, c \mapsto -a, -b, -c\)</span> <strong>directly into</strong> <span class="math notranslate nohighlight">\(LS = \frac{1}{2}R - r\)</span>, where <span class="math notranslate nohighlight">\(\rho\)</span> was already gone! Thus <span class="math notranslate nohighlight">\(R \mapsto -R\)</span> and <span class="math notranslate nohighlight">\(r \mapsto r^{(k)}\)</span> yielded the completely exact <span class="math notranslate nohighlight">\(LS^{(k)} = \frac{1}{2}R + r^{(k)}\)</span>, and squaring those exact expressions in <strong>§ 59</strong> gave the exact sum <span class="math notranslate nohighlight">\(13R^2 - 4\rho R\)</span> (which also validates <span class="math notranslate nohighlight">\(\sum \overline{OS_i}^2 = 16R(R - \rho)\)</span> via <span class="math notranslate nohighlight">\(2\sum \overline{LS_i}^2 + 8\overline{OL}^2 = \sum \overline{KS_i}^2 + \sum \overline{OS_i}^2\)</span>!).</p></li>
+        </ol>
+        </section>
+        <section class="level-2" id="compositorial-typo-in-55-p-37-and-nine-point-history">
+        <h2>3. Compositorial Typo in § 55 (p. 37) and Nine-Point History<a class="headerlink" href="#compositorial-typo-in-55-p-37-and-nine-point-history" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>p. 37, § 55, line 6</strong>: Prints <code class="docutils literal notranslate"><span class="pre">OL^2</span> <span class="pre">=</span> <span class="pre">1/2</span> <span class="pre">R^2</span> <span class="pre">-</span> <span class="pre">rho</span> <span class="pre">R</span></code> where § 54 (three lines above on p. 37) established <code class="docutils literal notranslate"><span class="pre">OL^2</span> <span class="pre">=</span> <span class="pre">1/4</span> <span class="pre">R^2</span> <span class="pre">-</span> <span class="pre">rho</span> <span class="pre">R</span></code>; the immediately following deduction <code class="docutils literal notranslate"><span class="pre">LP^2</span> <span class="pre">-</span> <span class="pre">OL^2</span> <span class="pre">=</span> <span class="pre">OP</span> <span class="pre">.</span> <span class="pre">Kc</span> <span class="pre">=</span> <span class="pre">rho</span> <span class="pre">R</span></code> uses the true <code class="docutils literal notranslate"><span class="pre">1/4</span> <span class="pre">R^2</span> <span class="pre">-</span> <span class="pre">rho</span> <span class="pre">R</span></code>.</p></li>
+        <li><p><strong>From Six Points to Nine Points (1821–1842)</strong>: In §§ 54–56 (and synthetically in <cite>9. Satz</cite>), Feuerbach explicitly proves concyclicity of the <strong>six</strong> points (three altitude feet + three side midpoints), while <a class="person-ref" id="occ-person-brianchon-1" href="../persons.html#person-brianchon" data-person="brianchon" title="Charles Julien Brianchon (1783–1864) — French projective geometer; co-published with Poncelet in 1820–1821 the nine-point concurrency on the hyperbolacircle locus">Brianchon</a> and <a class="person-ref" id="occ-person-poncelet-1" href="../persons.html#person-poncelet" data-person="poncelet" title="Jean-Victor Poncelet (1788–1867) — French geometer; co-author with Brianchon (1821) of the independent French proof of the nine-point circle">Poncelet</a> (<a class="citation-ref" id="occ-cite-brianchon-poncelet-1821-1" href="../bibliography.html#cite-brianchon-poncelet-1821" data-cite="brianchon_poncelet_1821" title="Charles Julien Brianchon &amp; Jean-Victor Poncelet — Recherches sur la détermination d&#x27;une hyperbole équilatère, au moyen de quatre conditions données (Annales de mathématiques pures et appliquées, Tom. XI (1820–1821), pp. 205–220)">1821</a>) independently proved concyclicity of all nine points (adding the three Euler midpoints <span class="geom-ref" data-ref="0038.g1:E1" title="E1">E<sub>1</sub></span>, <span class="geom-ref" data-ref="0038.g1:E2" title="E2">E<sub>2</sub></span>, <span class="geom-ref" data-ref="0038.g1:E3" title="E3">E<sub>3</sub></span> of <span class="math notranslate nohighlight">\(AO, BO, CO\)</span>), and <a class="person-ref" id="occ-person-terquem-1" href="../persons.html#person-terquem" data-person="terquem" title="Olry Terquem (1782–1862) — French mathematician; coined the term &#x27;nine-point circle&#x27; (cercle des neuf points) in 1842">Olry Terquem</a> (<a class="citation-ref" id="occ-cite-terquem-1842-1" href="../bibliography.html#cite-terquem-1842" data-cite="terquem_1842" title="Olry Terquem — Considérations sur le triangle rectiligne (Nouvelles annales de mathématiques, Tom. I (1842), pp. 79–84, 196–200)">1842</a>) coined the name <em>cercle des neuf points</em> (<a class="term-ref glossary-term" id="occ-term-nine-point-circle-1" href="../glossary.html#term-nine-point-circle" data-term="nine-point-circle" title="Nine-Point Circle (Kreis durch die Fußpunkte der Perpendikel) (Circle (X(5), R/2)): The circle of radius R/2 centered at the midpoint L = X(5) of the orthocenter-circumcenter segment, passing through the three altitude feet, the three side midpoints, and the three Euler midpoints toward the orthocenter (Feuerbach 1822, §§ 26, 54–56, 9. Satz).">nine-point circle</a>). Notably, Feuerbach already knew <span class="math notranslate nohighlight">\(AO = 2\,Ka\)</span> (§ 47) and <span class="math notranslate nohighlight">\(L = \operatorname{mid}(KO)\)</span> (§ 55), from which <span class="math notranslate nohighlight">\(LE_a = LK_a\)</span>? Rather, <span class="math notranslate nohighlight">\(LE_a = \frac{1}{2}AK = \frac{1}{2}R\)</span> follows in a single line by midline homothety!</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-orthocenter-orthic-triangle-notes.html" title="Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)">&larr; <span class="nav-label">Unit II: Second Section — The Orthocenter, Orthic Triangle & Inradius ρ (§§ 19–48)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-proportional-triangles-notes.html" title="Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)"><span class="nav-label">Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

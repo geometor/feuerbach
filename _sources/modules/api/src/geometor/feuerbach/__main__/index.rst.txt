@@ -1,0 +1,31 @@
+src.geometor.feuerbach.__main__
+===============================
+
+.. py:module:: src.geometor.feuerbach.__main__
+
+.. autoapi-nested-parse::
+
+   Command-line entrypoint for verifying Euler–Feuerbach symbolic proofs and exporting SVGs.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.__main__.main
+
+
+Module Contents
+---------------
+
+.. py:function:: main(argv: Sequence[str] | None = None) -> int
+
+   Run exact symbolic checks and optionally export ``.euclid-graphic`` SVGs.
+
+   :param argv: Optional CLI argument list.
+
+   :returns: Process exit code (``0`` on full symbolic verification).
+
+

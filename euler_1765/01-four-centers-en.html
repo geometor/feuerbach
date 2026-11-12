@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit I: The Four Classical Triangle Centers &amp; Orthogonal Coordinates (§§ 1–9) &mdash; Solutio facilis problematum (1765)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Solutio facilis problematum (1765)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="index.html" title="SOLVTIO FACILIS PROBLEMATVM QVORVMDAM GEOMETRICORVM DIFFICILLIMORVM (1765/1767)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="01-four-centers-la.html">Latin</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="01-four-centers-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="01-four-centers-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-en.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-i-the-four-classical-triangle-centers-orthogonal-coordinates-19">
+        <span id="euler-01-en"></span><h1>Unit I: The Four Classical Triangle Centers &amp; Orthogonal Coordinates (§§ 1–9)<a class="headerlink" href="#unit-i-the-four-classical-triangle-centers-orthogonal-coordinates-19" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Leonhard Euler — <em>An Easy Solution of Certain Very Difficult Geometric Problems</em> (1765/1767, pp. 103–107)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#enumeration-of-the-four-notable-points-of-any-triangle" id="id1">§ 1. Enumeration of the Four Notable Points of Any Triangle</a></p></li>
+        <li><p><a class="reference internal" href="#the-four-inverse-triangle-determination-problems" id="id2">§ 2. The Four Inverse Triangle-Determination Problems</a></p></li>
+        <li><p><a class="reference internal" href="#strategic-choice-of-unknowns-and-promise-of-mutual-properties" id="id3">§ 3. Strategic Choice of Unknowns and Promise of Mutual Properties</a></p></li>
+        <li><p><a class="reference internal" href="#separation-of-the-four-diagrams-tab-ii-fig-14" id="id4">§ 4. Separation of the Four Diagrams (Tab. II, Fig. 1–4)</a></p></li>
+        <li><p><a class="reference internal" href="#base-coordinates-and-heron-s-area-formula" id="id5">§ 5. Base Coordinates and Heron’s Area Formula</a></p></li>
+        <li><p><a class="reference internal" href="#i-for-the-intersection-of-the-perpendiculars-e" id="id6">§ 6. I. For the Intersection of the Perpendiculars E</a></p></li>
+        <li><p><a class="reference internal" href="#ii-for-the-center-of-gravity-f" id="id7">§ 7. II. For the Center of Gravity F</a></p></li>
+        <li><p><a class="reference internal" href="#iii-for-the-center-of-the-inscribed-circle-g" id="id8">§ 8. III. For the Center of the Inscribed Circle G</a></p></li>
+        <li><p><a class="reference internal" href="#iv-for-the-center-of-the-circumscribed-circle-h" id="id9">§ 9. IV. For the Center of the Circumscribed Circle H</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 1" data-folio="§ 1" data-page="103">[Folio § 1 | p. 103]</div>
+        <section class="level-2" id="enumeration-of-the-four-notable-points-of-any-triangle">
+        <h2>§ 1. Enumeration of the Four Notable Points of Any Triangle<a class="headerlink" href="#enumeration-of-the-four-notable-points-of-any-triangle" title="Link to this heading">¶</a></h2>
+        <p>In every triangle there are chiefly four points that are accustomed to be considered in Geometry:</p>
+        <ol class="arabic simple">
+        <li><p>The intersection of the three perpendiculars dropped from the several vertices upon the opposite sides [<a class="term-ref glossary-term" id="occ-term-euler-line-1" href="../glossary.html#term-euler-line" data-term="euler-line" title="Euler Line (Linea Euleri / Eulersche Gerade) (Collinear axis of X(4), X(5), X(2), X(3)): The straight line discovered by Euler in E325 (§§ 16–18, 1765/1767) passing through the orthocenter E = X(4), centroid F = X(2), and circumcenter H = X(3) with ratio EF : FH = 2 : 1, and bisecting segment EH at the nine-point center L = X(5).">orthocenter</a> <span class="math notranslate nohighlight">\(E = X(4)\)</span>].</p></li>
+        <li><p>The intersection of the three straight lines drawn from the several vertices bisecting the opposite sides; which point is at the same time the center of gravity of the triangle [centroid <span class="math notranslate nohighlight">\(F = X(2)\)</span>].</p></li>
+        <li><p>The intersection of the three straight lines bisecting the several angles, upon which point falls the center of the circle inscribed in the triangle <span class="justification" data-ref-target="IV.4" title="IV.4">[IV. 4]</span> [incenter <span class="math notranslate nohighlight">\(G = X(1)\)</span>].</p></li>
+        <li><p>The intersection of the three straight lines normal to the several sides and bisecting them, at which point is found the center of the circle circumscribed about the triangle <span class="justification" data-ref-target="IV.5" title="IV.5">[IV. 5]</span> [circumcenter <span class="math notranslate nohighlight">\(H = X(3)\)</span>].</p></li>
+        </ol>
+        </section>
+        <section class="level-2" id="the-four-inverse-triangle-determination-problems">
+        <span id="euler-en-s2"></span><h2>§ 2. The Four Inverse Triangle-Determination Problems<a class="headerlink" href="#the-four-inverse-triangle-determination-problems" title="Link to this heading">¶</a></h2>
+        <p>From these four points, if any three whatever are given in position, it is evident that the triangle is determined therefrom, unless perchance those points coalesce into one—which happens in the equilateral triangle, in which case all equilateral triangles equally satisfy the problem.</p>
+        <div class="folio-milestone" id="folio-§ 2 (cont.)" data-folio="§ 2 (cont.)" data-page="104">[Folio § 2 (cont.) | p. 104]</div>
+        <p>Hence therefore four problems arise, according as each one of those four points is omitted for the determination of the triangle; and how these may be most conveniently resolved, I have undertaken to show here.</p>
+        </section>
+        <section class="level-2" id="strategic-choice-of-unknowns-and-promise-of-mutual-properties">
+        <span id="euler-en-s3"></span><h2>§ 3. Strategic Choice of Unknowns and Promise of Mutual Properties<a class="headerlink" href="#strategic-choice-of-unknowns-and-promise-of-mutual-properties" title="Link to this heading">¶</a></h2>
+        <p>That these problems, however, are most difficult to solve, anyone who attacks them will soon experience, since it can scarcely be perceived what sort of unknown quantities ought to be introduced into the calculation so as even to arrive at equations containing the solution. The whole business therefore reduces to a suitable choice of unknown quantities, wherein above all care must be taken lest we fall into most tedious and altogether inextricable calculations. Moreover, once all difficulties have been happily overcome, certain remarkable properties among those four points reveal themselves, the knowledge of which must be judged of no small importance in Geometry.</p>
+        </section>
+        <section class="level-2" id="separation-of-the-four-diagrams-tab-ii-fig-14">
+        <span id="euler-en-s4"></span><h2>§ 4. Separation of the Four Diagrams (Tab. II, Fig. 1–4)<a class="headerlink" href="#separation-of-the-four-diagrams-tab-ii-fig-14" title="Link to this heading">¶</a></h2>
+        <p>Lest the figures be burdened by an excessive multitude of lines to be drawn in them, I exhibit the same triangle <span class="math notranslate nohighlight">\(ABC\)</span> four times (<cite>Tab. II, Fig. 1, 2, 3, 4</cite>):</p>
+        <ul class="simple">
+        <li><p>In the first (<cite>Fig. 1</cite>), the straight lines <span class="math notranslate nohighlight">\(AM\)</span>, <span class="math notranslate nohighlight">\(BN\)</span>, and <span class="math notranslate nohighlight">\(CP\)</span> [printed <span class="math notranslate nohighlight">\(CN\)</span> in the 1767 folio] are normal to the opposite sides, and I denote their intersection by the letter <span class="geom-ref" data-ref="0114.g1:X4" title="X4">E</span>, where the first point of those four which I have mentioned is situated.</p></li>
+        <li><p>In the second figure (<cite>Fig. 2</cite>), the straight lines <span class="math notranslate nohighlight">\(Aa\)</span>, <span class="math notranslate nohighlight">\(Bb\)</span>, and <span class="math notranslate nohighlight">\(Cc\)</span> bisect the opposite sides, whose intersection indicates the second point <span class="geom-ref" data-ref="0114.g1:X2" title="X2">F</span> of those four mentioned points, and the center of gravity of the triangle.</p></li>
+        </ul>
+        <div class="folio-milestone" id="folio-§ 4 (cont.)" data-folio="§ 4 (cont.)" data-page="105">[Folio § 4 (cont.) | p. 105]</div>
+        <ul class="simple">
+        <li><p>In the third figure (<cite>Fig. 3</cite>), the straight lines <span class="math notranslate nohighlight">\(A\alpha\)</span>, <span class="math notranslate nohighlight">\(B\beta\)</span>, <span class="math notranslate nohighlight">\(C\gamma\)</span> bisect the angles <span class="math notranslate nohighlight">\(A, B, C\)</span>, and their intersection <span class="geom-ref" data-ref="0114.g1:X1" title="X1">G</span> furnishes the third point mentioned above, namely the center of the inscribed circle.</p></li>
+        <li><p>Finally, in the fourth figure (<cite>Fig. 4</cite>), from the midpoints <span class="math notranslate nohighlight">\(S, T, V\)</span> of the several sides there are erected perpendiculars <span class="math notranslate nohighlight">\(SH, TH\)</span>, and <span class="math notranslate nohighlight">\(VH\)</span>, exhibiting by their intersection <span class="geom-ref" data-ref="0114.g1:X3" title="X3">H</span> the center of the circumscribed circle.</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="base-coordinates-and-heron-s-area-formula">
+        <span id="euler-en-s5"></span><h2>§ 5. Base Coordinates and Heron’s Area Formula<a class="headerlink" href="#base-coordinates-and-heron-s-area-formula" title="Link to this heading">¶</a></h2>
+        <p>So that I may define the position of these four points more easily and subsequently compare them with one another, from each of them upon the side <span class="math notranslate nohighlight">\(AB\)</span> assumed as base I drop the perpendiculars <span class="math notranslate nohighlight">\(EP\)</span>, <span class="math notranslate nohighlight">\(FQ\)</span>, <span class="math notranslate nohighlight">\(GR\)</span>, and <span class="math notranslate nohighlight">\(HS\)</span>—of which indeed the first and the fourth already occur in the construction itself. Next I call the three sides of the triangle:</p>
+        <div class="math notranslate nohighlight">
+        \[AB = c, \qquad AC = b, \qquad \text{and} \qquad BC = a.\]</div>
+        <p>Furthermore, it is also fitting to bring the area of the triangle into the reckoning; let it be <span class="math notranslate nohighlight">\(= \mathcal{A}\)</span>, and as is well known we shall have:</p>
+        <div class="math notranslate nohighlight">
+        \[\mathcal{A}^2 = \frac{1}{16}(a + b + c)(a + b - c)(b + c - a)(c + a - b)\]</div>
+        <p>or</p>
+        <div class="math notranslate nohighlight">
+        \[\mathcal{A}^2 = \frac{1}{16}\left(2a^2b^2 + 2a^2c^2 + 2b^2c^2 - a^4 - b^4 - c^4\right).\]</div>
+        <p>Hence therefore I investigate separately the position of each of these four points with respect to the base <span class="math notranslate nohighlight">\(AB\)</span> in the following manner (<cite>Tab. II, Fig. 1</cite>).</p>
+        </section>
+        <section class="level-2" id="i-for-the-intersection-of-the-perpendiculars-e">
+        <span id="euler-en-s6"></span><h2>§ 6. I. For the Intersection of the Perpendiculars E<a class="headerlink" href="#i-for-the-intersection-of-the-perpendiculars-e" title="Link to this heading">¶</a></h2>
+        <p>First, from the <em>Elements</em> <span class="justification">[<span data-ref-target="II.12" title="II.12">II. 12</span>, <span data-ref-target="II.13" title="II.13">13</span>]</span> it is established that:</p>
+        <div class="math notranslate nohighlight">
+        \[AP = \frac{c^2 + b^2 - a^2}{2c}, \qquad \text{and in like manner} \qquad BM = \frac{a^2 + c^2 - b^2}{2a}.\]</div>
+        <p>Next, since <span class="math notranslate nohighlight">\(\tfrac{1}{2} AM \cdot BC = \mathcal{A}\)</span>, we shall have <span class="math notranslate nohighlight">\(AM = \frac{2\mathcal{A}}{a}\)</span>,</p>
+        <div class="folio-milestone" id="folio-§ 6 (cont.)" data-folio="§ 6 (cont.)" data-page="106">[Folio § 6 (cont.) | p. 106]</div>
+        <p>whence the similarity of triangles <span class="math notranslate nohighlight">\(ABM\)</span> and <span class="math notranslate nohighlight">\(AEP\)</span> <span class="justification" data-ref-target="VI.4" title="VI.4">[VI. 4]</span> furnishes</p>
+        <div class="math notranslate nohighlight">
+        \[AM : BM = AP : EP\]</div>
+        <p>and hence we obtain</p>
+        <div class="math notranslate nohighlight">
+        \[EP = \frac{(c^2 + b^2 - a^2)(a^2 + c^2 - b^2)}{8c\mathcal{A}}.\]</div>
+        <p>Wherefore the position of point <span class="math notranslate nohighlight">\(E\)</span> with respect to the base <span class="math notranslate nohighlight">\(AB\)</span> is so defined that:</p>
+        <div class="math notranslate nohighlight">
+        \[AP = \frac{c^2 + b^2 - a^2}{2c} \qquad \text{and} \qquad PE = \frac{(c^2 + b^2 - a^2)(a^2 + c^2 - b^2)}{8c\mathcal{A}}.\]</div>
+        </section>
+        <section class="level-2" id="ii-for-the-center-of-gravity-f">
+        <span id="euler-en-s7"></span><h2>§ 7. II. For the Center of Gravity F<a class="headerlink" href="#ii-for-the-center-of-gravity-f" title="Link to this heading">¶</a></h2>
+        <p>Having dropped from angle <span class="math notranslate nohighlight">\(C\)</span> upon the base <span class="math notranslate nohighlight">\(AB\)</span> the perpendicular <span class="math notranslate nohighlight">\(CP\)</span> (<cite>Tab. II, Fig. 2</cite>), we have as before <span class="math notranslate nohighlight">\(AP = \frac{c^2 + b^2 - a^2}{2c}\)</span> and <span class="math notranslate nohighlight">\(CP = \frac{2\mathcal{A}}{c}\)</span>. Now from the elements of statics and geometry it is established that <span class="math notranslate nohighlight">\(FQ = \tfrac{1}{3}CP = \frac{2\mathcal{A}}{3c}\)</span> and <span class="math notranslate nohighlight">\(cQ = \tfrac{1}{3}cP\)</span> [where <span class="math notranslate nohighlight">\(c\)</span> denotes the midpoint of base <span class="math notranslate nohighlight">\(AB\)</span>]. Since however <span class="math notranslate nohighlight">\(Ac = \tfrac{1}{2}c\)</span>, we shall have <span class="math notranslate nohighlight">\(cP = \frac{b^2 - a^2}{2c}\)</span>, and therefore <span class="math notranslate nohighlight">\(cQ = \frac{b^2 - a^2}{6c}\)</span> [printed <span class="math notranslate nohighlight">\(bc\)</span> in the 1767 folio], and consequently <span class="math notranslate nohighlight">\(AQ = \frac{3c^2 + b^2 - a^2}{6c}\)</span>. On account of which the position of point <span class="math notranslate nohighlight">\(F\)</span> with respect to the base <span class="math notranslate nohighlight">\(AB\)</span> is so defined that:</p>
+        <div class="math notranslate nohighlight">
+        \[AQ = \frac{3c^2 + b^2 - a^2}{6c} \qquad \text{and} \qquad QF = \frac{2\mathcal{A}}{3c}.\]</div>
+        </section>
+        <section class="level-2" id="iii-for-the-center-of-the-inscribed-circle-g">
+        <span id="euler-en-s8"></span><h2>§ 8. III. For the Center of the Inscribed Circle G<a class="headerlink" href="#iii-for-the-center-of-the-inscribed-circle-g" title="Link to this heading">¶</a></h2>
+        <p>Since <span class="math notranslate nohighlight">\(GR\)</span> (<cite>Fig. 3</cite>) is the radius of the inscribed circle, <span class="math notranslate nohighlight">\(\tfrac{1}{2}GR(a + b + c)\)</span> will be the area of the triangle <span class="math notranslate nohighlight">\(= \mathcal{A}\)</span>, whence <span class="math notranslate nohighlight">\(GR = \frac{2\mathcal{A}}{a + b + c}\)</span>. Next, setting the segment <span class="math notranslate nohighlight">\(AR = x\)</span>, if an equal portion is cut off from <span class="math notranslate nohighlight">\(AC\)</span> starting from <span class="math notranslate nohighlight">\(A\)</span>, one will obtain there the point of tangency <span class="justification" data-ref-target="III.17" title="III.17">[III. 17]</span>, from which accordingly the point <span class="math notranslate nohighlight">\(C\)</span> stands at the interval <span class="math notranslate nohighlight">\(= b - x\)</span>. Furthermore, since <span class="math notranslate nohighlight">\(BR = c - x\)</span>, if from side <span class="math notranslate nohighlight">\(BC\)</span> starting from <span class="math notranslate nohighlight">\(B\)</span> [printed <span class="math notranslate nohighlight">\(A\)</span> in the 1767 folio] an equal interval <span class="math notranslate nohighlight">\(c - x\)</span> is cut off,</p>
+        <div class="folio-milestone" id="folio-§ 8 (cont.)" data-folio="§ 8 (cont.)" data-page="107">[Folio § 8 (cont.) | p. 107]</div>
+        <p>that side will there be touched by the circle, whence point <span class="math notranslate nohighlight">\(C\)</span> will stand from that point at the interval <span class="math notranslate nohighlight">\(= a - c + x\)</span>; since by the nature of the circle this is equal to the former <span class="math notranslate nohighlight">\(b - x\)</span>, we shall have <span class="math notranslate nohighlight">\(x = \frac{c + b - a}{2}\)</span>. Wherefore this point <span class="math notranslate nohighlight">\(G\)</span> with respect to the base <span class="math notranslate nohighlight">\(AB\)</span> is so defined that:</p>
+        <div class="math notranslate nohighlight">
+        \[AR = \frac{c + b - a}{2} \qquad \text{and} \qquad RG = \frac{2\mathcal{A}}{a + b + c}.\]</div>
+        </section>
+        <section class="level-2" id="iv-for-the-center-of-the-circumscribed-circle-h">
+        <span id="euler-en-s9"></span><h2>§ 9. IV. For the Center of the Circumscribed Circle H<a class="headerlink" href="#iv-for-the-center-of-the-circumscribed-circle-h" title="Link to this heading">¶</a></h2>
+        <p>Here indeed (<cite>Tab. II, Fig. 4</cite>) we have immediately from the construction <span class="math notranslate nohighlight">\(AS = \tfrac{1}{2}c\)</span>. Next, having drawn from <span class="math notranslate nohighlight">\(A\)</span> upon <span class="math notranslate nohighlight">\(BC\)</span> the perpendicular <span class="math notranslate nohighlight">\(AM\)</span>, we shall have <span class="math notranslate nohighlight">\(AM = \frac{2\mathcal{A}}{a}\)</span> and <span class="math notranslate nohighlight">\(CM = \frac{a^2 + b^2 - c^2}{2a}\)</span>. Having joined the straight line <span class="math notranslate nohighlight">\(AH\)</span>, however, from the nature of the circle <span class="justification" data-ref-target="III.20" title="III.20">[III. 20]</span> it is clear that angle <span class="math notranslate nohighlight">\(AHS\)</span> will be equal to angle <span class="math notranslate nohighlight">\(ACB\)</span>, and therefore triangle <span class="math notranslate nohighlight">\(AHS\)</span> will be similar to triangle <span class="math notranslate nohighlight">\(ACM\)</span> <span class="justification" data-ref-target="VI.4" title="VI.4">[VI. 4]</span>, whence we obtain:</p>
+        <div class="math notranslate nohighlight">
+        \[AM : CM = AS : HS\]</div>
+        <p>and thus we collect <span class="math notranslate nohighlight">\(HS = \frac{c(a^2 + b^2 - c^2)}{8\mathcal{A}}\)</span>. Wherefore the position of point <span class="math notranslate nohighlight">\(H\)</span> with respect to the base <span class="math notranslate nohighlight">\(AB\)</span> is so defined that:</p>
+        <div class="math notranslate nohighlight">
+        \[AS = \frac{1}{2}c \qquad \text{and} \qquad SH = \frac{c(a^2 + b^2 - c^2)}{8\mathcal{A}}.\]</div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="index.html" title="SOLVTIO FACILIS PROBLEMATVM QVORVMDAM GEOMETRICORVM DIFFICILLIMORVM (1765/1767)">&larr; <span class="nav-label">SOLVTIO FACILIS PROBLEMATVM QVORVMDAM GEOMETRICORVM DIFFICILLIMORVM (1765/1767)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-en.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)"><span class="nav-label">Unit II: Symmetric Polynomials, Six Mutual Quadrances & The Euler Line (§§ 10–18)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

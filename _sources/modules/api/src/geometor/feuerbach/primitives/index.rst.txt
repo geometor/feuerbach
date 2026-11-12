@@ -1,0 +1,107 @@
+src.geometor.feuerbach.primitives
+=================================
+
+.. py:module:: src.geometor.feuerbach.primitives
+
+.. autoapi-nested-parse::
+
+   Euclidean compass-and-straightedge sub-constructions for triangle geometry.
+
+   Every helper in this module operates strictly inside a :class:`~geometor.model.Model`
+   using exact symbolic :mod:`sympy` coordinates, targeted :meth:`~geometor.model.Model.intersect`
+   selectors, and :func:`~geometor.model.proposition` guide encapsulation—never injecting
+   floating-point numbers or synthetic coordinate formulas.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.primitives.construct_perp_bisector
+   src.geometor.feuerbach.primitives.construct_midpoint
+   src.geometor.feuerbach.primitives.construct_altitude_line
+   src.geometor.feuerbach.primitives.construct_altitude_foot
+   src.geometor.feuerbach.primitives.construct_angle_bisectors
+
+
+Module Contents
+---------------
+
+.. py:function:: construct_perp_bisector(model: geometor.model.Model, pt_a: sympy.geometry.Point, pt_b: sympy.geometry.Point, *, ID: str = '', classes: list[str] | None = None) -> sympy.geometry.Line
+
+   Construct the perpendicular bisector of segment ``AB`` via equilateral poles.
+
+   :param model: Target :class:`~geometor.model.Model`.
+   :param pt_a: First endpoint ``A``.
+   :param pt_b: Second endpoint ``B``.
+   :param ID: Optional identifier for the constructed line.
+   :param classes: Optional CSS/semantic class labels.
+
+   :returns: The exact :class:`sympy.geometry.Line` perpendicularly bisecting ``AB``.
+
+
+.. py:function:: construct_midpoint(model: geometor.model.Model, pt_a: sympy.geometry.Point, pt_b: sympy.geometry.Point, *, ID: str = '', classes: list[str] | None = None) -> sympy.geometry.Point
+
+   Construct the exact Euclidean midpoint of ``pt_a`` and ``pt_b``.
+
+   :param model: Target :class:`~geometor.model.Model`.
+   :param pt_a: First endpoint ``A``.
+   :param pt_b: Second endpoint ``B``.
+   :param ID: Optional identifier for the midpoint.
+   :param classes: Optional CSS/semantic class labels.
+
+   :returns: The exact midpoint :class:`sympy.geometry.Point` on ``[pt_a, pt_b]``.
+
+
+.. py:function:: construct_altitude_line(model: geometor.model.Model, vertex: sympy.geometry.Point, side_p1: sympy.geometry.Point, side_p2: sympy.geometry.Point, *, ID: str = '', classes: list[str] | None = None) -> sympy.geometry.Line
+
+   Construct the perpendicular line from ``vertex`` onto line ``[side_p1, side_p2]``.
+
+   Reflects ``vertex`` across ``[side_p1, side_p2]`` via circles ``(side_p1, vertex)``
+   and ``(side_p2, vertex)`` so that no irrational intermediate radicals are introduced
+   when ``vertex``, ``side_p1``, and ``side_p2`` have rational coordinates.
+
+   :param model: Target :class:`~geometor.model.Model`.
+   :param vertex: Point outside the line ``[side_p1, side_p2]``.
+   :param side_p1: First distinct point defining the target line.
+   :param side_p2: Second distinct point defining the target line.
+   :param ID: Optional identifier for the altitude line.
+   :param classes: Optional CSS/semantic class labels.
+
+   :returns: The exact perpendicular :class:`sympy.geometry.Line` through ``vertex``.
+
+
+.. py:function:: construct_altitude_foot(model: geometor.model.Model, vertex: sympy.geometry.Point, side_p1: sympy.geometry.Point, side_p2: sympy.geometry.Point, *, ID: str = '', classes: list[str] | None = None) -> sympy.geometry.Point
+
+   Construct the orthogonal projection (pedal foot) of ``vertex`` onto ``[side_p1, side_p2]``.
+
+   :param model: Target :class:`~geometor.model.Model`.
+   :param vertex: Point outside the line ``[side_p1, side_p2]``.
+   :param side_p1: First distinct point defining the target line.
+   :param side_p2: Second distinct point defining the target line.
+   :param ID: Optional identifier for the pedal foot.
+   :param classes: Optional CSS/semantic class labels.
+
+   :returns: The orthogonal foot :class:`sympy.geometry.Point` on ``[side_p1, side_p2]``.
+
+
+.. py:function:: construct_angle_bisectors(model: geometor.model.Model, vertex: sympy.geometry.Point, ray_p1: sympy.geometry.Point, ray_p2: sympy.geometry.Point, *, internal_id: str = '', external_id: str = '', classes: list[str] | None = None) -> tuple[sympy.geometry.Line, sympy.geometry.Line]
+
+   Construct both the internal and external angle bisectors at ``vertex``.
+
+   Marks equal segments along ``[vertex, ray_p2]`` via circle ``(vertex, ray_p1)``
+   and connects ``vertex`` to the midpoints of the two chords from ``ray_p1``.
+
+   :param model: Target :class:`~geometor.model.Model`.
+   :param vertex: Angle vertex ``V``.
+   :param ray_p1: Point on the first side ray ``VP1``.
+   :param ray_p2: Point on the second side ray ``VP2``.
+   :param internal_id: Optional identifier for the internal angle bisector.
+   :param external_id: Optional identifier for the external angle bisector.
+   :param classes: Optional CSS/semantic class labels.
+
+   :returns: Tuple ``(internal_bisector, external_bisector)`` of orthogonal lines through ``vertex``.
+
+

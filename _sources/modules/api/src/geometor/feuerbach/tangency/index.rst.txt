@@ -1,0 +1,155 @@
+src.geometor.feuerbach.tangency
+===============================
+
+.. py:module:: src.geometor.feuerbach.tangency
+
+.. autoapi-nested-parse::
+
+   Exact Euclidean construction and deductive proof of Feuerbach's Theorem (1822, § 57).
+
+   Constructs on the canonical Heronian ``(15, 13, 14)`` triangle ``A = (0, 0)``, ``B = (14, 0)``,
+   ``C = (5, 12)``:
+
+   - Side midpoints ``Ma, Mb, Mc`` (medial triangle),
+   - Altitude feet ``Ha, Hb, Hc`` (orthic triangle ``MNP``) and orthocenter ``X4 = (5, 15/4)``,
+   - Euler midpoints ``Ea, Eb, Ec`` bisecting ``AX4, BX4, CX4``,
+   - Circumcenter ``X3 = (7, 33/8)``, centroid ``X2 = (19/3, 4)``, and nine-point center
+     ``X5 = (6, 63/16)`` along the harmonic Euler range ``(X4, X2; X5, X3) = -1``,
+   - The nine-point circle passing through all nine canonical points (radius ``65/16``),
+   - Incenter ``X1 = (6, 4)`` with its incircle (radius ``4``) and excenters
+     ``Ja = (21, 14)``, ``Jb = (-7, 21/2)``, ``Jc = (8, -12)`` with their three excircles,
+   - The internal tangency **Feuerbach point** ``X11 = (6, 8)`` and the three external
+     excircle tangency points ``Fea = (2709/289, 1792/289)``, ``Feb = (553/233, 1344/233)``,
+     and ``Fec = (1672/257, -24/257)`` computed directly via :meth:`~geometor.model.Model.intersect`.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.tangency.FeuerbachTangencyResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.tangency.construct_feuerbach_tangency
+
+
+Module Contents
+---------------
+
+.. py:class:: FeuerbachTangencyResult
+
+   Complete structured output of :func:`construct_feuerbach_tangency`.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: triangle
+      :type:  sympy.geometry.Polygon
+
+
+   .. py:attribute:: medial_points
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: orthic_points
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: euler_points
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: orthic_triangle
+      :type:  sympy.geometry.Polygon
+
+
+   .. py:attribute:: medial_triangle
+      :type:  sympy.geometry.Polygon
+
+
+   .. py:attribute:: feuerbach_triangle
+      :type:  sympy.geometry.Polygon
+
+
+   .. py:attribute:: x1_incenter
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x2_centroid
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x3_circumcenter
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x4_orthocenter
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x5_nine_point_center
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: x11_feuerbach_point
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: excenters
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: excircle_tangencies
+      :type:  tuple[sympy.geometry.Point, sympy.geometry.Point, sympy.geometry.Point]
+
+
+   .. py:attribute:: euler_line
+      :type:  sympy.geometry.Line
+
+
+   .. py:attribute:: circumcircle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: nine_point_circle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: incircle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: excircles
+      :type:  tuple[sympy.geometry.Circle, sympy.geometry.Circle, sympy.geometry.Circle]
+
+
+   .. py:attribute:: harmonic_cross_ratio
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_feuerbach_tangency(model: geometor.model.Model | None = None) -> FeuerbachTangencyResult
+
+   Construct the nine-point circle, tritangent circles, and four Feuerbach tangency points.
+
+   :param model: Optional existing :class:`~geometor.model.Model`. When ``None``, initializes
+                 a clean model with ``auto_intersect=False``.
+
+   :returns: :class:`FeuerbachTangencyResult` with all exact :class:`sympy.Rational` points and circles.
+
+   :raises ProofAssertionError: If any nine-point incidence, harmonic cross-ratio, or tangency
+       quadrance assertion fails.
+
+

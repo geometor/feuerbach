@@ -1,0 +1,121 @@
+src.geometor.feuerbach.render
+=============================
+
+.. py:module:: src.geometor.feuerbach.render
+
+.. autoapi-nested-parse::
+
+   Theme-adaptive ``.euclid-graphic`` SVG exporter for Euler (1765) and Feuerbach (1822).
+
+   Generates clean, standards-compliant ``<svg class="euclid-graphic">`` diagrams directly
+   from exact :class:`~geometor.model.Model` constructions. Every geometric element carries:
+
+   - 3-vertex midpoint paths ``M x1 y1 L mx my L x2 y2`` supporting ``#geom-tick-1..3`` equality ticks,
+   - Canonical ``data-ref`` tokens (``A``, ``X5``, ``X11``, ``/ A B /``, ``[ X3 X4 ]``,
+     ``( X5 H1 )``, ``< A B C >``) compatible with ``geometor_interactive.js``,
+   - Presentation attributes bound to ``var(--geom-fg)``, ``var(--geom-accent)``,
+     ``var(--geom-assert)``, and ``var(--geom-coincide)`` so both standalone SVGs and
+     ``publish`` inline ``.. picture::`` book figures adapt seamlessly to light and dark themes.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.render.SvgSpec
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.render.render_euler_1765_svg
+   src.geometor.feuerbach.render.render_nine_point_svg
+   src.geometor.feuerbach.render.render_feuerbach_full_svg
+   src.geometor.feuerbach.render.render_feuerbach_zoom_svg
+   src.geometor.feuerbach.render.render_model_svg
+   src.geometor.feuerbach.render.export_all_codex_svgs
+
+
+Module Contents
+---------------
+
+.. py:class:: SvgSpec
+
+   Viewport and graphic metadata for an exported ``.euclid-graphic`` SVG.
+
+
+   .. py:attribute:: folio
+      :type:  str
+
+
+   .. py:attribute:: graphic
+      :type:  str
+
+
+   .. py:attribute:: xmin
+      :type:  float
+
+
+   .. py:attribute:: xmax
+      :type:  float
+
+
+   .. py:attribute:: ymin
+      :type:  float
+
+
+   .. py:attribute:: ymax
+      :type:  float
+
+
+   .. py:attribute:: width_px
+      :type:  int
+      :value: 680
+
+
+
+   .. py:property:: graphic_id
+      :type: str
+
+
+      Return canonical ``<folio>.<graphic>`` identifier.
+
+
+.. py:function:: render_euler_1765_svg(res: geometor.feuerbach.euler.EulerCentersResult | None = None) -> str
+
+   Render Euler's 1765 memoir configuration (``E, F, G, H`` and the Euler line).
+
+
+.. py:function:: render_nine_point_svg(res: geometor.feuerbach.tangency.FeuerbachTangencyResult | None = None) -> str
+
+   Render the Nine-Point Circle, Orthic/Medial triangles, and Harmonic Euler Range.
+
+
+.. py:function:: render_feuerbach_full_svg(res: geometor.feuerbach.tangency.FeuerbachTangencyResult | None = None) -> str
+
+   Render Feuerbach's full fourfold tangency configuration (incircle + 3 excircles).
+
+
+.. py:function:: render_feuerbach_zoom_svg(res: geometor.feuerbach.tangency.FeuerbachTangencyResult | None = None) -> str
+
+   Render magnified close-up of the internal tangency at the Feuerbach point ``X(11)``.
+
+
+.. py:function:: render_model_svg(model: geometor.model.Model, spec: SvgSpec, title: str = 'GEOMETOR Diagram') -> str
+
+   Generic ``.euclid-graphic`` SVG serializer for an arbitrary :class:`~geometor.model.Model`.
+
+
+.. py:function:: export_all_codex_svgs(output_dir: pathlib.Path | str) -> dict[str, pathlib.Path]
+
+   Generate and write all four canonical codex SVGs into ``output_dir``.
+
+   :param output_dir: Destination directory (typically ``docsrc/_static/constructions``).
+
+   :returns: Mapping from diagram slug to written SVG :class:`pathlib.Path`.
+
+

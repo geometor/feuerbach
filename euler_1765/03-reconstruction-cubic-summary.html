@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary — Unit III: Inverse Reconstruction &amp; Side Cubic (§§ 19–24) &mdash; Solutio facilis problematum (1765)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Solutio facilis problematum (1765)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-summary.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="03-reconstruction-cubic-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-reconstruction-cubic-la.html">Latin</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-reconstruction-cubic-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-collinear-isosceles-casus-summary.html" title="Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="summary-unit-iii-inverse-reconstruction-side-cubic-1924">
+        <span id="euler-03-summary"></span><h1>Summary — Unit III: Inverse Reconstruction &amp; Side Cubic (§§ 19–24)<a class="headerlink" href="#summary-unit-iii-inverse-reconstruction-side-cubic-1924" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Analytical Synopsis of §§ 19–24 (pp. 114–118)</p>
+        <ol class="arabic">
+        <li><p><strong>Why the System Collapses to Rational Linear Equations (§§ 19–21)</strong>:
+        Introducing homogeneous dimension-2 invariants <span class="math notranslate nohighlight">\(P = p^2\)</span>, <span class="math notranslate nohighlight">\(Q = \frac{r}{p} = 2R_{\text{circ}}r_{\text{in}}\)</span>, and <span class="math notranslate nohighlight">\(R = \frac{r^2}{4\mathcal{A}^2} = 4R_{\text{circ}}^2\)</span> turns Equations I, II, III of § 21 into:</p>
+        <ul>
+        <li><p><span class="math notranslate nohighlight">\(R = 4(f^2 + Q)\)</span> from Equation I;</p></li>
+        <li><p>Eliminating <span class="math notranslate nohighlight">\(\frac{Q^2}{R}\)</span> between Equations II and III via <span class="math notranslate nohighlight">\(5\,\text{II} - 2\,\text{III}\)</span> gives a <em>purely linear</em> relation among <span class="math notranslate nohighlight">\(P, Q, R\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[5g^2 - 2h^2 = \frac{5}{4}R - \frac{1}{3}P + 4Q.\]</div>
+        </li>
+        </ul>
+        <p>Substituting <span class="math notranslate nohighlight">\(R = 4(f^2 + Q)\)</span> yields <span class="math notranslate nohighlight">\(P = 27Q + 15f^2 - 15g^2 + 6h^2\)</span>, and substituting into <span class="math notranslate nohighlight">\(\frac{Q^2}{R}\)</span> cancels <span class="math notranslate nohighlight">\(Q^2\)</span> identically! Hence <span class="math notranslate nohighlight">\((R, Q, P)\)</span> are <strong>rational</strong> functions of the given quadrances <span class="math notranslate nohighlight">\((f^2, g^2, h^2) = (GH^2, FH^2, FG^2)\)</span>.</p>
+        </li>
+        <li><p><strong>Viète’s Side-Length Cubic (§ 22)</strong>:
+        A single square root <span class="math notranslate nohighlight">\(p = \sqrt{P}\)</span> recovers the perimeter <span class="math notranslate nohighlight">\(p\)</span>, symmetric sum <span class="math notranslate nohighlight">\(q\)</span>, and product <span class="math notranslate nohighlight">\(r = Qp\)</span>, yielding <span class="math notranslate nohighlight">\((z - a)(z - b)(z - c) = z^3 - pz^2 + qz - r = 0\)</span>.</p></li>
+        <li><p><strong>Benchmark Reconstructions (:func:`~geometor.feuerbach.euler.solve_euler_reconstruction_cubic`)</strong>:</p>
+        <ul class="simple">
+        <li><p><strong>Euler’s Example (§§ 23–24)</strong>: <span class="math notranslate nohighlight">\((f^2, g^2, h^2) = \left(\frac{35}{32}, \frac{155}{288}, \frac{1}{9}\right) \implies z^3 - 18z^2 + 107z - 210 = 0 \implies (5, 6, 7)\)</span>.</p></li>
+        <li><p><strong>GEOMETOR Canonical Heronian Example</strong>: <span class="math notranslate nohighlight">\((f^2, g^2, h^2) = \left(\frac{65}{64}, \frac{265}{576}, \frac{1}{9}\right) \implies z^3 - 42z^2 + 587z - 2730 = 0 \implies (13, 14, 15)\)</span>.</p></li>
+        </ul>
+        </li>
+        </ol>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-six-distances-euler-line-summary.html" title="Unit II: Symmetric Polynomials, Six Mutual Quadrances &amp; The Euler Line (§§ 10–18)">&larr; <span class="nav-label">Unit II: Symmetric Polynomials, Six Mutual Quadrances & The Euler Line (§§ 10–18)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Solutio facilis problematum (1765)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-collinear-isosceles-casus-summary.html" title="Unit IV: Collinear Centers, Isosceles Degeneracy &amp; Casus Irreducibilis (§§ 25–34)"><span class="nav-label">Unit IV: Collinear Centers, Isosceles Degeneracy & Casus Irreducibilis (§§ 25–34)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

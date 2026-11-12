@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.feuerbach.concordance &mdash; GEOMETOR • feuerbach — Euler (1765) &amp; Feuerbach (1822) Bilingual Book Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../../index.html">modules</a>
+            <span class="book-crumb-sep">/</span>
+            <a class="book-crumb-link" href="../index.html">src.geometor.feuerbach</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="module-src.geometor.feuerbach.concordance">
+        <span id="src-geometor-feuerbach-concordance"></span><h1>src.geometor.feuerbach.concordance<a class="headerlink" href="#module-src.geometor.feuerbach.concordance" title="Link to this heading">¶</a></h1>
+        <p>Structured loader and validator for the Euler–Feuerbach concordance and source manifest.</p>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.concordance.ConcordanceEntry" title="src.geometor.feuerbach.concordance.ConcordanceEntry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ConcordanceEntry</span></code></a></p></td>
+        <td><p>Single cross-treatise concordance mapping linking Euler, Feuerbach, ETC, and Euclid.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.concordance.default_resources_dir" title="src.geometor.feuerbach.concordance.default_resources_dir"><code class="xref py py-obj docutils literal notranslate"><span class="pre">default_resources_dir</span></code></a>() → pathlib.Path</p></td>
+        <td><p>Locate <code class="docutils literal notranslate"><span class="pre">resources/feuerbach</span></code> relative to the repository checkout.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.feuerbach.concordance.load_concordance" title="src.geometor.feuerbach.concordance.load_concordance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_concordance</span></code></a>([path]) → list[ConcordanceEntry]</p></td>
+        <td><p>Load and validate <code class="docutils literal notranslate"><span class="pre">resources/feuerbach/concordance.json</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.feuerbach.concordance.load_sources_manifest" title="src.geometor.feuerbach.concordance.load_sources_manifest"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_sources_manifest</span></code></a>([path]) → dict[str, Any]</p></td>
+        <td><p>Load <code class="docutils literal notranslate"><span class="pre">resources/feuerbach/sources_manifest.json</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.concordance.</span></span><span class="sig-name descname"><span class="pre">ConcordanceEntry</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry" title="Link to this definition">¶</a></dt>
+        <dd><p>Single cross-treatise concordance mapping linking Euler, Feuerbach, ETC, and Euclid.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.entry_id">
+        <span class="sig-name descname"><span class="pre">entry_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.entry_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.title" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.category">
+        <span class="sig-name descname"><span class="pre">category</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.category" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.euler_1765_ref">
+        <span class="sig-name descname"><span class="pre">euler_1765_ref</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.euler_1765_ref" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.feuerbach_1822_ref">
+        <span class="sig-name descname"><span class="pre">feuerbach_1822_ref</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.feuerbach_1822_ref" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.etc_centers">
+        <span class="sig-name descname"><span class="pre">etc_centers</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.etc_centers" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.sister_refs">
+        <span class="sig-name descname"><span class="pre">sister_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.sister_refs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.symbolic_identity">
+        <span class="sig-name descname"><span class="pre">symbolic_identity</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.symbolic_identity" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.ConcordanceEntry.heronian_value">
+        <span class="sig-name descname"><span class="pre">heronian_value</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.ConcordanceEntry.heronian_value" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.default_resources_dir">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.concordance.</span></span><span class="sig-name descname"><span class="pre">default_resources_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.default_resources_dir" title="Link to this definition">¶</a></dt>
+        <dd><p>Locate <code class="docutils literal notranslate"><span class="pre">resources/feuerbach</span></code> relative to the repository checkout.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.load_concordance">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.concordance.</span></span><span class="sig-name descname"><span class="pre">load_concordance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.feuerbach.concordance.ConcordanceEntry" title="src.geometor.feuerbach.concordance.ConcordanceEntry"><span class="pre">ConcordanceEntry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.load_concordance" title="Link to this definition">¶</a></dt>
+        <dd><p>Load and validate <code class="docutils literal notranslate"><span class="pre">resources/feuerbach/concordance.json</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>path</strong> – Optional explicit JSON file path.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Ordered list of <a class="reference internal" href="#src.geometor.feuerbach.concordance.ConcordanceEntry" title="src.geometor.feuerbach.concordance.ConcordanceEntry"><code class="xref py py-class docutils literal notranslate"><span class="pre">ConcordanceEntry</span></code></a> records.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.feuerbach.concordance.load_sources_manifest">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.feuerbach.concordance.</span></span><span class="sig-name descname"><span class="pre">load_sources_manifest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.feuerbach.concordance.load_sources_manifest" title="Link to this definition">¶</a></dt>
+        <dd><p>Load <code class="docutils literal notranslate"><span class="pre">resources/feuerbach/sources_manifest.json</span></code>.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../../../../../../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../../../../../../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

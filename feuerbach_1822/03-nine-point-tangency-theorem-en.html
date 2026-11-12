@@ -1,0 +1,544 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete) &mdash; Eigenschaften einiger merkwürdigen Punkte (1822)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../demos/index.html"  >Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-orthocenter-orthic-triangle-en.html" title="Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="03-nine-point-tangency-theorem-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-proportional-triangles-en.html" title="Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-iii-the-nine-point-circle-feuerbach-s-theorem-the-euler-line-4960-complete">
+        <span id="fb-03-en"></span><h1>Unit III: The Nine-Point Circle, Feuerbach’s Theorem &amp; The Euler Line (§§ 49–60, Complete)<a class="headerlink" href="#unit-iii-the-nine-point-circle-feuerbach-s-theorem-the-euler-line-4960-complete" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Karl Wilhelm Feuerbach — <em>Properties of Several Remarkable Points of the Rectilinear Triangle</em> (1822, pp. 33–41, Tab. II Fig. 7)</p>
+        <nav class="contents local" id="sections-in-this-unit">
+        <p class="topic-title">Sections in This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#distances-from-the-circumcenter-k-to-s-s-s-s-euler-1765-fusz-1797" id="id1">§ 49. Distances from the Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) &amp; Fuß (1797)</a></p></li>
+        <li><p><a class="reference internal" href="#sum-of-squared-distances-from-k-to-the-four-tritangent-centers" id="id2">§ 50. Sum of Squared Distances from K to the Four Tritangent Centers</a></p></li>
+        <li><p><a class="reference internal" href="#squared-distance-from-the-orthocenter-o-to-s-and-the-excenter-sign-slip" id="id3">§ 51. Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip)</a></p></li>
+        <li><p><a class="reference internal" href="#sum-of-orthocenter-quadrances-the-distance-ko" id="id4">§§ 52–53. Sum of Orthocenter Quadrances &amp; The Distance KO</a></p></li>
+        <li><p><a class="reference internal" href="#the-nine-point-center-l-x-5-collinearity-olk-and-side-midpoints" id="id5">§§ 54–56. The Nine-Point Center L = X(5), Collinearity O–L–K, and Side Midpoints</a></p></li>
+        <li><p><a class="reference internal" href="#feuerbach-s-theorem-fourfold-tangency-of-the-nine-point-circle" id="id6">§ 57. FEUERBACH’S THEOREM — Fourfold Tangency of the Nine-Point Circle</a></p></li>
+        <li><p><a class="reference internal" href="#linear-quadratic-center-sums-and-the-centroid-g-on-ko" id="id7">§§ 58–60. Linear &amp; Quadratic Center Sums and the Centroid G on KO</a></p></li>
+        </ul>
+        </nav>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0038.g1" data-folio="0038" data-graphic="g1" viewBox="0 0 680 658" width="680" height="658" role="img" aria-label="Feuerbach (1822, §§ 54–56 & 9. Satz): The Nine-Point Circle and Harmonic Euler Range">
+          <title>Feuerbach (1822, §§ 54–56 & 9. Satz): The Nine-Point Circle and Harmonic Euler Range</title>
+          <defs>
+            <clipPath id="clip-0038-g1"><rect x="0" y="0" width="680" height="658"/></clipPath>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+          </defs>
+          <g id="elements" clip-path="url(#clip-0038-g1)">
+            <polygon class="polygon" data-ref="< A B C >" points="81.30,487.83 598.70,487.83 266.09,44.35" fill="var(--geom-fg)" fill-opacity="0.03" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <polygon class="polygon" data-ref="< H1 H2 H3 >" points="412.43,239.48 157.84,304.14 266.09,487.83" fill="var(--geom-coincide)" fill-opacity="0.08" stroke="var(--geom-coincide)" stroke-width="1.6"/>
+            <polygon class="polygon" data-ref="< M1 M2 M3 >" points="432.39,266.09 173.70,266.09 340.00,487.83" fill="var(--geom-fg)" fill-opacity="0.02" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <path class="segment" data-ref="/ A B /" d="M 81.30 487.83 L 340.00 487.83 L 598.70 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+            <path class="segment" data-ref="/ B C /" d="M 598.70 487.83 L 432.39 266.09 L 266.09 44.35" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+            <path class="segment" data-ref="/ C A /" d="M 266.09 44.35 L 173.70 266.09 L 81.30 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="1.65" stroke-opacity="0.94"/>
+            <path class="segment" data-ref="/ A H1 /" d="M 81.30 487.83 L 246.87 363.65 L 412.43 239.48" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+            <path class="segment" data-ref="/ B H2 /" d="M 598.70 487.83 L 378.27 395.98 L 157.84 304.14" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+            <path class="segment" data-ref="/ C H3 /" d="M 266.09 44.35 L 266.09 266.09 L 266.09 487.83" fill="none" stroke="var(--geom-fg)" stroke-width="0.90" stroke-opacity="0.45" stroke-dasharray="3,3"/>
+            <circle class="circle" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.38" r="300.27" fill="none" stroke="var(--geom-fg)" stroke-width="1.10" stroke-opacity="0.48" stroke-dasharray="6,4"/>
+            <circle class="circle" data-ref="( X5 H1 )" data-aliases="( H1 H2 H3 )" cx="303.04" cy="342.31" r="150.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.20" stroke-opacity="0.98"/>
+          </g>
+          <g id="graphics" clip-path="url(#clip-0038-g1)">
+            <path class="line" data-ref="[ X3 X4 ]" d="M 0.00 399.13 L 340.00 335.38 L 680.00 271.63" fill="none" stroke="var(--geom-accent)" stroke-width="1.90" stroke-opacity="0.92"/>
+          </g>
+          <g id="highlights" clip-path="url(#clip-0038-g1)" style="pointer-events: none;">
+            <polygon class="polygon geom-overlay" data-ref="< A B C >" points="81.30,487.83 598.70,487.83 266.09,44.35" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <polygon class="polygon geom-overlay" data-ref="< H1 H2 H3 >" points="412.43,239.48 157.84,304.14 266.09,487.83" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <polygon class="polygon geom-overlay" data-ref="< M1 M2 M3 >" points="432.39,266.09 173.70,266.09 340.00,487.83" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <path class="line geom-overlay" data-ref="[ X3 X4 ]" d="M 0.00 399.13 L 340.00 335.38 L 680.00 271.63" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="segment geom-overlay" data-ref="/ A B /" d="M 81.30 487.83 L 340.00 487.83 L 598.70 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B C /" d="M 598.70 487.83 L 432.39 266.09 L 266.09 44.35" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C A /" d="M 266.09 44.35 L 173.70 266.09 L 81.30 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ A H1 /" d="M 81.30 487.83 L 246.87 363.65 L 412.43 239.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B H2 /" d="M 598.70 487.83 L 378.27 395.98 L 157.84 304.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C H3 /" d="M 266.09 44.35 L 266.09 266.09 L 266.09 487.83" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X3 A )" data-aliases="( A B C )" cx="340.00" cy="335.38" r="300.27" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X5 H1 )" data-aliases="( H1 H2 H3 )" cx="303.04" cy="342.31" r="150.14" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+          </g>
+          <g id="points">
+            <circle class="point geom-point" data-ref="A" cx="81.30" cy="487.83" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="B" cx="598.70" cy="487.83" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="C" cx="266.09" cy="44.35" r="4.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M1" cx="432.39" cy="266.09" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M2" cx="173.70" cy="266.09" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M3" cx="340.00" cy="487.83" r="3.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H1" data-aliases="M" cx="412.43" cy="239.48" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H2" data-aliases="N" cx="157.84" cy="304.14" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H3" data-aliases="P" cx="266.09" cy="487.83" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="E1" cx="173.70" cy="418.53" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="E2" cx="432.39" cy="418.53" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="E3" cx="266.09" cy="196.79" r="3.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X4" data-aliases="O" cx="266.09" cy="349.24" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X5" data-aliases="L" cx="303.04" cy="342.31" r="4.5" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X2" data-aliases="G" cx="315.36" cy="340.00" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X3" data-aliases="K" cx="340.00" cy="335.38" r="4.2" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+          </g>
+          <g id="labels">
+            <text class="label geom-label" data-ref="A" x="66.30" y="501.83" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A</text>
+            <text class="label geom-label" data-ref="B" x="605.70" y="501.83" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B</text>
+            <text class="label geom-label" data-ref="C" x="262.09" y="34.35" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C</text>
+            <text class="label geom-label" data-ref="M1" x="439.39" y="263.09" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Mₐ</text>
+            <text class="label geom-label" data-ref="M2" x="151.70" y="263.09" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="M3" x="344.00" y="502.83" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="H1" data-aliases="M" x="419.43" y="244.48" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M (Hₐ)</text>
+            <text class="label geom-label" data-ref="H2" data-aliases="N" x="113.84" y="302.14" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">N (H<tspan dy="3" font-size="10.5">b)</tspan></text>
+            <text class="label geom-label" data-ref="H3" data-aliases="P" x="248.09" y="502.83" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">P (H<tspan dy="3" font-size="10.5">c)</tspan></text>
+            <text class="label geom-label" data-ref="E1" x="157.70" y="430.53" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Eₐ</text>
+            <text class="label geom-label" data-ref="E2" x="438.39" y="413.53" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">E<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="E3" x="272.09" y="200.79" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">E<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="X4" data-aliases="O" x="228.09" y="355.24" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">O (X₄)</text>
+            <text class="label geom-label" data-ref="X5" data-aliases="L" x="289.04" y="333.31" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">L (X₅)</text>
+            <text class="label geom-label" data-ref="X2" data-aliases="G" x="319.36" y="354.00" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">G (X₂)</text>
+            <text class="label geom-label" data-ref="X3" data-aliases="K" x="348.00" y="331.38" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">K (X₃)</text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 49" data-folio="§ 49" data-page="33–34">[Folio § 49 | p. 33–34]</div>
+        <section class="level-2" id="distances-from-the-circumcenter-k-to-s-s-s-s-euler-1765-fusz-1797">
+        <h2>§ 49. Distances from the Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) &amp; Fuß (1797)<a class="headerlink" href="#distances-from-the-circumcenter-k-to-s-s-s-s-euler-1765-fusz-1797" title="Link to this heading">¶</a></h2>
+        <p>Denoting by <span class="math notranslate nohighlight">\(K\)</span> [<span class="geom-ref" data-ref="0038.g1:X3" title="X3">X<sub>3</sub></span>] the center of the circumscribed circle of <span class="math notranslate nohighlight">\(\triangle ABC\)</span>, the squared distance from <span class="math notranslate nohighlight">\(K\)</span> to the incenter <span class="math notranslate nohighlight">\(S\)</span> [<span class="geom-ref" data-ref="0038.g2:X1" title="X1">X<sub>1</sub></span>] is <span class="math notranslate nohighlight">\(\overline{KS}^2 = R^2 - 2rR\)</span>, and substituting <span class="math notranslate nohighlight">\(-a, -b, -c\)</span> successively for <span class="math notranslate nohighlight">\(+a, +b, +c\)</span> yields on page 34:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\overline{KS'}^2 &amp;= R^2 + 2r'R, \\
+        \overline{KS''}^2 &amp;= R^2 + 2r''R, \\
+        \overline{KS'''}^2 &amp;= R^2 + 2r'''R;\end{split}\]</div>
+        <p>that is: <em>In every triangle, the square of the distance from the center of the circumscribed circle to the center of any one of its externally touching circles equals the square on the radius of the former circle, increased by twice the rectangle contained by that radius and the radius of the externally touching circle.</em></p>
+        <p>The first proposition <span class="math notranslate nohighlight">\(\overline{KS}^2 = R^2 - 2rR\)</span> is proved by <a class="person-ref" id="occ-person-lhuilier-1" href="../persons.html#person-lhuilier" data-person="lhuilier" title="Simon Antoine Jean L&#x27;Huilier (1750–1840) — Swiss mathematician; developed symmetric relations among the four tritangent radii in Gergonne&#x27;s Annales (1810, cited by Feuerbach § 2)">L'Huilier</a> in No. V of the <a class="citation-ref" id="occ-cite-lhuilier-1810-1" href="../bibliography.html#cite-lhuilier-1810" data-cite="lhuilier_1810" title="Simon Antoine Jean L&#x27;Huilier — Analogies entre les triangles plans et sphériques, et propriétés des cercles inscrits et ex-inscrits (Annales de mathématiques pures et appliquées (Gergonne), Tom. I, Nov. 1810, pp. 149–159)"><em>Annales</em> cited above</a> in a very laborious and circuitous manner. <strong>It originates with</strong> <a class="person-ref" id="occ-person-euler-1" href="../persons.html#person-euler" data-person="euler" title="Leonhard Euler (1707–1783) — Swiss mathematician and physicist; author of E325 (1765/1767) establishing the six center distances and the Euler line">Euler</a> <strong>and is found in a memoir:</strong> <a class="citation-ref" id="occ-cite-euler-1765-1" href="../bibliography.html#cite-euler-1765" data-cite="euler_1765" title="Leonhard Euler — Solutio facilis problematum quorumdam geometricorum difficillimorum (Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae, Tom. XI (pro Anno 1765, publ. 1767), pp. 103–123, Tab. II Fig. 1–9 (Eneström E325))"><em>Solutio facilis problematum quorumdam geometricorum difficillimorum</em>, <em>Nov. Commentar. Petrop.</em> T. XI, p. A. 1765, § 18, VI</a>. <a class="person-ref" id="occ-person-fuss-1" href="../persons.html#person-fuss" data-person="fuss" title="Nicolaus Fuß (1755–1826) — Swiss-Russian mathematician and Euler&#x27;s assistant in St. Petersburg; extended bicentric polygon center distances in Nova Acta Petrop. X (1797, cited by Feuerbach § 49)">Fuß</a> proves it purely geometrically and very simply (<a class="citation-ref" id="occ-cite-fuss-1797-1" href="../bibliography.html#cite-fuss-1797" data-cite="fuss_1797" title="Nicolaus Fuß — De quadrilateris quibus circulum tam inscribere quam circumscribere licet (Nova Acta Academiae Scientiarum Imperialis Petropolitanae, Tom. X (1797), pp. 103–125)"><em>De quadrilateris, quibus circulum tam inscribere quam circumscribere licet</em>, <em>Nov. Act. Petrop.</em> T. X, Petrop. 1797, p. 103, § 32</a>). <strong>Euler determines in the aforementioned memoir for the rectilinear triangle the mutual position of the intersection point of its altitudes, its centroid, and the centers of the inscribed and circumscribed circles, out of the sides of the triangle. Because, however, he did not introduce the radius</strong> <span class="math notranslate nohighlight">\(\rho\)</span> <strong>into the calculation, he could not arrive at similarly simple results and geometric theorems for the determination of the remaining distances, such as we shall develop here.</strong></p>
+        </section>
+        <section class="level-2" id="sum-of-squared-distances-from-k-to-the-four-tritangent-centers">
+        <span id="fb-en-s50"></span><h2>§ 50. Sum of Squared Distances from K to the Four Tritangent Centers<a class="headerlink" href="#sum-of-squared-distances-from-k-to-the-four-tritangent-centers" title="Link to this heading">¶</a></h2>
+        <p>Adding the values found for the squares of <span class="math notranslate nohighlight">\(KS, KS', KS'', KS'''\)</span>, since (§ 5) <span class="math notranslate nohighlight">\(r' + r'' + r''' = r + 4R\)</span>, one obtains:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{KS}^2 + \overline{KS'}^2 + \overline{KS''}^2 + \overline{KS'''}^2 = 12R^2;\]</div>
+        <p>that is: <em>In every triangle the center of the circumscribed circle is so situated that the sum of the squares of its distances from the centers of the four touching circles equals three times the square on the diameter of the circumscribed circle.</em></p>
+        <div class="folio-milestone" id="folio-§ 51" data-folio="§ 51" data-page="35">[Folio § 51 | p. 35]</div>
+        </section>
+        <section class="level-2" id="squared-distance-from-the-orthocenter-o-to-s-and-the-excenter-sign-slip">
+        <h2>§ 51. Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip)<a class="headerlink" href="#squared-distance-from-the-orthocenter-o-to-s-and-the-excenter-sign-slip" title="Link to this heading">¶</a></h2>
+        <p>If <span class="math notranslate nohighlight">\(O\)</span> [<span class="geom-ref" data-ref="0038.g1:X4" title="X4">X<sub>4</sub></span>] is as hitherto the intersection point of the altitudes <span class="math notranslate nohighlight">\(AM, BN, CP\)</span> of triangle <span class="math notranslate nohighlight">\(ABC\)</span>, and one draws <span class="math notranslate nohighlight">\(OS\)</span>, then <span class="math notranslate nohighlight">\(\overline{OS}^2 = (AF - AP)^2 + (OP - SF)^2\)</span>, where <span class="math notranslate nohighlight">\(F\)</span> is the contact point of the incircle on <span class="math notranslate nohighlight">\(AB\)</span>. Now since <span class="math notranslate nohighlight">\(AF = \tfrac{1}{2}(-a+b+c)\)</span> and <span class="math notranslate nohighlight">\(AP = \frac{-a^2+b^2+c^2}{2c}\)</span>, while (§ 35) <span class="math notranslate nohighlight">\(OP = \frac{(-a^2+b^2+c^2)(a^2-b^2+c^2)}{8c\Delta}\)</span> and (§ 2) <span class="math notranslate nohighlight">\(SF = \frac{2\Delta}{a+b+c}\)</span>, we have:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}AF - AP &amp;= \frac{(a - b + c)(a + b - c) - c(a + b - c)}{2c}, \\
+        OP - SF &amp;= \frac{(-a^2 + b^2 + c^2)(a^2 - b^2 + c^2) - c(-a + b + c)(a - b + c)(a + b - c)}{8c\Delta}.\end{split}\]</div>
+        <p>Substituting into the expression for <span class="math notranslate nohighlight">\(\overline{OS}^2\)</span>, one brings it at length into the symmetric form:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OS}^2 = \frac{(-a+b+c)^2(a-b+c)^2(a+b-c)^2 - (-a^2+b^2+c^2)(a^2-b^2+c^2)(a^2+b^2-c^2)}{32\Delta^2},\]</div>
+        <p>whence, introducing the circle radii <span class="math notranslate nohighlight">\(r, \rho, R\)</span>, there results:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OS}^2 = 2r^2 - 2\rho R;\]</div>
+        <p>that is: <em>In every acute-angled triangle, the square of the distance from the intersection point of its altitudes to the center of the inscribed circle equals twice the square on the radius of this circle, diminished by the rectangle contained by the diameter of the circumscribed circle and the radius of the circle inscribed in the orthic triangle.</em></p>
+        <p>Setting <span class="math notranslate nohighlight">\(a, b, c\)</span> negative successively in this expression, Feuerbach writes for the distances from <span class="math notranslate nohighlight">\(O\)</span> to <span class="math notranslate nohighlight">\(S', S'', S'''\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OS'}^2 = 2r'^2 + 2\rho R, \qquad
+        \overline{OS''}^2 = 2r''^2 + 2\rho R, \qquad
+        \overline{OS'''}^2 = 2r'''^2 + 2\rho R\]</div>
+        <p><em>[Editor’s Critical Note: Because both :math:`R` and :math:`rho` negate simultaneously under :math:`a mapsto -a`, their product :math:`rho R` is invariant; the true exact identities over :math:`mathbb{Q}(a,b,c)` are :math:`overline{OS^{(k)}}^2 = 2r^{(k)2} - 2rho R`. Crucially, this slip does not affect §§ 53–59 at all; see :ref:`Unit III Critical Notes &lt;fb-03-notes&gt;` for the complete SymPy proof.]</em></p>
+        <div class="folio-milestone" id="folio-§§ 52–53" data-folio="§§ 52–53" data-page="36">[Folio §§ 52–53 | p. 36]</div>
+        </section>
+        <section class="level-2" id="sum-of-orthocenter-quadrances-the-distance-ko">
+        <h2>§§ 52–53. Sum of Orthocenter Quadrances &amp; The Distance KO<a class="headerlink" href="#sum-of-orthocenter-quadrances-the-distance-ko" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§ 52</strong>: Adding the four expressions of § 51 via (§ 28) <span class="math notranslate nohighlight">\(r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho)\)</span>, Feuerbach states <span class="math notranslate nohighlight">\(\overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}^2 + \overline{OS'''}^2 = 4R(4R - \rho)\)</span> <em>[true exact sum with :math:`-2rho R` on all four terms: :math:`16R(R - rho)`]</em>.</p></li>
+        <li><p><strong>§ 53 (Exact Quadrance KO²)</strong>: Joining the points <span class="math notranslate nohighlight">\(K\)</span> [<span class="geom-ref" data-ref="0038.g1:X3" title="X3">X<sub>3</sub></span>] and <span class="math notranslate nohighlight">\(O\)</span> [<span class="geom-ref" data-ref="0038.g1:X4" title="X4">X<sub>4</sub></span>] by a straight line [<span class="geom-ref" data-ref="0038.g1:[ X3 X4 ]" title="[ X3 X4 ]">OK</span>], its square is <span class="math notranslate nohighlight">\(\overline{KO}^2 = (Ac - AP)^2 + (OP - Kc)^2\)</span>, where <span class="math notranslate nohighlight">\(c\)</span> is the midpoint of <span class="math notranslate nohighlight">\(AB\)</span>. Now <span class="math notranslate nohighlight">\(Ac - AP = \frac{a^2 - b^2}{2c}\)</span> and (§§ 35, 45) <span class="math notranslate nohighlight">\(OP - Kc = \frac{(-a^2+b^2+c^2)(a^2-b^2+c^2) - c^2(a^2+b^2-c^2)}{8c\Delta}\)</span>; substituting and reducing yields:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{KO}^2 = \frac{a^2b^2c^2 - (-a^2+b^2+c^2)(a^2-b^2+c^2)(a^2+b^2-c^2)}{16\Delta^2} = R^2 - 4\rho R;\]</div>
+        <p>that is: <em>In every acute-angled triangle, the square of the distance of the intersection point of its altitudes from the center of the circumscribed circle equals the square on the radius of the latter circle, diminished by twice the rectangle contained by this same radius and the diameter of the circle inscribed in the orthic triangle.</em></p>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 54–55" data-folio="§§ 54–55" data-page="37">[Folio §§ 54–55 | p. 37]</div>
+        </section>
+        <section class="level-2" id="the-nine-point-center-l-x-5-collinearity-olk-and-side-midpoints">
+        <h2>§§ 54–56. The Nine-Point Center L = X(5), Collinearity O–L–K, and Side Midpoints<a class="headerlink" href="#the-nine-point-center-l-x-5-collinearity-olk-and-side-midpoints" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§ 54 (Relation KO = 2 OL)</strong>: Let <span class="math notranslate nohighlight">\(L\)</span> [<span class="geom-ref" data-ref="0038.g1:X5" title="X5">X<sub>5</sub></span>] be taken for the center of the circle [<span class="geom-ref" data-ref="0038.g1:( X5 H1 )" title="( X5 H1 )">(MNP)</span>] circumscribed about the orthic triangle <span class="math notranslate nohighlight">\(MNP\)</span>, whose radius was found (§ 26) equal to <span class="math notranslate nohighlight">\(\tfrac{1}{2}R\)</span>, and draw <span class="math notranslate nohighlight">\(OL\)</span>. Because <span class="math notranslate nohighlight">\(O\)</span> is simultaneously the center of the circle <em>inscribed</em> in <span class="math notranslate nohighlight">\(\triangle MNP\)</span> (inradius <span class="math notranslate nohighlight">\(\rho\)</span>), Euler’s formula (§ 49) applied to <span class="math notranslate nohighlight">\(\triangle MNP\)</span> immediately gives</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{OL}^2 = \left(\frac{1}{2}R\right)^2 - 2\rho\left(\frac{1}{2}R\right) = \frac{1}{4}R^2 - \rho R,\]</div>
+        <p>and since we just found <span class="math notranslate nohighlight">\(\overline{KO}^2 = R^2 - 4\rho R\)</span>, it follows that <span class="math notranslate nohighlight">\(\overline{KO}^2 = 4\overline{OL}^2\)</span>, or:</p>
+        <div class="math notranslate nohighlight">
+        \[KO = 2\,OL\]</div>
+        <p>(which holds likewise when <span class="math notranslate nohighlight">\(\triangle ABC\)</span> is obtuse, e.g. at <span class="math notranslate nohighlight">\(A\)</span>, from <span class="math notranslate nohighlight">\(\overline{OL}^2 = \frac{1}{4}R^2 + \rho^{(1)}R\)</span> and <span class="math notranslate nohighlight">\(\overline{KO}^2 = R^2 + 4\rho^{(1)}R\)</span>): <em>In every triangle, the intersection point of its altitudes is twice as far from the center of the circumscribed circle as from the center of the circle passing through the feet of those altitudes.</em></p>
+        </li>
+        <li><p><strong>§ 55 (Collinearity of O, L, K — Midpoint Property)</strong>: Drop from the center <span class="math notranslate nohighlight">\(L\)</span> upon the straight lines <span class="math notranslate nohighlight">\(AB, CP\)</span> the perpendiculars <span class="math notranslate nohighlight">\(LJ, LH\)</span>; then <span class="math notranslate nohighlight">\(LJ = PH\)</span>, and in <span class="math notranslate nohighlight">\(\triangle OPL\)</span> we have <span class="math notranslate nohighlight">\(PH = \frac{-\overline{OL}^2 + \overline{OP}^2 + \overline{LP}^2}{2\,OP}\)</span>. Now <span class="math notranslate nohighlight">\(LP = \frac{1}{2}R\)</span> and (§ 54) <span class="math notranslate nohighlight">\(\overline{OL}^2 = \frac{1}{4}R^2 - \rho R\)</span> <em>[correcting the 1822 printing slip ``1/2 R^2``]</em>, while (§§ 35, 45) <span class="math notranslate nohighlight">\(OP \cdot Kc = \rho R\)</span>, whence <span class="math notranslate nohighlight">\(\overline{LP}^2 - \overline{OL}^2 = OP \cdot Kc\)</span>. Substituting into <span class="math notranslate nohighlight">\(PH = LJ\)</span> yields:</p>
+        <div class="math notranslate nohighlight">
+        \[LJ = \frac{1}{2}(OP + Kc),\]</div>
+        <p>from which property one concludes that <strong>the points</strong> <span class="math notranslate nohighlight">\(O, L, K\)</span> <strong>lie on one and the same straight line, whose midpoint is</strong> <span class="math notranslate nohighlight">\(L\)</span>!</p>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§§ 56–57" data-folio="§§ 56–57" data-page="38">[Folio §§ 56–57 | p. 38]</div>
+        <ul>
+        <li><p><strong>§ 56 (Bisection of the Three Sides — The Nine-Point Circle)</strong>: Because <span class="math notranslate nohighlight">\(L\)</span> lies at the midpoint of segment <span class="math notranslate nohighlight">\(KO\)</span>, its projection <span class="math notranslate nohighlight">\(J\)</span> is likewise the midpoint of <span class="math notranslate nohighlight">\(Pc\)</span> (between the altitude foot <span class="geom-ref" data-ref="0038.g1:H3" title="H3">P</span> and side midpoint <span class="geom-ref" data-ref="0038.g1:M3" title="M3">c</span>), whence <span class="math notranslate nohighlight">\(Lc = LP = \frac{1}{2}R\)</span>; and since the very same holds for the sides <span class="math notranslate nohighlight">\(AC\)</span> [<span class="geom-ref" data-ref="0038.g1:M2" title="M2">b</span>] and <span class="math notranslate nohighlight">\(BC\)</span> [<span class="geom-ref" data-ref="0038.g1:M1" title="M1">a</span>]:</p>
+        <p><em>In every triangle, the circle passing through the feet of its altitudes simultaneously meets the sides of the same at their midpoints.</em></p>
+        </li>
+        </ul>
+        </section>
+        <section class="level-2" id="feuerbach-s-theorem-fourfold-tangency-of-the-nine-point-circle">
+        <span id="fb-en-s57"></span><h2>§ 57. FEUERBACH’S THEOREM — Fourfold Tangency of the Nine-Point Circle<a class="headerlink" href="#feuerbach-s-theorem-fourfold-tangency-of-the-nine-point-circle" title="Link to this heading">¶</a></h2>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0038.g2" data-folio="0038" data-graphic="g2" viewBox="0 0 680 673" width="680" height="673" role="img" aria-label="Feuerbach's Theorem (1822, § 57): Nine-Point Circle Tangent to the Incircle and Three Excircles">
+          <title>Feuerbach's Theorem (1822, § 57): Nine-Point Circle Tangent to the Incircle and Three Excircles</title>
+          <defs>
+            <clipPath id="clip-0038-g2"><rect x="0" y="0" width="680" height="673"/></clipPath>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+          </defs>
+          <g id="elements" clip-path="url(#clip-0038-g2)">
+            <polygon class="polygon" data-ref="< A B C >" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-fg)" fill-opacity="0.06" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <polygon class="polygon" data-ref="< F1 F2 F3 >" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-assert)" fill-opacity="0.08" stroke="var(--geom-assert)" stroke-width="1.6"/>
+            <path class="segment" data-ref="/ A B /" d="M 232.44 361.02 L 318.98 361.02 L 405.53 361.02" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ B C /" d="M 405.53 361.02 L 349.89 286.84 L 294.25 212.65" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ C A /" d="M 294.25 212.65 L 263.35 286.84 L 232.44 361.02" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
+            <path class="segment" data-ref="/ X5 J1 /" d="M 306.62 312.34 L 399.35 250.13 L 492.07 187.93" fill="none" stroke="var(--geom-coincide)" stroke-width="0.95" stroke-opacity="0.65" stroke-dasharray="3,2"/>
+            <path class="segment" data-ref="/ X5 J2 /" d="M 306.62 312.34 L 226.25 271.77 L 145.89 231.20" fill="none" stroke="var(--geom-coincide)" stroke-width="0.95" stroke-opacity="0.65" stroke-dasharray="3,2"/>
+            <path class="segment" data-ref="/ X5 J3 /" d="M 306.62 312.34 L 318.98 410.86 L 331.35 509.38" fill="none" stroke="var(--geom-coincide)" stroke-width="0.95" stroke-opacity="0.65" stroke-dasharray="3,2"/>
+            <circle class="circle" data-ref="( J1 F1 )" cx="492.07" cy="187.93" r="173.09" fill="none" stroke="var(--geom-coincide)" stroke-width="1.35" stroke-opacity="0.80"/>
+            <circle class="circle" data-ref="( J2 F2 )" cx="145.89" cy="231.20" r="129.82" fill="none" stroke="var(--geom-coincide)" stroke-width="1.35" stroke-opacity="0.80"/>
+            <circle class="circle" data-ref="( J3 F3 )" cx="331.35" cy="509.38" r="148.36" fill="none" stroke="var(--geom-coincide)" stroke-width="1.35" stroke-opacity="0.80"/>
+            <circle class="circle" data-ref="( X1 X11 )" cx="306.62" cy="311.56" r="49.45" fill="none" stroke="var(--geom-assert)" stroke-width="1.45" stroke-opacity="0.90"/>
+            <circle class="circle" data-ref="( X5 H1 )" cx="306.62" cy="312.34" r="50.23" fill="none" stroke="var(--geom-accent)" stroke-width="2.25" stroke-opacity="1.00"/>
+          </g>
+          <g id="graphics" clip-path="url(#clip-0038-g2)">
+            <path class="line" data-ref="[ A B ]" d="M 0.00 361.02 L 340.00 361.02 L 680.00 361.02" fill="none" stroke="var(--geom-fg)" stroke-width="0.75" stroke-opacity="0.35" stroke-dasharray="4,4"/>
+            <path class="line" data-ref="[ B C ]" d="M 639.20 672.58 L 386.98 336.29 L 134.76 0.00" fill="none" stroke="var(--geom-fg)" stroke-width="0.75" stroke-opacity="0.35" stroke-dasharray="4,4"/>
+            <path class="line" data-ref="[ C A ]" d="M 102.62 672.58 L 242.74 336.29 L 382.86 0.00" fill="none" stroke="var(--geom-fg)" stroke-width="0.75" stroke-opacity="0.35" stroke-dasharray="4,4"/>
+          </g>
+          <g id="highlights" clip-path="url(#clip-0038-g2)" style="pointer-events: none;">
+            <polygon class="polygon geom-overlay" data-ref="< A B C >" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <polygon class="polygon geom-overlay" data-ref="< F1 F2 F3 >" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <path class="line geom-overlay" data-ref="[ A B ]" d="M 0.00 361.02 L 340.00 361.02 L 680.00 361.02" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ B C ]" d="M 639.20 672.58 L 386.98 336.29 L 134.76 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ C A ]" d="M 102.62 672.58 L 242.74 336.29 L 382.86 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="segment geom-overlay" data-ref="/ A B /" d="M 232.44 361.02 L 318.98 361.02 L 405.53 361.02" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B C /" d="M 405.53 361.02 L 349.89 286.84 L 294.25 212.65" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C A /" d="M 294.25 212.65 L 263.35 286.84 L 232.44 361.02" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X5 J1 /" d="M 306.62 312.34 L 399.35 250.13 L 492.07 187.93" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X5 J2 /" d="M 306.62 312.34 L 226.25 271.77 L 145.89 231.20" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ X5 J3 /" d="M 306.62 312.34 L 318.98 410.86 L 331.35 509.38" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J1 F1 )" cx="492.07" cy="187.93" r="173.09" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J2 F2 )" cx="145.89" cy="231.20" r="129.82" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J3 F3 )" cx="331.35" cy="509.38" r="148.36" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X1 X11 )" cx="306.62" cy="311.56" r="49.45" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X5 H1 )" cx="306.62" cy="312.34" r="50.23" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+          </g>
+          <g id="points">
+            <circle class="point geom-point" data-ref="A" cx="232.44" cy="361.02" r="3.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="B" cx="405.53" cy="361.02" r="3.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="C" cx="294.25" cy="212.65" r="3.6" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X1" data-aliases="S" cx="306.62" cy="311.56" r="3.4" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X5" data-aliases="L" cx="306.62" cy="312.34" r="3.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="J1" cx="492.07" cy="187.93" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="J2" cx="145.89" cy="231.20" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="J3" cx="331.35" cy="509.38" r="4.0" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X11" cx="306.62" cy="262.11" r="4.8" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F1" cx="348.33" cy="284.36" r="4.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F2" cx="261.78" cy="289.70" r="4.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F3" cx="312.87" cy="362.17" r="4.6" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H1" cx="343.21" cy="277.93" r="2.4" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+          </g>
+          <g id="labels">
+            <text class="label geom-label" data-ref="A" x="219.44" y="374.02" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A</text>
+            <text class="label geom-label" data-ref="B" x="411.53" y="374.02" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B</text>
+            <text class="label geom-label" data-ref="C" x="290.25" y="203.65" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C</text>
+            <text class="label geom-label" data-ref="X1" data-aliases="S" x="311.62" y="315.56" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S</text>
+            <text class="label geom-label" data-ref="X5" data-aliases="L" x="294.62" y="315.34" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">L</text>
+            <text class="label geom-label" data-ref="J1" x="499.07" y="182.93" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S′ (Jₐ)</text>
+            <text class="label geom-label" data-ref="J2" x="101.89" y="226.20" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S″ (J<tspan dy="3" font-size="10.5">b)</tspan></text>
+            <text class="label geom-label" data-ref="J3" x="338.35" y="522.38" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S‴ (J<tspan dy="3" font-size="10.5">c)</tspan></text>
+            <text class="label geom-label" data-ref="X11" x="298.62" y="253.11" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">X₁₁</text>
+            <text class="label geom-label" data-ref="F1" x="355.33" y="280.36" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Feₐ</text>
+            <text class="label geom-label" data-ref="F2" x="233.78" y="284.70" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="F3" x="319.87" y="374.17" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">c</tspan></text>
+          </g>
+        </svg>
+        </figure>
+        <p>If one draws the straight line <span class="math notranslate nohighlight">\(LS\)</span> [joining <span class="geom-ref" data-ref="0038.g2:X5" title="X5">L = X<sub>5</sub></span> and <span class="geom-ref" data-ref="0038.g2:X1" title="X1">S = X<sub>1</sub></span>], then by a known property of the median in triangle <span class="math notranslate nohighlight">\(KOS\)</span> <span class="justification" data-ref-target="II.12" title="II.12">[II. 12–13]</span>, because <span class="math notranslate nohighlight">\(L\)</span> is the midpoint of <span class="math notranslate nohighlight">\(KO\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[2\overline{LS}^2 + 2\overline{OL}^2 = \overline{KS}^2 + \overline{OS}^2.\]</div>
+        <p>Substituting herein the values of the squares of <span class="math notranslate nohighlight">\(OL, KS, OS\)</span> known from §§ 54, 49, 51:</p>
+        <div class="math notranslate nohighlight">
+        \[2\overline{LS}^2 + 2\left(\frac{1}{4}R^2 - \rho R\right) = \left(R^2 - 2rR\right) + \left(2r^2 - 2\rho R\right),\]</div>
+        <p><em>[observe how :math:`-2rho R` cancels identically on both sides!]</em> there results</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{LS}^2 = \frac{1}{4}R^2 - rR + r^2 = \left(\frac{1}{2}R - r\right)^2,
+        \qquad \text{or:} \qquad
+        LS = \frac{1}{2}R - r;\]</div>
+        <p>and when one sets <span class="math notranslate nohighlight">\(a, b, c\)</span> negative successively herein [sending <span class="math notranslate nohighlight">\(R \mapsto -R\)</span> and <span class="math notranslate nohighlight">\(r \mapsto r^{(k)}\)</span> in an expression already completely free of <span class="math notranslate nohighlight">\(\rho\)</span>!]:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}LS' &amp;= \frac{1}{2}R + r', \\
+        LS'' &amp;= \frac{1}{2}R + r'', \\
+        LS''' &amp;= \frac{1}{2}R + r'''.\end{split}\]</div>
+        <p>Since now (§ 26) <span class="math notranslate nohighlight">\(\tfrac{1}{2}R\)</span> is the radius of the circle circumscribed about <span class="math notranslate nohighlight">\(\triangle MNP\)</span> itself, there follows by the well-known property of circles that touch one another <span class="justification" data-ref-target="III.11" title="III.11">[III. 11–12]</span> the following theorem:</p>
+        <blockquote>
+        <div><p><strong>THEOREM (Feuerbach, 1822, § 57, p. 38):</strong> <em>The circle which passes through the feet of the altitudes of a triangle touches all four circles touching the three sides of the same: namely, it touches the internally touching circle internally</em> [at the <a class="term-ref glossary-term" id="occ-term-feuerbach-point-1" href="../glossary.html#term-feuerbach-point" data-term="feuerbach-point" title="Feuerbach Point X(11) (Innerer Berührungspunkt): The unique point of internal tangency between the nine-point circle and the incircle of a non-equilateral triangle, proved by Feuerbach in § 57 via LS = |R/2 - r|.">Feuerbach point</a> <span class="geom-ref" data-ref="0038.g2:X11" title="X11">X<sub>11</sub></span>], <em>whereas it touches each of the externally touching circles externally</em> [at <span class="geom-ref" data-ref="0038.g2:F1" title="F1">F<sub>a</sub></span>, <span class="geom-ref" data-ref="0038.g2:F2" title="F2">F<sub>b</sub></span>, <span class="geom-ref" data-ref="0038.g2:F3" title="F3">F<sub>c</sub></span>].</p>
+        </div></blockquote>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0038.g3" data-folio="0038" data-graphic="g3" viewBox="0 0 680 599" width="680" height="599" role="img" aria-label="Magnified Detail: Internal Tangency at X(11) = (6, 8) and External Excircle Arcs">
+          <title>Magnified Detail: Internal Tangency at X(11) = (6, 8) and External Excircle Arcs</title>
+          <defs>
+            <clipPath id="clip-0038-g3"><rect x="0" y="0" width="680" height="599"/></clipPath>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+          </defs>
+          <g id="elements" clip-path="url(#clip-0038-g3)">
+            <polygon class="polygon" data-ref="< A B C >" points="56.67,526.19 623.33,526.19 259.05,40.48" fill="var(--geom-fg)" fill-opacity="0.03" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <polygon class="polygon" data-ref="< F1 F2 F3 >" points="436.08,275.21 152.73,292.71 320.00,529.97" fill="var(--geom-assert)" fill-opacity="0.06" stroke="var(--geom-assert)" stroke-width="1.6"/>
+            <path class="segment" data-ref="/ A B /" d="M 56.67 526.19 L 340.00 526.19 L 623.33 526.19" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <path class="segment" data-ref="/ B C /" d="M 623.33 526.19 L 441.19 283.33 L 259.05 40.48" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <path class="segment" data-ref="/ C A /" d="M 259.05 40.48 L 157.86 283.33 L 56.67 526.19" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <circle class="circle" data-ref="( J1 F1 )" cx="906.67" cy="-40.48" r="566.67" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( J2 F2 )" cx="-226.67" cy="101.19" r="425.00" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( J3 F3 )" cx="380.48" cy="1011.90" r="485.71" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( X1 X11 )" cx="299.52" cy="364.29" r="161.90" fill="none" stroke="var(--geom-assert)" stroke-width="1.90" stroke-opacity="0.95"/>
+            <circle class="circle" data-ref="( X5 H1 )" cx="299.52" cy="366.82" r="164.43" fill="none" stroke="var(--geom-accent)" stroke-width="2.20" stroke-opacity="0.98"/>
+          </g>
+          <g id="graphics" clip-path="url(#clip-0038-g3)">
+            <path class="line" data-ref="[ X5 X1 ]" d="M 299.52 599.05 L 299.52 299.52 L 299.52 0.00" fill="none" stroke="var(--geom-assert)" stroke-width="1.10" stroke-opacity="0.60" stroke-dasharray="3,3"/>
+            <path class="line" data-ref="[ X3 X4 ]" d="M 0.00 422.98 L 340.00 359.23 L 680.00 295.48" fill="none" stroke="var(--geom-accent)" stroke-width="1.30" stroke-opacity="0.65" stroke-dasharray="5,3"/>
+          </g>
+          <g id="highlights" clip-path="url(#clip-0038-g3)" style="pointer-events: none;">
+            <polygon class="polygon geom-overlay" data-ref="< A B C >" points="56.67,526.19 623.33,526.19 259.05,40.48" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <polygon class="polygon geom-overlay" data-ref="< F1 F2 F3 >" points="436.08,275.21 152.73,292.71 320.00,529.97" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <path class="line geom-overlay" data-ref="[ X5 X1 ]" d="M 299.52 599.05 L 299.52 299.52 L 299.52 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ X3 X4 ]" d="M 0.00 422.98 L 340.00 359.23 L 680.00 295.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="segment geom-overlay" data-ref="/ A B /" d="M 56.67 526.19 L 340.00 526.19 L 623.33 526.19" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B C /" d="M 623.33 526.19 L 441.19 283.33 L 259.05 40.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C A /" d="M 259.05 40.48 L 157.86 283.33 L 56.67 526.19" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J1 F1 )" cx="906.67" cy="-40.48" r="566.67" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J2 F2 )" cx="-226.67" cy="101.19" r="425.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J3 F3 )" cx="380.48" cy="1011.90" r="485.71" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X1 X11 )" cx="299.52" cy="364.29" r="161.90" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X5 H1 )" cx="299.52" cy="366.82" r="164.43" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+          </g>
+          <g id="points">
+            <circle class="point geom-point" data-ref="A" cx="56.67" cy="526.19" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="B" cx="623.33" cy="526.19" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="C" cx="259.05" cy="40.48" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M1" cx="441.19" cy="283.33" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M2" cx="157.86" cy="283.33" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M3" cx="340.00" cy="526.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H1" cx="419.33" cy="254.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H2" cx="140.49" cy="325.01" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H3" cx="259.05" cy="526.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X1" data-aliases="S" cx="299.52" cy="364.29" r="4.2" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X5" data-aliases="L" cx="299.52" cy="366.82" r="4.2" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X11" cx="299.52" cy="202.38" r="5.2" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F1" cx="436.08" cy="275.21" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F2" cx="152.73" cy="292.71" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F3" cx="320.00" cy="529.97" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+          </g>
+          <g id="labels">
+            <text class="label geom-label" data-ref="A" x="42.67" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A (0,0)</text>
+            <text class="label geom-label" data-ref="B" x="615.33" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B (14,0)</text>
+            <text class="label geom-label" data-ref="C" x="243.05" y="31.48" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C (5,12)</text>
+            <text class="label geom-label" data-ref="M1" x="448.19" y="280.33" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Mₐ</text>
+            <text class="label geom-label" data-ref="M2" x="135.86" y="280.33" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="M3" x="334.00" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="H1" x="426.33" y="259.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Hₐ</text>
+            <text class="label geom-label" data-ref="H2" x="118.49" y="329.01" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">H<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="H3" x="249.05" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">H<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="X1" data-aliases="S" x="308.52" y="377.29" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S = X₁ (6, 4)</text>
+            <text class="label geom-label" data-ref="X5" data-aliases="L" x="191.52" y="360.82" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">L = X₅ (6, 63/16)</text>
+            <text class="label geom-label" data-ref="X11" x="308.52" y="195.38" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">X₁₁ (6, 8)</text>
+            <text class="label geom-label" data-ref="F1" x="444.08" y="270.21" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Feₐ</text>
+            <text class="label geom-label" data-ref="F2" x="124.73" y="287.71" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="F3" x="328.00" y="542.97" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">c</tspan></text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-§§ 58–60" data-folio="§§ 58–60" data-page="39">[Folio §§ 58–60 | p. 39]</div>
+        </section>
+        <section class="level-2" id="linear-quadratic-center-sums-and-the-centroid-g-on-ko">
+        <h2>§§ 58–60. Linear &amp; Quadratic Center Sums and the Centroid G on KO<a class="headerlink" href="#linear-quadratic-center-sums-and-the-centroid-g-on-ko" title="Link to this heading">¶</a></h2>
+        <ul>
+        <li><p><strong>§ 58 (Sum of Center Distances from L)</strong>: Summing <span class="math notranslate nohighlight">\(LS, LS', LS'', LS'''\)</span> via (§ 5) <span class="math notranslate nohighlight">\(r' + r'' + r''' - r = 4R\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[LS + LS' + LS'' + LS''' = \left(\frac{1}{2}R - r\right) + \frac{3}{2}R + (r + 4R) = 6R,\]</div>
+        <p><em>three times the diameter of the circumscribed circle</em> (note: for an equilateral triangle <span class="math notranslate nohighlight">\(R = 2r\)</span>, <span class="math notranslate nohighlight">\(LS = 0\)</span>; whenever <span class="math notranslate nohighlight">\(R \ge 2r\)</span> by Euler’s inequality, <span class="math notranslate nohighlight">\(|R/2 - r| = \frac{1}{2}R - r\)</span>).</p>
+        </li>
+        <li><p><strong>§ 59 (Sum of Squared Center Distances from L — 100% Exact!)</strong>: Squaring <span class="math notranslate nohighlight">\(LS, LS', LS'', LS'''\)</span> and summing via (§§ 5, 28) <span class="math notranslate nohighlight">\(r' + r'' + r''' - r = 4R\)</span> and <span class="math notranslate nohighlight">\(r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho)\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{LS}^2 + \overline{LS'}^2 + \overline{LS''}^2 + \overline{LS'''}^2 = 13R^2 - 4\rho R = R(13R - 4\rho),\]</div>
+        <p>whence by §§ 50, 53 (<span class="math notranslate nohighlight">\(\overline{KO}^2 = 4\overline{KL}^2 = R^2 - 4\rho R\)</span> and <span class="math notranslate nohighlight">\(\sum \overline{KS_i}^2 = 12R^2\)</span>):</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{KO}^2 + \overline{KS}^2 + \overline{KS'}^2 + \overline{KS''}^2 + \overline{KS'''}^2
+        = \overline{LS}^2 + \overline{LS'}^2 + \overline{LS''}^2 + \overline{LS'''}^2.\]</div>
+        </li>
+        </ul>
+        <div class="folio-milestone" id="folio-§ 60" data-folio="§ 60" data-page="40–41">[Folio § 60 | p. 40–41]</div>
+        <ul>
+        <li><p><strong>§ 60 (The Centroid G on the Euler Line &amp; Harmonic Division)</strong>: Drawing the median <span class="math notranslate nohighlight">\(Cc\)</span> cutting <span class="math notranslate nohighlight">\(KO\)</span> at <span class="math notranslate nohighlight">\(G\)</span> [<span class="geom-ref" data-ref="0038.g1:X2" title="X2">X<sub>2</sub></span>], since <span class="math notranslate nohighlight">\(CO \parallel Kc\)</span> and (§ 45) <span class="math notranslate nohighlight">\(OC = 2\,Kc\)</span>, similar triangles <span class="justification" data-ref-target="VI.4" title="VI.4">[VI. 4]</span> give <span class="math notranslate nohighlight">\(GC = 2\,Gc\)</span> and <span class="math notranslate nohighlight">\(GO = 2\,GK\)</span>, so <span class="math notranslate nohighlight">\(G\)</span> is the centroid (<em>Schwerpunkt</em>) of <span class="math notranslate nohighlight">\(\triangle ABC\)</span> (citing Carnot), dividing <span class="math notranslate nohighlight">\(KO\)</span> at the first trisection point from <span class="math notranslate nohighlight">\(K\)</span> [forming with <span class="math notranslate nohighlight">\(L\)</span> the <a class="term-ref glossary-term" id="occ-term-harmonic-range-1" href="../glossary.html#term-harmonic-range" data-term="harmonic-range" title="Harmonic Range (X4, X2; X5, X3) = -1 (Harmonische Teilung): Four collinear points whose projective cross-ratio equals -1; along the Euler line, the nine-point center X(5) and circumcenter X(3) divide the segment between the orthocenter X(4) and centroid X(2) internally and externally in ratio 3 : 1.">harmonic range</a> <span class="math notranslate nohighlight">\((O, G; L, K) = -1\)</span>]:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}GK = \frac{1}{3}KO, \quad GO = \frac{2}{3}KO, \quad GL = \frac{1}{6}KO, \\
+        \overline{GK}^2 = \frac{1}{9}(R^2 - 4\rho R), \quad
+        \overline{GO}^2 = \frac{4}{9}(R^2 - 4\rho R), \quad
+        \overline{GL}^2 = \frac{1}{36}(R^2 - 4\rho R).\end{split}\]</div>
+        <p>Applying the cosine law in <span class="math notranslate nohighlight">\(\triangle GKS\)</span> yields <span class="math notranslate nohighlight">\(\overline{GS}^2 = \frac{1}{9}\left(6\overline{KS}^2 + 3\overline{OS}^2 - 2\overline{KO}^2\right)\)</span>, and substituting the exact values from §§ 49, 51, 53 gives the exact incenter-centroid quadrance:</p>
+        <div class="math notranslate nohighlight">
+        \[\overline{GS}^2 = \frac{2}{9}R(2R + \rho) - \frac{2}{3}r(2R - r).\]</div>
+        <p><em>[For the excenters, Feuerbach again flips the sign of :math:`R` without flipping :math:`rho`, printing :math:`overline{GS^{(k)}}^2 = frac{2}{9}R(2R - rho) + frac{2}{3}r^{(k)}(2R + r^{(k)})`, :math:`sum overline{GS_i}^2 = frac{28}{9}R(4R - rho)`, and :math:`9sum overline{GS_i}^2 = 7sum overline{OS_i}^2`; the true exact identities proved in :mod:`geometor.feuerbach.euler` are :math:`overline{GS^{(k)}}^2 = frac{2}{9}R(2R + rho) + frac{2}{3}r^{(k)}(2R + r^{(k)})` and :math:`9sum overline{GS_i}^2 = 16R(7R - rho)`.]</em></p>
+        </li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="02-orthocenter-orthic-triangle-en.html" title="Unit II: Second Section — The Orthocenter, Orthic Triangle &amp; Inradius ρ (§§ 19–48)">&larr; <span class="nav-label">Unit II: Second Section — The Orthocenter, Orthic Triangle & Inradius ρ (§§ 19–48)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Eigenschaften einiger merkwürdigen Punkte (1822)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="04-proportional-triangles-en.html" title="Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)"><span class="nav-label">Unit IV: Fifth Section — Comparative Proportions Among Derived Triangles (§§ 61–87)</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

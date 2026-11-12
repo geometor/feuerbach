@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exact Symbolic Demonstrations &mdash; GEOMETOR • feuerbach — Euler (1765) &amp; Feuerbach (1822) Bilingual Book Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • feuerbach</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">feuerbach</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">Exact Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; feuerbach</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../glossary.html" title="Technical Glossary">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="modules"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="exact-symbolic-demonstrations">
+        <span id="demos"></span><h1>Exact Symbolic Demonstrations<a class="headerlink" href="#exact-symbolic-demonstrations" title="Link to this heading">¶</a></h1>
+        <p class="rubric">100% Exact SymPy Polynomial Proofs &amp; <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> Compass-and-Straightedge Constructions</p>
+        <p>Unlike floating-point dynamic geometry sketches, every theorem in <a class="citation-ref" id="occ-cite-euler-1765-1" href="../bibliography.html#cite-euler-1765" data-cite="euler_1765" title="Leonhard Euler — Solutio facilis problematum quorumdam geometricorum difficillimorum (Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae, Tom. XI (pro Anno 1765, publ. 1767), pp. 103–123, Tab. II Fig. 1–9 (Eneström E325))">Euler (1765)</a> and <a class="citation-ref" id="occ-cite-feuerbach-1822-1" href="../bibliography.html#cite-feuerbach-1822" data-cite="feuerbach_1822" title="Karl Wilhelm Feuerbach — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren (Mit einer Vorrede von Karl Buzengeiger, Nürnberg: Riegel und Wießner, 1822, pp. I–XVI, 1–62, Tab. I–II)">Feuerbach (1822)</a> is executed and verified symbolically in <code class="docutils literal notranslate"><span class="pre">geometor.feuerbach</span></code> with <strong>zero floating-point approximations</strong>.</p>
+        <section class="level-2" id="canonical-heronian-15-13-14-rational-locus">
+        <h2>Canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> Rational Locus<a class="headerlink" href="#canonical-heronian-15-13-14-rational-locus" title="Link to this heading">¶</a></h2>
+        <p>Placing the vertices of the acute scalene Heronian triangle with sides <span class="math notranslate nohighlight">\(a = 15, b = 13, c = 14\)</span> (area <span class="math notranslate nohighlight">\(\Delta = 84\)</span>, semiperimeter <span class="math notranslate nohighlight">\(s = 21\)</span>) at integer Cartesian coordinates <code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span></code>, <code class="docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">(14,</span> <span class="pre">0)</span></code>, <code class="docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">(5,</span> <span class="pre">12)</span></code> places <strong>all classical centers, tritangent centers, and Feuerbach tangencies</strong> strictly inside <span class="math notranslate nohighlight">\(\mathbb{Q}^2\)</span>:</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="0038.g3" data-folio="0038" data-graphic="g3" viewBox="0 0 680 599" width="680" height="599" role="img" aria-label="Magnified Detail: Internal Tangency at X(11) = (6, 8) and External Excircle Arcs">
+          <title>Magnified Detail: Internal Tangency at X(11) = (6, 8) and External Excircle Arcs</title>
+          <defs>
+            <clipPath id="clip-0038-g3"><rect x="0" y="0" width="680" height="599"/></clipPath>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M 0 -4.5 L 0 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -2 -4.5 L -2 4.5 M 2 -4.5 L 2 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+              <path d="M -3.5 -4.5 L -3.5 4.5 M 0 -4.5 L 0 4.5 M 3.5 -4.5 L 3.5 4.5" stroke="var(--geom-assert, #5ec27e)" stroke-width="1.6" fill="none"/>
+            </marker>
+          </defs>
+          <g id="elements" clip-path="url(#clip-0038-g3)">
+            <polygon class="polygon" data-ref="< A B C >" points="56.67,526.19 623.33,526.19 259.05,40.48" fill="var(--geom-fg)" fill-opacity="0.03" stroke="var(--geom-fg)" stroke-width="1.6"/>
+            <polygon class="polygon" data-ref="< F1 F2 F3 >" points="436.08,275.21 152.73,292.71 320.00,529.97" fill="var(--geom-assert)" fill-opacity="0.06" stroke="var(--geom-assert)" stroke-width="1.6"/>
+            <path class="segment" data-ref="/ A B /" d="M 56.67 526.19 L 340.00 526.19 L 623.33 526.19" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <path class="segment" data-ref="/ B C /" d="M 623.33 526.19 L 441.19 283.33 L 259.05 40.48" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <path class="segment" data-ref="/ C A /" d="M 259.05 40.48 L 157.86 283.33 L 56.67 526.19" fill="none" stroke="var(--geom-fg)" stroke-width="1.60" stroke-opacity="0.92"/>
+            <circle class="circle" data-ref="( J1 F1 )" cx="906.67" cy="-40.48" r="566.67" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( J2 F2 )" cx="-226.67" cy="101.19" r="425.00" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( J3 F3 )" cx="380.48" cy="1011.90" r="485.71" fill="none" stroke="var(--geom-coincide)" stroke-width="1.15" stroke-opacity="0.55" stroke-dasharray="5,3"/>
+            <circle class="circle" data-ref="( X1 X11 )" cx="299.52" cy="364.29" r="161.90" fill="none" stroke="var(--geom-assert)" stroke-width="1.90" stroke-opacity="0.95"/>
+            <circle class="circle" data-ref="( X5 H1 )" cx="299.52" cy="366.82" r="164.43" fill="none" stroke="var(--geom-accent)" stroke-width="2.20" stroke-opacity="0.98"/>
+          </g>
+          <g id="graphics" clip-path="url(#clip-0038-g3)">
+            <path class="line" data-ref="[ X5 X1 ]" d="M 299.52 599.05 L 299.52 299.52 L 299.52 0.00" fill="none" stroke="var(--geom-assert)" stroke-width="1.10" stroke-opacity="0.60" stroke-dasharray="3,3"/>
+            <path class="line" data-ref="[ X3 X4 ]" d="M 0.00 422.98 L 340.00 359.23 L 680.00 295.48" fill="none" stroke="var(--geom-accent)" stroke-width="1.30" stroke-opacity="0.65" stroke-dasharray="5,3"/>
+          </g>
+          <g id="highlights" clip-path="url(#clip-0038-g3)" style="pointer-events: none;">
+            <polygon class="polygon geom-overlay" data-ref="< A B C >" points="56.67,526.19 623.33,526.19 259.05,40.48" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <polygon class="polygon geom-overlay" data-ref="< F1 F2 F3 >" points="436.08,275.21 152.73,292.71 320.00,529.97" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+            <path class="line geom-overlay" data-ref="[ X5 X1 ]" d="M 299.52 599.05 L 299.52 299.52 L 299.52 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="line geom-overlay" data-ref="[ X3 X4 ]" d="M 0.00 422.98 L 340.00 359.23 L 680.00 295.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
+            <path class="segment geom-overlay" data-ref="/ A B /" d="M 56.67 526.19 L 340.00 526.19 L 623.33 526.19" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ B C /" d="M 623.33 526.19 L 441.19 283.33 L 259.05 40.48" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <path class="segment geom-overlay" data-ref="/ C A /" d="M 259.05 40.48 L 157.86 283.33 L 56.67 526.19" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J1 F1 )" cx="906.67" cy="-40.48" r="566.67" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J2 F2 )" cx="-226.67" cy="101.19" r="425.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( J3 F3 )" cx="380.48" cy="1011.90" r="485.71" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X1 X11 )" cx="299.52" cy="364.29" r="161.90" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+            <circle class="circle geom-overlay" data-ref="( X5 H1 )" cx="299.52" cy="366.82" r="164.43" fill="none" stroke="var(--geom-accent)" stroke-width="2.6"/>
+          </g>
+          <g id="points">
+            <circle class="point geom-point" data-ref="A" cx="56.67" cy="526.19" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="B" cx="623.33" cy="526.19" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="C" cx="259.05" cy="40.48" r="3.8" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M1" cx="441.19" cy="283.33" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M2" cx="157.86" cy="283.33" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="M3" cx="340.00" cy="526.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H1" cx="419.33" cy="254.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H2" cx="140.49" cy="325.01" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="H3" cx="259.05" cy="526.19" r="3.0" fill="var(--geom-fg)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X1" data-aliases="S" cx="299.52" cy="364.29" r="4.2" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X5" data-aliases="L" cx="299.52" cy="366.82" r="4.2" fill="var(--geom-accent)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="X11" cx="299.52" cy="202.38" r="5.2" fill="var(--geom-assert)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F1" cx="436.08" cy="275.21" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F2" cx="152.73" cy="292.71" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+            <circle class="point geom-point" data-ref="F3" cx="320.00" cy="529.97" r="4.4" fill="var(--geom-coincide)" stroke="var(--geom-point-stroke, #1e1e20)" stroke-width="1.2"/>
+          </g>
+          <g id="labels">
+            <text class="label geom-label" data-ref="A" x="42.67" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">A (0,0)</text>
+            <text class="label geom-label" data-ref="B" x="615.33" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">B (14,0)</text>
+            <text class="label geom-label" data-ref="C" x="243.05" y="31.48" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">C (5,12)</text>
+            <text class="label geom-label" data-ref="M1" x="448.19" y="280.33" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Mₐ</text>
+            <text class="label geom-label" data-ref="M2" x="135.86" y="280.33" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="M3" x="334.00" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">M<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="H1" x="426.33" y="259.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Hₐ</text>
+            <text class="label geom-label" data-ref="H2" x="118.49" y="329.01" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">H<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="H3" x="249.05" y="541.19" fill="var(--geom-fg)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">H<tspan dy="3" font-size="10.5">c</tspan></text>
+            <text class="label geom-label" data-ref="X1" data-aliases="S" x="308.52" y="377.29" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">S = X₁ (6, 4)</text>
+            <text class="label geom-label" data-ref="X5" data-aliases="L" x="191.52" y="360.82" fill="var(--geom-accent)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">L = X₅ (6, 63/16)</text>
+            <text class="label geom-label" data-ref="X11" x="308.52" y="195.38" fill="var(--geom-assert)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">X₁₁ (6, 8)</text>
+            <text class="label geom-label" data-ref="F1" x="444.08" y="270.21" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Feₐ</text>
+            <text class="label geom-label" data-ref="F2" x="124.73" y="287.71" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">b</tspan></text>
+            <text class="label geom-label" data-ref="F3" x="328.00" y="542.97" fill="var(--geom-coincide)" font-family="EB Garamond, Georgia, serif" font-size="14" font-style="italic">Fe<tspan dy="3" font-size="10.5">c</tspan></text>
+          </g>
+        </svg>
+        </figure>
+        <ul class="simple">
+        <li><p><strong>Incenter &amp; Incircle:</strong> <span class="geom-ref" data-ref="0038.g3:X1" title="X1">S = X<sub>1</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">4)</span></code>, inradius <span class="math notranslate nohighlight">\(r = 4\)</span>.</p></li>
+        <li><p><strong>Centroid:</strong> <code class="docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">G</span> <span class="pre">=</span> <span class="pre">X(2)</span> <span class="pre">=</span> <span class="pre">(19/3,</span> <span class="pre">4)</span></code>.</p></li>
+        <li><p><strong>Circumcenter &amp; Circumcircle:</strong> <code class="docutils literal notranslate"><span class="pre">H</span> <span class="pre">=</span> <span class="pre">K</span> <span class="pre">=</span> <span class="pre">X(3)</span> <span class="pre">=</span> <span class="pre">(7,</span> <span class="pre">33/8)</span></code>, circumradius <span class="math notranslate nohighlight">\(R = \frac{65}{8}\)</span>.</p></li>
+        <li><p><strong>Orthocenter &amp; Orthic Inradius:</strong> <code class="docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">O</span> <span class="pre">=</span> <span class="pre">X(4)</span> <span class="pre">=</span> <span class="pre">(5,</span> <span class="pre">15/4)</span></code>, orthic inradius <span class="math notranslate nohighlight">\(\rho = \frac{99}{52}\)</span>.</p></li>
+        <li><p><strong>Nine-Point Center &amp; Circle:</strong> <span class="geom-ref" data-ref="0038.g3:X5" title="X5">L = X<sub>5</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">63/16)</span></code>, radius <span class="math notranslate nohighlight">\(R_9 = \frac{65}{16}\)</span>.</p></li>
+        <li><p><strong>Internal Tangency (Feuerbach Point):</strong> <span class="geom-ref" data-ref="0038.g3:X11" title="X11">X<sub>11</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">8)</span></code>, where <span class="math notranslate nohighlight">\(Q(X_5, X_1) = \left(\frac{65}{16} - 4\right)^2 = \frac{1}{256}\)</span>.</p></li>
+        <li><p><strong>Three External Excircle Tangencies:</strong>
+        <span class="geom-ref" data-ref="0038.g3:F1" title="F1">Fe<sub>a</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(2709/289,</span> <span class="pre">1792/289)</span></code>,
+        <span class="geom-ref" data-ref="0038.g3:F2" title="F2">Fe<sub>b</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(553/233,</span> <span class="pre">1344/233)</span></code>, and
+        <span class="geom-ref" data-ref="0038.g3:F3" title="F3">Fe<sub>c</sub></span> <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">(1672/257,</span> <span class="pre">-24/257)</span></code>, forming the <a class="term-ref glossary-term" id="occ-term-feuerbach-triangle-1" href="../glossary.html#term-feuerbach-triangle" data-term="feuerbach-triangle" title="Feuerbach Triangle (Excircle tangency triangle Fea Feb Fec): The triangle inscribed in the nine-point circle whose vertices are the three points of external tangency between the nine-point circle and the three excircles of ABC.">Feuerbach Triangle</a> <span class="geom-ref" data-ref="0038.g3:&lt; F1 F2 F3 &gt;" title="&lt; F1 F2 F3 &gt;">\triangle Fe<sub>a</sub> Fe<sub>b</sub> Fe<sub>c</sub></span>.</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="demonstration-i-demos-euler-1765-identities-py">
+        <h2>Demonstration I: <code class="docutils literal notranslate"><span class="pre">demos/euler_1765_identities.py</span></code><a class="headerlink" href="#demonstration-i-demos-euler-1765-identities-py" title="Link to this heading">¶</a></h2>
+        <p>Verifies all 30 polynomial residuals across Euler (1765) and Feuerbach (1822), solves Euler’s inverse cubic reconstruction <span class="math notranslate nohighlight">\(z^3 - 18z^2 + 107z - 210 = 0\)</span> on <code class="docutils literal notranslate"><span class="pre">(5,</span> <span class="pre">6,</span> <span class="pre">7)</span></code>, and constructs Euler’s four centers by pure compass-and-straightedge:</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="sd">"""Executable demonstration of Leonhard Euler's 1765 memoir (E325, §§ 1–34).</span>
+        <span class="linenos"> 2</span>
+        <span class="linenos"> 3</span><span class="sd">Verifies:</span>
+        <span class="linenos"> 4</span><span class="sd">1. All six squared mutual center distances (§ 18, I–VI) as exact rational functions of (a, b, c).</span>
+        <span class="linenos"> 5</span><span class="sd">2. Collinearity of E = X(4), F = X(2), H = X(3) with EH = (3/2)*EF and FH = (1/2)*EF.</span>
+        <span class="linenos"> 6</span><span class="sd">3. Stewart's collinearity law 4*GH^2 + 2*EG^2 = 3*EF^2 + 6*FG^2.</span>
+        <span class="linenos"> 7</span><span class="sd">4. Euler's inverse cubic reconstruction z^3 - p*z^2 + q*z - r = 0 on (5, 6, 7).</span>
+        <span class="linenos"> 8</span><span class="sd">5. Compass-and-straightedge Model construction on Heronian (15, 13, 14).</span>
+        <span class="linenos"> 9</span><span class="sd">"""</span>
+        <span class="linenos">10</span>
+        <span class="linenos">11</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos">12</span>
+        <span class="linenos">13</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>
+        <span class="linenos">14</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>
+        <span class="linenos">15</span>
+        <span class="linenos">16</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.feuerbach.euler</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+        <span class="linenos">17</span>    <span class="n">construct_euler_1765_centers</span><span class="p">,</span>
+        <span class="linenos">18</span>    <span class="n">prove_euler_1765_identities</span><span class="p">,</span>
+        <span class="linenos">19</span><span class="p">)</span>
+        <span class="linenos">20</span>
+        <span class="linenos">21</span>
+        <span class="linenos">22</span><span class="k">def</span><span class="w"> </span><span class="nf">run_demo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">23</span><span class="w">    </span><span class="sd">"""Execute and print the Euler 1765 symbolic proof and construction report."""</span>
+        <span class="linenos">24</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">25</span>    <span class="n">report</span> <span class="o">=</span> <span class="n">prove_euler_1765_identities</span><span class="p">()</span>
+        <span class="linenos">26</span>    <span class="n">constructed</span> <span class="o">=</span> <span class="n">construct_euler_1765_centers</span><span class="p">()</span>
+        <span class="linenos">27</span>
+        <span class="linenos">28</span>    <span class="n">id_table</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Euler (1765/1767, E325) — Symbolic Polynomial Identities"</span><span class="p">)</span>
+        <span class="linenos">29</span>    <span class="n">id_table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Identity Key"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">30</span>    <span class="n">id_table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Residual"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"bold green"</span><span class="p">)</span>
+        <span class="linenos">31</span>    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">report</span><span class="o">.</span><span class="n">symbolic_residuals</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">32</span>        <span class="k">if</span> <span class="n">key</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">"euler_"</span><span class="p">):</span>
+        <span class="linenos">33</span>            <span class="n">id_table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="p">))</span>
+        <span class="linenos">34</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">id_table</span><span class="p">)</span>
+        <span class="linenos">35</span>
+        <span class="linenos">36</span>    <span class="n">cub</span> <span class="o">=</span> <span class="n">report</span><span class="o">.</span><span class="n">euler_cubic_567</span>
+        <span class="linenos">37</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">38</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">[bold]Euler §§ 21–24 Reconstruction on </span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">sides_expected</span><span class="si">}</span><span class="s2">:[/bold] "</span>
+        <span class="linenos">39</span>        <span class="sa">f</span><span class="s2">"EF²=</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">ef_sq</span><span class="si">}</span><span class="s2">, FG²=</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">fg_sq</span><span class="si">}</span><span class="s2">, GH²=</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">gh_sq</span><span class="si">}</span><span class="s2">, EG²=</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">eg_sq</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">40</span>        <span class="sa">f</span><span class="s2">"Recovered (p, q, r) = (</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">p_sum</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">q_pairs</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">r_prod</span><span class="si">}</span><span class="s2">) -&gt; "</span>
+        <span class="linenos">41</span>        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">cubic_poly</span><span class="si">}</span><span class="s2"> = 0 -&gt; roots </span><span class="si">{</span><span class="n">cub</span><span class="o">.</span><span class="n">recovered_roots</span><span class="si">}</span><span class="s2">"</span>
+        <span class="linenos">42</span>    <span class="p">)</span>
+        <span class="linenos">43</span>
+        <span class="linenos">44</span>    <span class="n">h</span> <span class="o">=</span> <span class="n">report</span><span class="o">.</span><span class="n">heronian_15_13_14</span>
+        <span class="linenos">45</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">46</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">[bold]Canonical Heronian </span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">sides</span><span class="si">}</span><span class="s2">:[/bold] Δ=</span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">area</span><span class="si">}</span><span class="s2">, R=</span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">circumradius</span><span class="si">}</span><span class="s2">, r=</span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">inradius</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">47</span>        <span class="sa">f</span><span class="s2">"E = X(4) = (</span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x4_orthocenter_E</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x4_orthocenter_E</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), "</span>
+        <span class="linenos">48</span>        <span class="sa">f</span><span class="s2">"F = X(2) = (</span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x2_centroid_F</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x2_centroid_F</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), "</span>
+        <span class="linenos">49</span>        <span class="sa">f</span><span class="s2">"G = X(1) = (</span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x1_incenter_G</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x1_incenter_G</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), "</span>
+        <span class="linenos">50</span>        <span class="sa">f</span><span class="s2">"H = X(3) = (</span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x3_circumcenter_H</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">constructed</span><span class="o">.</span><span class="n">x3_circumcenter_H</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">)"</span>
+        <span class="linenos">51</span>    <span class="p">)</span>
+        <span class="linenos">52</span>
+        <span class="linenos">53</span>
+        <span class="linenos">54</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">55</span>    <span class="n">run_demo</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        </section>
+        <section class="level-2" id="demonstration-ii-demos-feuerbach-tangency-py">
+        <h2>Demonstration II: <code class="docutils literal notranslate"><span class="pre">demos/feuerbach_tangency.py</span></code><a class="headerlink" href="#demonstration-ii-demos-feuerbach-tangency-py" title="Link to this heading">¶</a></h2>
+        <p>Constructs the nine-point circle, all four tritangent circles, <code class="docutils literal notranslate"><span class="pre">X(11)</span></code>, and <code class="docutils literal notranslate"><span class="pre">Fea,</span> <span class="pre">Feb,</span> <span class="pre">Fec</span></code> via <code class="docutils literal notranslate"><span class="pre">Model(...,</span> <span class="pre">auto_intersect=False)</span></code> and <code class="docutils literal notranslate"><span class="pre">model.intersect(...)</span></code>, verifying the harmonic Euler cross-ratio <code class="docutils literal notranslate"><span class="pre">(X4,</span> <span class="pre">X2;</span> <span class="pre">X5,</span> <span class="pre">X3)</span> <span class="pre">=</span> <span class="pre">-1</span></code> and exporting the four interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVGs:</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="sd">"""Executable demonstration of Karl Wilhelm Feuerbach's Theorem (1822, § 57).</span>
+        <span class="linenos"> 2</span>
+        <span class="linenos"> 3</span><span class="sd">Constructs the nine-point circle, the four tritangent circles, the Feuerbach point X(11),</span>
+        <span class="linenos"> 4</span><span class="sd">and the three excircle tangency points Fea, Feb, Fec in exact rational coordinates on</span>
+        <span class="linenos"> 5</span><span class="sd">A = (0, 0), B = (14, 0), C = (5, 12) using geometor.model.Model(..., auto_intersect=False),</span>
+        <span class="linenos"> 6</span><span class="sd">and exports interactive .euclid-graphic SVGs.</span>
+        <span class="linenos"> 7</span><span class="sd">"""</span>
+        <span class="linenos"> 8</span>
+        <span class="linenos"> 9</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos">10</span>
+        <span class="linenos">11</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos">12</span>
+        <span class="linenos">13</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">quadrance</span>
+        <span class="linenos">14</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>
+        <span class="linenos">15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>
+        <span class="linenos">16</span>
+        <span class="linenos">17</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.feuerbach.render</span><span class="w"> </span><span class="kn">import</span> <span class="n">export_all_codex_svgs</span>
+        <span class="linenos">18</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.feuerbach.tangency</span><span class="w"> </span><span class="kn">import</span> <span class="n">construct_feuerbach_tangency</span>
+        <span class="linenos">19</span>
+        <span class="linenos">20</span>
+        <span class="linenos">21</span><span class="k">def</span><span class="w"> </span><span class="nf">run_demo</span><span class="p">(</span><span class="n">svg_dir</span><span class="p">:</span> <span class="n">Path</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">22</span><span class="w">    </span><span class="sd">"""Execute the exact Feuerbach tangency construction and print verified invariants."""</span>
+        <span class="linenos">23</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">24</span>    <span class="n">res</span> <span class="o">=</span> <span class="n">construct_feuerbach_tangency</span><span class="p">()</span>
+        <span class="linenos">25</span>
+        <span class="linenos">26</span>    <span class="n">table</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Feuerbach (1822, § 57) — Exact Rational Locus on (15, 13, 14)"</span><span class="p">)</span>
+        <span class="linenos">27</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Element"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"bold cyan"</span><span class="p">)</span>
+        <span class="linenos">28</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Coordinates / Radius"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">29</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Tangency / Incidence Check"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">30</span>
+        <span class="linenos">31</span>    <span class="n">r9</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">nine_point_circle</span><span class="o">.</span><span class="n">radius</span>
+        <span class="linenos">32</span>    <span class="n">r_in</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">incircle</span><span class="o">.</span><span class="n">radius</span>
+        <span class="linenos">33</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">34</span>        <span class="s2">"Nine-Point Circle (X5)"</span><span class="p">,</span>
+        <span class="linenos">35</span>        <span class="sa">f</span><span class="s2">"center=(</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x5_nine_point_center</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x5_nine_point_center</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), R₉=</span><span class="si">{</span><span class="n">r9</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">36</span>        <span class="s2">"9 canonical points verified"</span><span class="p">,</span>
+        <span class="linenos">37</span>    <span class="p">)</span>
+        <span class="linenos">38</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">39</span>        <span class="s2">"Incircle (X1) &amp; X(11)"</span><span class="p">,</span>
+        <span class="linenos">40</span>        <span class="sa">f</span><span class="s2">"X₁=(</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x1_incenter</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x1_incenter</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), r=</span><span class="si">{</span><span class="n">r_in</span><span class="si">}</span><span class="s2">, X₁₁=(</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x11_feuerbach_point</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">x11_feuerbach_point</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">41</span>        <span class="sa">f</span><span class="s2">"Q(X₅,X₁)=</span><span class="si">{</span><span class="n">quadrance</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">x5_nine_point_center</span><span class="p">,</span><span class="w"> </span><span class="n">res</span><span class="o">.</span><span class="n">x1_incenter</span><span class="p">)</span><span class="si">}</span><span class="s2"> == (R₉-r)²=</span><span class="si">{</span><span class="p">(</span><span class="n">r9</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">r_in</span><span class="p">)</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="mi">2</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">42</span>    <span class="p">)</span>
+        <span class="linenos">43</span>    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">ctr</span><span class="p">,</span> <span class="n">circ</span><span class="p">,</span> <span class="n">fe_pt</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
+        <span class="linenos">44</span>        <span class="p">(</span><span class="s2">"Excircle A"</span><span class="p">,</span> <span class="s2">"Excircle B"</span><span class="p">,</span> <span class="s2">"Excircle C"</span><span class="p">),</span>
+        <span class="linenos">45</span>        <span class="n">res</span><span class="o">.</span><span class="n">excenters</span><span class="p">,</span>
+        <span class="linenos">46</span>        <span class="n">res</span><span class="o">.</span><span class="n">excircles</span><span class="p">,</span>
+        <span class="linenos">47</span>        <span class="n">res</span><span class="o">.</span><span class="n">excircle_tangencies</span><span class="p">,</span>
+        <span class="linenos">48</span>        <span class="n">strict</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="linenos">49</span>    <span class="p">):</span>
+        <span class="linenos">50</span>        <span class="n">rk</span> <span class="o">=</span> <span class="n">circ</span><span class="o">.</span><span class="n">radius</span>
+        <span class="linenos">51</span>        <span class="n">table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">52</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> &amp; </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">model</span><span class="p">[</span><span class="n">fe_pt</span><span class="p">]</span><span class="o">.</span><span class="n">ID</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">53</span>            <span class="sa">f</span><span class="s2">"J=(</span><span class="si">{</span><span class="n">ctr</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">ctr</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">), r=</span><span class="si">{</span><span class="n">rk</span><span class="si">}</span><span class="s2">, Fe=(</span><span class="si">{</span><span class="n">fe_pt</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">fe_pt</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">54</span>            <span class="sa">f</span><span class="s2">"Q(X₅,J)=</span><span class="si">{</span><span class="n">quadrance</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">x5_nine_point_center</span><span class="p">,</span><span class="w"> </span><span class="n">ctr</span><span class="p">)</span><span class="si">}</span><span class="s2"> == (R₉+r)²=</span><span class="si">{</span><span class="p">(</span><span class="n">r9</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">rk</span><span class="p">)</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="mi">2</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">55</span>        <span class="p">)</span>
+        <span class="linenos">56</span>    <span class="n">table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">57</span>        <span class="s2">"Harmonic Euler Range"</span><span class="p">,</span>
+        <span class="linenos">58</span>        <span class="sa">f</span><span class="s2">"(X₄, X₂; X₅, X₃) = </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">harmonic_cross_ratio</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">59</span>        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">steps</span><span class="p">)</span><span class="si">}</span><span class="s2"> deductive Model steps"</span><span class="p">,</span>
+        <span class="linenos">60</span>    <span class="p">)</span>
+        <span class="linenos">61</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">table</span><span class="p">)</span>
+        <span class="linenos">62</span>
+        <span class="linenos">63</span>    <span class="k">if</span> <span class="n">svg_dir</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">64</span>        <span class="n">written</span> <span class="o">=</span> <span class="n">export_all_codex_svgs</span><span class="p">(</span><span class="n">svg_dir</span><span class="p">)</span>
+        <span class="linenos">65</span>        <span class="k">for</span> <span class="n">slug</span><span class="p">,</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">written</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">66</span>            <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"[green]Wrote SVG[/green] </span><span class="si">{</span><span class="n">slug</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">67</span>
+        <span class="linenos">68</span>
+        <span class="linenos">69</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">70</span>    <span class="n">default_out</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="s2">"docsrc"</span> <span class="o">/</span> <span class="s2">"_static"</span> <span class="o">/</span> <span class="s2">"constructions"</span>
+        <span class="linenos">71</span>    <span class="n">run_demo</span><span class="p">(</span><span class="n">default_out</span><span class="p">)</span>
+        </pre></div>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../glossary.html" title="Technical Glossary">&larr; <span class="nav-label">Technical Glossary</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • feuerbach — Euler (1765) & Feuerbach (1822) Bilingual Book Codex</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="modules"><span class="nav-label">modules</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../mission/index.html"  >Mission & Architectural Principles</a></li>
+        <li><a href="../log/index.html"  >Research & Editorial Log</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

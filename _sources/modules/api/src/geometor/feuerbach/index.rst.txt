@@ -1,0 +1,56 @@
+src.geometor.feuerbach
+======================
+
+.. py:module:: src.geometor.feuerbach
+
+.. autoapi-nested-parse::
+
+   Exact symbolic constructions, polynomial proofs, and codex concordance for Euler (1765) and Feuerbach (1822).
+
+   Provides:
+
+   - :mod:`geometor.feuerbach.euler`: Symbolic SymPy polynomial proofs of Leonhard Euler's 1765/1767
+     memoir *Solutio facilis problematum quorumdam geometricorum difficillimorum* (E325, §§ 1–34),
+     Karl Wilhelm Feuerbach's 1822 treatise *Eigenschaften einiger merkwürdigen Punkte des
+     geradlinigen Dreiecks* (§§ 1–60), and the exact compass-and-straightedge construction of
+     Euler's four classical centers and the Euler line.
+   - :mod:`geometor.feuerbach.tangency`: Exact :class:`~geometor.model.Model` construction and
+     deductive verification of the nine-point circle, the Feuerbach point ``X(11)``, and the three
+     excircle tangency points ``Fea``, ``Feb``, ``Fec`` on the canonical Heronian ``(15, 13, 14)``
+     triangle.
+   - :mod:`geometor.feuerbach.render`: Theme-adaptive ``.euclid-graphic`` SVG exporter for the
+     bilingual Book Codices.
+   - :mod:`geometor.feuerbach.concordance`: Structured access to the cross-treatise concordance and
+     archival source manifest.
+
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /modules/api/src/geometor/feuerbach/__main__/index
+   /modules/api/src/geometor/feuerbach/concordance/index
+   /modules/api/src/geometor/feuerbach/euler/index
+   /modules/api/src/geometor/feuerbach/primitives/index
+   /modules/api/src/geometor/feuerbach/render/index
+   /modules/api/src/geometor/feuerbach/tangency/index
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.feuerbach.__version__
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   :value: '0.1.0'
+
+
