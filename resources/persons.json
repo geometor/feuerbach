@@ -1,0 +1,92 @@
+{
+  "euler": {
+    "name": "Leonhard Euler",
+    "dates": "1707–1783",
+    "role": "Swiss mathematician and physicist; author of E325 (1765/1767) establishing the six center distances and the Euler line"
+  },
+  "feuerbach": {
+    "name": "Karl Wilhelm Feuerbach",
+    "dates": "1800–1834",
+    "role": "German geometer; author of the 1822 Nuremberg monograph proving the fourfold tangency of the nine-point circle"
+  },
+  "buzengeiger": {
+    "name": "Karl Heribert Ignaz Buzengeiger",
+    "dates": "1771–1835",
+    "role": "Professor of Mathematics at the University of Freiburg; Feuerbach's mentor and author of the 1822 Vorrede"
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BCE",
+    "role": "Author of the Elements and the Data; axiomatic foundation for Euler's and Feuerbach's synthetic demonstrations"
+  },
+  "apollonius": {
+    "name": "Apollonius of Perga",
+    "dates": "c. 240–c. 190 BCE",
+    "role": "Author of the Conics and De Tactionibus; originator of the Apollonian circle-tangency problem"
+  },
+  "pappus": {
+    "name": "Pappus of Alexandria",
+    "dates": "c. 290–c. 350 CE",
+    "role": "Author of the Synagoge (Collection), Book VII on ancient geometric analysis and harmonic division"
+  },
+  "menelaus": {
+    "name": "Menelaus of Alexandria",
+    "dates": "c. 70–140 CE",
+    "role": "Author of the Sphaerica; discoverer of the transversal collinearity criterion dual to Ceva's theorem"
+  },
+  "ceva": {
+    "name": "Giovanni Ceva",
+    "dates": "1647–1734",
+    "role": "Italian geometer; author of De lineis rectis se invicem secantibus statica constructio (1678) proving cevian concurrency"
+  },
+  "fagnano": {
+    "name": "Giovanni Francesco Fagnano dei Toschi",
+    "dates": "1715–1797",
+    "role": "Italian mathematician; proved in 1775 that the orthic triangle minimizes inscribed perimeter inside an acute triangle (cited by Feuerbach § 19)"
+  },
+  "lhuilier": {
+    "name": "Simon Antoine Jean L'Huilier",
+    "dates": "1750–1840",
+    "role": "Swiss mathematician; developed symmetric relations among the four tritangent radii in Gergonne's Annales (1810, cited by Feuerbach § 2)"
+  },
+  "fuss": {
+    "name": "Nicolaus Fuß",
+    "dates": "1755–1826",
+    "role": "Swiss-Russian mathematician and Euler's assistant in St. Petersburg; extended bicentric polygon center distances in Nova Acta Petrop. X (1797, cited by Feuerbach § 49)"
+  },
+  "brianchon": {
+    "name": "Charles Julien Brianchon",
+    "dates": "1783–1864",
+    "role": "French projective geometer; co-published with Poncelet in 1820–1821 the nine-point concurrency on the hyperbolacircle locus"
+  },
+  "poncelet": {
+    "name": "Jean-Victor Poncelet",
+    "dates": "1788–1867",
+    "role": "French geometer; co-author with Brianchon (1821) of the independent French proof of the nine-point circle"
+  },
+  "terquem": {
+    "name": "Olry Terquem",
+    "dates": "1782–1862",
+    "role": "French mathematician; coined the term 'nine-point circle' (cercle des neuf points) in 1842"
+  },
+  "stewart": {
+    "name": "Matthew Stewart",
+    "dates": "1717–1785",
+    "role": "Scottish geometer; published Stewart's cevian quadrance identity (1746) underlying Euler's § 18 collinearity relation"
+  },
+  "altshiller-court": {
+    "name": "Nathan Altshiller-Court",
+    "dates": "1881–1968",
+    "role": "Author of College Geometry (1925; 2nd ed. 1952), systematizing the Euler line, nine-point circle, and Feuerbach configuration"
+  },
+  "kimberling": {
+    "name": "Clark Kimberling",
+    "dates": "b. 1942",
+    "role": "Creator of the Encyclopedia of Triangle Centers (ETC), indexing X(1)–X(5) and the Feuerbach point X(11)"
+  },
+  "wildberger": {
+    "name": "Norman J. Wildberger",
+    "dates": "b. 1956",
+    "role": "Developer of Rational Trigonometry (Divine Proportions, 2005), formulating geometry over exact quadrance and spread"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "codex": "geometor-feuerbach",
+  "canonical_triangle": {
+    "vertices": {"A": [0, 0], "B": [14, 0], "C": [5, 12]},
+    "sides": {"a": 15, "b": 13, "c": 14},
+    "area": 84,
+    "semiperimeter": 21,
+    "circumradius": "65/8",
+    "nine_point_radius": "65/16",
+    "inradius": 4,
+    "exradii": {"ra": 14, "rb": "21/2", "rc": 12},
+    "orthic_inradius": "99/52"
+  },
+  "entries": [
+    {
+      "id": "X1_incenter",
+      "title": "Incenter & Incircle",
+      "category": "center",
+      "euler_1765": "G (§ 4, § 8, Tab. II Fig. 3)",
+      "feuerbach_1822": "S (§ 1, radius r)",
+      "etc_centers": ["X(1)"],
+      "sister_refs": {"euclid": "IV.4", "elements": "G.113", "ceva": "Internal bisector concurrency", "altshiller-court": "Ch. IV § 128"},
+      "symbolic_identity": "r = 2*Delta / (a + b + c)",
+      "heronian_value": "X(1) = (6, 4), r = 4"
+    },
+    {
+      "id": "X2_centroid",
+      "title": "Centroid (Center of Gravity)",
+      "category": "center",
+      "euler_1765": "F (§ 3, § 7, Tab. II Fig. 2)",
+      "feuerbach_1822": "G (§ 60, GK = KO/3)",
+      "etc_centers": ["X(2)"],
+      "sister_refs": {"ceva": "Prop. I (Static median concurrency)", "altshiller-court": "Ch. IV § 96"},
+      "symbolic_identity": "x_F = (x_A + x_B + x_C)/3, y_F = (y_A + y_B + y_C)/3",
+      "heronian_value": "X(2) = (19/3, 4)"
+    },
+    {
+      "id": "X3_circumcenter",
+      "title": "Circumcenter & Circumcircle",
+      "category": "center",
+      "euler_1765": "H (§ 5, § 9, Tab. II Fig. 4)",
+      "feuerbach_1822": "K (§ 4, § 49, radius R)",
+      "etc_centers": ["X(3)"],
+      "sister_refs": {"euclid": "IV.5", "elements": "G.114", "altshiller-court": "Ch. IV § 102"},
+      "symbolic_identity": "R = a*b*c / (4*Delta)",
+      "heronian_value": "X(3) = (7, 33/8), R = 65/8"
+    },
+    {
+      "id": "X4_orthocenter",
+      "title": "Orthocenter & Altitude Concurrency",
+      "category": "center",
+      "euler_1765": "E (§ 2, § 6, Tab. II Fig. 1)",
+      "feuerbach_1822": "O (§§ 19–35, Anhang 1.–6. Satz)",
+      "etc_centers": ["X(4)"],
+      "sister_refs": {"ceva": "Trigonometric altitude concurrency", "altshiller-court": "Ch. IV § 105"},
+      "symbolic_identity": "CO * OP = 2 * R * rho (Feuerbach Anhang 6. Satz)",
+      "heronian_value": "X(4) = (5, 15/4)"
+    },
+    {
+      "id": "X5_nine_point_center",
+      "title": "Nine-Point Center & Nine-Point Circle",
+      "category": "center",
+      "euler_1765": "Implicit midpoint of EH (§ 25: d = EH/2)",
+      "feuerbach_1822": "L (§§ 26, 54–56, Anhang 9. Satz)",
+      "etc_centers": ["X(5)"],
+      "sister_refs": {"altshiller-court": "Ch. IV §§ 195–201"},
+      "symbolic_identity": "L = (O + K)/2, R_9 = R/2, OL^2 = R^2/4 - rho*R",
+      "heronian_value": "X(5) = (6, 63/16), R_9 = 65/16"
+    },
+    {
+      "id": "X11_feuerbach_point",
+      "title": "Feuerbach Point (Internal Nine-Point / Incircle Tangency)",
+      "category": "tangency",
+      "euler_1765": "—",
+      "feuerbach_1822": "§ 57 (pp. 37–38, Tab. II Fig. 7)",
+      "etc_centers": ["X(11)"],
+      "sister_refs": {"etc": "X(11)", "altshiller-court": "Ch. V §§ 215–218"},
+      "symbolic_identity": "LS^2 = (R/2 - r)^2",
+      "heronian_value": "X(11) = (6, 8), Q(X5, X1) = 1/256"
+    },
+    {
+      "id": "euler_line_collinearity",
+      "title": "The Euler Line & Harmonic Range",
+      "category": "theorem",
+      "euler_1765": "§§ 16–18 (pp. 112–114, Tab. II Fig. 5: EH = 3/2 EF, FH = 1/2 EF)",
+      "feuerbach_1822": "§§ 54–55, § 60 (GK = KO/3, GO = 2KO/3, GL = KO/6)",
+      "etc_centers": ["X(2)", "X(3)", "X(4)", "X(5)"],
+      "sister_refs": {"menelaus": "Projective collinearity & cross-ratio", "pappus": "Book VII harmonic conjugates", "altshiller-court": "Ch. IV § 191"},
+      "symbolic_identity": "(X4, X2; X5, X3) = -1, EH^2 = 9*r_eul^2/(16*A^2) - p^2 + 2*q",
+      "heronian_value": "Q(X4, X3) = 265/64, Q(X4, X2) = 265/144, Q(X2, X3) = 265/576"
+    },
+    {
+      "id": "euler_incenter_circumcenter",
+      "title": "Euler's Incenter–Circumcenter Distance Formula",
+      "category": "theorem",
+      "euler_1765": "§ 15 & § 18 VI (p. 111 & p. 114: GH^2 = r^2/(16A^2) - r/p)",
+      "feuerbach_1822": "§ 49 (pp. 33–34: KS^2 = R^2 - 2rR, KS^(k)^2 = R^2 + 2r^(k)R)",
+      "etc_centers": ["X(1)", "X(3)"],
+      "sister_refs": {"altshiller-court": "Ch. IV § 186", "wildberger": "Rational quadrance identity"},
+      "symbolic_identity": "Q(X3, X1) = R^2 - 2*R*r",
+      "heronian_value": "Q(X3, X1) = 65/64"
+    },
+    {
+      "id": "euler_stewart_relation",
+      "title": "Euler–Stewart Four-Center Quadrance Law",
+      "category": "theorem",
+      "euler_1765": "§ 18 (p. 114: 4*GH^2 + 2*EG^2 = 3*EF^2 + 6*FG^2)",
+      "feuerbach_1822": "§ 60 (p. 40: GS^2 = (6*KS^2 + 3*OS^2 - 2*KO^2)/9)",
+      "etc_centers": ["X(1)", "X(2)", "X(3)", "X(4)"],
+      "sister_refs": {"wildberger": "Stewart's quadrance theorem"},
+      "symbolic_identity": "4*Q(X3, X1) + 2*Q(X4, X1) = 3*Q(X4, X2) + 6*Q(X2, X1)",
+      "heronian_value": "4*(65/64) + 2*(17/16) = 3*(265/144) + 6*(1/9) = 99/16"
+    },
+    {
+      "id": "euler_cubic_reconstruction",
+      "title": "Euler's Inverse Four-Center Cubic Reconstruction",
+      "category": "problem",
+      "euler_1765": "§§ 19–24 & § 34 (pp. 114–118, 123: z^3 - pz^2 + qz - r = 0)",
+      "feuerbach_1822": "Vorrede (pp. V–XII on symmetric algebraic equations)",
+      "etc_centers": ["X(1)", "X(2)", "X(3)", "X(4)"],
+      "sister_refs": {"etc": "Center-to-triangle reconstruction"},
+      "symbolic_identity": "Q^2 = 4*(GH^2 + Q)*(q - P/4 - 2*Q) => rational Q = abc/(a+b+c)",
+      "heronian_value": "z^3 - 42*z^2 + 587*z - 2730 = 0 -> (13, 14, 15)"
+    },
+    {
+      "id": "feuerbach_excircle_tangencies",
+      "title": "Three External Excircle Tangency Points & Feuerbach Triangle",
+      "category": "tangency",
+      "euler_1765": "—",
+      "feuerbach_1822": "§ 57 (p. 38: LS' = R/2 + r', LS'' = R/2 + r'', LS''' = R/2 + r''')",
+      "etc_centers": ["X(5)", "X(11)"],
+      "sister_refs": {"etc": "Feuerbach triangle", "altshiller-court": "Ch. V § 215"},
+      "symbolic_identity": "Q(X5, J_k) = (R/2 + r_k)^2",
+      "heronian_value": "Fea=(2709/289, 1792/289), Feb=(553/233, 1344/233), Fec=(1672/257, -24/257)"
+    },
+    {
+      "id": "feuerbach_tritangent_radii",
+      "title": "Symmetric Laws of the Four Tritangent Radii",
+      "category": "theorem",
+      "euler_1765": "§ 8 & § 10 (r = 2A/p)",
+      "feuerbach_1822": "§§ 2–5, § 28 (rr'r''r''' = Delta^2, r'+r''+r'''-r = 4R, sum r_i^2 = 4R(2R - rho))",
+      "etc_centers": ["X(1)"],
+      "sister_refs": {"altshiller-court": "Ch. IV §§ 144–152"},
+      "symbolic_identity": "ra + rb + rc - r = 4*R; r^2 + ra^2 + rb^2 + rc^2 = 8*R^2 - 4*R*rho",
+      "heronian_value": "14 + 21/2 + 12 - 4 = 65/2 = 4*(65/8)"
+    },
+    {
+      "id": "feuerbach_orthic_triangle",
+      "title": "Fagnano–Feuerbach Orthic Triangle & Synthetic Nine-Point Proof",
+      "category": "theorem",
+      "euler_1765": "§ 2 (Altitudes AM, BN, CP)",
+      "feuerbach_1822": "§§ 19–26, §§ 61–65, Anhang 1.–9. Satz (pp. 15–20, 41–44, 57–62)",
+      "etc_centers": ["X(4)", "X(5)"],
+      "sister_refs": {"euclid": "I.4, I.26, I.29, I.33, III.21, III.22, VI.2, VI.4, VI.16", "altshiller-court": "Ch. IV §§ 168–175"},
+      "symbolic_identity": "Perimeter(MNP) = 2*Delta/R; Area(DEF)^2 = Area(mnp)*Area(ABC)",
+      "heronian_value": "Ha=(126/25, 168/25), Hb=(450/169, 1080/169), Hc=(5, 0), rho=99/52"
+    }
+  ]
+}

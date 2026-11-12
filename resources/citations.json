@@ -1,0 +1,72 @@
+{
+  "euler_1765": {
+    "author": "Leonhard Euler",
+    "work": "Solutio facilis problematum quorumdam geometricorum difficillimorum",
+    "locus": "Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae, Tom. XI (pro Anno 1765, publ. 1767), pp. 103–123, Tab. II Fig. 1–9 (Eneström E325)"
+  },
+  "feuerbach_1822": {
+    "author": "Karl Wilhelm Feuerbach",
+    "work": "Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren",
+    "locus": "Mit einer Vorrede von Karl Buzengeiger, Nürnberg: Riegel und Wießner, 1822, pp. I–XVI, 1–62, Tab. I–II"
+  },
+  "ceva_1678": {
+    "author": "Giovanni Ceva",
+    "work": "De lineis rectis se invicem secantibus statica constructio",
+    "locus": "Mediolani: Ex Typographia Ludovici Montiae, 1678 (see sister codex geometor/ceva)"
+  },
+  "menelaus_sphaerica": {
+    "author": "Menelaus of Alexandria",
+    "work": "Sphaerica",
+    "locus": "Book III, Lemma 1 — planar and spherical transversal theorem (see sister codex geometor/menelaus)"
+  },
+  "euclid_elements": {
+    "author": "Euclid of Alexandria",
+    "work": "Elements (Stoicheia)",
+    "locus": "Books I–IV & VI, ed. T. L. Heath, Cambridge, 1908 (see sister codices geometor/euclid and geometor/elements)"
+  },
+  "euclid_data": {
+    "author": "Euclid of Alexandria",
+    "work": "Data",
+    "locus": "Greek treatise on geometric analysis praised in Buzengeiger's 1822 Vorrede (p. IV)"
+  },
+  "lhuilier_1810": {
+    "author": "Simon Antoine Jean L'Huilier",
+    "work": "Analogies entre les triangles plans et sphériques, et propriétés des cercles inscrits et ex-inscrits",
+    "locus": "Annales de mathématiques pures et appliquées (Gergonne), Tom. I, Nov. 1810, pp. 149–159"
+  },
+  "fagnano_1775": {
+    "author": "Giovanni Francesco Fagnano",
+    "work": "Problemata quaedam ad methodum maximorum et minimorum spectantia",
+    "locus": "Nova Acta Eruditorum, Leipzig, 1775 (minimal-perimeter orthic triangle cited in Feuerbach § 19)"
+  },
+  "fuss_1797": {
+    "author": "Nicolaus Fuß",
+    "work": "De quadrilateris quibus circulum tam inscribere quam circumscribere licet",
+    "locus": "Nova Acta Academiae Scientiarum Imperialis Petropolitanae, Tom. X (1797), pp. 103–125"
+  },
+  "brianchon_poncelet_1821": {
+    "author": "Charles Julien Brianchon & Jean-Victor Poncelet",
+    "work": "Recherches sur la détermination d'une hyperbole équilatère, au moyen de quatre conditions données",
+    "locus": "Annales de mathématiques pures et appliquées, Tom. XI (1820–1821), pp. 205–220"
+  },
+  "terquem_1842": {
+    "author": "Olry Terquem",
+    "work": "Considérations sur le triangle rectiligne",
+    "locus": "Nouvelles annales de mathématiques, Tom. I (1842), pp. 79–84, 196–200"
+  },
+  "altshiller_court_1952": {
+    "author": "Nathan Altshiller-Court",
+    "work": "College Geometry: An Introduction to the Modern Geometry of the Triangle and the Circle",
+    "locus": "2nd ed., New York: Barnes & Noble, 1952, Ch. IV–V (Euler Line, Nine-Point Circle, Feuerbach's Theorem; sister codex geometor/altshiller-court)"
+  },
+  "kimberling_etc": {
+    "author": "Clark Kimberling",
+    "work": "Encyclopedia of Triangle Centers (ETC)",
+    "locus": "Centers X(1)–X(5) and X(11) (Feuerbach Point); sister codex geometor/etc"
+  },
+  "wildberger_2005": {
+    "author": "Norman J. Wildberger",
+    "work": "Divine Proportions: Rational Trigonometry to Universal Geometry",
+    "locus": "Sydney: Wild Egg Books, 2005 (sister codex geometor/wildberger)"
+  }
+}

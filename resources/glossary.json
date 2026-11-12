@@ -1,0 +1,52 @@
+{
+  "euler-line": {
+    "headword": "Euler Line (Linea Euleri / Eulersche Gerade)",
+    "translation": "Collinear axis of X(4), X(5), X(2), X(3)",
+    "definition": "The straight line discovered by Euler in E325 (§§ 16–18, 1765/1767) passing through the orthocenter E = X(4), centroid F = X(2), and circumcenter H = X(3) with ratio EF : FH = 2 : 1, and bisecting segment EH at the nine-point center L = X(5)."
+  },
+  "nine-point-circle": {
+    "headword": "Nine-Point Circle (Kreis durch die Fußpunkte der Perpendikel)",
+    "translation": "Circle (X(5), R/2)",
+    "definition": "The circle of radius R/2 centered at the midpoint L = X(5) of the orthocenter-circumcenter segment, passing through the three altitude feet, the three side midpoints, and the three Euler midpoints toward the orthocenter (Feuerbach 1822, §§ 26, 54–56, 9. Satz)."
+  },
+  "feuerbach-point": {
+    "headword": "Feuerbach Point X(11)",
+    "translation": "Innerer Berührungspunkt",
+    "definition": "The unique point of internal tangency between the nine-point circle and the incircle of a non-equilateral triangle, proved by Feuerbach in § 57 via LS = |R/2 - r|."
+  },
+  "tritangent-circles": {
+    "headword": "Tritangent Circles (Vier berührende Kreise)",
+    "translation": "Incircle and three excircles",
+    "definition": "The four circles tangent to all three extended sides of a triangle: the internal incircle (center S = X(1), radius r) and the three external excircles (centers S', S'', S''', radii r', r'', r''')."
+  },
+  "orthic-triangle": {
+    "headword": "Orthic Triangle (Fußpunktdreieck MNP)",
+    "translation": "Pedal triangle of the orthocenter",
+    "definition": "The triangle MNP formed by the orthogonal feet of the three altitudes of ABC; for an acute triangle, its incenter is the orthocenter O = X(4) and its inradius is rho = 2R cos(alpha) cos(beta) cos(gamma) (Feuerbach §§ 19–25)."
+  },
+  "feuerbach-triangle": {
+    "headword": "Feuerbach Triangle",
+    "translation": "Excircle tangency triangle Fea Feb Fec",
+    "definition": "The triangle inscribed in the nine-point circle whose vertices are the three points of external tangency between the nine-point circle and the three excircles of ABC."
+  },
+  "quadrance": {
+    "headword": "Quadrance",
+    "translation": "Squared Euclidean distance Q(A, B)",
+    "definition": "The exact polynomial invariant Q(A, B) = (x_B - x_A)^2 + (y_B - y_A)^2 eliminating irrational square roots in metric geometry, employed systematically throughout Euler (1765) and Feuerbach (1822)."
+  },
+  "harmonic-range": {
+    "headword": "Harmonic Range (X4, X2; X5, X3) = -1",
+    "translation": "Harmonische Teilung",
+    "definition": "Four collinear points whose projective cross-ratio equals -1; along the Euler line, the nine-point center X(5) and circumcenter X(3) divide the segment between the orthocenter X(4) and centroid X(2) internally and externally in ratio 3 : 1."
+  },
+  "casus-irreducibilis": {
+    "headword": "Casus Irreducibilis",
+    "translation": "Three-real-root cubic regime",
+    "definition": "The algebraic phenomenon identified at the close of Euler's E325 (§ 34, p. 123) in which reconstructing the three real positive sides (a, b, c) from z^3 - pz^2 + qz - r = 0 requires complex intermediate cube roots or angle trisection."
+  },
+  "symmetric-polynomials": {
+    "headword": "Elementary Symmetric Polynomials (p, q, r)",
+    "translation": "Euler's side-sum invariants",
+    "definition": "Euler's symmetric generators p = a + b + c, q = ab + ac + bc, and r = abc (§ 10, p. 107; note that in Euler 1765 r denotes the product abc rather than the inradius)."
+  }
+}
