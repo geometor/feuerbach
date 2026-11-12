@@ -1,0 +1,55 @@
+{
+  "codex": "geometor-feuerbach",
+  "version": "0.1.0",
+  "scope_note": "Primary 4-track bilingual Book Codices cover Leonhard Euler's 1765/1767 St. Petersburg memoir (E325) and Karl Wilhelm Feuerbach's 1822 Nuremberg monograph, cross-referenced to sister standalone repositories geometor/ceva (1678) and geometor/menelaus (Sphaerica).",
+  "treatises": {
+    "euler_1765": {
+      "author": "Leonhard Euler",
+      "title": "Solutio facilis problematum quorumdam geometricorum difficillimorum",
+      "enestroem_index": "E325",
+      "journal": "Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae",
+      "volume": "Tom. XI pro Anno MDCCLXV",
+      "imprint": "Petropoli: Typis Academiae Scientiarum, MDCCLXVII (1767)",
+      "pages": "103–123",
+      "plates": "Tab. II, Fig. 1–9",
+      "sections": "§§ 1–34",
+      "language_original": "la",
+      "language_translation": "en (Original GEOMETOR translation)",
+      "archive_source": "Internet Archive: novicommentariac11impe (scans n162–n182, n637)",
+      "rights": "Public Domain (published 1767)",
+      "verified_errata": [
+        {
+          "page": 106,
+          "section": "§ 7",
+          "printed": "AQ = (3cc + bb - aa) / bc and BF = sqrt(4aa + 4cc - 2bb) / 3, QF denominator bc",
+          "corrected": "Denominator 6c (corrected by Euler on p. 109 § 12 and p. 112 § 16)"
+        },
+        {
+          "page": 109,
+          "section": "§ 12",
+          "printed": "EF^2 = rr / (4AA) = 4/9 (pp - 2q)",
+          "corrected": "EF^2 = rr / (4AA) - 4/9 (pp - 2q) (corrected in § 18 I on p. 114)"
+        }
+      ]
+    },
+    "feuerbach_1822": {
+      "author": "Karl Wilhelm Feuerbach (Vorrede by Karl Buzengeiger)",
+      "title": "Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren. Eine analytisch-trigonometrische Abhandlung",
+      "imprint": "Nürnberg: Riegel und Wießner, 1822",
+      "pages": "I–XVI (Vorrede), 1–55 (§§ 1–87), 56–62 (Synthetischer Anhang, 1.–9. Satz)",
+      "plates": "Tab. I–II (Fig. 1–17)",
+      "language_original": "de",
+      "language_translation": "en (Original GEOMETOR translation)",
+      "archive_source": "Bayerische Staatsbibliothek München (MDZ): bsb10053455",
+      "rights": "Public Domain (published 1822)",
+      "verified_errata": [
+        {
+          "page": 35,
+          "section": "§ 51 (propagating to § 52 p. 36 and § 60 pp. 40–41)",
+          "printed": "OS'^2 = 2r'^2 + 2*rho*R, sum(OS_i^2) = 4R(4R - rho), 9*sum(GS_i^2) = 7*sum(OS_i^2)",
+          "corrected": "Because rho*R = (-a^2+b^2+c^2)(a^2-b^2+c^2)(a^2+b^2-c^2)/(64*Delta^2) is even in (a,b,c), setting a -> -a flips both R and rho, leaving -2*rho*R unchanged: OS^(k)^2 = 2*r^(k)^2 - 2*rho*R, sum(OS_i^2) = 16R(R - rho), and 9*sum(GS_i^2) = 16R(7R - rho). Crucially, rho*R cancels in Apollonius's median theorem 2*LS^2 + 2*OL^2 = KS^2 + OS^2, leaving Feuerbach's Theorem (§ 57, p. 38) 100% exact!"
+        }
+      ]
+    }
+  }
+}
