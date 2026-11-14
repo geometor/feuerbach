@@ -1,6 +1,6 @@
-:navigation: footer
+:navigation: header
 :order: 10
-:layout: book
+:nav_title: Mission
 
 Mission & Architectural Principles
 ==================================
