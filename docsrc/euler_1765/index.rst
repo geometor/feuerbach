@@ -1,18 +1,25 @@
-:title: Leonhard Euler — Solutio facilis problematum quorumdam geometricorum difficillimorum (1765/1767, E325)
-:book_title: Solutio facilis problematum (1765)
+:navigation: header
+:order: 2
+:nav_title: Euler (1765)
 :layout: book
+:book_title: Easy Solution of Certain Difficult Geometric Problems
+:book_subtitle: Solutio facilis problematum quorundam geometricorum difficillimorum — Leonhard Euler (1765/1767)
+:author: Leonhard Euler
+:year: 1765
 
 .. _euler-1765-index:
 
-===============================================================================
-SOLVTIO FACILIS PROBLEMATVM QVORVMDAM GEOMETRICORVM DIFFICILLIMORVM (1765/1767)
-===============================================================================
+Easy Solution of Certain Difficult Geometric Problems
+=====================================================
 
-.. rubric:: *An Easy Solution of Certain Very Difficult Geometric Problems* — :person:`Leonhard Euler <euler>` (Eneström **E325**)
+.. rubric:: *Solutio facilis problematum quorumdam geometricorum difficillimorum* — :person:`Leonhard Euler <euler>` (Eneström **E325**)
 
-| **Editio Princeps (Latina, 1767):** *Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae*, Tom. XI pro Anno MDCCLXV, Petropoli: Typis Academiae Scientiarum, MDCCLXVII, pp. 103–123, Tab. II Fig. 1–9 (presented November 1763 / published 1767; *Opera Omnia*, Ser. I, Vol. 26, pp. 139–157).
-| **English Translation:** Original folio-verified translation curated for the GEOMETOR Digital Scriptorium.
-| **Synchronized 4-Track Codex:** *English · Latina (1767) · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler`.
+.. container:: title-page
+
+   | **Author:** :person:`Leonhard Euler <euler>`
+   | **First Edition (Latina, 1767):** *Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae*, Tom. XI pro Anno MDCCLXV, Petropoli: Typis Academiae Scientiarum, MDCCLXVII, pp. 103–123, Tab. II Fig. 1–9 (*Opera Omnia*, Ser. I, Vol. 26, pp. 139–157).
+   | **English Translation:** Original folio-verified translation curated for the GEOMETOR Digital Scriptorium.
+   | **Synchronized 4-Track Codex:** *English · Latina (1767) · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler`.
 
 .. epigraph::
 
@@ -24,8 +31,10 @@ SOLVTIO FACILIS PROBLEMATVM QVORVMDAM GEOMETRICORVM DIFFICILLIMORVM (1765/1767)
 
 ----
 
-Conspectus Operis (4 Units × 4 Synchronized Tracks)
----------------------------------------------------
+.. _euler-table-of-contents:
+
+Table of Contents
+-----------------
 
 **Unit I — The Four Classical Triangle Centers & Orthogonal Coordinates (§§ 1–9, pp. 103–107)**
    :ref:`English <euler-01-en>` · :ref:`Latina (1767) <euler-01-la>` · :ref:`Summary <euler-01-summary>` · :ref:`Notes <euler-01-notes>`
@@ -50,6 +59,9 @@ Conspectus Operis (4 Units × 4 Synchronized Tracks)
 .. picture:: /_static/constructions/euler_1765_centers.svg
    :alt: Euler's four classical triangle centers X(1), X(2), X(3), X(4) and the Euler line on the (15, 13, 14) triangle
 
+Scholarly Apparatus
+-------------------
+
 .. toctree::
    :maxdepth: 1
    :caption: English Translation
@@ -62,7 +74,7 @@ Conspectus Operis (4 Units × 4 Synchronized Tracks)
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Editio Princeps Latina (1767)
+   :caption: First Latin Edition (1767)
 
    01-four-centers-la
    02-six-distances-euler-line-la

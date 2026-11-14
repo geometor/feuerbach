@@ -1,6 +1,6 @@
-:navigation: footer
-:order: 20
-:layout: book
+:navigation: header
+:order: 30
+:nav_title: Log
 
 Research & Editorial Log
 ========================

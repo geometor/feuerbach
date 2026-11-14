@@ -1,5 +1,5 @@
-:title: Cross-Treatise Concordance & Notation Rosetta Stone
-:layout: book
+:navigation: footer
+:nav_title: Concordance
 
 .. _concordance:
 

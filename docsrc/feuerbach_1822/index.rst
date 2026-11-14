@@ -1,18 +1,26 @@
-:title: Karl Wilhelm Feuerbach — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks (1822)
-:book_title: Eigenschaften einiger merkwürdigen Punkte (1822)
+:navigation: header
+:order: 1
+:nav_title: Feuerbach (1822)
 :layout: book
+:book_title: Properties of Remarkable Points of the Rectilinear Triangle
+:book_subtitle: Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks — K. W. Feuerbach (1822)
+:author: Karl Wilhelm Feuerbach
+:year: 1822
 
 .. _feuerbach-1822-index:
 
-===============================================================================================
-EIGENSCHAFTEN EINIGER MERKWÜRDIGEN PUNKTE DES GERADLINIGEN DREIECKS UND MEHRERER LINIEN (1822)
-===============================================================================================
+Properties of Remarkable Points of the Rectilinear Triangle
+===========================================================
 
-.. rubric:: *Properties of Several Remarkable Points of the Rectilinear Triangle, and of Several Lines and Figures Determined by Them* — :person:`Karl Wilhelm Feuerbach <feuerbach>`
+.. rubric:: *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks* — :person:`Karl Wilhelm Feuerbach <feuerbach>` (1822)
 
-| **Editio Princeps (Deutsch, 1822):** *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren. Eine analytisch-trigonometrische Abhandlung von Karl Wilhelm Feuerbach, der Philosophie Doktor. Mit einer Vorrede von Karl Buzengeiger, ordentlichem Professor der Mathematik an der großherz. badischen Universität zu Freiburg.* Nürnberg, 1822. Bei Riegel und Wießner (pp. I–XVI, 1–62, Tab. I–II, Fig. 1–17).
-| **English Translation:** Original folio-verified translation curated for the GEOMETOR Digital Scriptorium.
-| **Synchronized 4-Track Codex:** *English · Deutsch (1822) · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler` and :mod:`geometor.feuerbach.tangency`.
+.. container:: title-page
+
+   | **Author:** :person:`Karl Wilhelm Feuerbach <feuerbach>`
+   | **Preface:** :person:`Karl Buzengeiger <buzengeiger>` (Freiburg, 16 March 1822)
+   | **First Edition (Deutsch, 1822):** *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren*. Nürnberg: Bei Riegel und Wießner, 1822 (pp. I–XVI, 1–62, Tab. I–II, Fig. 1–17).
+   | **English Translation:** Original folio-verified translation curated for the GEOMETOR Digital Scriptorium.
+   | **Synchronized 4-Track Codex:** *English · Deutsch (1822) · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler` and :mod:`geometor.feuerbach.tangency`.
 
 .. epigraph::
 
@@ -24,8 +32,10 @@ EIGENSCHAFTEN EINIGER MERKWÜRDIGEN PUNKTE DES GERADLINIGEN DREIECKS UND MEHRERE
 
 ----
 
-Conspectus Operis (6 Units × 4 Synchronized Tracks)
----------------------------------------------------
+.. _feuerbach-table-of-contents:
+
+Table of Contents
+-----------------
 
 **Unit 0 — Karl Buzengeiger's Vorrede (pp. III–XVI, Freiburg, 16 March 1822)**
    :ref:`English <fb-00-en>` · :ref:`Deutsch (1822) <fb-00-de>` · :ref:`Summary <fb-00-summary>` · :ref:`Notes <fb-00-notes>`
@@ -60,6 +70,9 @@ Conspectus Operis (6 Units × 4 Synchronized Tracks)
 .. picture:: /_static/constructions/nine_point_circle.svg
    :alt: Feuerbach's nine-point circle centered at L = X(5) passing through the three altitude feet, three side midpoints, and three Euler midpoints
 
+Scholarly Apparatus
+-------------------
+
 .. toctree::
    :maxdepth: 1
    :caption: English Translation
@@ -74,7 +87,7 @@ Conspectus Operis (6 Units × 4 Synchronized Tracks)
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Editio Princeps Deutsch (1822)
+   :caption: First German Edition (1822)
 
    00-vorrede-buzengeiger-de
    01-tritangent-circles-de

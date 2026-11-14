@@ -1,5 +1,5 @@
-:title: Technical Glossary of Geometric & Algebraic Terms
-:layout: book
+:navigation: footer
+:nav_title: Glossary
 
 .. _glossary:
 
