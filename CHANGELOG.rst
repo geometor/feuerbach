@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.1.1 (2026-11-13)
+------------------
+
+- Curated and mapped primary-source folio links across Euler (1765/1767) and Feuerbach (1822) treatises (115/115 directives resolved).
+
 0.1.0 (2026-11-12)
 ------------------
 
