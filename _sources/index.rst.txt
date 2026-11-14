@@ -29,6 +29,7 @@ Every algebraic identity across both treatises is verified to exact symbolic zer
    :maxdepth: 2
    :caption: Scholarly Apparatus
 
+   about/index
    persons
    bibliography
    usage/index
