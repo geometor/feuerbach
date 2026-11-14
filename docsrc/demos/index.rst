@@ -1,6 +1,6 @@
 :navigation: header
-:order: 30
-:layout: book
+:order: 25
+:nav_title: Demos
 
 .. _demos:
 

@@ -1,25 +1,20 @@
-:title: Biographical Register of Geometers
-:layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 
 .. _persons:
 
-Biographical Register of Persons
-================================
+People
+======
 
-.. rubric:: Geometers, Algebraists, and Commentators in the Euler–Feuerbach Tradition
+.. rubric:: Authors, Editors & Cited Geometers in the Euler–Feuerbach Tradition
 
-Every inline ``:person:`` reference resolves directly to its entry below.
+Every inline ``:person:`` reference across both codices resolves directly to its entry below.
 
 ----
 
-.. _person-euler:
-
-Leonhard Euler (1707 – 1783)
-----------------------------
-
-*Swiss Mathematician & Natural Philosopher*
-
-Author of *Solutio facilis problematum quorumdam geometricorum difficillimorum* (E325, 1765/1767), which inaugurated algebraic triangle-center geometry by computing all six mutual squared distances among the four classical centers, proving the collinearity of the Euler line, and reducing the inverse four-center problem to a cubic in the side lengths.
+Authors, Translators & Editors
+------------------------------
 
 .. _person-feuerbach:
 
@@ -30,6 +25,15 @@ Karl Wilhelm Feuerbach (1800 – 1834)
 
 Son of the jurist Paul Johann Anselm Ritter von Feuerbach and brother of the philosopher Ludwig Feuerbach. At age twenty-two, shortly after studying under Karl Buzengeiger at Freiburg, he published *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks* (Nürnberg, 1822), proving the fourfold tangency of the nine-point circle with the incircle and three excircles (§ 57).
 
+.. _person-euler:
+
+Leonhard Euler (1707 – 1783)
+----------------------------
+
+*Swiss Mathematician & Natural Philosopher*
+
+Author of *Solutio facilis problematum quorumdam geometricorum difficillimorum* (E325, 1765/1767), which inaugurated algebraic triangle-center geometry by computing all six mutual squared distances among the four classical centers, proving the collinearity of the Euler line, and reducing the inverse four-center problem to a cubic in the side lengths.
+
 .. _person-buzengeiger:
 
 Karl Heribert Ignaz Buzengeiger (1771 – 1835)
@@ -38,6 +42,11 @@ Karl Heribert Ignaz Buzengeiger (1771 – 1835)
 *Professor of Mathematics at the University of Freiburg*
 
 Feuerbach's university mentor at Freiburg im Breisgau; contributed the sixteen-page philosophical *Vorrede* (16 March 1822) contrasting ancient Greek geometric analysis with modern symmetric algebraic calculation.
+
+----
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-euclid:
 

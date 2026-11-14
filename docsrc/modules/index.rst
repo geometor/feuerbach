@@ -1,7 +1,8 @@
 :navigation: header
 :order: 40
+:nav_title: Modules
 
-modules
+Modules
 =======
 
-.. include:: api/geometor/feuerbach/index.rst
+.. include:: api/src/geometor/feuerbach/index.rst
