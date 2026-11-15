@@ -35,7 +35,6 @@ project = "GEOMETOR • feuerbach"
 author = "Leonhard Euler & Karl Wilhelm Feuerbach • Digital Edition GEOMETOR"
 copyright = "1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR"
 
-html_logo = None
 autoapi_add_toctree_entry = False
 suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
 
