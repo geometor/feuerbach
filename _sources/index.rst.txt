@@ -1,12 +1,12 @@
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 ======================
 Karl Wilhelm Feuerbach
 ======================
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Karl Wilhelm Feuerbach <feuerbach>` (1800–1834), the German geometer whose 1822 monograph discovered the nine-point circle and proved its fourfold tangency with the incircle and excircles of every triangle.
+The works of :person:`Karl Wilhelm Feuerbach <feuerbach>` (1800–1834) transformed triangle geometry, discovering the nine-point circle and establishing its fourfold tangency with the incircle and excircles. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, Feuerbach's 1822 monograph is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. collection::
    :type: book
