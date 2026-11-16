@@ -4,7 +4,7 @@ dynamic = ["version"]
 authors = [
   { name = "geometor", email = "github@geometor.com" },
 ]
-description = "Multi-treatise bilingual Book Codex and exact symbolic SymPy + geometor.model demonstrations uniting Euler (1765/1767, E325) and Feuerbach (1822)."
+description = "Bilingual Book Codex and exact symbolic SymPy + geometor.model demonstrations for Karl Wilhelm Feuerbach (1822)."
 readme = "README.rst"
 requires-python = ">=3.13"
 classifiers = [

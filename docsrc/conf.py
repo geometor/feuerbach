@@ -31,9 +31,12 @@ repo_name = "feuerbach"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • feuerbach"
-author = "Leonhard Euler & Karl Wilhelm Feuerbach • Digital Edition GEOMETOR"
-copyright = "1767 Petropoli, 1822 Nürnberg • Digital Edition GEOMETOR"
+site_title = "Karl Wilhelm Feuerbach"
+project = site_title
+html_title = f"{site_title} • {org_name}"
+blog_title = site_title
+author = "Karl Wilhelm Feuerbach • Digital Edition GEOMETOR"
+copyright = "1822 Nürnberg • Digital Edition GEOMETOR"
 
 autoapi_add_toctree_entry = False
 suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
@@ -41,6 +44,7 @@ suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
 # Register locally built sister GEOMETOR inventories when present on disk
 _base_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 for _sister in (
+    "euler",
     "euclid",
     "elements",
     "etc",

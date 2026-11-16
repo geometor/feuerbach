@@ -10,7 +10,7 @@ build/
 __pycache__
 .ruff_cache/
 .pytest_cache/
-.venv/
+.venv
 tags
 docsrc/modules/api/
 docs/
