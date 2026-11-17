@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Properties of Remarkable Points of the Rectilinear Triangle <https://geometor.github.io/feuerbach/feuerbach_1822/>`_** — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks (1822) featuring the discovery and proof of the nine-point circle and its internal tangency to the incircle at the Feuerbach point :math:`X(11)`.
+- `Properties of Remarkable Points of the Rectilinear Triangle <https://geometor.github.io/feuerbach/feuerbach_1822/>`_ — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks (1822) featuring the discovery and proof of the nine-point circle and its internal tangency to the incircle at the Feuerbach point :math:`X(11)`.
 
 Repository Contents
 -------------------
