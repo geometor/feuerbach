@@ -18,8 +18,8 @@
     </marker>
   </defs>
   <g id="elements" clip-path="url(#clip-0038-g2)">
-    <polygon class="polygon" data-ref="< A B C >" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-fg)" fill-opacity="0.06" stroke="var(--geom-fg)" stroke-width="1.6"/>
-    <polygon class="polygon" data-ref="< F1 F2 F3 >" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-assert)" fill-opacity="0.08" stroke="var(--geom-assert)" stroke-width="1.6"/>
+    <polygon class="polygon" data-ref="&lt; A B C &gt;" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-fg)" fill-opacity="0.06" stroke="var(--geom-fg)" stroke-width="1.6"/>
+    <polygon class="polygon" data-ref="&lt; F1 F2 F3 &gt;" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-assert)" fill-opacity="0.08" stroke="var(--geom-assert)" stroke-width="1.6"/>
     <path class="segment" data-ref="/ A B /" d="M 232.44 361.02 L 318.98 361.02 L 405.53 361.02" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
     <path class="segment" data-ref="/ B C /" d="M 405.53 361.02 L 349.89 286.84 L 294.25 212.65" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
     <path class="segment" data-ref="/ C A /" d="M 294.25 212.65 L 263.35 286.84 L 232.44 361.02" fill="none" stroke="var(--geom-fg)" stroke-width="1.70" stroke-opacity="0.95"/>
@@ -38,8 +38,8 @@
     <path class="line" data-ref="[ C A ]" d="M 102.62 672.58 L 242.74 336.29 L 382.86 0.00" fill="none" stroke="var(--geom-fg)" stroke-width="0.75" stroke-opacity="0.35" stroke-dasharray="4,4"/>
   </g>
   <g id="highlights" clip-path="url(#clip-0038-g2)" style="pointer-events: none;">
-    <polygon class="polygon geom-overlay" data-ref="< A B C >" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
-    <polygon class="polygon geom-overlay" data-ref="< F1 F2 F3 >" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+    <polygon class="polygon geom-overlay" data-ref="&lt; A B C &gt;" points="232.44,361.02 405.53,361.02 294.25,212.65" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
+    <polygon class="polygon geom-overlay" data-ref="&lt; F1 F2 F3 &gt;" points="348.33,284.36 261.78,289.70 312.87,362.17" fill="var(--geom-accent)" fill-opacity="0.20" stroke="var(--geom-accent)" stroke-width="2.0"/>
     <path class="line geom-overlay" data-ref="[ A B ]" d="M 0.00 361.02 L 340.00 361.02 L 680.00 361.02" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
     <path class="line geom-overlay" data-ref="[ B C ]" d="M 639.20 672.58 L 386.98 336.29 L 134.76 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
     <path class="line geom-overlay" data-ref="[ C A ]" d="M 102.62 672.58 L 242.74 336.29 L 382.86 0.00" fill="none" stroke="var(--geom-accent)" stroke-width="2.4"/>
