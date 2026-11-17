@@ -8,8 +8,7 @@ Karl Wilhelm Feuerbach
 
 The works of :person:`Karl Wilhelm Feuerbach <feuerbach>` (1800–1834) transformed triangle geometry, discovering the nine-point circle and establishing its fourfold tangency with the incircle and excircles. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, Feuerbach's 1822 monograph is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
-.. collection::
-   :type: book
+.. reference-directory::
    :sort: order
 
 .. toctree::
@@ -17,7 +16,7 @@ The works of :person:`Karl Wilhelm Feuerbach <feuerbach>` (1800–1834) transfor
    :hidden:
 
    feuerbach_1822/index
-   persons
+   people/index
    bibliography
    glossary
    concordance
