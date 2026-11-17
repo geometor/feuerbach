@@ -2,7 +2,7 @@
 :canonical_id: 7. Satz (Notes)
 :breadcrumb_title: Notes
 :order: 4
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-notes-anhang-07:
 

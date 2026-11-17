@@ -3,7 +3,7 @@
 :breadcrumb_title: 1.–4. Satz
 :order: 1
 :folio: S. 56
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-05-de:
 .. _fb-de-anhang-1-4:

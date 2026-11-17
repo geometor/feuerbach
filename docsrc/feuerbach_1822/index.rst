@@ -1,13 +1,15 @@
 :navigation: header
 :order: 1
 :type: book
-:nav_title: Feuerbach (1822)
-:breadcrumb_title: Feuerbach (1822)
+:nav_title: Remarkable Points
+:breadcrumb_title: Remarkable Points
 :layout: book
+:title: Properties of Remarkable Points of the Rectilinear Triangle
 :book_title: Properties of Remarkable Points of the Rectilinear Triangle
 :book_subtitle: Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks — K. W. Feuerbach (1822)
 :author: Karl Wilhelm Feuerbach
 :year: 1822
+:tracks: English: index | German: title-de
 :excerpt: Feuerbach's 1822 Nuremberg monograph discovering the nine-point circle, proving its fourfold tangency with the incircle and excircles of every triangle, and formulating the orthic inradius.
 
 .. _feuerbach-1822-index:
@@ -21,13 +23,11 @@ Properties of Remarkable Points of the Rectilinear Triangle
 
    | **Author:** :person:`Karl Wilhelm Feuerbach <feuerbach>`
    | **Preface:** :person:`Karl Buzengeiger <buzengeiger>` (Freiburg, 16 March 1822)
-   | **First Edition (Deutsch, 1822):** *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren*. Nürnberg: Bei Riegel und Wießner, 1822 (pp. I–XVI, 1–62, Tab. I–II, Fig. 1–17).
+   | **First Edition (German, 1822):** *Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, und mehrerer durch sie bestimmten Linien und Figuren*. Nürnberg: Bei Riegel und Wießner, 1822 (pp. I–XVI, 1–62, Tab. I–II, Fig. 1–17).
    | **English Translation:** Original folio-verified translation curated for the GEOMETOR Digital Scriptorium.
-   | **Synchronized 4-Track Codex:** *English · Deutsch (1822) · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler` and :mod:`geometor.feuerbach.tangency`.
+   | **Synchronized 4-Track Codex:** *English · German · Summary · Notes*, paired with exact symbolic verification in :mod:`geometor.feuerbach.euler` and :mod:`geometor.feuerbach.tangency`.
 
 .. epigraph::
-
-   „In jedem Dreieck trifft der Kreis, welcher durch die Fußpunkte seiner Perpendikel geht, zugleich die Seiten desselben in ihren Mitten. […] Der Kreis, welcher durch die Fußpunkte der Perpendikel eines Dreiecks geht, berührt alle vier die drei Seiten desselben berührenden Kreise, und zwar den innerhalb berührenden innerhalb, jeden der ausserhalb berührenden aber ausserhalb.“
 
    “In every triangle, the circle which passes through the feet of its altitudes simultaneously meets the sides of the same at their midpoints. […] The circle which passes through the feet of the altitudes of a triangle touches all four circles touching the three sides of the same: namely, it touches the internally touching circle internally, whereas it touches each of the externally touching circles externally.”
 
@@ -42,38 +42,38 @@ Table of Contents
 
 .. container:: toc-outline
 
-   - **Vorrede — Karl Buzengeiger's Preface** *(pp. III–XVI, Freiburg, 16 March 1822)*
-     (:ref:`English <fb-00-en>` · :ref:`Deutsch <fb-00-de>` · :ref:`Summary <fb-00-summary>` · :ref:`Notes <fb-00-notes>`)
+   - **Preface — Karl Buzengeiger's Preface** *(pp. III–XVI, Freiburg, 16 March 1822)*
+     (:ref:`English <fb-00-en>` · :ref:`German <fb-00-de>` · :ref:`Summary <fb-00-summary>` · :ref:`Notes <fb-00-notes>`)
 
      Mathematics contemplated as *Wissenschaft* (:person:`Euclid <euclid>`'s :cite:`*Elements* <euclid_elements>`) versus *Kunst* (Greek geometric *Analysis* in :cite:`Euclid's *Data* <euclid_data>`, :person:`Apollonius <apollonius>`, Robert Simson's restorations, and Diophantus), reflections on combinatorial analysis and factorials, and :person:`Buzengeiger <buzengeiger>`'s commendation of his Freiburg pupil :person:`Feuerbach <feuerbach>`.
 
-   - **Erster Abschnitt — The Four Tritangent Circle Centers** *(§§ 1–18, pp. 1–14)*
-     (:ref:`English <fb-01-en>` · :ref:`Deutsch <fb-01-de>` · :ref:`Summary <fb-01-summary>` · :ref:`Notes <fb-01-notes>`)
+   - **Section I — The Four Tritangent Circle Centers** *(§§ 1–18, pp. 1–14)*
+     (:ref:`English <fb-01-en>` · :ref:`German <fb-01-de>` · :ref:`Summary <fb-01-summary>` · :ref:`Notes <fb-01-notes>`)
 
      Incenter :math:`S = X(1)` and excenters :math:`S', S'', S'''` as orthocentric system, :person:`L'Huilier <lhuilier>`'s symmetric law :math:`rr'r''r''' = \Delta^2` (§ 2), :math:`r'r'' + r'r''' + r''r''' = s^2` (§ 3), :math:`r' + r'' + r''' = r + 4R` (§ 5), contact triangles :math:`\delta, \delta', \delta'', \delta'''` (§ 8), and the six mutual center-chord laws :math:`A^2 + A'^2 = B^2 + B'^2 = C^2 + C'^2 = 16R^2` (§§ 12–18).
 
-   - **Zweiter Abschnitt — Orthocenter, Orthic Triangle & Inradius ρ** *(§§ 19–48, pp. 15–32)*
-     (:ref:`English <fb-02-en>` · :ref:`Deutsch <fb-02-de>` · :ref:`Summary <fb-02-summary>` · :ref:`Notes <fb-02-notes>`)
+   - **Section II — Orthocenter, Orthic Triangle & Inradius ρ** *(§§ 19–48, pp. 15–32)*
+     (:ref:`English <fb-02-en>` · :ref:`German <fb-02-de>` · :ref:`Summary <fb-02-summary>` · :ref:`Notes <fb-02-notes>`)
 
      Orthocenter :math:`O = X(4)` as incenter of :person:`Fagnano <fagnano>`'s minimal-perimeter :term:`orthic triangle <orthic-triangle>` :math:`\triangle MNP` (§ 19), introduction of the orthic inradius :math:`\rho = 2R\cos\alpha\cos\beta\cos\gamma` (§§ 23–25), orthic circumradius :math:`\tfrac{1}{2}R` (§ 26), :math:`r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho)` (§ 28), and the equal circumradii :math:`R' = R'' = R''' = R` of :math:`\triangle BCO, \triangle ACO, \triangle ABO`.
 
-   - **Dritter Abschnitt — Distances from Circumcenter & Orthocenter** *(§§ 49–53, pp. 33–36)*
-     (:ref:`English <fb-en-s49>` · :ref:`Deutsch <fb-de-s49>`)
+   - **Section III — Distances from Circumcenter & Orthocenter** *(§§ 49–53, pp. 33–36)*
+     (:ref:`English <fb-en-s49>` · :ref:`German <fb-de-s49>`)
 
      Citation of :person:`Euler <euler>` (1765) and :person:`Fuß <fuss>` (1797) for :math:`\overline{KS}^2 = R^2 - 2rR` (§ 49), sum of circumcenter quadrances :math:`\sum \overline{KS_i}^2 = 12R^2` (§ 50), incenter quadrance :math:`\overline{OS}^2 = 2r^2 - 2\rho R` (§ 51), and the fundamental distance :math:`\overline{KO}^2 = R^2 - 4\rho R` (§ 53).
 
-   - **Vierter Abschnitt — The Nine-Point Circle & Feuerbach's Tangency Theorem** *(§§ 54–60, pp. 37–41)*
-     (:ref:`English <fb-03-en>` · :ref:`Deutsch <fb-03-de>` · :ref:`Summary <fb-03-summary>` · :ref:`Notes <fb-03-notes>`)
+   - **Section IV — The Nine-Point Circle & Feuerbach's Tangency Theorem** *(§§ 54–60, pp. 37–41)*
+     (:ref:`English <fb-03-en>` · :ref:`German <fb-03-de>` · :ref:`Summary <fb-03-summary>` · :ref:`Notes <fb-03-notes>`)
 
      Nine-point center :math:`L = X(5)` bisecting :math:`KO` (§§ 54–55), the nine concyclic points (§ 56), **§ 57 Feuerbach's Theorem** (:math:`LS = \tfrac{1}{2}R - r` at :math:`X(11)` and :math:`LS^{(k)} = \tfrac{1}{2}R + r^{(k)}`), :math:`LS + LS' + LS'' + LS''' = 6R` (§ 58), :math:`\sum LS_i^2 = R(13R - 4\rho)` (§ 59), and the :term:`harmonic range <harmonic-range>` :math:`(O, G; L, K) = -1` (§ 60).
 
-   - **Fünfter Abschnitt — Proportional Contact Triangles & Excentral Orthocenter** *(§§ 61–87, pp. 41–55)*
-     (:ref:`English <fb-04-en>` · :ref:`Deutsch <fb-04-de>` · :ref:`Summary <fb-04-summary>` · :ref:`Notes <fb-04-notes>`)
+   - **Section V — Proportional Contact Triangles & Excentral Orthocenter** *(§§ 61–87, pp. 41–55)*
+     (:ref:`English <fb-04-en>` · :ref:`German <fb-04-de>` · :ref:`Summary <fb-04-summary>` · :ref:`Notes <fb-04-notes>`)
 
      Geometric-mean area proportionals :math:`\mu^{(k)} : \delta^{(k)} = \delta^{(k)} : \Delta` (§ 63), the five-triangle area law :math:`\mu + \mu' + \mu'' + \mu''' + \triangle MNP = 2\Delta` (§ 64), half-perimeter law (§ 65), corner-circle inradii (§§ 71–73), and § 87 establishing that :math:`S = X(1)` is the orthocenter of :math:`\triangle O'O''O'''`.
 
-   - **Synthetischer Anhang — Pure Euclidean Proofs of Nine Core Propositions** *(1.–9. Satz, pp. 56–62)*
-     (:ref:`English <fb-05-en>` · :ref:`Deutsch <fb-05-de>` · :ref:`Summary <fb-05-summary>` · :ref:`Notes <fb-05-notes>`)
+   - **Synthetic Appendix — Pure Euclidean Proofs of Nine Core Propositions** *(Propositions 1–9, pp. 56–62)*
+     (:ref:`English <fb-05-en>` · :ref:`German <fb-05-de>` · :ref:`Summary <fb-05-summary>` · :ref:`Notes <fb-05-notes>`)
 
      Pure synthetic demonstrations grounded in :cite:`Euclid's *Elements* <euclid_elements>` Books I, III, and VI, culminating in `5. Satz` (:math:`\triangle MNP : \triangle ABC = \rho : R`), `6. Satz` (:math:`CO \cdot OP = 2R\rho`), `7. Satz` (:math:`a^2 + b^2 + c^2 = 8R^2 + 4\rho R`), and verbatim **9. Satz** proving :math:`LM = LN = LP = \tfrac{1}{2}R` for the midpoint :math:`L` of :math:`OK`.
 
@@ -94,3 +94,10 @@ Table of Contents
    abschnitt_4/index
    abschnitt_5/index
    anhang/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-de

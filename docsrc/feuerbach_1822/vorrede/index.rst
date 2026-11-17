@@ -1,9 +1,9 @@
 :layout: book
-:canonical_id: Vorrede
-:breadcrumb_title: Vorrede
+:canonical_id: Preface
+:breadcrumb_title: Preface
 :order: 1
 :folio: p. III
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-00:
 .. _fb-00-en:

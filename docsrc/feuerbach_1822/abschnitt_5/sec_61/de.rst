@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 61–62
 :order: 1
 :folio: S. 41
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-04-de:
 .. _fb-de-s61:

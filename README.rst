@@ -3,6 +3,11 @@ GEOMETOR • feuerbach
 
 **Visit the Online Archive:** https://geometor.github.io/feuerbach/
 
+.. image:: docsrc/_static/constructions/feuerbach_tangency.svg
+   :alt: GEOMETOR • feuerbach featured geometric construction
+   :target: https://geometor.github.io/feuerbach/
+   :align: center
+
 **Karl Wilhelm Feuerbach • Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks • semantic digital archive**
 
 Mission

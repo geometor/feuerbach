@@ -3,7 +3,7 @@
 :breadcrumb_title: 8. Satz
 :order: 5
 :folio: p. 61
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-anhang-8:
 

@@ -2,7 +2,7 @@
 :canonical_id: 5. Satz (Summary)
 :breadcrumb_title: Summary
 :order: 2
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-summary-anhang-05:
 

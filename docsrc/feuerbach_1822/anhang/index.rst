@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Anhang
-:breadcrumb_title: Anhang
+:canonical_id: Appendix
+:breadcrumb_title: Appendix
 :order: 7
 :title: Synthetic Appendix: Pure Euclidean Proofs of Nine Theorems (pp. 56–62)
 

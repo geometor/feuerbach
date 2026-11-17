@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Abschnitt II
-:breadcrumb_title: Abschnitt II
+:canonical_id: Section II
+:breadcrumb_title: Section II
 :order: 3
 :title: Second Section: The Orthocenter, Orthic Triangle & Inradius ρ (§§ 19–48)
 

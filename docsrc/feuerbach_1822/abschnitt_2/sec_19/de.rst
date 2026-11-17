@@ -3,7 +3,7 @@
 :breadcrumb_title: § 19
 :order: 1
 :folio: S. 15
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-02-de:
 .. _fb-de-s19:

@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 71–87
 :order: 3
 :folio: p. 48
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s71:
 

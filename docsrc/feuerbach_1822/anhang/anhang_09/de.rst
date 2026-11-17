@@ -3,7 +3,7 @@
 :breadcrumb_title: 9. Satz
 :order: 6
 :folio: S. 62
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-anhang-9:
 
