@@ -44,4 +44,4 @@ Archival Sources
 Digital Scriptorium Methodology
     * **Parallel Bilingual Presentation**: Verbatim historical German transcription is paired section-by-section with original GEOMETOR English translation, detailed scholarly notes, and summary synopses.
     * **Zero-Float Verification**: All triangle centers, distances, and tangency points are computed symbolically over rational coordinates on the canonical Heronian triangle :math:`A = (0, 0)`, :math:`B = (14, 0)`, :math:`C = (5, 12)`, verifying Feuerbach's Theorem (:math:`X(5)` circle tangent internally to :math:`X(1)` incircle at :math:`X(11)` and externally to the three excircles) without floating-point approximations.
-    * **Cross-Treatise Concordance**: See :doc:`/concordance` for side-by-side mapping of Euler's 1765 and Feuerbach's 1822 notations and centers, :doc:`/persons` for biographical profiles, and :doc:`/bibliography` for full archival citations.
+    * **Cross-Treatise Concordance**: See :doc:`/concordance` for side-by-side mapping of Euler's 1765 and Feuerbach's 1822 notations and centers, :doc:`/people/index` for biographical profiles, and :doc:`/bibliography` for full archival citations.
