@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 8–11
 :order: 4
 :folio: p. 5
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s08:
 

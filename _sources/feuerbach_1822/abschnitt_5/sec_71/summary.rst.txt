@@ -2,7 +2,7 @@
 :canonical_id: §§ 71–87 (Summary)
 :breadcrumb_title: Summary
 :order: 3
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-summary-s71:
 

@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 12–18
 :order: 5
 :folio: S. 10
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s12:
 

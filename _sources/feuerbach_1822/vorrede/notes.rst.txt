@@ -2,7 +2,7 @@
 :canonical_id: Vorrede (Notes)
 :breadcrumb_title: Notes
 :order: 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-00-notes:
 

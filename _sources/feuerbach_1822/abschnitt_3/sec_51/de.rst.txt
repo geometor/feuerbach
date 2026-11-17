@@ -3,7 +3,7 @@
 :breadcrumb_title: § 51
 :order: 3
 :folio: S. 34
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s51:
 

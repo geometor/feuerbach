@@ -2,7 +2,7 @@
 :canonical_id: §§ 12–18 (Notes)
 :breadcrumb_title: Notes
 :order: 5
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-notes-s12:
 

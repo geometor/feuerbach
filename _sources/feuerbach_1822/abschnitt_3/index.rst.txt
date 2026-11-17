@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Abschnitt III
-:breadcrumb_title: Abschnitt III
+:canonical_id: Section III
+:breadcrumb_title: Section III
 :order: 4
 :title: Third Section: Distances from the Circumcenter and Orthocenter (§§ 49–53)
 

@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Abschnitt I
-:breadcrumb_title: Abschnitt I
+:canonical_id: Section I
+:breadcrumb_title: Section I
 :order: 2
 :title: First Section: On the Centers of the Four Tritangent Circles (§§ 1–18)
 

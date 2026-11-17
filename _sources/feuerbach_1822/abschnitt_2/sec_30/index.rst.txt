@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 30–36
 :order: 3
 :folio: p. 21
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s30:
 

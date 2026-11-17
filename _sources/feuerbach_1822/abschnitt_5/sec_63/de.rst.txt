@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 63–65
 :order: 2
 :folio: S. 43
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s63:
 

@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 23–28
 :order: 2
 :folio: p. 18
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s23:
 

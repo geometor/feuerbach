@@ -2,7 +2,7 @@
 :canonical_id: §§ 52–53 (Summary)
 :breadcrumb_title: Summary
 :order: 4
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-summary-s52:
 

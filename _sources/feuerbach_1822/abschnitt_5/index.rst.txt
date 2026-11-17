@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Abschnitt V
-:breadcrumb_title: Abschnitt V
+:canonical_id: Section V
+:breadcrumb_title: Section V
 :order: 6
 :title: Fifth Section: Comparative Proportions Among Derived Triangles (§§ 61–87)
 

@@ -2,7 +2,7 @@
 :canonical_id: §§ 61–62 (Notes)
 :breadcrumb_title: Notes
 :order: 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-04-notes:
 .. _fb-notes-s61:

@@ -3,7 +3,7 @@
 :breadcrumb_title: § 1
 :order: 1
 :folio: p. 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-01-en:
 .. _fb-en-s01:

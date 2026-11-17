@@ -3,7 +3,7 @@
 :breadcrumb_title: § 49
 :order: 1
 :folio: p. 33
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s49:
 

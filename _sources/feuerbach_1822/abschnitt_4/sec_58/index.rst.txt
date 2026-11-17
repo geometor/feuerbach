@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 58–60
 :order: 2
 :folio: p. 39
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s58:
 

@@ -1,6 +1,6 @@
 :layout: book
-:canonical_id: Abschnitt IV
-:breadcrumb_title: Abschnitt IV
+:canonical_id: Section IV
+:breadcrumb_title: Section IV
 :order: 5
 :title: Fourth Section: The Nine-Point Circle & Feuerbach's Tangency Theorem (§§ 54–60)
 

@@ -3,7 +3,7 @@
 :breadcrumb_title: §§ 41–48
 :order: 4
 :folio: p. 28
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s41:
 
