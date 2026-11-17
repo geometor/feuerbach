@@ -20,18 +20,6 @@ Books in This Archive
 
 - `Properties of Remarkable Points of the Rectilinear Triangle <https://geometor.github.io/feuerbach/feuerbach_1822/>`_ — Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks (1822) featuring the discovery and proof of the nine-point circle and its internal tangency to the incircle at the Feuerbach point :math:`X(11)`.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-feuerbach`` Python package (``import geometor.feuerbach``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``concordance.py`` — Structured loader and validator for the Euler–Feuerbach concordance and source manifest.
-- ``euler.py`` — Symbolic proofs and Euclidean construction for Euler's 1765 memoir (E325) and Feuerbach (1822).
-- ``primitives.py`` — Euclidean compass-and-straightedge sub-constructions for triangle geometry.
-- ``render.py`` — Theme-adaptive ``.euclid-graphic`` SVG exporter for Euler (1765) and Feuerbach (1822).
-- ``tangency.py`` — Exact Euclidean construction and deductive proof of Feuerbach's Theorem (1822, § 57).
-
-See the `API Reference <https://geometor.github.io/feuerbach/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
