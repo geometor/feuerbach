@@ -2,7 +2,7 @@
 :canonical_id: §§ 12–18
 :breadcrumb_title: §§ 12–18
 :order: 5
-:folio: p. 10
+:folio: §§ 12–18
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s12:

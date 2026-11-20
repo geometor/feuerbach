@@ -6,8 +6,8 @@
 
 .. _fb-notes-anhang-06:
 
-6. Satz: 6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Notes
-====================================================================================
+6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Notes
+===========================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 

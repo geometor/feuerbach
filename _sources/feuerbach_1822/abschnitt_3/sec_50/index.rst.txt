@@ -2,7 +2,7 @@
 :canonical_id: § 50
 :breadcrumb_title: § 50
 :order: 2
-:folio: p. 34
+:folio: § 50
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s50:

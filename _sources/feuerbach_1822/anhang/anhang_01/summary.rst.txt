@@ -6,8 +6,8 @@
 
 .. _fb-summary-anhang-01:
 
-1.–4. Satz: Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Summary
-=================================================================================
+Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Summary
+=====================================================================
 
 .. rubric:: Mathematical Overview — *1.–4. Satz: Euklidische Vorbereitungssätze*
 

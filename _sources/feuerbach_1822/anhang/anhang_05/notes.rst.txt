@@ -6,8 +6,8 @@
 
 .. _fb-notes-anhang-05:
 
-5. Satz: 5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Notes
-============================================================================
+5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Notes
+===================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 

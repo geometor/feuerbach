@@ -2,7 +2,7 @@
 :canonical_id: 1.–4. Satz
 :breadcrumb_title: 1.–4. Satz
 :order: 1
-:folio: S. 56
+:folio: Anhang, 1.–4. Satz
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-05-de:

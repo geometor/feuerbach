@@ -2,7 +2,7 @@
 :canonical_id: § 19
 :breadcrumb_title: § 19
 :order: 1
-:folio: p. 15
+:folio: § 19
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-02-en:

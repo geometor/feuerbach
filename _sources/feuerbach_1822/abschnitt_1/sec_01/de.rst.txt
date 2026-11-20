@@ -2,7 +2,7 @@
 :canonical_id: § 1
 :breadcrumb_title: § 1
 :order: 1
-:folio: S. 1
+:folio: §. 1.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-01-de:

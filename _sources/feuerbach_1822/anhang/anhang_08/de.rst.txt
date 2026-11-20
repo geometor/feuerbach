@@ -2,7 +2,7 @@
 :canonical_id: 8. Satz
 :breadcrumb_title: 8. Satz
 :order: 5
-:folio: S. 61
+:folio: 8.–9. Satz.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-anhang-8:

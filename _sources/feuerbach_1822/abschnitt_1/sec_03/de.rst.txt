@@ -2,7 +2,7 @@
 :canonical_id: §§ 3–7
 :breadcrumb_title: §§ 3–7
 :order: 3
-:folio: S. 3
+:folio: §§. 3–7.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s03:

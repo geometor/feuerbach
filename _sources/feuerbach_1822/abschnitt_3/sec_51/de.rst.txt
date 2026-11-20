@@ -2,7 +2,7 @@
 :canonical_id: § 51
 :breadcrumb_title: § 51
 :order: 3
-:folio: S. 34
+:folio: §. 51.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s51:

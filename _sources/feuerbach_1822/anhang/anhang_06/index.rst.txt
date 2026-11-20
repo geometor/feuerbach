@@ -2,7 +2,7 @@
 :canonical_id: 6. Satz
 :breadcrumb_title: 6. Satz
 :order: 3
-:folio: p. 60
+:folio: 6. Satz
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-anhang-6:

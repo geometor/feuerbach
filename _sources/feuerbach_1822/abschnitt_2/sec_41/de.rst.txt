@@ -2,7 +2,7 @@
 :canonical_id: §§ 41–48
 :breadcrumb_title: §§ 41–48
 :order: 4
-:folio: S. 28
+:folio: §§. 41–48.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s41:

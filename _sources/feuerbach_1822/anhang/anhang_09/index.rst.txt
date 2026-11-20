@@ -2,7 +2,7 @@
 :canonical_id: 9. Satz
 :breadcrumb_title: 9. Satz
 :order: 6
-:folio: p. 62
+:folio: 9. Satz
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-anhang-9:

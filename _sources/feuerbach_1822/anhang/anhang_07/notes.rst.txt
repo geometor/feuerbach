@@ -6,8 +6,8 @@
 
 .. _fb-notes-anhang-07:
 
-7. Satz: 7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Notes
-============================================================================================
+7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Notes
+===================================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 
