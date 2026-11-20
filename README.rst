@@ -3,6 +3,12 @@ GEOMETOR • feuerbach
 
 **Visit the Online Archive:** https://geometor.github.io/feuerbach/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • feuerbach Medallion
+   :target: https://geometor.github.io/feuerbach/
+   :width: 180px
+   :align: center
+
 .. image:: docsrc/_static/constructions/feuerbach_tangency.svg
    :alt: GEOMETOR • feuerbach featured geometric construction
    :target: https://geometor.github.io/feuerbach/
