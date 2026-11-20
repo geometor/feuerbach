@@ -2,7 +2,7 @@
 :canonical_id: §§ 58–60
 :breadcrumb_title: §§ 58–60
 :order: 2
-:folio: S. 39
+:folio: §§. 58–60.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s58:

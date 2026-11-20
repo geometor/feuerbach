@@ -2,7 +2,7 @@
 :canonical_id: Vorrede
 :breadcrumb_title: Vorrede
 :order: 1
-:folio: S. III
+:folio: Vorrede
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-00-de:

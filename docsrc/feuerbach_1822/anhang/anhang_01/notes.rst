@@ -6,8 +6,8 @@
 
 .. _fb-notes-anhang-01:
 
-1.–4. Satz: Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Notes
-===============================================================================
+Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Notes
+===================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 

@@ -6,8 +6,8 @@
 
 .. _fb-summary-anhang-05:
 
-5. Satz: 5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Summary
-==============================================================================
+5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Summary
+=====================================================================
 
 .. rubric:: Mathematical Overview — *5. Satz: Verhältnis des Inhalts des Dreiecks MNP zu ΔABC*
 

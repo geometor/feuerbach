@@ -63,7 +63,7 @@ for _sister in (
         )
 
 # Exclude top-level AutoAPI index included directly inside docsrc/modules/index.rst
-_pkg_api_index = "modules/api/geometor/feuerbach/index.rst"
+_pkg_api_index = "modules/api/src/geometor/feuerbach/index.rst"
 if _pkg_api_index not in exclude_patterns:  # noqa: F405
     exclude_patterns.append(_pkg_api_index)  # noqa: F405
 

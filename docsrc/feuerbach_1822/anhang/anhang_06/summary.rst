@@ -6,8 +6,8 @@
 
 .. _fb-summary-anhang-06:
 
-6. Satz: 6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Summary
-======================================================================================
+6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Summary
+=============================================================================
 
 .. rubric:: Mathematical Overview — *6. Satz: Höhenabschnitts-Rechteck CO · OP = 2Rρ*
 

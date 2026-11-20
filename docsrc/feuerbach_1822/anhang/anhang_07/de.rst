@@ -2,7 +2,7 @@
 :canonical_id: 7. Satz
 :breadcrumb_title: 7. Satz
 :order: 4
-:folio: S. 61
+:folio: 7. Satz.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-anhang-7:

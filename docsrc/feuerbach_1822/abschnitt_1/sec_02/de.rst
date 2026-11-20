@@ -2,7 +2,7 @@
 :canonical_id: § 2
 :breadcrumb_title: § 2
 :order: 2
-:folio: S. 2
+:folio: §. 2.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s02:

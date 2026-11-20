@@ -2,7 +2,7 @@
 :canonical_id: §§ 23–28
 :breadcrumb_title: §§ 23–28
 :order: 2
-:folio: p. 18
+:folio: §§ 23–28
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s23:

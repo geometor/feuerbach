@@ -7,8 +7,8 @@
 .. _fb-05-notes:
 .. _fb-notes-anhang-09:
 
-9. Satz: 9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Notes
-=========================================================================================
+9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Notes
+================================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 

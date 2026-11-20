@@ -6,8 +6,8 @@
 
 .. _fb-summary-anhang-07:
 
-7. Satz: 7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Summary
-==============================================================================================
+7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Summary
+=====================================================================================
 
 .. rubric:: Mathematical Overview — *7. Satz: Summe der Seitenquadrate AB² + AC² + BC² = 8R² + 4ρR*
 

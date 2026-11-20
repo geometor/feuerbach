@@ -2,7 +2,7 @@
 :canonical_id: §§ 52–53
 :breadcrumb_title: §§ 52–53
 :order: 4
-:folio: S. 36
+:folio: §§. 52–53.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s52:

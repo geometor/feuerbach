@@ -2,7 +2,7 @@
 :canonical_id: 5. Satz
 :breadcrumb_title: 5. Satz
 :order: 2
-:folio: S. 60
+:folio: 5. Satz.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-anhang-5:

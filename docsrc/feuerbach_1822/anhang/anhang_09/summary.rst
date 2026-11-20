@@ -7,8 +7,8 @@
 .. _fb-05-summary:
 .. _fb-summary-anhang-09:
 
-9. Satz: 9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Summary
-===========================================================================================
+9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Summary
+==================================================================================
 
 .. rubric:: Mathematical Overview — *9. Satz: Synthetischer Beweis des Neunpunktekreises*
 

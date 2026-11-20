@@ -6,8 +6,8 @@
 
 .. _fb-notes-anhang-08:
 
-8. Satz: 8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Notes
-=========================================================================================
+8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Notes
+================================================================================
 
 .. rubric:: Historical, Philological & Symbolic Commentary
 

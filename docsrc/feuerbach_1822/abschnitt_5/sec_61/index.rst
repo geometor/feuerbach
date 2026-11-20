@@ -2,7 +2,7 @@
 :canonical_id: §§ 61–62
 :breadcrumb_title: §§ 61–62
 :order: 1
-:folio: p. 41
+:folio: §§ 61–62
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-04:

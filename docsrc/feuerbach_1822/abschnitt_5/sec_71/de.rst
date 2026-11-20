@@ -2,7 +2,7 @@
 :canonical_id: §§ 71–87
 :breadcrumb_title: §§ 71–87
 :order: 3
-:folio: S. 48
+:folio: §§. 71–87.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s71:

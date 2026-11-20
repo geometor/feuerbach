@@ -2,7 +2,7 @@
 :canonical_id: § 49
 :breadcrumb_title: § 49
 :order: 1
-:folio: p. 33
+:folio: § 49
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-en-s49:

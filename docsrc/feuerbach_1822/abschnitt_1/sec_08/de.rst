@@ -2,7 +2,7 @@
 :canonical_id: §§ 8–11
 :breadcrumb_title: §§ 8–11
 :order: 4
-:folio: S. 5
+:folio: §§. 8–11.
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _fb-de-s08:
