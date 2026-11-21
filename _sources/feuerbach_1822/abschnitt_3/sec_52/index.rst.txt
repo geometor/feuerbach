@@ -13,7 +13,13 @@
 §§ 52–53: Sum of Orthocenter Quadrances & The Distance KO
 =========================================================
 
-* **§ 52**: Adding the four expressions of § 51 via (§ 28) :math:`r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho)`, Feuerbach states :math:`\overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}^2 + \overline{OS'''}^2 = 4R(4R - \rho)` *[true exact sum with :math:`-2\rho R` on all four terms: :math:`16R(R - \rho)`]*.
+* **§ 52**: Adding the found values of the squares of :math:`OS, OS', OS'', OS'''` (§ 51), there comes, since (§ 28) :math:`r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \rho)`:
+
+  .. math::
+
+     \overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}^2 + \overline{OS'''}^2 = 4R(4R - \rho);
+
+  that is: *In every acute-angled triangle, the intersection point of its altitudes is so situated that the sum of the squares of its distances from the centers of the four tangent circles equals the rectangle contained by twice the diameter of the circumscribed circle and the excess of this double diameter over the radius of the circle inscribed in the triangle determined by the feet of those altitudes.*
 * **§ 53 (Exact Quadrance KO²)**: Joining the points :math:`K` [:g:`X_3 <0038.g1:X3>`] and :math:`O` [:g:`X_4 <0038.g1:X4>`] by a straight line [:g:`OK <0038.g1:[ X3 X4 ]>`], its square is :math:`\overline{KO}^2 = (Ac - AP)^2 + (OP - Kc)^2`, where :math:`c` is the midpoint of :math:`AB`. Now :math:`Ac - AP = \frac{a^2 - b^2}{2c}` and (§§ 35, 45) :math:`OP - Kc = \frac{(-a^2+b^2+c^2)(a^2-b^2+c^2) - c^2(a^2+b^2-c^2)}{8c\Delta}`; substituting and reducing yields:
 
   .. math::

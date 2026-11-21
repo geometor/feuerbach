@@ -13,7 +13,7 @@
 §§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S', S'', S'''
 =============================================================================
 
-* **§§ 12–14 (Circumradii of the Sub-Triangles, p. 10)**: Denoting by :math:`\mathfrak{A}, \mathfrak{B}, \mathfrak{C}` the circumradii of :math:`\triangle BCS, \triangle ACS, \triangle ABS` (and by :math:`\mathfrak{A}^{(k)}, \mathfrak{B}^{(k)}, \mathfrak{C}^{(k)}` those for :math:`S^{(k)}`), Feuerbach proves:
+* **§§ 12–14 (Circumradii of the Sub-Triangles, p. 10)**: Denoting by :math:`\mathfrak{A}, \mathfrak{B}, \mathfrak{C}` the circumradii of :math:`\triangle BCS, \triangle ACS, \triangle ABS` (and by :math:`\mathfrak{A}^{(k)}, \mathfrak{B}^{(k)}, \mathfrak{C}^{(k)}` those for :math:`S^{(k)}`), we have:
 
   .. math::
 
@@ -31,7 +31,7 @@
      A = SS', \quad B = SS'', \quad C = SS''', \qquad
      A' = S''S''', \quad B' = S'S''', \quad C' = S'S'',
 
-  Feuerbach establishes the remarkable metric laws governing the orthocentric quadrangle :math:`(S, S', S'', S''')`:
+  there follow the relations governing the mutual distances of the four centers :math:`S, S', S'', S'''`:
 
   .. math::
 
