@@ -42,7 +42,7 @@ Setting :math:`a, b, c` negative successively in this expression, Feuerbach writ
    \overline{OS''}^2 = 2r''^2 + 2\rho R, \qquad
    \overline{OS'''}^2 = 2r'''^2 + 2\rho R
 
-*[Editor's Critical Note: Because both :math:`R` and :math:`\rho` negate simultaneously under :math:`a \mapsto -a`, their product :math:`\rho R` is invariant; the true exact identities over :math:`\mathbb{Q}(a,b,c)` are :math:`\overline{OS^{(k)}}^2 = 2r^{(k)2} - 2\rho R`. Crucially, this slip does not affect §§ 53–59 at all; see :ref:`Unit III Critical Notes <fb-03-notes>` for the complete SymPy proof.]*
+[*Editor's Critical Note:* Because both :math:`R` and :math:`\rho` negate simultaneously under :math:`a \mapsto -a`, their product :math:`\rho R` is invariant; the true exact identities over :math:`\mathbb{Q}(a,b,c)` are :math:`\overline{OS^{(k)}}^2 = 2r^{(k)2} - 2\rho R`. Crucially, this slip does not affect §§ 53–59 at all; see :ref:`Unit III Critical Notes <fb-03-notes>` for the complete SymPy proof.]
 
 .. toctree::
    :hidden:

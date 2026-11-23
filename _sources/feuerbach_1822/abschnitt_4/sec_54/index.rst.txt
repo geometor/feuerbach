@@ -29,7 +29,7 @@
 
   (which holds likewise when :math:`\triangle ABC` is obtuse, e.g. at :math:`A`, from :math:`\overline{OL}^2 = \frac{1}{4}R^2 + \rho^{(1)}R` and :math:`\overline{KO}^2 = R^2 + 4\rho^{(1)}R`): *In every triangle, the intersection point of its altitudes is twice as far from the center of the circumscribed circle as from the center of the circle passing through the feet of those altitudes.*
 
-* **§ 55 (Collinearity of O, L, K — Midpoint Property)**: Drop from the center :math:`L` upon the straight lines :math:`AB, CP` the perpendiculars :math:`LJ, LH`; then :math:`LJ = PH`, and in :math:`\triangle OPL` we have :math:`PH = \frac{-\overline{OL}^2 + \overline{OP}^2 + \overline{LP}^2}{2\,OP}`. Now :math:`LP = \frac{1}{2}R` and (§ 54) :math:`\overline{OL}^2 = \frac{1}{4}R^2 - \rho R` *[correcting the 1822 printing slip ``1/2 R^2``]*, while (§§ 35, 45) :math:`OP \cdot Kc = \rho R`, whence :math:`\overline{LP}^2 - \overline{OL}^2 = OP \cdot Kc`. Substituting into :math:`PH = LJ` yields:
+* **§ 55 (Collinearity of O, L, K — Midpoint Property)**: Drop from the center :math:`L` upon the straight lines :math:`AB, CP` the perpendiculars :math:`LJ, LH`; then :math:`LJ = PH`, and in :math:`\triangle OPL` we have :math:`PH = \frac{-\overline{OL}^2 + \overline{OP}^2 + \overline{LP}^2}{2\,OP}`. Now :math:`LP = \frac{1}{2}R` and (§ 54) :math:`\overline{OL}^2 = \frac{1}{4}R^2 - \rho R` [*correcting the 1822 printing slip* ``1/2 R^2``], while (§§ 35, 45) :math:`OP \cdot Kc = \rho R`, whence :math:`\overline{LP}^2 - \overline{OL}^2 = OP \cdot Kc`. Substituting into :math:`PH = LJ` yields:
 
   .. math::
 
@@ -64,7 +64,7 @@ Substituting herein the values of the squares of :math:`OL, KS, OS` known from �
 
    2\overline{LS}^2 + 2\left(\frac{1}{4}R^2 - \rho R\right) = \left(R^2 - 2rR\right) + \left(2r^2 - 2\rho R\right),
 
-*[observe how :math:`-2\rho R` cancels identically on both sides!]* there results
+[*observe how* :math:`-2\rho R` *cancels identically on both sides!*] there results
 
 .. math::
 

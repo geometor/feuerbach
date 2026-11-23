@@ -86,4 +86,4 @@ und da wir (§. 52.) :math:`\overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}
    9\left(\overline{GS}^2 + \overline{GS'}^2 + \overline{GS''}^2 + \overline{GS'''}^2\right)
    = 7\left(\overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}^2 + \overline{OS'''}^2\right).
 
-*[Kritische Anmerkung: Mit dem exakten Vorzeichen :math:`+2R\rho` in :math:`\overline{GS^{(k)}}^2` lautet die wahre Identität :math:`9\sum \overline{GS_i}^2 = 16R(7R - \rho)`; siehe :ref:`Kritische Noten <fb-03-notes>`.]*
+[*Kritische Anmerkung:* Mit dem exakten Vorzeichen :math:`+2R\rho` in :math:`\overline{GS^{(k)}}^2` lautet die wahre Identität :math:`9\sum \overline{GS_i}^2 = 16R(7R - \rho)`; siehe :ref:`Kritische Noten <fb-03-notes>`.]

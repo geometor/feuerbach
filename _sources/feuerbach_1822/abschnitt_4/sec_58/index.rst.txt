@@ -52,7 +52,7 @@
 
      \overline{GS}^2 = \frac{2}{9}R(2R + \rho) - \frac{2}{3}r(2R - r).
 
-  *[For the excenters, Feuerbach again flips the sign of :math:`R` without flipping :math:`\rho`, printing :math:`\overline{GS^{(k)}}^2 = \frac{2}{9}R(2R - \rho) + \frac{2}{3}r^{(k)}(2R + r^{(k)})`, :math:`\sum \overline{GS_i}^2 = \frac{28}{9}R(4R - \rho)`, and :math:`9\sum \overline{GS_i}^2 = 7\sum \overline{OS_i}^2`; the true exact identities proved in :mod:`geometor.feuerbach.euler` are :math:`\overline{GS^{(k)}}^2 = \frac{2}{9}R(2R + \rho) + \frac{2}{3}r^{(k)}(2R + r^{(k)})` and :math:`9\sum \overline{GS_i}^2 = 16R(7R - \rho)`.]*
+  [*For the excenters,* Feuerbach again flips the sign of :math:`R` without flipping :math:`\rho`, printing :math:`\overline{GS^{(k)}}^2 = \frac{2}{9}R(2R - \rho) + \frac{2}{3}r^{(k)}(2R + r^{(k)})`, :math:`\sum \overline{GS_i}^2 = \frac{28}{9}R(4R - \rho)`, and :math:`9\sum \overline{GS_i}^2 = 7\sum \overline{OS_i}^2`; the true exact identities proved in :mod:`geometor.feuerbach.euler` are :math:`\overline{GS^{(k)}}^2 = \frac{2}{9}R(2R + \rho) + \frac{2}{3}r^{(k)}(2R + r^{(k)})` and :math:`9\sum \overline{GS_i}^2 = 16R(7R - \rho)`.]
 
 .. toctree::
    :hidden:

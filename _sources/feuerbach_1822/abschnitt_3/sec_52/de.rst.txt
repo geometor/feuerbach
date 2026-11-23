@@ -16,7 +16,7 @@ Addirt man die gefundenen Werthe der Quadrate von :math:`OS, OS', OS'', OS'''`, 
 
    \overline{OS}^2 + \overline{OS'}^2 + \overline{OS''}^2 + \overline{OS'''}^2 = 4R(4R - \rho)
 
-*[Exakte Summe mit :math:`-2\rho R`: :math:`16R(R - \rho)`.]*
+[*Exakte Summe mit* :math:`-2\rho R`: :math:`16R(R - \rho)`.]
 
 d. h. In jedem spitzwinkligen Dreieck liegt der Durchschnittspunkt seiner Perpendikel also, daß die Summe der Quadrate seiner Abstände von den Mittelpunkten der vier berührenden Kreise, gleich ist dem Rechteck aus dem doppelten Durchmesser des umbeschriebenen Kreises in den Überschuß dieses doppelten Durchmessers über den Halbmesser desjenigen Kreises, welcher in das durch die Fußpunkte jener Perpendikel bestimmte Dreieck beschrieben ist.
 
