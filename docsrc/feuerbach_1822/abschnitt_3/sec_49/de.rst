@@ -13,7 +13,7 @@
 §. 49. Abstände KS, KS', KS'', KS''' — Verweis auf Euler (1765) und Fuß (1797)
 ==============================================================================
 
-*[Aus :math:`\overline{KS}^2 = R^2 - 2rR` auf S. 33 folgt durch Vertauschung von :math:`+a, +b, +c` mit :math:`-a, -b, -c` auf S. 34:]*
+[*Aus* :math:`\overline{KS}^2 = R^2 - 2rR` *auf S. 33 folgt durch Vertauschung von* :math:`+a, +b, +c` *mit* :math:`-a, -b, -c` *auf S. 34:*]
 
 .. math::
 

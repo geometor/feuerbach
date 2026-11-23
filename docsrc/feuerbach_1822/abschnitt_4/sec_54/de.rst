@@ -26,7 +26,7 @@ Wäre das Dreieck :math:`ABC` stumpfwinklig, z. B. bei :math:`A`, so würde man 
 §. 55. Gerade Linie durch O, L, K
 ---------------------------------
 
-Man fälle aus dem Mittelpunkte :math:`L` auf die Geraden :math:`AB, CP` die Senkrechten :math:`LJ, LH`, so ist :math:`LJ = PH` und, weil bei :math:`H` ein rechter Winkel, so ist bekanntlich im Dreieck :math:`OPL`, :math:`PH = \frac{-\overline{OL}^2 + \overline{OP}^2 + \overline{LP}^2}{2\,OP}`. Nun ist aber :math:`LP = \frac{1}{2}R` und (§. 54.) :math:`\overline{OL}^2 = \frac{1}{2}R^2 - \rho R` *[sic im Druck 1822 statt :math:`\frac{1}{4}R^2 - \rho R`]*, ferner (§. 35. 45.) :math:`OP \cdot Kc = \rho R`, folglich :math:`\overline{LP}^2 - \overline{OL}^2 = OP \cdot Kc`. Substituirt man diesen Ausdruck in :math:`PH = LJ` so ergiebt sich:
+Man fälle aus dem Mittelpunkte :math:`L` auf die Geraden :math:`AB, CP` die Senkrechten :math:`LJ, LH`, so ist :math:`LJ = PH` und, weil bei :math:`H` ein rechter Winkel, so ist bekanntlich im Dreieck :math:`OPL`, :math:`PH = \frac{-\overline{OL}^2 + \overline{OP}^2 + \overline{LP}^2}{2\,OP}`. Nun ist aber :math:`LP = \frac{1}{2}R` und (§. 54.) :math:`\overline{OL}^2 = \frac{1}{2}R^2 - \rho R` [*sic im Druck 1822 statt* :math:`\frac{1}{4}R^2 - \rho R`], ferner (§. 35. 45.) :math:`OP \cdot Kc = \rho R`, folglich :math:`\overline{LP}^2 - \overline{OL}^2 = OP \cdot Kc`. Substituirt man diesen Ausdruck in :math:`PH = LJ` so ergiebt sich:
 
 .. math::
 

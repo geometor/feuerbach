@@ -53,7 +53,7 @@ Setzt man in diesem Ausdruck nach einander :math:`a, b, c` negativ, so erhält m
    \overline{OS''}^2 &= 2r''^2 + 2\rho R \\
    \overline{OS'''}^2 &= 2r'''^2 + 2\rho R
 
-*[Kritische Anmerkung: Wegen :math:`R \mapsto -R` und :math:`\rho \mapsto -\rho` bleibt :math:`-2\rho R` bei :math:`a \mapsto -a` unverändert negativ; exakt gilt :math:`\overline{OS^{(k)}}^2 = 2r^{(k)2} - 2\rho R`. Siehe die :ref:`Kritischen Noten <fb-03-notes>`.]*
+[*Kritische Anmerkung:* Wegen :math:`R \mapsto -R` und :math:`\rho \mapsto -\rho` bleibt :math:`-2\rho R` bei :math:`a \mapsto -a` unverändert negativ; exakt gilt :math:`\overline{OS^{(k)}}^2 = 2r^{(k)2} - 2\rho R`. Siehe die :ref:`Kritischen Noten <fb-03-notes>`.]
 
 d. h. In jedem spitzwinkligen Dreieck ist das Quadrat vom Abstande des Durchschnittspunkts seiner Perpendikel vom Mittelpunkte irgend eines ausserhalb berührenden Kreises, gleich dem doppelten Quadrat vom Halbmesser dieses Kreises, sammt dem Rechteck aus dem Durchmesser des umbeschriebenen in den Halbmesser
 
