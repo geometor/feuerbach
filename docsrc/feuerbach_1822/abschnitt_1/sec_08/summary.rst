@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 8–11. Berührungsdreiecke δ, δ', δ'', δ''' und Abstände von den Ecken*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 8–11 (p. 5) <fb-en-s08>`
-* **Deutsch**: :ref:`§§ 8–11 (S. 5) <fb-de-s08>`
-
 Section Overview
 ----------------
 

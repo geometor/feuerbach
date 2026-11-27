@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *6. Satz: Höhenabschnitts-Rechteck CO · OP = 2Rρ*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`6. Satz (p. 60) <fb-en-anhang-6>`
-* **Deutsch**: :ref:`6. Satz (S. 60) <fb-de-anhang-6>`
-
 Section Overview
 ----------------
 

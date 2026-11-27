@@ -12,12 +12,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 61–62. Mittlere Proportionalität des Dreiecks MNP*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 61–62 (p. 41) <fb-en-s61>`
-* **Deutsch**: :ref:`§§ 61–62 (S. 41) <fb-de-s61>`
-
 Section Overview
 ----------------
 

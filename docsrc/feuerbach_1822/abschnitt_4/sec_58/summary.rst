@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 58–60. Summen der Abstände von L und der Schwerpunkt G auf KO*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 58–60 (p. 39) <fb-en-s58>`
-* **Deutsch**: :ref:`§§ 58–60 (S. 39) <fb-de-s58>`
-
 Section Overview
 ----------------
 

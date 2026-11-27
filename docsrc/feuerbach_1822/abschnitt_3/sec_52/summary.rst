@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 52–53. Summe der Quadrate von OS und das Quadrat des Abstands KO*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 52–53 (p. 36) <fb-en-s52>`
-* **Deutsch**: :ref:`§§ 52–53 (S. 36) <fb-de-s52>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§. 2. Ausdrücke der vier Halbmesser und Satz von L'Huilier*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 2 (p. 2) <fb-en-s02>`
-* **Deutsch**: :ref:`§ 2 (S. 2) <fb-de-s02>`
-
 Section Overview
 ----------------
 

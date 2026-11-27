@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 3–7. Symmetrische Relationen unter den Halbmessern r, r', r'', r'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 3–7 (p. 3) <fb-en-s03>`
-* **Deutsch**: :ref:`§§ 3–7 (S. 3) <fb-de-s03>`
-
 Section Overview
 ----------------
 

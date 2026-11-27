@@ -19,13 +19,3 @@ Sections
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   sec_01/index
-   sec_02/index
-   sec_03/index
-   sec_08/index
-   sec_12/index

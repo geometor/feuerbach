@@ -12,12 +12,6 @@
 
 .. rubric:: Mathematical Overview — *9. Satz: Synthetischer Beweis des Neunpunktekreises*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`9. Satz (p. 62) <fb-en-anhang-9>`
-* **Deutsch**: :ref:`9. Satz (S. 62) <fb-de-anhang-9>`
-
 Section Overview
 ----------------
 

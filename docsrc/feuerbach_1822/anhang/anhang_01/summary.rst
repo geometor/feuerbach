@@ -11,12 +11,6 @@ Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Summary
 
 .. rubric:: Mathematical Overview — *1.–4. Satz: Euklidische Vorbereitungssätze*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`1.–4. Satz (p. 56) <fb-en-anhang-1-4>`
-* **Deutsch**: :ref:`1.–4. Satz (S. 56) <fb-de-anhang-1-4>`
-
 Section Overview
 ----------------
 

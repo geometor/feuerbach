@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§. 51. Quadrate der Abstände OS, OS', OS'', OS'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 51 (p. 35) <fb-en-s51>`
-* **Deutsch**: :ref:`§ 51 (S. 34) <fb-de-s51>`
-
 Section Overview
 ----------------
 

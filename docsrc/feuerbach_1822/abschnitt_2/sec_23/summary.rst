@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 23–28. Der Halbmesser ρ des Kreises in ΔMNP und der Umkreishalbmesser ½R*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 23–28 (p. 18) <fb-en-s23>`
-* **Deutsch**: :ref:`§§ 23–28 (S. 18) <fb-de-s24>`
-
 Section Overview
 ----------------
 

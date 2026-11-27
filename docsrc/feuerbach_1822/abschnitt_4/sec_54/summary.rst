@@ -12,12 +12,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 54–57. Der Neunpunktekreis und der Feuerbachsche Berührungssatz*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 54–57 (p. 37) <fb-en-s54>`
-* **Deutsch**: :ref:`§§ 54–57 (S. 37) <fb-de-s54>`
-
 Section Overview
 ----------------
 

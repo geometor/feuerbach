@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§. 49. Abstände KS, KS', KS'', KS''' — Verweis auf Euler (1765) und Fuß (1797)*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 49 (p. 33) <fb-en-s49>`
-* **Deutsch**: :ref:`§ 49 (S. 33) <fb-de-s49>`
-
 Section Overview
 ----------------
 

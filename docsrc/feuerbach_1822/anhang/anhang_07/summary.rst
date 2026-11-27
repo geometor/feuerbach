@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *7. Satz: Summe der Seitenquadrate AB² + AC² + BC² = 8R² + 4ρR*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`7. Satz (p. 61) <fb-en-anhang-7>`
-* **Deutsch**: :ref:`7. Satz (S. 61) <fb-de-anhang-7>`
-
 Section Overview
 ----------------
 

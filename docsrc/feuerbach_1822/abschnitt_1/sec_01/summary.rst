@@ -12,12 +12,6 @@
 
 .. rubric:: Mathematical Overview — *§. 1. Die vier berührenden Kreise S, S', S'', S'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 1 (p. 1) <fb-en-s01>`
-* **Deutsch**: :ref:`§ 1 (S. 1) <fb-de-s01>`
-
 Section Overview
 ----------------
 

@@ -21,14 +21,3 @@ Sections
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   anhang_01/index
-   anhang_05/index
-   anhang_06/index
-   anhang_07/index
-   anhang_08/index
-   anhang_09/index
