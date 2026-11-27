@@ -10,7 +10,7 @@ Karl Wilhelm Feuerbach
    :alt: Karl Wilhelm Feuerbach Medallion
    :class: repo-medallion-hero
 
-**Karl Wilhelm Feuerbach** (1800–1834), writing at twenty-two in Nuremberg, unveiled one of the crown jewels of triangle geometry: the nine-point circle passing through the feet of a triangle's altitudes and the midpoints of its sides simultaneously kisses all four tritangent circles—touching the incircle internally at the Feuerbach point $X(11)$ and each of the three excircles externally.
+**Karl Wilhelm Feuerbach** (1800–1834), writing at twenty-two in Nuremberg, unveiled one of the crown jewels of triangle geometry: the nine-point circle passing through the feet of a triangle's altitudes and the midpoints of its sides simultaneously kisses all four tritangent circles—touching the incircle internally at the Feuerbach point :math:`X(11)` and each of the three excircles externally.
 
 Books in This Collection
 ------------------------
@@ -45,7 +45,7 @@ Key Features
 
       **The Nine-Point Circle & Fourfold Tangency**
 
-      Trace Feuerbach's § 57 algebraic derivation of $LS = \tfrac{1}{2}R - r$ and $LS^{(k)} = \tfrac{1}{2}R + r^{(k)}$ alongside his pure Euclidean *9. Satz* in the Synthetic Appendix.
+      Trace Feuerbach's § 57 algebraic derivation of :math:`LS = \tfrac{1}{2}R - r` and :math:`LS^{(k)} = \tfrac{1}{2}R + r^{(k)}` alongside his pure Euclidean *9. Satz* in the Synthetic Appendix.
 
    .. container:: home-feature-card
 
@@ -57,7 +57,7 @@ Key Features
 
       **Exact Heronian ``(15, 13, 14)`` Verification**
 
-      Verify 30 polynomial identities, the harmonic Euler range $(O, G; L, K) = -1$, and exact rational tangency coordinates $X(11) = (6, 8)$ in :doc:`demos/index`.
+      Verify 30 polynomial identities, the harmonic Euler range :math:`(O, G; L, K) = -1`, and exact rational tangency coordinates :math:`X(11) = (6, 8)` in :doc:`demos/index`.
 
 Reference & Project
 -------------------
