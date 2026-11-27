@@ -11,12 +11,6 @@ Summary — Karl Buzengeiger's *Vorrede* (pp. III–XVI)
 
 .. rubric:: Philosophical & Methodological Framing of Feuerbach's 1822 Monograph
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`Vorrede (p. III) <fb-00-en>`
-* **Deutsch**: :ref:`Vorrede (S. III) <fb-00-de>`
-
 Section Overview
 ----------------
 

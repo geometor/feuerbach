@@ -86,18 +86,6 @@ Table of Contents
 .. toctree::
    :maxdepth: 1
    :hidden:
-
-   vorrede/index
-   abschnitt_1/index
-   abschnitt_2/index
-   abschnitt_3/index
-   abschnitt_4/index
-   abschnitt_5/index
-   anhang/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: Title Pages
 
    title-de

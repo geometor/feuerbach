@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 30–36. Abstände der Ecken von den Seiten von ΔMNP und Höhenabschnitte*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 30–36 (p. 21) <fb-en-s30>`
-* **Deutsch**: :ref:`§§ 30–36 (S. 21) <fb-de-s30>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 71–87. Inkreise O', O'', O''' der Eckdreiecke und Höhenschnitt S von ΔO'O''O'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 71–87 (p. 48) <fb-en-s71>`
-* **Deutsch**: :ref:`§§ 71–87 (S. 48) <fb-de-s71>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 12–18. Gegenseitige Abstände A, B, C, A', B', C' der vier Mittelpunkte*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 12–18 (p. 10) <fb-en-s12>`
-* **Deutsch**: :ref:`§§ 12–18 (S. 10) <fb-de-s12>`
-
 Section Overview
 ----------------
 

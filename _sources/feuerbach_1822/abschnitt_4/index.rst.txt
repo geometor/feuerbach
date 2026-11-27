@@ -22,10 +22,3 @@ Sections
 
 .. collection::
    :sort: order
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   sec_54/index
-   sec_58/index

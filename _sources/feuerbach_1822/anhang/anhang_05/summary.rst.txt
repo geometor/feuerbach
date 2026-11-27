@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *5. Satz: Verhältnis des Inhalts des Dreiecks MNP zu ΔABC*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`5. Satz (p. 60) <fb-en-anhang-5>`
-* **Deutsch**: :ref:`5. Satz (S. 60) <fb-de-anhang-5>`
-
 Section Overview
 ----------------
 

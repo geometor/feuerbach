@@ -12,12 +12,6 @@
 
 .. rubric:: Mathematical Overview — *§. 19. Das Fußpunktdreieck MNP kleinsten Umfangs*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 19 (p. 15) <fb-en-s19>`
-* **Deutsch**: :ref:`§ 19 (S. 15) <fb-de-s19>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§. 50. Summe der Quadrate von KS, KS', KS'', KS'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§ 50 (p. 34) <fb-en-s50>`
-* **Deutsch**: :ref:`§ 50 (S. 34) <fb-de-s50>`
-
 Section Overview
 ----------------
 

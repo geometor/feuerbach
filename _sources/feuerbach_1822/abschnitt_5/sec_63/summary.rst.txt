@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 63–65. Die Fußpunktdreiecke μ, μ', μ'', μ''' in den vier Berührungsdreiecken*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 63–65 (p. 43) <fb-en-s63>`
-* **Deutsch**: :ref:`§§ 63–65 (S. 43) <fb-de-s63>`
-
 Section Overview
 ----------------
 

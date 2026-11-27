@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *§§. 41–48. Höhenschnitte M', N', P' der Eckdreiecke und Teilumkreise R', R'', R'''*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`§§ 41–48 (p. 28) <fb-en-s41>`
-* **Deutsch**: :ref:`§§ 41–48 (S. 28) <fb-de-s41>`
-
 Section Overview
 ----------------
 

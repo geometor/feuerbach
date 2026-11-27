@@ -11,12 +11,6 @@
 
 .. rubric:: Mathematical Overview — *8. Satz: Strecke GH gleich dem halben Umfang des Dreiecks MNP*
 
-Parallel Reading Tracks
------------------------
-
-* **English**: :ref:`8. Satz (p. 61) <fb-en-anhang-8>`
-* **Deutsch**: :ref:`8. Satz (S. 61) <fb-de-anhang-8>`
-
 Section Overview
 ----------------
 
