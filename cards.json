@@ -1,0 +1,2412 @@
+{
+  "schema": "photon.card.v1",
+  "site": {
+    "org": "geometor",
+    "org_name": "GEOMETOR",
+    "repo": "feuerbach",
+    "repo_name": "feuerbach",
+    "title": "Karl Wilhelm Feuerbach",
+    "base_url": "https://geometor.github.io/feuerbach",
+    "github_url": "https://github.com/geometor/feuerbach",
+    "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg"
+  },
+  "cards": {
+    "about/index": {
+      "id": "about/index",
+      "docname": "about/index",
+      "type": "article",
+      "title": "About",
+      "url": "https://geometor.github.io/feuerbach/about/",
+      "description": "Karl Wilhelm Feuerbach presents in a complete, synchronized 4-track Digital Scriptorium edition the foundational 1822 Nuremberg monograph: Karl Wilhelm Feuerbach’s Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "About",
+      "labels": [
+        "about",
+        "about-index",
+        "about-feuerbach"
+      ]
+    },
+    "bibliography": {
+      "id": "bibliography",
+      "docname": "bibliography",
+      "type": "article",
+      "title": "Bibliography",
+      "url": "https://geometor.github.io/feuerbach/bibliography.html",
+      "description": "Every inline :cite: reference across the Euler (1765/1767) and Feuerbach (1822) codices links directly to its entry below.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Bibliography",
+      "labels": [
+        "bibliography",
+        "cite-euler-1765",
+        "cite-feuerbach-1822",
+        "cite-ceva-1678",
+        "cite-menelaus-sphaerica",
+        "cite-euclid-elements",
+        "cite-euclid-data",
+        "cite-lhuilier-1810",
+        "cite-fagnano-1775",
+        "cite-fuss-1797",
+        "cite-brianchon-poncelet-1821",
+        "cite-terquem-1842",
+        "cite-altshiller-court-1952",
+        "cite-kimberling-etc",
+        "cite-wildberger-2005"
+      ]
+    },
+    "changelog": {
+      "id": "changelog",
+      "docname": "changelog",
+      "type": "section",
+      "title": "Changelog",
+      "url": "https://geometor.github.io/feuerbach/changelog.html",
+      "description": "Ensure canonical GEOMETOR logo.png and favicon.ico brand assets are provisioned in docsrc/_static/ and rendered in site headers and browser tabs.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Changelog"
+    },
+    "concordance": {
+      "id": "concordance",
+      "docname": "concordance",
+      "type": "article",
+      "title": "Cross-Treatise Concordance",
+      "url": "https://geometor.github.io/feuerbach/concordance.html",
+      "description": "Because Leonhard Euler (1765/1767) and Karl Wilhelm Feuerbach (1822) wrote prior to modern standardized notation—and crucially reused letters such as G, O, and r with different meanings—this concordance maps every center, circle…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Cross-Treatise Concordance",
+      "labels": [
+        "concordance"
+      ]
+    },
+    "demos/index": {
+      "id": "demos/index",
+      "docname": "demos/index",
+      "type": "article",
+      "title": "Exact Symbolic Demonstrations",
+      "url": "https://geometor.github.io/feuerbach/demos/",
+      "description": "Unlike floating-point dynamic geometry sketches, every theorem in Euler (1765) and Feuerbach (1822) is executed and verified symbolically in geometor.feuerbach with zero floating-point approximations.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/feuerbach_incircle_zoom.svg",
+      "image_alt": "Magnified rational coordinate detail of X(1) = (6, 4), X(5) = (6, 63/16), and the Feuerbach point X(11) = (6, 8)",
+      "labels": [
+        "demos"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/index": {
+      "id": "feuerbach_1822/abschnitt_1/index",
+      "docname": "feuerbach_1822/abschnitt_1/index",
+      "type": "section",
+      "title": "First Section: On the Centers of the Four Tritangent Circles (§§ 1–18)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/",
+      "description": "Section I establishes the metric foundations of the four tritangent circles (one incircle, three excircles). Feuerbach discovers that triangle ABC is the orthic (pedal) triangle of the excentral triangle S’S’’S’’’, with incenter S as its…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "First Section: On the Centers of the Four Tritangent Circles (§§ 1–18)",
+      "labels": [
+        "fb-01",
+        "fb-01-container"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_01/de": {
+      "id": "feuerbach_1822/abschnitt_1/sec_01/de",
+      "docname": "feuerbach_1822/abschnitt_1/sec_01/de",
+      "type": "section",
+      "title": "§. 1. Die vier berührenden Kreise S, S’, S’’, S’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_01/de.html",
+      "description": "Bekanntlich sind für jedes beliebige Dreieck ABC vier unterschiedene, seine drei Seiten berührende Kreise möglich, von welchen nur einer innerhalb, die übrigen aber ausserhalb des Dreiecks liegen (Fig. 1). Der erste innerhalb berührende…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 1. Die vier berührenden Kreise S, S’, S’’, S’’’",
+      "labels": [
+        "fb-01-de",
+        "fb-de-s01"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_01/index": {
+      "id": "feuerbach_1822/abschnitt_1/sec_01/index",
+      "docname": "feuerbach_1822/abschnitt_1/sec_01/index",
+      "type": "section",
+      "title": "§ 1: The Four Tritangent Circles and the Excentral Orthocentric System",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_01/",
+      "description": "As is well known, for any triangle ABC whatever, four distinct circles touching its three sides [tritangent circles] are possible, of which only one lies within, whereas the remaining three lie outside the triangle (Fig. 1). The first…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 1: The Four Tritangent Circles and the Excentral Orthocentric System",
+      "labels": [
+        "fb-01-en",
+        "fb-en-s01"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_01/notes": {
+      "id": "feuerbach_1822/abschnitt_1/sec_01/notes",
+      "docname": "feuerbach_1822/abschnitt_1/sec_01/notes",
+      "type": "section",
+      "title": "§ 1: § 1: The Four Tritangent Circles and the Excentral Orthocentric System — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_01/notes.html",
+      "description": "Already on page 6, Feuerbach explicitly articulates the algebraic transformation that governs his entire monograph: replacing +a by -a while holding +b, +c and the positive magnitude of \\Delta fixed sends",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 1: § 1: The Four Tritangent Circles and the Excentral Orthocentric System — Notes",
+      "labels": [
+        "fb-01-notes",
+        "fb-notes-s01"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_01/summary": {
+      "id": "feuerbach_1822/abschnitt_1/sec_01/summary",
+      "docname": "feuerbach_1822/abschnitt_1/sec_01/summary",
+      "type": "section",
+      "title": "§ 1: § 1: The Four Tritangent Circles and the Excentral Orthocentric System — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_01/summary.html",
+      "description": "§ 1 — The Excentral Orthocentric System: For every rectilinear triangle ABC, there exist four distinct tritangent circles: one incircle (center S = X_1, radius r) and three excircles (centers S', S'', S''' opposite A, B, C, radii r', r''…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 1: § 1: The Four Tritangent Circles and the Excentral Orthocentric System — Summary",
+      "labels": [
+        "fb-01-summary",
+        "fb-summary-s01"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_02/de": {
+      "id": "feuerbach_1822/abschnitt_1/sec_02/de",
+      "docname": "feuerbach_1822/abschnitt_1/sec_02/de",
+      "type": "section",
+      "title": "§. 2. Ausdrücke der vier Halbmesser und Satz von L’Huilier",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_02/de.html",
+      "description": "Man bezeichne die Halbmesser der Kreise um die Mittelpunkte S, S', S'', S''' der Ordnung nach durch die Buchstaben r, r', r'', r''' so sind bekanntlich die Werthe derselben:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 2. Ausdrücke der vier Halbmesser und Satz von L’Huilier",
+      "labels": [
+        "fb-de-s02"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_02/index": {
+      "id": "feuerbach_1822/abschnitt_1/sec_02/index",
+      "docname": "feuerbach_1822/abschnitt_1/sec_02/index",
+      "type": "section",
+      "title": "§ 2: Expressions of the Four Radii and L’Huilier’s Theorem",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_02/",
+      "description": "Let the radii of the circles around the centers S, S', S'', S''' be denoted in order by the letters r, r', r'', r'''; then as is well known their values are:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 2: Expressions of the Four Radii and L’Huilier’s Theorem",
+      "labels": [
+        "fb-en-s02"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_02/notes": {
+      "id": "feuerbach_1822/abschnitt_1/sec_02/notes",
+      "docname": "feuerbach_1822/abschnitt_1/sec_02/notes",
+      "type": "section",
+      "title": "§ 2: § 2: Expressions of the Four Radii and L’Huilier’s Theorem — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_02/notes.html",
+      "description": "Already on page 6, Feuerbach explicitly articulates the algebraic transformation that governs his entire monograph: replacing +a by -a while holding +b, +c and the positive magnitude of \\Delta fixed sends",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 2: § 2: Expressions of the Four Radii and L’Huilier’s Theorem — Notes",
+      "labels": [
+        "fb-notes-s02"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_02/summary": {
+      "id": "feuerbach_1822/abschnitt_1/sec_02/summary",
+      "docname": "feuerbach_1822/abschnitt_1/sec_02/summary",
+      "type": "section",
+      "title": "§ 2: § 2: Expressions of the Four Radii and L’Huilier’s Theorem — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_02/summary.html",
+      "description": "§ 2 — L’Huilier’s Area Theorem (1810): Denoting the radii of the four tritangent circles by r, r', r'', r''', multiplying their values together yields:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 2: § 2: Expressions of the Four Radii and L’Huilier’s Theorem — Summary",
+      "labels": [
+        "fb-summary-s02"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_03/de": {
+      "id": "feuerbach_1822/abschnitt_1/sec_03/de",
+      "docname": "feuerbach_1822/abschnitt_1/sec_03/de",
+      "type": "section",
+      "title": "§§. 3–7. Symmetrische Relationen unter den Halbmessern r, r’, r’’, r’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_03/de.html",
+      "description": "§. 3. Multiplicirt man je zwei und zwei Werthe der r', r'', r''' in einander und addirt die Produkte, so wird, wenn man den Werth von \\Delta substituirt:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 3–7. Symmetrische Relationen unter den Halbmessern r, r’, r’’, r’’’",
+      "labels": [
+        "fb-de-s03"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_03/index": {
+      "id": "feuerbach_1822/abschnitt_1/sec_03/index",
+      "docname": "feuerbach_1822/abschnitt_1/sec_03/index",
+      "type": "section",
+      "title": "§§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_03/",
+      "description": "§ 3 (Pairwise Exradius Sum): Multiplying the values of r', r'', r''' two by two and summing the products yields",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii",
+      "labels": [
+        "fb-en-s03"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_03/notes": {
+      "id": "feuerbach_1822/abschnitt_1/sec_03/notes",
+      "docname": "feuerbach_1822/abschnitt_1/sec_03/notes",
+      "type": "section",
+      "title": "§§ 3–7: §§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_03/notes.html",
+      "description": "Already on page 6, Feuerbach explicitly articulates the algebraic transformation that governs his entire monograph: replacing +a by -a while holding +b, +c and the positive magnitude of \\Delta fixed sends",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 3–7: §§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii — Notes",
+      "labels": [
+        "fb-notes-s03"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_03/summary": {
+      "id": "feuerbach_1822/abschnitt_1/sec_03/summary",
+      "docname": "feuerbach_1822/abschnitt_1/sec_03/summary",
+      "type": "section",
+      "title": "§§ 3–7: §§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_03/summary.html",
+      "description": "§§ 3–7 — Elementary Symmetric Polynomials of the Radii: - § 3: r'r'' + r'r''' + r''r''' = s^2 = \\frac{1}{4}(a + b + c)^2. - § 4: r'r''r''' = r(r'r'' + r'r''' + r''r''') = s\\Delta \\iff \\frac{1}{r'} + \\frac{1}{r''} + \\frac{1}{r'''} =…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 3–7: §§ 3–7: Symmetric Polynomial Laws Among the Four Tritangent Radii — Summary",
+      "labels": [
+        "fb-summary-s03"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_08/de": {
+      "id": "feuerbach_1822/abschnitt_1/sec_08/de",
+      "docname": "feuerbach_1822/abschnitt_1/sec_08/de",
+      "type": "section",
+      "title": "§§. 8–11. Berührungsdreiecke δ, δ’, δ’’, δ’’’ und Abstände von den Ecken",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_08/de.html",
+      "description": "§§. 8–9. (S. 5–6) Bedeuten \\delta, \\delta', \\delta'', \\delta''' die Inhalte derjenigen Dreiecke, welche durch die Berührungspunkte der Kreise von den Halbmessern r, r', r'', r''' bestimmt sind (indem man für das erste -a statt +a, für das…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 8–11. Berührungsdreiecke δ, δ’, δ’’, δ’’’ und Abstände von den Ecken",
+      "labels": [
+        "fb-de-s08"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_08/index": {
+      "id": "feuerbach_1822/abschnitt_1/sec_08/index",
+      "docname": "feuerbach_1822/abschnitt_1/sec_08/index",
+      "type": "section",
+      "title": "§§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_08/",
+      "description": "§§ 8–9 (Areas of the Four Contact Triangles, pp. 5–6): Let \\delta = \\triangle DEF denote the area of the contact triangle formed by the points where the incircle touches the three sides of \\triangle ABC, and let \\delta', \\delta''…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products",
+      "labels": [
+        "fb-en-s08"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_08/notes": {
+      "id": "feuerbach_1822/abschnitt_1/sec_08/notes",
+      "docname": "feuerbach_1822/abschnitt_1/sec_08/notes",
+      "type": "section",
+      "title": "§§ 8–11: §§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_08/notes.html",
+      "description": "Already on page 6, Feuerbach explicitly articulates the algebraic transformation that governs his entire monograph: replacing +a by -a while holding +b, +c and the positive magnitude of \\Delta fixed sends",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 8–11: §§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products — Notes",
+      "labels": [
+        "fb-notes-s08"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_08/summary": {
+      "id": "feuerbach_1822/abschnitt_1/sec_08/summary",
+      "docname": "feuerbach_1822/abschnitt_1/sec_08/summary",
+      "type": "section",
+      "title": "§§ 8–11: §§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_08/summary.html",
+      "description": "§§ 8–11 — Contact Triangles & Center Products: - §§ 8–9: Areas of the contact triangles satisfy \\frac{\\delta}{r} = \\frac{\\delta'}{r'} = \\frac{\\delta''}{r''} = \\frac{\\delta'''}{r'''} = \\frac{\\Delta}{2R} and \\delta' + \\delta'' + \\delta''' =…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 8–11: §§ 8–11: Contact Triangles δ, δ’, δ’’, δ’’’ and Vertex-to-Center Products — Summary",
+      "labels": [
+        "fb-summary-s08"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_12/de": {
+      "id": "feuerbach_1822/abschnitt_1/sec_12/de",
+      "docname": "feuerbach_1822/abschnitt_1/sec_12/de",
+      "type": "section",
+      "title": "§§. 12–18. Gegenseitige Abstände A, B, C, A’, B’, C’ der vier Mittelpunkte",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_12/de.html",
+      "description": "§§. 13–14. (S. 10) Für die Halbmesser \\mathfrak{A}, \\mathfrak{B}, \\mathfrak{C} der Kreise durch S und je zwei Winkelpunkte des Dreiecks gilt:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 12–18. Gegenseitige Abstände A, B, C, A’, B’, C’ der vier Mittelpunkte",
+      "labels": [
+        "fb-de-s12"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_12/index": {
+      "id": "feuerbach_1822/abschnitt_1/sec_12/index",
+      "docname": "feuerbach_1822/abschnitt_1/sec_12/index",
+      "type": "section",
+      "title": "§§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_12/",
+      "description": "§§ 12–14 (Circumradii of the Sub-Triangles, p. 10): Denoting by \\mathfrak{A}, \\mathfrak{B}, \\mathfrak{C} the circumradii of \\triangle BCS, \\triangle ACS, \\triangle ABS (and by \\mathfrak{A}^{(k)}, \\mathfrak{B}^{(k)}, \\mathfrak{C}^{(k)}…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’",
+      "labels": [
+        "fb-en-s12"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_12/notes": {
+      "id": "feuerbach_1822/abschnitt_1/sec_12/notes",
+      "docname": "feuerbach_1822/abschnitt_1/sec_12/notes",
+      "type": "section",
+      "title": "§§ 12–18: §§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’ — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_12/notes.html",
+      "description": "Already on page 6, Feuerbach explicitly articulates the algebraic transformation that governs his entire monograph: replacing +a by -a while holding +b, +c and the positive magnitude of \\Delta fixed sends",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 12–18: §§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’ — Notes",
+      "labels": [
+        "fb-notes-s12"
+      ]
+    },
+    "feuerbach_1822/abschnitt_1/sec_12/summary": {
+      "id": "feuerbach_1822/abschnitt_1/sec_12/summary",
+      "docname": "feuerbach_1822/abschnitt_1/sec_12/summary",
+      "type": "section",
+      "title": "§§ 12–18: §§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’ — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_1/sec_12/summary.html",
+      "description": "§§ 12–18 — Orthocentric Quadrangle Metric Laws: - Distances A = SS', B = SS'', C = SS''', A' = S''S''', B' = S'S''', C' = S'S''. - Six-chord sum of squares: A^2 + B^2 + C^2 + A'^2 + B'^2 + C'^2 = 48R^2. - Opposite-pair diameter law (§…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 12–18: §§ 12–18: Sub-Circumradii and the Six Mutual Distances Among S, S’, S’’, S’’’ — Summary",
+      "labels": [
+        "fb-summary-s12"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/index": {
+      "id": "feuerbach_1822/abschnitt_2/index",
+      "docname": "feuerbach_1822/abschnitt_2/index",
+      "type": "section",
+      "title": "Second Section: The Orthocenter, Orthic Triangle & Inradius ρ (§§ 19–48)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/",
+      "description": "Section II investigates the orthocenter O = X(4) and Fagnano’s minimal-perimeter orthic triangle MNP (§ 19). Feuerbach introduces the signed orthic inradius rho = 2R cos alpha cos beta cos gamma as a fundamental third radius invariant (§…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Second Section: The Orthocenter, Orthic Triangle & Inradius ρ (§§ 19–48)",
+      "labels": [
+        "fb-02",
+        "fb-02-container"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_19/de": {
+      "id": "feuerbach_1822/abschnitt_2/sec_19/de",
+      "docname": "feuerbach_1822/abschnitt_2/sec_19/de",
+      "type": "section",
+      "title": "§. 19. Das Fußpunktdreieck MNP kleinsten Umfangs",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_19/de.html",
+      "description": "Wenn man aus den drei Winkelpunkten eines beliebigen Dreiecks ABC auf die gegenüberliegenden Seiten desselben die Senkrechten AM, BN, CP fällt, welche sich bekanntlich in einem und eben demselben Punkt O schneiden, so bestimmen die…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 19. Das Fußpunktdreieck MNP kleinsten Umfangs",
+      "labels": [
+        "fb-02-de",
+        "fb-de-s19"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_19/index": {
+      "id": "feuerbach_1822/abschnitt_2/sec_19/index",
+      "docname": "feuerbach_1822/abschnitt_2/sec_19/index",
+      "type": "section",
+      "title": "§ 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_19/",
+      "description": "When from the three vertices of any triangle ABC one drops upon its opposite sides the perpendiculars AM, BN, CP—which, as is well known, intersect in one and the same point O [X_4]—the feet of these perpendiculars [M, N, P] determine a…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP",
+      "labels": [
+        "fb-02-en",
+        "fb-en-s19"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_19/notes": {
+      "id": "feuerbach_1822/abschnitt_2/sec_19/notes",
+      "docname": "feuerbach_1822/abschnitt_2/sec_19/notes",
+      "type": "section",
+      "title": "§ 19: § 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_19/notes.html",
+      "description": "Comparing § 27 (a^2 + b^2 + c^2 = 8R^2 + 4\\rho R) with Euler’s § 14 (EH^2 = 9R^2 - (a^2 + b^2 + c^2)) immediately yields",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 19: § 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP — Notes",
+      "labels": [
+        "fb-02-notes",
+        "fb-notes-s19"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_19/summary": {
+      "id": "feuerbach_1822/abschnitt_2/sec_19/summary",
+      "docname": "feuerbach_1822/abschnitt_2/sec_19/summary",
+      "type": "section",
+      "title": "§ 19: § 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_19/summary.html",
+      "description": "§ 19 — Fagnano’s Orthic Triangle Perimeter: The feet of the altitudes M, N, P form the orthic triangle MNP of least perimeter (Fagnano 1775). Sides: NP = a\\cos\\alpha, MP = b\\cos\\beta, MN = c\\cos\\gamma. Perimeter: MN + MP + NP =…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 19: § 19: Fagnano’s Minimal-Perimeter Orthic Triangle MNP — Summary",
+      "labels": [
+        "fb-02-summary",
+        "fb-summary-s19"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_23/de": {
+      "id": "feuerbach_1822/abschnitt_2/sec_23/de",
+      "docname": "feuerbach_1822/abschnitt_2/sec_23/de",
+      "type": "section",
+      "title": "§§. 23–28. Der Halbmesser ρ des Kreises in ΔMNP und der Umkreishalbmesser ½R",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_23/de.html",
+      "description": "§. 24. (S. 18) Wenn \\rho den Halbmesser vom innerhalb berührenden Kreise des Dreiecks MNP vorstellt und \\rho^{(1)}, \\rho^{(2)}, \\rho^{(3)} der Ordnung nach die Halbmesser seiner ausserhalb berührenden in den Ebenen der Winkel PMN, MNP…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 23–28. Der Halbmesser ρ des Kreises in ΔMNP und der Umkreishalbmesser ½R",
+      "labels": [
+        "fb-de-s24"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_23/index": {
+      "id": "feuerbach_1822/abschnitt_2/sec_23/index",
+      "docname": "feuerbach_1822/abschnitt_2/sec_23/index",
+      "type": "section",
+      "title": "§§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_23/",
+      "description": "§ 23 (Area of ΔMNP): Since \\triangle ANP = \\Delta\\cos^2\\alpha, \\triangle BMP = \\Delta\\cos^2\\beta, \\triangle CMN = \\Delta\\cos^2\\gamma and 1 - (\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma) = 2\\cos\\alpha\\cos\\beta\\cos\\gamma, the area of the…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R",
+      "labels": [
+        "fb-en-s23"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_23/notes": {
+      "id": "feuerbach_1822/abschnitt_2/sec_23/notes",
+      "docname": "feuerbach_1822/abschnitt_2/sec_23/notes",
+      "type": "section",
+      "title": "§§ 23–28: §§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_23/notes.html",
+      "description": "Comparing § 27 (a^2 + b^2 + c^2 = 8R^2 + 4\\rho R) with Euler’s § 14 (EH^2 = 9R^2 - (a^2 + b^2 + c^2)) immediately yields",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 23–28: §§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R — Notes",
+      "labels": [
+        "fb-notes-s23"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_23/summary": {
+      "id": "feuerbach_1822/abschnitt_2/sec_23/summary",
+      "docname": "feuerbach_1822/abschnitt_2/sec_23/summary",
+      "type": "section",
+      "title": "§§ 23–28: §§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_23/summary.html",
+      "description": "§§ 23–28 — The Orthic Invariant ρ and Nine-Point Radius ½R: - § 24: Orthic inradius \\rho = 2R\\cos\\alpha\\cos\\beta\\cos\\gamma, with \\triangle MNP : \\Delta = \\rho : R. - § 26: Circumradius of \\triangle MNP equals \\frac{1}{2}R (first…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 23–28: §§ 23–28: Area of ΔMNP, the Orthic Inradius ρ, and Circumradius ½R — Summary",
+      "labels": [
+        "fb-summary-s23"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_30/de": {
+      "id": "feuerbach_1822/abschnitt_2/sec_30/de",
+      "docname": "feuerbach_1822/abschnitt_2/sec_30/de",
+      "type": "section",
+      "title": "§§. 30–36. Abstände der Ecken von den Seiten von ΔMNP und Höhenabschnitte",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_30/de.html",
+      "description": "§§. 30–31. (S. 21) Für die Senkrechten Am = \\frac{2\\Delta\\cos\\alpha}{a}, Bn = \\frac{2\\Delta\\cos\\beta}{b}, Cp = \\frac{2\\Delta\\cos\\gamma}{c} (welche zugleich die Halbmesser \\rho^{(1)}, \\rho^{(2)}, \\rho^{(3)} der ausserhalb berührenden…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 30–36. Abstände der Ecken von den Seiten von ΔMNP und Höhenabschnitte",
+      "labels": [
+        "fb-de-s30"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_30/index": {
+      "id": "feuerbach_1822/abschnitt_2/sec_30/index",
+      "docname": "feuerbach_1822/abschnitt_2/sec_30/index",
+      "type": "section",
+      "title": "§§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_30/",
+      "description": "§§ 30–31 (p. 21): The perpendiculars Am, Bn, Cp dropped from A, B, C onto the opposite sides of \\triangle MNP are the three exradii \\rho^{(1)}, \\rho^{(2)}, \\rho^{(3)} of \\triangle MNP:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O",
+      "labels": [
+        "fb-en-s30"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_30/notes": {
+      "id": "feuerbach_1822/abschnitt_2/sec_30/notes",
+      "docname": "feuerbach_1822/abschnitt_2/sec_30/notes",
+      "type": "section",
+      "title": "§§ 30–36: §§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_30/notes.html",
+      "description": "Comparing § 27 (a^2 + b^2 + c^2 = 8R^2 + 4\\rho R) with Euler’s § 14 (EH^2 = 9R^2 - (a^2 + b^2 + c^2)) immediately yields",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 30–36: §§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O — Notes",
+      "labels": [
+        "fb-notes-s30"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_30/summary": {
+      "id": "feuerbach_1822/abschnitt_2/sec_30/summary",
+      "docname": "feuerbach_1822/abschnitt_2/sec_30/summary",
+      "type": "section",
+      "title": "§§ 30–36: §§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_30/summary.html",
+      "description": "§§ 30–36 — Exradii and Orthocenter Chord Products: - Perpendiculars Am, Bn, Cp are the exradii \\rho^{(1)}, \\rho^{(2)}, \\rho^{(3)} of \\triangle MNP, with Am + Bn + Cp = \\rho + 2R. - Sub-triangle circumradii R(BCO) = R(ACO) = R(ABO) = R (§…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 30–36: §§ 30–36: Exradii of ΔMNP and Altitude-Segment Products Through O — Summary",
+      "labels": [
+        "fb-summary-s30"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_41/de": {
+      "id": "feuerbach_1822/abschnitt_2/sec_41/de",
+      "docname": "feuerbach_1822/abschnitt_2/sec_41/de",
+      "type": "section",
+      "title": "§§. 41–48. Höhenschnitte M’, N’, P’ der Eckdreiecke und Teilumkreise R’, R’’, R’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_41/de.html",
+      "description": "§§. 41–42. (S. 28) Stellen M', N', P' die Durchschnittspunkte der Perpendikel in den Dreiecken ANP, BMP, CMN vor (Fig. 5), so ist AM' = 2R\\cos^2\\alpha, BN' = 2R\\cos^2\\beta, CP' = 2R\\cos^2\\gamma, mithin:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 41–48. Höhenschnitte M’, N’, P’ der Eckdreiecke und Teilumkreise R’, R’’, R’’’",
+      "labels": [
+        "fb-de-s41"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_41/index": {
+      "id": "feuerbach_1822/abschnitt_2/sec_41/index",
+      "docname": "feuerbach_1822/abschnitt_2/sec_41/index",
+      "type": "section",
+      "title": "§§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_41/",
+      "description": "§§ 41–42 (p. 28): Let M', N', P' be the orthocenters of the corner triangles \\triangle ANP, \\triangle BMP, \\triangle CMN. Since AO is the diameter of circle (ANP), AM' = AO\\cos\\alpha = 2R\\cos^2\\alpha, whence:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles",
+      "labels": [
+        "fb-en-s41"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_41/notes": {
+      "id": "feuerbach_1822/abschnitt_2/sec_41/notes",
+      "docname": "feuerbach_1822/abschnitt_2/sec_41/notes",
+      "type": "section",
+      "title": "§§ 41–48: §§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_41/notes.html",
+      "description": "Comparing § 27 (a^2 + b^2 + c^2 = 8R^2 + 4\\rho R) with Euler’s § 14 (EH^2 = 9R^2 - (a^2 + b^2 + c^2)) immediately yields",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 41–48: §§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles — Notes",
+      "labels": [
+        "fb-notes-s41"
+      ]
+    },
+    "feuerbach_1822/abschnitt_2/sec_41/summary": {
+      "id": "feuerbach_1822/abschnitt_2/sec_41/summary",
+      "docname": "feuerbach_1822/abschnitt_2/sec_41/summary",
+      "type": "section",
+      "title": "§§ 41–48: §§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_2/sec_41/summary.html",
+      "description": "§§ 41–48 — Corner Triangles and Circumcenter Sub-Circles: - Orthocenters M', N', P' of corner triangles satisfy AM' + BN' + CP' = 2(R - \\rho). - Circumcenter distances Ka = \\frac{1}{2}AO, Kb = \\frac{1}{2}BO, Kc = \\frac{1}{2}CO (§ 47).…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 41–48: §§ 41–48: Corner Orthocenters M’, N’, P’ and Circumcenter Sub-Circles — Summary",
+      "labels": [
+        "fb-summary-s41"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/index": {
+      "id": "feuerbach_1822/abschnitt_3/index",
+      "docname": "feuerbach_1822/abschnitt_3/index",
+      "type": "section",
+      "title": "Third Section: Distances from the Circumcenter and Orthocenter (§§ 49–53)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/",
+      "description": "Section III determines the exact mutual quadrances between the circumcenter K = X(3), orthocenter O = X(4), and the four tritangent centers S, S’, S’’, S’’’. Feuerbach cites Euler (1765) and Fuß (1797) for KS^2 = R^2 - 2rR (§ 49), proves…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Third Section: Distances from the Circumcenter and Orthocenter (§§ 49–53)",
+      "labels": [
+        "fb-03-container",
+        "fb-abschnitt-3"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_49/de": {
+      "id": "feuerbach_1822/abschnitt_3/sec_49/de",
+      "docname": "feuerbach_1822/abschnitt_3/sec_49/de",
+      "type": "section",
+      "title": "§. 49. Abstände KS, KS’, KS’’, KS’’’ — Verweis auf Euler (1765) und Fuß (1797)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_49/de.html",
+      "description": "[Aus \\overline{KS}^2 = R^2 - 2rR auf S. 33 folgt durch Vertauschung von +a, +b, +c mit -a, -b, -c auf S. 34:]",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 49. Abstände KS, KS’, KS’’, KS’’’ — Verweis auf Euler (1765) und Fuß (1797)",
+      "labels": [
+        "fb-de-s49"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_49/index": {
+      "id": "feuerbach_1822/abschnitt_3/sec_49/index",
+      "docname": "feuerbach_1822/abschnitt_3/sec_49/index",
+      "type": "section",
+      "title": "§ 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_49/",
+      "description": "Denoting by K [X_3] the center of the circumscribed circle of \\triangle ABC, the squared distance from K to the incenter S [X_1] is \\overline{KS}^2 = R^2 - 2rR, and substituting -a, -b, -c successively for +a, +b, +c yields on page 34:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797)",
+      "labels": [
+        "fb-en-s49"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_49/notes": {
+      "id": "feuerbach_1822/abschnitt_3/sec_49/notes",
+      "docname": "feuerbach_1822/abschnitt_3/sec_49/notes",
+      "type": "section",
+      "title": "§ 49: § 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797) — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_49/notes.html",
+      "description": "When encoding every equation of Feuerbach (1822) §§ 49–60 in geometor.feuerbach.euler.prove_euler_1765_identities() over \\mathbb{Q}(a, b, c) in sympy, a striking philological fact emerged on pages 35, 36, and 40–41:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 49: § 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797) — Notes",
+      "labels": [
+        "fb-notes-s49"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_49/summary": {
+      "id": "feuerbach_1822/abschnitt_3/sec_49/summary",
+      "docname": "feuerbach_1822/abschnitt_3/sec_49/summary",
+      "type": "section",
+      "title": "§ 49: § 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797) — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_49/summary.html",
+      "description": "§ 49 — Euler & Fuß Incenter–Circumcenter Formulas: - Distance from circumcenter K to incenter S: \\overline{KS}^2 = R^2 - 2rR (Euler 1765 § 18 VI, Fuß 1797 § 32). - Distances to excenters: \\overline{KS^{(k)}}^2 = R^2 + 2r^{(k)}R.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 49: § 49: Distances from Circumcenter K to S, S’, S’’, S’’’ — Euler (1765) & Fuß (1797) — Summary",
+      "labels": [
+        "fb-summary-s49"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_50/de": {
+      "id": "feuerbach_1822/abschnitt_3/sec_50/de",
+      "docname": "feuerbach_1822/abschnitt_3/sec_50/de",
+      "type": "section",
+      "title": "§. 50. Summe der Quadrate von KS, KS’, KS’’, KS’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_50/de.html",
+      "description": "Addirt man die gefundenen Werthe der Quadrate von KS, KS', KS'', KS''', so kommt, weil (§. 5.) r' + r'' + r''' = r + 4R:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 50. Summe der Quadrate von KS, KS’, KS’’, KS’’’",
+      "labels": [
+        "fb-de-s50"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_50/index": {
+      "id": "feuerbach_1822/abschnitt_3/sec_50/index",
+      "docname": "feuerbach_1822/abschnitt_3/sec_50/index",
+      "type": "section",
+      "title": "§ 50: Sum of Squared Distances from K to the Four Tritangent Centers",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_50/",
+      "description": "Adding the values found for the squares of KS, KS', KS'', KS''', since (§ 5) r' + r'' + r''' = r + 4R, one obtains:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 50: Sum of Squared Distances from K to the Four Tritangent Centers",
+      "labels": [
+        "fb-en-s50"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_50/notes": {
+      "id": "feuerbach_1822/abschnitt_3/sec_50/notes",
+      "docname": "feuerbach_1822/abschnitt_3/sec_50/notes",
+      "type": "section",
+      "title": "§ 50: § 50: Sum of Squared Distances from K to the Four Tritangent Centers — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_50/notes.html",
+      "description": "When encoding every equation of Feuerbach (1822) §§ 49–60 in geometor.feuerbach.euler.prove_euler_1765_identities() over \\mathbb{Q}(a, b, c) in sympy, a striking philological fact emerged on pages 35, 36, and 40–41:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 50: § 50: Sum of Squared Distances from K to the Four Tritangent Centers — Notes",
+      "labels": [
+        "fb-notes-s50"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_50/summary": {
+      "id": "feuerbach_1822/abschnitt_3/sec_50/summary",
+      "docname": "feuerbach_1822/abschnitt_3/sec_50/summary",
+      "type": "section",
+      "title": "§ 50: § 50: Sum of Squared Distances from K to the Four Tritangent Centers — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_50/summary.html",
+      "description": "§ 50 — Sum of Circumcenter Quadrances: Summing the four squared distances from K via r' + r'' + r''' - r = 4R:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 50: § 50: Sum of Squared Distances from K to the Four Tritangent Centers — Summary",
+      "labels": [
+        "fb-summary-s50"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_51/de": {
+      "id": "feuerbach_1822/abschnitt_3/sec_51/de",
+      "docname": "feuerbach_1822/abschnitt_3/sec_51/de",
+      "type": "section",
+      "title": "§. 51. Quadrate der Abstände OS, OS’, OS’’, OS’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_51/de.html",
+      "description": "Wenn O wie bisher der Durchschnittspunkt der Perpendikel AM, BN, CP des Dreiecks ABC ist, und man zieht OS, so ist:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§. 51. Quadrate der Abstände OS, OS’, OS’’, OS’’’",
+      "labels": [
+        "fb-de-s51"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_51/index": {
+      "id": "feuerbach_1822/abschnitt_3/sec_51/index",
+      "docname": "feuerbach_1822/abschnitt_3/sec_51/index",
+      "type": "section",
+      "title": "§ 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_51/",
+      "description": "If O [X_4] is as hitherto the intersection point of the altitudes AM, BN, CP of triangle ABC, and one draws OS, then \\overline{OS}^2 = (AF - AP)^2 + (OP - SF)^2, where F is the contact point of the incircle on AB. Now since AF =…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip)",
+      "labels": [
+        "fb-en-s51"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_51/notes": {
+      "id": "feuerbach_1822/abschnitt_3/sec_51/notes",
+      "docname": "feuerbach_1822/abschnitt_3/sec_51/notes",
+      "type": "section",
+      "title": "§ 51: § 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip) — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_51/notes.html",
+      "description": "When encoding every equation of Feuerbach (1822) §§ 49–60 in geometor.feuerbach.euler.prove_euler_1765_identities() over \\mathbb{Q}(a, b, c) in sympy, a striking philological fact emerged on pages 35, 36, and 40–41:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 51: § 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip) — Notes",
+      "labels": [
+        "fb-notes-s51"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_51/summary": {
+      "id": "feuerbach_1822/abschnitt_3/sec_51/summary",
+      "docname": "feuerbach_1822/abschnitt_3/sec_51/summary",
+      "type": "section",
+      "title": "§ 51: § 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip) — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_51/summary.html",
+      "description": "§ 51 — Orthocenter-to-Incenter Distance: Direct calculation on base c yields the 100% exact incenter distance:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§ 51: § 51: Squared Distance from the Orthocenter O to S (and the Excenter Sign Slip) — Summary",
+      "labels": [
+        "fb-summary-s51"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_52/de": {
+      "id": "feuerbach_1822/abschnitt_3/sec_52/de",
+      "docname": "feuerbach_1822/abschnitt_3/sec_52/de",
+      "type": "section",
+      "title": "§§. 52–53. Summe der Quadrate von OS und das Quadrat des Abstands KO",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_52/de.html",
+      "description": "Addirt man die gefundenen Werthe der Quadrate von OS, OS', OS'', OS''', so kommt, weil (§. 28.) r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \\rho):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 52–53. Summe der Quadrate von OS und das Quadrat des Abstands KO",
+      "labels": [
+        "fb-de-s52",
+        "fb-de-s53"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_52/index": {
+      "id": "feuerbach_1822/abschnitt_3/sec_52/index",
+      "docname": "feuerbach_1822/abschnitt_3/sec_52/index",
+      "type": "section",
+      "title": "§§ 52–53: Sum of Orthocenter Quadrances & The Distance KO",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_52/",
+      "description": "§ 52: Adding the found values of the squares of OS, OS', OS'', OS''' (§ 51), there comes, since (§ 28) r^2 + r'^2 + r''^2 + r'''^2 = 4R(2R - \\rho):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 52–53: Sum of Orthocenter Quadrances & The Distance KO",
+      "labels": [
+        "fb-en-s52"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_52/notes": {
+      "id": "feuerbach_1822/abschnitt_3/sec_52/notes",
+      "docname": "feuerbach_1822/abschnitt_3/sec_52/notes",
+      "type": "section",
+      "title": "§§ 52–53: §§ 52–53: Sum of Orthocenter Quadrances & The Distance KO — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_52/notes.html",
+      "description": "When encoding every equation of Feuerbach (1822) §§ 49–60 in geometor.feuerbach.euler.prove_euler_1765_identities() over \\mathbb{Q}(a, b, c) in sympy, a striking philological fact emerged on pages 35, 36, and 40–41:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 52–53: §§ 52–53: Sum of Orthocenter Quadrances & The Distance KO — Notes",
+      "labels": [
+        "fb-notes-s52"
+      ]
+    },
+    "feuerbach_1822/abschnitt_3/sec_52/summary": {
+      "id": "feuerbach_1822/abschnitt_3/sec_52/summary",
+      "docname": "feuerbach_1822/abschnitt_3/sec_52/summary",
+      "type": "section",
+      "title": "§§ 52–53: §§ 52–53: Sum of Orthocenter Quadrances & The Distance KO — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_3/sec_52/summary.html",
+      "description": "§§ 52–53 — Orthocenter Sum and Exact Distance KO: - § 52: Sum of orthocenter squared distances to the tritangent centers: true exact sum is 16R(R - \\rho). - § 53: Squared distance between circumcenter K and orthocenter O:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 52–53: §§ 52–53: Sum of Orthocenter Quadrances & The Distance KO — Summary",
+      "labels": [
+        "fb-summary-s52"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/index": {
+      "id": "feuerbach_1822/abschnitt_4/index",
+      "docname": "feuerbach_1822/abschnitt_4/index",
+      "type": "section",
+      "title": "Fourth Section: The Nine-Point Circle & Feuerbach’s Tangency Theorem (§§ 54–60)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/",
+      "description": "Section IV forms the historical climax of the entire monograph. Feuerbach establishes that the circumcenter L = X(5) of the orthic triangle MNP bisects the segment KO (§§ 54–55), proves that circle (L, R/2) bisects all three sides of the…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Feuerbach's Nine-Point Circle centered at L = X(5) bisecting OK, passing through the three altitude feet, three side midpoints, and three Euler midpoints",
+      "labels": [
+        "fb-04-container",
+        "fb-abschnitt-4"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_54/de": {
+      "id": "feuerbach_1822/abschnitt_4/sec_54/de",
+      "docname": "feuerbach_1822/abschnitt_4/sec_54/de",
+      "type": "section",
+      "title": "§§. 54–57. Der Neunpunktekreis und der Feuerbachsche Berührungssatz",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_54/de.html",
+      "description": "Man nehme L für den Mittelpunkt des um das Dreieck MNP beschriebenen Kreises, dessen Halbmesser (§. 26.) gleich \\frac{1}{2}R gefunden wurde, und ziehe die Gerade OL; so ist, weil O zugleich der Mittelpunkt des in das Dreieck MNP…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/feuerbach_tangency.svg",
+      "image_alt": "Feuerbach's Theorem (§ 57): Nine-point circle tangent internally to the incircle at X(11) and externally to the three excircles at F1, F2, F3",
+      "labels": [
+        "fb-03-de",
+        "fb-de-s54",
+        "fb-de-s55",
+        "fb-de-s56",
+        "fb-de-s57"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_54/index": {
+      "id": "feuerbach_1822/abschnitt_4/sec_54/index",
+      "docname": "feuerbach_1822/abschnitt_4/sec_54/index",
+      "type": "section",
+      "title": "§§ 54–57: Feuerbach’s Nine-Point Circle Tangency Theorem",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_54/",
+      "description": "§ 54 (Relation KO = 2 OL): Let L [X_5] be taken for the center of the circle [(MNP)] circumscribed about the orthic triangle MNP, whose radius was found (§ 26) equal to \\tfrac{1}{2}R, and draw OL. Because O is simultaneously the center of…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/feuerbach_tangency.svg",
+      "image_alt": "Feuerbach's Theorem (§ 57): Nine-point circle tangent internally to the incircle at X(11) and externally to the three excircles at F1, F2, F3",
+      "labels": [
+        "fb-en-s57",
+        "fb-03",
+        "fb-03-en",
+        "fb-en-s54"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_54/notes": {
+      "id": "feuerbach_1822/abschnitt_4/sec_54/notes",
+      "docname": "feuerbach_1822/abschnitt_4/sec_54/notes",
+      "type": "section",
+      "title": "§§ 54–57: §§ 54–57: Feuerbach’s Nine-Point Circle Tangency Theorem — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_54/notes.html",
+      "description": "Crucially, Feuerbach’s algebraic slip on the excenters in § 51 has zero impact on the validity of the Nine-Point Tangency Theorem in § 57:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/feuerbach_tangency.svg",
+      "image_alt": "Feuerbach's Theorem (§ 57): Nine-point circle tangent internally to the incircle at X(11) and externally to the three excircles at F1, F2, F3",
+      "labels": [
+        "fb-03-notes",
+        "fb-notes-s54"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_54/summary": {
+      "id": "feuerbach_1822/abschnitt_4/sec_54/summary",
+      "docname": "feuerbach_1822/abschnitt_4/sec_54/summary",
+      "type": "section",
+      "title": "§§ 54–57: §§ 54–57: Feuerbach’s Nine-Point Circle Tangency Theorem — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_54/summary.html",
+      "description": "§§ 54–57 — Feuerbach’s Nine-Point Circle Tangency Theorem: - § 54: Center L = X_5 with radius \\frac{1}{2}R satisfies \\overline{OL}^2 = \\frac{1}{4}R^2 - \\rho R = \\frac{1}{4}\\overline{KO}^2 \\implies KO = 2\\,OL. - § 55: Points O, L, K lie on…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/feuerbach_tangency.svg",
+      "image_alt": "Feuerbach's Theorem (§ 57): Nine-point circle tangent internally to the incircle at X(11) and externally to the three excircles at F1, F2, F3",
+      "labels": [
+        "fb-03-summary",
+        "fb-summary-s54"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_58/de": {
+      "id": "feuerbach_1822/abschnitt_4/sec_58/de",
+      "docname": "feuerbach_1822/abschnitt_4/sec_58/de",
+      "type": "section",
+      "title": "§§. 58–60. Summen der Abstände von L und der Schwerpunkt G auf KO",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_58/de.html",
+      "description": "Nimmt man die gefundenen Werthe der Geraden LS, LS', LS'', LS''' zusammen, so wird (§. 5.):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 58–60. Summen der Abstände von L und der Schwerpunkt G auf KO",
+      "labels": [
+        "fb-de-s59",
+        "fb-de-s60",
+        "fb-de-s58"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_58/index": {
+      "id": "feuerbach_1822/abschnitt_4/sec_58/index",
+      "docname": "feuerbach_1822/abschnitt_4/sec_58/index",
+      "type": "section",
+      "title": "§§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_58/",
+      "description": "§ 58 (Sum of Center Distances from L): Summing LS, LS', LS'', LS''' via (§ 5) r' + r'' + r''' - r = 4R:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO",
+      "labels": [
+        "fb-en-s58"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_58/notes": {
+      "id": "feuerbach_1822/abschnitt_4/sec_58/notes",
+      "docname": "feuerbach_1822/abschnitt_4/sec_58/notes",
+      "type": "section",
+      "title": "§§ 58–60: §§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_58/notes.html",
+      "description": "In § 60 (p. 40), Feuerbach connects the centroid G = X(2) with the orthocenter O = X(4), circumcenter K = X(3), and nine-point center L = X(5) along the Euler line:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 58–60: §§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO — Notes",
+      "labels": [
+        "fb-notes-s58"
+      ]
+    },
+    "feuerbach_1822/abschnitt_4/sec_58/summary": {
+      "id": "feuerbach_1822/abschnitt_4/sec_58/summary",
+      "docname": "feuerbach_1822/abschnitt_4/sec_58/summary",
+      "type": "section",
+      "title": "§§ 58–60: §§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_4/sec_58/summary.html",
+      "description": "§§ 58–60 — Center Distance Sums and Centroid G: - § 58: Linear sum: LS + LS' + LS'' + LS''' = 6R = 3(2R). - § 59: Quadratic sum: \\sum \\overline{LS_i}^2 = R(13R - 4\\rho). - § 60: The centroid G = X_2 lies on KO with GK = \\frac{1}{3}KO…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 58–60: §§ 58–60: Linear & Quadratic Center Sums and the Centroid G on KO — Summary",
+      "labels": [
+        "fb-summary-s58"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/index": {
+      "id": "feuerbach_1822/abschnitt_5/index",
+      "docname": "feuerbach_1822/abschnitt_5/index",
+      "type": "section",
+      "title": "Fifth Section: Comparative Proportions Among Derived Triangles (§§ 61–87)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/",
+      "description": "Section V establishes harmonic and homothetic proportions among the contact triangles and orthic triangles. Feuerbach proves that the orthic triangle MNP is the mean proportional between triangle ABC and the contact triangle def (§ 61)…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Fifth Section: Comparative Proportions Among Derived Triangles (§§ 61–87)",
+      "labels": [
+        "fb-05-container",
+        "fb-abschnitt-5"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_61/de": {
+      "id": "feuerbach_1822/abschnitt_5/sec_61/de",
+      "docname": "feuerbach_1822/abschnitt_5/sec_61/de",
+      "type": "section",
+      "title": "§§. 61–62. Mittlere Proportionalität des Dreiecks MNP",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_61/de.html",
+      "description": "Es seyen im Dreieck ABC, M, N, P die Fußpunkte der aus den Winkelpunkten A, B, C auf die gegenüberliegenden Seiten gefällten Senkrechten, deren Durchschnittspunkt O; ferner im Dreieck MNP, d, e, f die Berührungspunkte seines innerhalb…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 61–62. Mittlere Proportionalität des Dreiecks MNP",
+      "labels": [
+        "fb-04-de",
+        "fb-de-s61"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_61/index": {
+      "id": "feuerbach_1822/abschnitt_5/sec_61/index",
+      "docname": "feuerbach_1822/abschnitt_5/sec_61/index",
+      "type": "section",
+      "title": "§§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_61/",
+      "description": "Let M, N, P in triangle ABC be the feet of the altitudes dropped from A, B, C upon the opposite sides, intersecting in O, and in triangle MNP let d, e, f be the contact points of its inscribed circle (inradius \\rho), while d', e', f' are…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC",
+      "labels": [
+        "fb-04",
+        "fb-04-en",
+        "fb-en-s61"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_61/notes": {
+      "id": "feuerbach_1822/abschnitt_5/sec_61/notes",
+      "docname": "feuerbach_1822/abschnitt_5/sec_61/notes",
+      "type": "section",
+      "title": "§§ 61–62: §§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_61/notes.html",
+      "description": "In any acute triangle ABC with angles (\\alpha, \\beta, \\gamma):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 61–62: §§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC — Notes",
+      "labels": [
+        "fb-04-notes",
+        "fb-notes-s61"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_61/summary": {
+      "id": "feuerbach_1822/abschnitt_5/sec_61/summary",
+      "docname": "feuerbach_1822/abschnitt_5/sec_61/summary",
+      "type": "section",
+      "title": "§§ 61–62: §§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_61/summary.html",
+      "description": "§§ 61–62 — Mean Geometric Proportionality: - \\triangle def : \\triangle MNP = \\triangle MNP : \\Delta. - Orthic triangle MNP is the geometric mean proportional between \\triangle ABC and the contact triangle def of its incenter. - Perimeter…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 61–62: §§ 61–62: Mean Geometric Proportionality of ΔMNP and ΔABC — Summary",
+      "labels": [
+        "fb-04-summary",
+        "fb-summary-s61"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_63/de": {
+      "id": "feuerbach_1822/abschnitt_5/sec_63/de",
+      "docname": "feuerbach_1822/abschnitt_5/sec_63/de",
+      "type": "section",
+      "title": "§§. 63–65. Die Fußpunktdreiecke μ, μ’, μ’’, μ’’’ in den vier Berührungsdreiecken",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_63/de.html",
+      "description": "§. 63. (S. 43–44) Bezeichnet man gleichwie in §. 8. durch \\delta, \\delta', \\delta'', \\delta''' die Inhalte derjenigen Dreiecke, welche durch die Berührungspunkte der Kreise von den Halbmessern r, r', r'', r''' bestimmt werden; ferner…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 63–65. Die Fußpunktdreiecke μ, μ’, μ’’, μ’’’ in den vier Berührungsdreiecken",
+      "labels": [
+        "fb-de-s63"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_63/index": {
+      "id": "feuerbach_1822/abschnitt_5/sec_63/index",
+      "docname": "feuerbach_1822/abschnitt_5/sec_63/index",
+      "type": "section",
+      "title": "§§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_63/",
+      "description": "§ 63 (Mean-Proportional Chain): Let D, E, F be the contact points of the incircle of \\triangle ABC, and let m, n, p be the feet of the altitudes of \\triangle DEF intersecting at its orthocenter J (Fig. 9). Because \\angle FDE = 90^\\circ…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles",
+      "labels": [
+        "fb-en-s63"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_63/notes": {
+      "id": "feuerbach_1822/abschnitt_5/sec_63/notes",
+      "docname": "feuerbach_1822/abschnitt_5/sec_63/notes",
+      "type": "section",
+      "title": "§§ 63–65: §§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_63/notes.html",
+      "description": "In any acute triangle ABC with angles (\\alpha, \\beta, \\gamma):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 63–65: §§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles — Notes",
+      "labels": [
+        "fb-notes-s63"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_63/summary": {
+      "id": "feuerbach_1822/abschnitt_5/sec_63/summary",
+      "docname": "feuerbach_1822/abschnitt_5/sec_63/summary",
+      "type": "section",
+      "title": "§§ 63–65: §§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_63/summary.html",
+      "description": "§§ 63–65 — Orthic Triangles Inside Contact Triangles: - Fourfold geometric-mean chain: \\mu^{(k)} : \\delta^{(k)} = \\delta^{(k)} : \\Delta. - Five-triangle area sum law (§ 64): \\mu + \\mu' + \\mu'' + \\mu''' + \\triangle MNP = 2\\Delta.…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 63–65: §§ 63–65: Orthic Triangles μ, μ’, μ’’, μ’’’ Inside the Four Contact Triangles — Summary",
+      "labels": [
+        "fb-summary-s63"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_71/de": {
+      "id": "feuerbach_1822/abschnitt_5/sec_71/de",
+      "docname": "feuerbach_1822/abschnitt_5/sec_71/de",
+      "type": "section",
+      "title": "§§. 71–87. Inkreise O’, O’’, O’’’ der Eckdreiecke und Höhenschnitt S von ΔO’O’’O’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_71/de.html",
+      "description": "§§. 71–73. (S. 48) Bedeutet \\mathfrak{r} = \\frac{r^2}{2R} den Inkreishalbmesser von \\triangle mnp, und beschreibt man in die Dreiecke ANP, BMP, CMN Kreise (Fig. 11) mit Mittelpunkten O', O'', O''' und Halbmessern \\rho' = r\\cos\\alpha…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§. 71–87. Inkreise O’, O’’, O’’’ der Eckdreiecke und Höhenschnitt S von ΔO’O’’O’’’",
+      "labels": [
+        "fb-de-s71"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_71/index": {
+      "id": "feuerbach_1822/abschnitt_5/sec_71/index",
+      "docname": "feuerbach_1822/abschnitt_5/sec_71/index",
+      "type": "section",
+      "title": "§§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_71/",
+      "description": "§§ 71–73 (Corner Orthic Inradii, p. 48): Denoting by \\mathfrak{r} = \\frac{r^2}{2R} the inradius of \\triangle mnp (§ 66), and inscribing circles of centers O', O'', O''' and radii \\rho', \\rho'', \\rho''' in the three corner triangles…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’",
+      "labels": [
+        "fb-en-s71"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_71/notes": {
+      "id": "feuerbach_1822/abschnitt_5/sec_71/notes",
+      "docname": "feuerbach_1822/abschnitt_5/sec_71/notes",
+      "type": "section",
+      "title": "§§ 71–87: §§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’ — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_71/notes.html",
+      "description": "In any acute triangle ABC with angles (\\alpha, \\beta, \\gamma):",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 71–87: §§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’ — Notes",
+      "labels": [
+        "fb-notes-s71"
+      ]
+    },
+    "feuerbach_1822/abschnitt_5/sec_71/summary": {
+      "id": "feuerbach_1822/abschnitt_5/sec_71/summary",
+      "docname": "feuerbach_1822/abschnitt_5/sec_71/summary",
+      "type": "section",
+      "title": "§§ 71–87: §§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’ — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/abschnitt_5/sec_71/summary.html",
+      "description": "§§ 71–87 — Corner Inradii and Orthocenter S: - Corner inradii: \\rho' = r\\cos\\alpha, \\rho'' = r\\cos\\beta, \\rho''' = r\\cos\\gamma. - Triangle O'O''O''' is congruent to \\triangle DEF with parallel sides. - Closing theorem (§ 87): The incenter…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "§§ 71–87: §§ 71–87: Corner Inradii ρ’, ρ’’, ρ’’’ and the Orthocenter of ΔO’O’’O’’’ — Summary",
+      "labels": [
+        "fb-summary-s71"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_01/de": {
+      "id": "feuerbach_1822/anhang/anhang_01/de",
+      "docname": "feuerbach_1822/anhang/anhang_01/de",
+      "type": "section",
+      "title": "1.–4. Satz: Euklidische Vorbereitungssätze",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_01/de.html",
+      "description": "1. Satz: Im Dreieck ABC mit Umkreismittelpunkt K, Höhenschnittpunkt O und Seitenmitte D von AB ist CO = 2\\,KD.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "1.–4. Satz: Euklidische Vorbereitungssätze",
+      "labels": [
+        "fb-05-de",
+        "fb-de-anhang-1-4"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_01/index": {
+      "id": "feuerbach_1822/anhang/anhang_01/index",
+      "docname": "feuerbach_1822/anhang/anhang_01/index",
+      "type": "section",
+      "title": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_01/",
+      "description": "In the closing Anhang, Feuerbach demonstrates the foundational metric lemmas of Sections II and III purely synthetically from Books I–IV and VI of Euclid’s Elements, without trigonometric functions or coordinate algebra:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas",
+      "labels": [
+        "fb-05",
+        "fb-05-en",
+        "fb-en-anhang-1-4"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_01/notes": {
+      "id": "feuerbach_1822/anhang/anhang_01/notes",
+      "docname": "feuerbach_1822/anhang/anhang_01/notes",
+      "type": "section",
+      "title": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_01/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Notes",
+      "labels": [
+        "fb-notes-anhang-01"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_01/summary": {
+      "id": "feuerbach_1822/anhang/anhang_01/summary",
+      "docname": "feuerbach_1822/anhang/anhang_01/summary",
+      "type": "section",
+      "title": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_01/summary.html",
+      "description": "Propositions 1–4 — Euclidean Metric Lemmas: - 1. Satz: CO = 2\\,KD (altitude segment is twice circumcenter distance to opposite side). - 2. Satz: \\overline{AB}^2 + \\overline{CO}^2 = 4R^2 = (2R)^2. - 3.–4. Satz: r(AB + AC + BC) = R(MN + MP…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Propositions 1–4 (1.–4. Satz): Pure Euclidean Metric Lemmas — Summary",
+      "labels": [
+        "fb-summary-anhang-01"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_05/de": {
+      "id": "feuerbach_1822/anhang/anhang_05/de",
+      "docname": "feuerbach_1822/anhang/anhang_05/de",
+      "type": "section",
+      "title": "5. Satz: Verhältnis des Inhalts des Dreiecks MNP zu ΔABC",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_05/de.html",
+      "description": "Der Inhalt des Dreiecks MNP, welches die Fußpunkte der Perpendikel im spitzwinkligen Dreieck ABC bilden, verhält sich zum Inhalt des Dreiecks ABC, wie der Halbmesser des in jenes zum Halbmesser des um dieses beschriebenen Kreises.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "5. Satz: Verhältnis des Inhalts des Dreiecks MNP zu ΔABC",
+      "labels": [
+        "fb-de-anhang-5"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_05/index": {
+      "id": "feuerbach_1822/anhang/anhang_05/index",
+      "docname": "feuerbach_1822/anhang/anhang_05/index",
+      "type": "section",
+      "title": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_05/",
+      "description": "Enunciation. The area of triangle MNP, which the feet of the altitudes form in an acute-angled triangle ABC, bears to the area of triangle ABC the same ratio as the radius of the circle inscribed in the former bears to the radius of the…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC",
+      "labels": [
+        "fb-en-anhang-5"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_05/notes": {
+      "id": "feuerbach_1822/anhang/anhang_05/notes",
+      "docname": "feuerbach_1822/anhang/anhang_05/notes",
+      "type": "section",
+      "title": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_05/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Notes",
+      "labels": [
+        "fb-notes-anhang-05"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_05/summary": {
+      "id": "feuerbach_1822/anhang/anhang_05/summary",
+      "docname": "feuerbach_1822/anhang/anhang_05/summary",
+      "type": "section",
+      "title": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_05/summary.html",
+      "description": "5th Proposition (5. Satz) — Area Ratio: The area of triangle MNP bears to triangle ABC the same ratio as the inradius of the former bears to the circumradius of the latter:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "5th Proposition (5. Satz): Ratio of the Orthic Area to ΔABC — Summary",
+      "labels": [
+        "fb-summary-anhang-05"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_06/de": {
+      "id": "feuerbach_1822/anhang/anhang_06/de",
+      "docname": "feuerbach_1822/anhang/anhang_06/de",
+      "type": "section",
+      "title": "6. Satz: Höhenabschnitts-Rechteck CO · OP = 2Rρ",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_06/de.html",
+      "description": "Der Durchschnittspunkt O der Perpendikel im spitzwinkligen Dreieck ABC theilt jeden derselben CP in zwei solche Abschnitte CO, OP, daß das Rechteck aus diesen gleich ist dem Rechteck aus dem Durchmesser des um das Dreieck ABC…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "6. Satz: Höhenabschnitts-Rechteck CO · OP = 2Rρ",
+      "labels": [
+        "fb-de-anhang-6"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_06/index": {
+      "id": "feuerbach_1822/anhang/anhang_06/index",
+      "docname": "feuerbach_1822/anhang/anhang_06/index",
+      "type": "section",
+      "title": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_06/",
+      "description": "Enunciation. The intersection point O of the altitudes in an acute-angled triangle ABC divides each of them CP into two such segments CO, OP that the rectangle contained by them equals the rectangle contained by the diameter of the circle…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ",
+      "labels": [
+        "fb-en-anhang-6"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_06/notes": {
+      "id": "feuerbach_1822/anhang/anhang_06/notes",
+      "docname": "feuerbach_1822/anhang/anhang_06/notes",
+      "type": "section",
+      "title": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_06/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Notes",
+      "labels": [
+        "fb-notes-anhang-06"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_06/summary": {
+      "id": "feuerbach_1822/anhang/anhang_06/summary",
+      "docname": "feuerbach_1822/anhang/anhang_06/summary",
+      "type": "section",
+      "title": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_06/summary.html",
+      "description": "6th Proposition (6. Satz) — Altitude Chord Rectangle: The orthocenter O divides each altitude CP into segments whose rectangle equals the circumdiameter times the orthic inradius:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "6th Proposition (6. Satz): Altitude-Segment Rectangle CO · OP = 2Rρ — Summary",
+      "labels": [
+        "fb-summary-anhang-06"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_07/de": {
+      "id": "feuerbach_1822/anhang/anhang_07/de",
+      "docname": "feuerbach_1822/anhang/anhang_07/de",
+      "type": "section",
+      "title": "7. Satz: Summe der Seitenquadrate AB² + AC² + BC² = 8R² + 4ρR",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_07/de.html",
+      "description": "Die Summe der Quadrate von den Seiten eines spitzwinkligen Dreiecks ABC ist gleich dem doppelten Quadrat vom Durchmesser des umbeschriebenen Kreises, sammt dem Rechteck aus diesem Durchmesser in den Durchmesser des in das Dreieck MNP…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "7. Satz: Summe der Seitenquadrate AB² + AC² + BC² = 8R² + 4ρR",
+      "labels": [
+        "fb-de-anhang-7"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_07/index": {
+      "id": "feuerbach_1822/anhang/anhang_07/index",
+      "docname": "feuerbach_1822/anhang/anhang_07/index",
+      "type": "section",
+      "title": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_07/",
+      "description": "Enunciation. The sum of the squares on the sides of an acute-angled triangle ABC equals twice the square on the diameter of the circumscribed circle, increased by the rectangle contained by this diameter and the diameter of the circle…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR",
+      "labels": [
+        "fb-en-anhang-7"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_07/notes": {
+      "id": "feuerbach_1822/anhang/anhang_07/notes",
+      "docname": "feuerbach_1822/anhang/anhang_07/notes",
+      "type": "section",
+      "title": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_07/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Notes",
+      "labels": [
+        "fb-notes-anhang-07"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_07/summary": {
+      "id": "feuerbach_1822/anhang/anhang_07/summary",
+      "docname": "feuerbach_1822/anhang/anhang_07/summary",
+      "type": "section",
+      "title": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_07/summary.html",
+      "description": "7th Proposition (7. Satz) — Side Squares Sum: The sum of the squares on the sides of an acute triangle equals twice the square on the circumdiameter plus the rectangle of circumdiameter and orthic diameter:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "7th Proposition (7. Satz): Sum of Squared Sides AB² + AC² + BC² = 8R² + 4ρR — Summary",
+      "labels": [
+        "fb-summary-anhang-07"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_08/de": {
+      "id": "feuerbach_1822/anhang/anhang_08/de",
+      "docname": "feuerbach_1822/anhang/anhang_08/de",
+      "type": "section",
+      "title": "8. Satz: Strecke GH gleich dem halben Umfang des Dreiecks MNP",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_08/de.html",
+      "description": "Wenn man aus irgend einem Fußpunkte P der Perpendikel im spitzwinkligen Dreieck ABC in der Seite AB auf die beiden andern Seiten AC, BC die Senkrechten PG, PH fällt (Fig. 16); so ist die gerade Linie GH, welche die Fußpunkte dieser…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "8. Satz: Strecke GH gleich dem halben Umfang des Dreiecks MNP",
+      "labels": [
+        "fb-de-anhang-8"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_08/index": {
+      "id": "feuerbach_1822/anhang/anhang_08/index",
+      "docname": "feuerbach_1822/anhang/anhang_08/index",
+      "type": "section",
+      "title": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_08/",
+      "description": "Enunciation. When from any altitude foot P in side AB of an acute-angled triangle ABC one drops upon the other two sides AC, BC the perpendiculars PG, PH (Fig. 16), the straight line GH joining the feet of these perpendiculars equals the…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP",
+      "labels": [
+        "fb-en-anhang-8"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_08/notes": {
+      "id": "feuerbach_1822/anhang/anhang_08/notes",
+      "docname": "feuerbach_1822/anhang/anhang_08/notes",
+      "type": "section",
+      "title": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_08/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Notes",
+      "labels": [
+        "fb-notes-anhang-08"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_08/summary": {
+      "id": "feuerbach_1822/anhang/anhang_08/summary",
+      "docname": "feuerbach_1822/anhang/anhang_08/summary",
+      "type": "section",
+      "title": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_08/summary.html",
+      "description": "8th Proposition (8. Satz) — Orthic Perimeter Unfolding: Dropping perpendiculars PG, PH from any altitude foot P onto the other two sides yields pedal segment GH equal to the semiperimeter of triangle MNP:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "8th Proposition (8. Satz): Pedal Segment GH Equals Semiperimeter of ΔMNP — Summary",
+      "labels": [
+        "fb-summary-anhang-08"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_09/de": {
+      "id": "feuerbach_1822/anhang/anhang_09/de",
+      "docname": "feuerbach_1822/anhang/anhang_09/de",
+      "type": "section",
+      "title": "9. Satz: Synthetischer Beweis des Neunpunktekreises",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_09/de.html",
+      "description": "Der Halbmesser des um das Dreieck MNP beschriebenen Kreises, welches die Fußpunkte der Perpendikel im Dreieck ABC bilden, ist halb so groß als der Halbmesser des um das Dreieck ABC beschriebenen Kreises; und der Ort L des Mittelpunkts…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Synthetic Euclidean construction of the nine-point center L = mid(OK) with LM = LN = LP = LD = R/2 (9. Satz)",
+      "labels": [
+        "fb-de-anhang-9"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_09/index": {
+      "id": "feuerbach_1822/anhang/anhang_09/index",
+      "docname": "feuerbach_1822/anhang/anhang_09/index",
+      "type": "section",
+      "title": "9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_09/",
+      "description": "Enunciation. The radius of the circle circumscribed about triangle MNP, which the feet of the altitudes form in triangle ABC, is half as great as the radius of the circle circumscribed about triangle ABC; and the locus L of the center of…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Synthetic Euclidean construction of the nine-point center L = mid(OK) with LM = LN = LP = LD = R/2 (9. Satz)",
+      "labels": [
+        "fb-en-anhang-9"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_09/notes": {
+      "id": "feuerbach_1822/anhang/anhang_09/notes",
+      "docname": "feuerbach_1822/anhang/anhang_09/notes",
+      "type": "section",
+      "title": "9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Notes",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_09/notes.html",
+      "description": "A widespread claim in mathematical history asserts that Feuerbach noticed only six points on the nine-point circle (the three altitude feet and three side midpoints) and that the three Euler midpoints were only added later by Olry Terquem…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Synthetic Euclidean construction of the nine-point center L = mid(OK) with LM = LN = LP = LD = R/2 (9. Satz)",
+      "labels": [
+        "fb-05-notes",
+        "fb-notes-anhang-09"
+      ]
+    },
+    "feuerbach_1822/anhang/anhang_09/summary": {
+      "id": "feuerbach_1822/anhang/anhang_09/summary",
+      "docname": "feuerbach_1822/anhang/anhang_09/summary",
+      "type": "section",
+      "title": "9th Proposition (9. Satz): Pure Euclidean Proof of the Nine-Point Circle — Summary",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/anhang_09/summary.html",
+      "description": "9th Proposition (9. Satz) — Euclidean Proof of the Nine-Point Circle: The radius of the circle circumscribed about triangle MNP is half the circumradius of triangle ABC, and its center L bisects the segment OK:",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Synthetic Euclidean construction of the nine-point center L = mid(OK) with LM = LN = LP = LD = R/2 (9. Satz)",
+      "labels": [
+        "fb-05-summary",
+        "fb-summary-anhang-09"
+      ]
+    },
+    "feuerbach_1822/anhang/index": {
+      "id": "feuerbach_1822/anhang/index",
+      "docname": "feuerbach_1822/anhang/index",
+      "type": "section",
+      "title": "Synthetic Appendix: Pure Euclidean Proofs of Nine Theorems (pp. 56–62)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/anhang/",
+      "description": "The Synthetischer Anhang demonstrates the foundational metric properties of the orthocenter, orthic triangle, and nine-point circle purely synthetically from Euclid’s Elements Books I–IV and VI without coordinate algebra or trigonometry.…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Pure Euclidean construction of the nine-point circle (Anhang 9. Satz)",
+      "labels": [
+        "fb-anhang-container"
+      ]
+    },
+    "feuerbach_1822/index": {
+      "id": "feuerbach_1822/index",
+      "docname": "feuerbach_1822/index",
+      "type": "book",
+      "title": "Properties of Remarkable Points of the Rectilinear Triangle",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/",
+      "subtitle": "Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks — K. W. Feuerbach (1822)",
+      "description": "Feuerbach’s 1822 Nuremberg monograph discovering the nine-point circle, proving its fourfold tangency with the incircle and excircles of every triangle, and formulating the orthic inradius.",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Feuerbach's nine-point circle centered at L = X(5) passing through the three altitude feet, three side midpoints, and three Euler midpoints",
+      "facets": {
+        "author": "Karl Wilhelm Feuerbach",
+        "year": "1822",
+        "year_sort": 1822,
+        "year_display": "1822"
+      },
+      "labels": [
+        "feuerbach-1822-index",
+        "feuerbach-table-of-contents"
+      ]
+    },
+    "feuerbach_1822/title-de": {
+      "id": "feuerbach_1822/title-de",
+      "docname": "feuerbach_1822/title-de",
+      "type": "book_title",
+      "title": "Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/title-de.html",
+      "subtitle": "Und mehrerer durch sie bestimmten Linien und Figuren — K. W. Feuerbach (Nürnberg, 1822)",
+      "description": "„In jedem Dreieck trifft der Kreis, welcher durch die Fußpunkte seiner Perpendikel geht, zugleich die Seiten desselben in ihren Mitten. […] Der Kreis, welcher durch die Fußpunkte der Perpendikel eines Dreiecks geht, berührt alle vier die…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/constructions/nine_point_circle.svg",
+      "image_alt": "Feuerbach's nine-point circle centered at L = X(5) passing through the three altitude feet, three side midpoints, and three Euler midpoints",
+      "facets": {
+        "author": "Karl Wilhelm Feuerbach"
+      },
+      "labels": [
+        "feuerbach-1822-title-de"
+      ]
+    },
+    "feuerbach_1822/vorrede/de": {
+      "id": "feuerbach_1822/vorrede/de",
+      "docname": "feuerbach_1822/vorrede/de",
+      "type": "section",
+      "title": "Vorrede von Karl Buzengeiger (März 1822)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/vorrede/de.html",
+      "description": "Titelblatt der Erstausgabe (1822)",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Vorrede von Karl Buzengeiger (März 1822)",
+      "labels": [
+        "fb-00-de",
+        "fb-de-vorrede-titel",
+        "fb-de-vorrede-1",
+        "fb-de-vorrede-2",
+        "fb-de-vorrede-3"
+      ]
+    },
+    "feuerbach_1822/vorrede/index": {
+      "id": "feuerbach_1822/vorrede/index",
+      "docname": "feuerbach_1822/vorrede/index",
+      "type": "section",
+      "title": "Preface (Vorrede) by Karl Buzengeiger (March 1822)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/vorrede/",
+      "description": "I. Mathematics as Science (Wissenschaft) and as Art (Kunst)",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Preface (Vorrede) by Karl Buzengeiger (March 1822)",
+      "labels": [
+        "fb-00",
+        "fb-00-en",
+        "fb-en-vorrede-1",
+        "fb-en-vorrede-2",
+        "fb-en-vorrede-3"
+      ]
+    },
+    "feuerbach_1822/vorrede/notes": {
+      "id": "feuerbach_1822/vorrede/notes",
+      "docname": "feuerbach_1822/vorrede/notes",
+      "type": "section",
+      "title": "Critical Notes — Karl Buzengeiger’s Vorrede (pp. III–XVI)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/vorrede/notes.html",
+      "description": "Feuerbach’s Academic Formation: Karl Wilhelm Feuerbach (born 30 May 1800 in Jena, son of the jurist Paul Johann Anselm Ritter von Feuerbach and brother of the philosopher Ludwig Feuerbach) studied first at the University of Erlangen and…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Critical Notes — Karl Buzengeiger’s Vorrede (pp. III–XVI)",
+      "labels": [
+        "fb-00-notes"
+      ]
+    },
+    "feuerbach_1822/vorrede/summary": {
+      "id": "feuerbach_1822/vorrede/summary",
+      "docname": "feuerbach_1822/vorrede/summary",
+      "type": "section",
+      "title": "Summary — Karl Buzengeiger’s Vorrede (pp. III–XVI)",
+      "url": "https://geometor.github.io/feuerbach/feuerbach_1822/vorrede/summary.html",
+      "description": "Dual Aspect of Mathematics (pp. III–IV): Karl Buzengeiger opens with a classical distinction between mathematics as deductive science (Wissenschaft — exemplified above all by Euclid’s Elements) and mathematics as heuristic art (Kunst…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Summary — Karl Buzengeiger’s Vorrede (pp. III–XVI)",
+      "labels": [
+        "fb-00-summary"
+      ]
+    },
+    "glossary": {
+      "id": "glossary",
+      "docname": "glossary",
+      "type": "article",
+      "title": "Technical Glossary",
+      "url": "https://geometor.github.io/feuerbach/glossary.html",
+      "description": "Every inline :term: role links directly to its entry below.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Technical Glossary",
+      "labels": [
+        "glossary",
+        "term-euler-line",
+        "term-nine-point-circle",
+        "term-feuerbach-point",
+        "term-tritangent-circles",
+        "term-orthic-triangle",
+        "term-feuerbach-triangle",
+        "term-quadrance",
+        "term-harmonic-range",
+        "term-casus-irreducibilis",
+        "term-symmetric-polynomials"
+      ]
+    },
+    "index": {
+      "id": "index",
+      "docname": "index",
+      "type": "project",
+      "title": "Karl Wilhelm Feuerbach",
+      "url": "https://geometor.github.io/feuerbach/",
+      "description": "Karl Wilhelm Feuerbach (1800–1834), writing at twenty-two in Nuremberg, unveiled one of the crown jewels of triangle geometry: the nine-point circle passing through the feet of a triangle’s altitudes and the midpoints of its sides…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Karl Wilhelm Feuerbach Medallion"
+    },
+    "log/index": {
+      "id": "log/index",
+      "docname": "log/index",
+      "type": "article",
+      "title": "Research & Editorial Log",
+      "url": "https://geometor.github.io/feuerbach/log/",
+      "description": "Transcribed and translated Leonhard Euler’s Solutio facilis problematum quorumdam geometricorum difficillimorum (E325, 1765/1767, §§ 1–34, pp. 103–123) and Karl Wilhelm Feuerbach’s Eigenschaften einiger merkwürdigen Punkte des…",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Research & Editorial Log"
+    },
+    "modules/api/src/geometor/feuerbach/__main__/index": {
+      "id": "modules/api/src/geometor/feuerbach/__main__/index",
+      "docname": "modules/api/src/geometor/feuerbach/__main__/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.__main__",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/__main__/",
+      "description": "Command-line entrypoint for verifying Euler–Feuerbach symbolic proofs and exporting SVGs.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.__main__"
+    },
+    "modules/api/src/geometor/feuerbach/concordance/index": {
+      "id": "modules/api/src/geometor/feuerbach/concordance/index",
+      "docname": "modules/api/src/geometor/feuerbach/concordance/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.concordance",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/concordance/",
+      "description": "Structured loader and validator for the Euler–Feuerbach concordance and source manifest.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.concordance"
+    },
+    "modules/api/src/geometor/feuerbach/euler/index": {
+      "id": "modules/api/src/geometor/feuerbach/euler/index",
+      "docname": "modules/api/src/geometor/feuerbach/euler/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.euler",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/euler/",
+      "description": "Symbolic proofs and Euclidean construction for Euler’s 1765 memoir (E325) and Feuerbach (1822).",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.euler"
+    },
+    "modules/api/src/geometor/feuerbach/primitives/index": {
+      "id": "modules/api/src/geometor/feuerbach/primitives/index",
+      "docname": "modules/api/src/geometor/feuerbach/primitives/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.primitives",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/primitives/",
+      "description": "Euclidean compass-and-straightedge sub-constructions for triangle geometry.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.primitives"
+    },
+    "modules/api/src/geometor/feuerbach/render/index": {
+      "id": "modules/api/src/geometor/feuerbach/render/index",
+      "docname": "modules/api/src/geometor/feuerbach/render/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.render",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/render/",
+      "description": "Theme-adaptive .euclid-graphic SVG exporter for Euler (1765) and Feuerbach (1822).",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.render"
+    },
+    "modules/api/src/geometor/feuerbach/tangency/index": {
+      "id": "modules/api/src/geometor/feuerbach/tangency/index",
+      "docname": "modules/api/src/geometor/feuerbach/tangency/index",
+      "type": "article",
+      "title": "src.geometor.feuerbach.tangency",
+      "url": "https://geometor.github.io/feuerbach/modules/api/src/geometor/feuerbach/tangency/",
+      "description": "Exact Euclidean construction and deductive proof of Feuerbach’s Theorem (1822, § 57).",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "src.geometor.feuerbach.tangency"
+    },
+    "modules/index": {
+      "id": "modules/index",
+      "docname": "modules/index",
+      "type": "article",
+      "title": "Modules",
+      "url": "https://geometor.github.io/feuerbach/modules/",
+      "description": "Exact symbolic constructions, polynomial proofs, and codex concordance for Euler (1765) and Feuerbach (1822).",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Modules"
+    },
+    "people/altshiller-court": {
+      "id": "people/altshiller-court",
+      "docname": "people/altshiller-court",
+      "type": "person",
+      "title": "Nathan Altshiller-Court",
+      "url": "https://geometor.github.io/feuerbach/people/altshiller-court.html",
+      "description": "Polish-American Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Nathan Altshiller-Court",
+      "facets": {
+        "death_year": "1968",
+        "death_year_sort": 1968,
+        "death_label": "1968",
+        "lifespan": "1881 – 1968",
+        "site_url": "https://geometor.github.io/altshiller-court/",
+        "github_url": "https://github.com/geometor/altshiller-court"
+      },
+      "labels": [
+        "person-altshiller-court"
+      ]
+    },
+    "people/apollonius": {
+      "id": "people/apollonius",
+      "docname": "people/apollonius",
+      "type": "person",
+      "title": "Apollonius of Perga",
+      "url": "https://geometor.github.io/feuerbach/people/apollonius.html",
+      "description": "Greek Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Apollonius of Perga",
+      "facets": {
+        "death_year": "-190",
+        "death_year_sort": -190,
+        "death_label": "190 BC",
+        "lifespan": "c. 240 – c. 190 BCE",
+        "site_url": "https://geometor.github.io/apollonius/",
+        "github_url": "https://github.com/geometor/apollonius"
+      },
+      "labels": [
+        "person-apollonius"
+      ]
+    },
+    "people/brianchon": {
+      "id": "people/brianchon",
+      "docname": "people/brianchon",
+      "type": "person",
+      "title": "Charles Julien Brianchon",
+      "url": "https://geometor.github.io/feuerbach/people/brianchon.html",
+      "description": "French Projective Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Charles Julien Brianchon",
+      "facets": {
+        "death_year": "1864",
+        "death_year_sort": 1864,
+        "death_label": "1864",
+        "lifespan": "1783 – 1864"
+      },
+      "labels": [
+        "person-brianchon"
+      ]
+    },
+    "people/buzengeiger": {
+      "id": "people/buzengeiger",
+      "docname": "people/buzengeiger",
+      "type": "person",
+      "title": "Karl Heribert Ignaz Buzengeiger",
+      "url": "https://geometor.github.io/feuerbach/people/buzengeiger.html",
+      "description": "Professor of Mathematics at the University of Freiburg",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Karl Heribert Ignaz Buzengeiger",
+      "facets": {
+        "death_year": "1835",
+        "death_year_sort": 1835,
+        "death_label": "1835",
+        "lifespan": "1771 – 1835"
+      },
+      "labels": [
+        "person-buzengeiger"
+      ]
+    },
+    "people/ceva": {
+      "id": "people/ceva",
+      "docname": "people/ceva",
+      "type": "person",
+      "title": "Giovanni Ceva",
+      "url": "https://geometor.github.io/feuerbach/people/ceva.html",
+      "description": "Italian Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Giovanni Ceva",
+      "facets": {
+        "death_year": "1734",
+        "death_year_sort": 1734,
+        "death_label": "1734",
+        "lifespan": "1647 – 1734",
+        "site_url": "https://geometor.github.io/ceva/",
+        "github_url": "https://github.com/geometor/ceva"
+      },
+      "labels": [
+        "person-ceva"
+      ]
+    },
+    "people/euclid": {
+      "id": "people/euclid",
+      "docname": "people/euclid",
+      "type": "person",
+      "title": "Euclid of Alexandria",
+      "url": "https://geometor.github.io/feuerbach/people/euclid.html",
+      "description": "Greek Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Euclid of Alexandria",
+      "facets": {
+        "death_year": "-300",
+        "death_year_sort": -300,
+        "death_label": "300 BC",
+        "lifespan": "fl. c. 300 BCE",
+        "site_url": "https://geometor.github.io/euclid/",
+        "github_url": "https://github.com/geometor/euclid"
+      },
+      "labels": [
+        "person-euclid"
+      ]
+    },
+    "people/euler": {
+      "id": "people/euler",
+      "docname": "people/euler",
+      "type": "person",
+      "title": "Leonhard Euler",
+      "url": "https://geometor.github.io/feuerbach/people/euler.html",
+      "description": "Swiss Mathematician & Natural Philosopher",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Leonhard Euler",
+      "facets": {
+        "death_year": "1783",
+        "death_year_sort": 1783,
+        "death_label": "1783",
+        "lifespan": "1707 – 1783",
+        "site_url": "https://geometor.github.io/euler/",
+        "github_url": "https://github.com/geometor/euler"
+      },
+      "labels": [
+        "person-euler"
+      ]
+    },
+    "people/fagnano": {
+      "id": "people/fagnano",
+      "docname": "people/fagnano",
+      "type": "person",
+      "title": "Giovanni Francesco Fagnano dei Toschi",
+      "url": "https://geometor.github.io/feuerbach/people/fagnano.html",
+      "description": "Italian Mathematician",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Giovanni Francesco Fagnano dei Toschi",
+      "facets": {
+        "death_year": "1797",
+        "death_year_sort": 1797,
+        "death_label": "1797",
+        "lifespan": "1715 – 1797"
+      },
+      "labels": [
+        "person-fagnano"
+      ]
+    },
+    "people/feuerbach": {
+      "id": "people/feuerbach",
+      "docname": "people/feuerbach",
+      "type": "person",
+      "title": "Karl Wilhelm Feuerbach",
+      "url": "https://geometor.github.io/feuerbach/people/feuerbach.html",
+      "description": "German Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Karl Wilhelm Feuerbach",
+      "facets": {
+        "death_year": "1834",
+        "death_year_sort": 1834,
+        "death_label": "1834",
+        "lifespan": "1800 – 1834",
+        "site_url": "https://geometor.github.io/feuerbach/",
+        "github_url": "https://github.com/geometor/feuerbach"
+      },
+      "labels": [
+        "person-feuerbach"
+      ]
+    },
+    "people/fuss": {
+      "id": "people/fuss",
+      "docname": "people/fuss",
+      "type": "person",
+      "title": "Nicolaus Fuß",
+      "url": "https://geometor.github.io/feuerbach/people/fuss.html",
+      "description": "Swiss-Russian Mathematician",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Nicolaus Fuß",
+      "facets": {
+        "death_year": "1826",
+        "death_year_sort": 1826,
+        "death_label": "1826",
+        "lifespan": "1755 – 1826"
+      },
+      "labels": [
+        "person-fuss"
+      ]
+    },
+    "people/index": {
+      "id": "people/index",
+      "docname": "people/index",
+      "type": "article",
+      "title": "People",
+      "url": "https://geometor.github.io/feuerbach/people/",
+      "description_source": "empty",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "People",
+      "labels": [
+        "persons"
+      ]
+    },
+    "people/kimberling": {
+      "id": "people/kimberling",
+      "docname": "people/kimberling",
+      "type": "person",
+      "title": "Clark Kimberling",
+      "url": "https://geometor.github.io/feuerbach/people/kimberling.html",
+      "description": "American Mathematician",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Clark Kimberling",
+      "facets": {
+        "death_year": "1942",
+        "death_year_sort": 1942,
+        "death_label": "1942",
+        "lifespan": "b. 1942"
+      },
+      "labels": [
+        "person-kimberling"
+      ]
+    },
+    "people/lhuilier": {
+      "id": "people/lhuilier",
+      "docname": "people/lhuilier",
+      "type": "person",
+      "title": "Simon Antoine Jean L’Huilier",
+      "url": "https://geometor.github.io/feuerbach/people/lhuilier.html",
+      "description": "Swiss Mathematician",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Simon Antoine Jean L’Huilier",
+      "facets": {
+        "death_year": "1840",
+        "death_year_sort": 1840,
+        "death_label": "1840",
+        "lifespan": "1750 – 1840"
+      },
+      "labels": [
+        "person-lhuilier"
+      ]
+    },
+    "people/menelaus": {
+      "id": "people/menelaus",
+      "docname": "people/menelaus",
+      "type": "person",
+      "title": "Menelaus of Alexandria",
+      "url": "https://geometor.github.io/feuerbach/people/menelaus.html",
+      "description": "Greco-Roman Mathematician & Astronomer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Menelaus of Alexandria",
+      "facets": {
+        "death_year": "140",
+        "death_year_sort": 140,
+        "death_label": "140",
+        "lifespan": "c. 70 – 140 CE",
+        "site_url": "https://geometor.github.io/menelaus/",
+        "github_url": "https://github.com/geometor/menelaus"
+      },
+      "labels": [
+        "person-menelaus"
+      ]
+    },
+    "people/pappus": {
+      "id": "people/pappus",
+      "docname": "people/pappus",
+      "type": "person",
+      "title": "Pappus of Alexandria",
+      "url": "https://geometor.github.io/feuerbach/people/pappus.html",
+      "description": "Greek Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Pappus of Alexandria",
+      "facets": {
+        "death_year": "350",
+        "death_year_sort": 350,
+        "death_label": "350",
+        "lifespan": "c. 290 – c. 350 CE",
+        "site_url": "https://geometor.github.io/pappus/",
+        "github_url": "https://github.com/geometor/pappus"
+      },
+      "labels": [
+        "person-pappus"
+      ]
+    },
+    "people/poncelet": {
+      "id": "people/poncelet",
+      "docname": "people/poncelet",
+      "type": "person",
+      "title": "Jean-Victor Poncelet",
+      "url": "https://geometor.github.io/feuerbach/people/poncelet.html",
+      "description": "French Geometer & Engineer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Jean-Victor Poncelet",
+      "facets": {
+        "death_year": "1867",
+        "death_year_sort": 1867,
+        "death_label": "1867",
+        "lifespan": "1788 – 1867"
+      },
+      "labels": [
+        "person-poncelet"
+      ]
+    },
+    "people/stewart": {
+      "id": "people/stewart",
+      "docname": "people/stewart",
+      "type": "person",
+      "title": "Matthew Stewart",
+      "url": "https://geometor.github.io/feuerbach/people/stewart.html",
+      "description": "Scottish Geometer",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Matthew Stewart",
+      "facets": {
+        "death_year": "1785",
+        "death_year_sort": 1785,
+        "death_label": "1785",
+        "lifespan": "1717 – 1785"
+      },
+      "labels": [
+        "person-stewart"
+      ]
+    },
+    "people/terquem": {
+      "id": "people/terquem",
+      "docname": "people/terquem",
+      "type": "person",
+      "title": "Olry Terquem",
+      "url": "https://geometor.github.io/feuerbach/people/terquem.html",
+      "description": "French Mathematician & Historian of Mathematics",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Olry Terquem",
+      "facets": {
+        "death_year": "1862",
+        "death_year_sort": 1862,
+        "death_label": "1862",
+        "lifespan": "1782 – 1862"
+      },
+      "labels": [
+        "person-terquem"
+      ]
+    },
+    "people/wildberger": {
+      "id": "people/wildberger",
+      "docname": "people/wildberger",
+      "type": "person",
+      "title": "Norman J. Wildberger",
+      "url": "https://geometor.github.io/feuerbach/people/wildberger.html",
+      "description": "Canadian-Australian Mathematician",
+      "description_source": "meta",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Norman J. Wildberger",
+      "facets": {
+        "death_year": "1956",
+        "death_year_sort": 1956,
+        "death_label": "1956",
+        "lifespan": "b. 1956",
+        "site_url": "https://geometor.github.io/wildberger/",
+        "github_url": "https://github.com/geometor/wildberger"
+      },
+      "labels": [
+        "person-wildberger"
+      ]
+    },
+    "usage/index": {
+      "id": "usage/index",
+      "docname": "usage/index",
+      "type": "section",
+      "title": "Usage",
+      "url": "https://geometor.github.io/feuerbach/usage/",
+      "description": "This archive is built with PHOTON Publish as an interconnected semantic book codex.",
+      "description_source": "fallback",
+      "emblem": "https://geometor.github.io/feuerbach/_static/medallion.svg",
+      "image_alt": "Usage",
+      "labels": [
+        "usage"
+      ]
+    }
+  },
+  "labels": {
+    "about": "about/index",
+    "about-index": "about/index",
+    "about-feuerbach": "about/index",
+    "bibliography": "bibliography",
+    "cite-euler-1765": "bibliography",
+    "cite-feuerbach-1822": "bibliography",
+    "cite-ceva-1678": "bibliography",
+    "cite-menelaus-sphaerica": "bibliography",
+    "cite-euclid-elements": "bibliography",
+    "cite-euclid-data": "bibliography",
+    "cite-lhuilier-1810": "bibliography",
+    "cite-fagnano-1775": "bibliography",
+    "cite-fuss-1797": "bibliography",
+    "cite-brianchon-poncelet-1821": "bibliography",
+    "cite-terquem-1842": "bibliography",
+    "cite-altshiller-court-1952": "bibliography",
+    "cite-kimberling-etc": "bibliography",
+    "cite-wildberger-2005": "bibliography",
+    "concordance": "concordance",
+    "demos": "demos/index",
+    "fb-01": "feuerbach_1822/abschnitt_1/index",
+    "fb-01-container": "feuerbach_1822/abschnitt_1/index",
+    "fb-01-de": "feuerbach_1822/abschnitt_1/sec_01/de",
+    "fb-de-s01": "feuerbach_1822/abschnitt_1/sec_01/de",
+    "fb-01-en": "feuerbach_1822/abschnitt_1/sec_01/index",
+    "fb-en-s01": "feuerbach_1822/abschnitt_1/sec_01/index",
+    "fb-01-notes": "feuerbach_1822/abschnitt_1/sec_01/notes",
+    "fb-notes-s01": "feuerbach_1822/abschnitt_1/sec_01/notes",
+    "fb-01-summary": "feuerbach_1822/abschnitt_1/sec_01/summary",
+    "fb-summary-s01": "feuerbach_1822/abschnitt_1/sec_01/summary",
+    "fb-de-s02": "feuerbach_1822/abschnitt_1/sec_02/de",
+    "fb-en-s02": "feuerbach_1822/abschnitt_1/sec_02/index",
+    "fb-notes-s02": "feuerbach_1822/abschnitt_1/sec_02/notes",
+    "fb-summary-s02": "feuerbach_1822/abschnitt_1/sec_02/summary",
+    "fb-de-s03": "feuerbach_1822/abschnitt_1/sec_03/de",
+    "fb-en-s03": "feuerbach_1822/abschnitt_1/sec_03/index",
+    "fb-notes-s03": "feuerbach_1822/abschnitt_1/sec_03/notes",
+    "fb-summary-s03": "feuerbach_1822/abschnitt_1/sec_03/summary",
+    "fb-de-s08": "feuerbach_1822/abschnitt_1/sec_08/de",
+    "fb-en-s08": "feuerbach_1822/abschnitt_1/sec_08/index",
+    "fb-notes-s08": "feuerbach_1822/abschnitt_1/sec_08/notes",
+    "fb-summary-s08": "feuerbach_1822/abschnitt_1/sec_08/summary",
+    "fb-de-s12": "feuerbach_1822/abschnitt_1/sec_12/de",
+    "fb-en-s12": "feuerbach_1822/abschnitt_1/sec_12/index",
+    "fb-notes-s12": "feuerbach_1822/abschnitt_1/sec_12/notes",
+    "fb-summary-s12": "feuerbach_1822/abschnitt_1/sec_12/summary",
+    "fb-02": "feuerbach_1822/abschnitt_2/index",
+    "fb-02-container": "feuerbach_1822/abschnitt_2/index",
+    "fb-02-de": "feuerbach_1822/abschnitt_2/sec_19/de",
+    "fb-de-s19": "feuerbach_1822/abschnitt_2/sec_19/de",
+    "fb-02-en": "feuerbach_1822/abschnitt_2/sec_19/index",
+    "fb-en-s19": "feuerbach_1822/abschnitt_2/sec_19/index",
+    "fb-02-notes": "feuerbach_1822/abschnitt_2/sec_19/notes",
+    "fb-notes-s19": "feuerbach_1822/abschnitt_2/sec_19/notes",
+    "fb-02-summary": "feuerbach_1822/abschnitt_2/sec_19/summary",
+    "fb-summary-s19": "feuerbach_1822/abschnitt_2/sec_19/summary",
+    "fb-de-s24": "feuerbach_1822/abschnitt_2/sec_23/de",
+    "fb-en-s23": "feuerbach_1822/abschnitt_2/sec_23/index",
+    "fb-notes-s23": "feuerbach_1822/abschnitt_2/sec_23/notes",
+    "fb-summary-s23": "feuerbach_1822/abschnitt_2/sec_23/summary",
+    "fb-de-s30": "feuerbach_1822/abschnitt_2/sec_30/de",
+    "fb-en-s30": "feuerbach_1822/abschnitt_2/sec_30/index",
+    "fb-notes-s30": "feuerbach_1822/abschnitt_2/sec_30/notes",
+    "fb-summary-s30": "feuerbach_1822/abschnitt_2/sec_30/summary",
+    "fb-de-s41": "feuerbach_1822/abschnitt_2/sec_41/de",
+    "fb-en-s41": "feuerbach_1822/abschnitt_2/sec_41/index",
+    "fb-notes-s41": "feuerbach_1822/abschnitt_2/sec_41/notes",
+    "fb-summary-s41": "feuerbach_1822/abschnitt_2/sec_41/summary",
+    "fb-03-container": "feuerbach_1822/abschnitt_3/index",
+    "fb-abschnitt-3": "feuerbach_1822/abschnitt_3/index",
+    "fb-de-s49": "feuerbach_1822/abschnitt_3/sec_49/de",
+    "fb-en-s49": "feuerbach_1822/abschnitt_3/sec_49/index",
+    "fb-notes-s49": "feuerbach_1822/abschnitt_3/sec_49/notes",
+    "fb-summary-s49": "feuerbach_1822/abschnitt_3/sec_49/summary",
+    "fb-de-s50": "feuerbach_1822/abschnitt_3/sec_50/de",
+    "fb-en-s50": "feuerbach_1822/abschnitt_3/sec_50/index",
+    "fb-notes-s50": "feuerbach_1822/abschnitt_3/sec_50/notes",
+    "fb-summary-s50": "feuerbach_1822/abschnitt_3/sec_50/summary",
+    "fb-de-s51": "feuerbach_1822/abschnitt_3/sec_51/de",
+    "fb-en-s51": "feuerbach_1822/abschnitt_3/sec_51/index",
+    "fb-notes-s51": "feuerbach_1822/abschnitt_3/sec_51/notes",
+    "fb-summary-s51": "feuerbach_1822/abschnitt_3/sec_51/summary",
+    "fb-de-s52": "feuerbach_1822/abschnitt_3/sec_52/de",
+    "fb-de-s53": "feuerbach_1822/abschnitt_3/sec_52/de",
+    "fb-en-s52": "feuerbach_1822/abschnitt_3/sec_52/index",
+    "fb-notes-s52": "feuerbach_1822/abschnitt_3/sec_52/notes",
+    "fb-summary-s52": "feuerbach_1822/abschnitt_3/sec_52/summary",
+    "fb-04-container": "feuerbach_1822/abschnitt_4/index",
+    "fb-abschnitt-4": "feuerbach_1822/abschnitt_4/index",
+    "fb-03-de": "feuerbach_1822/abschnitt_4/sec_54/de",
+    "fb-de-s54": "feuerbach_1822/abschnitt_4/sec_54/de",
+    "fb-de-s55": "feuerbach_1822/abschnitt_4/sec_54/de",
+    "fb-de-s56": "feuerbach_1822/abschnitt_4/sec_54/de",
+    "fb-de-s57": "feuerbach_1822/abschnitt_4/sec_54/de",
+    "fb-en-s57": "feuerbach_1822/abschnitt_4/sec_54/index",
+    "fb-03": "feuerbach_1822/abschnitt_4/sec_54/index",
+    "fb-03-en": "feuerbach_1822/abschnitt_4/sec_54/index",
+    "fb-en-s54": "feuerbach_1822/abschnitt_4/sec_54/index",
+    "fb-03-notes": "feuerbach_1822/abschnitt_4/sec_54/notes",
+    "fb-notes-s54": "feuerbach_1822/abschnitt_4/sec_54/notes",
+    "fb-03-summary": "feuerbach_1822/abschnitt_4/sec_54/summary",
+    "fb-summary-s54": "feuerbach_1822/abschnitt_4/sec_54/summary",
+    "fb-de-s59": "feuerbach_1822/abschnitt_4/sec_58/de",
+    "fb-de-s60": "feuerbach_1822/abschnitt_4/sec_58/de",
+    "fb-de-s58": "feuerbach_1822/abschnitt_4/sec_58/de",
+    "fb-en-s58": "feuerbach_1822/abschnitt_4/sec_58/index",
+    "fb-notes-s58": "feuerbach_1822/abschnitt_4/sec_58/notes",
+    "fb-summary-s58": "feuerbach_1822/abschnitt_4/sec_58/summary",
+    "fb-05-container": "feuerbach_1822/abschnitt_5/index",
+    "fb-abschnitt-5": "feuerbach_1822/abschnitt_5/index",
+    "fb-04-de": "feuerbach_1822/abschnitt_5/sec_61/de",
+    "fb-de-s61": "feuerbach_1822/abschnitt_5/sec_61/de",
+    "fb-04": "feuerbach_1822/abschnitt_5/sec_61/index",
+    "fb-04-en": "feuerbach_1822/abschnitt_5/sec_61/index",
+    "fb-en-s61": "feuerbach_1822/abschnitt_5/sec_61/index",
+    "fb-04-notes": "feuerbach_1822/abschnitt_5/sec_61/notes",
+    "fb-notes-s61": "feuerbach_1822/abschnitt_5/sec_61/notes",
+    "fb-04-summary": "feuerbach_1822/abschnitt_5/sec_61/summary",
+    "fb-summary-s61": "feuerbach_1822/abschnitt_5/sec_61/summary",
+    "fb-de-s63": "feuerbach_1822/abschnitt_5/sec_63/de",
+    "fb-en-s63": "feuerbach_1822/abschnitt_5/sec_63/index",
+    "fb-notes-s63": "feuerbach_1822/abschnitt_5/sec_63/notes",
+    "fb-summary-s63": "feuerbach_1822/abschnitt_5/sec_63/summary",
+    "fb-de-s71": "feuerbach_1822/abschnitt_5/sec_71/de",
+    "fb-en-s71": "feuerbach_1822/abschnitt_5/sec_71/index",
+    "fb-notes-s71": "feuerbach_1822/abschnitt_5/sec_71/notes",
+    "fb-summary-s71": "feuerbach_1822/abschnitt_5/sec_71/summary",
+    "fb-05-de": "feuerbach_1822/anhang/anhang_01/de",
+    "fb-de-anhang-1-4": "feuerbach_1822/anhang/anhang_01/de",
+    "fb-05": "feuerbach_1822/anhang/anhang_01/index",
+    "fb-05-en": "feuerbach_1822/anhang/anhang_01/index",
+    "fb-en-anhang-1-4": "feuerbach_1822/anhang/anhang_01/index",
+    "fb-notes-anhang-01": "feuerbach_1822/anhang/anhang_01/notes",
+    "fb-summary-anhang-01": "feuerbach_1822/anhang/anhang_01/summary",
+    "fb-de-anhang-5": "feuerbach_1822/anhang/anhang_05/de",
+    "fb-en-anhang-5": "feuerbach_1822/anhang/anhang_05/index",
+    "fb-notes-anhang-05": "feuerbach_1822/anhang/anhang_05/notes",
+    "fb-summary-anhang-05": "feuerbach_1822/anhang/anhang_05/summary",
+    "fb-de-anhang-6": "feuerbach_1822/anhang/anhang_06/de",
+    "fb-en-anhang-6": "feuerbach_1822/anhang/anhang_06/index",
+    "fb-notes-anhang-06": "feuerbach_1822/anhang/anhang_06/notes",
+    "fb-summary-anhang-06": "feuerbach_1822/anhang/anhang_06/summary",
+    "fb-de-anhang-7": "feuerbach_1822/anhang/anhang_07/de",
+    "fb-en-anhang-7": "feuerbach_1822/anhang/anhang_07/index",
+    "fb-notes-anhang-07": "feuerbach_1822/anhang/anhang_07/notes",
+    "fb-summary-anhang-07": "feuerbach_1822/anhang/anhang_07/summary",
+    "fb-de-anhang-8": "feuerbach_1822/anhang/anhang_08/de",
+    "fb-en-anhang-8": "feuerbach_1822/anhang/anhang_08/index",
+    "fb-notes-anhang-08": "feuerbach_1822/anhang/anhang_08/notes",
+    "fb-summary-anhang-08": "feuerbach_1822/anhang/anhang_08/summary",
+    "fb-de-anhang-9": "feuerbach_1822/anhang/anhang_09/de",
+    "fb-en-anhang-9": "feuerbach_1822/anhang/anhang_09/index",
+    "fb-05-notes": "feuerbach_1822/anhang/anhang_09/notes",
+    "fb-notes-anhang-09": "feuerbach_1822/anhang/anhang_09/notes",
+    "fb-05-summary": "feuerbach_1822/anhang/anhang_09/summary",
+    "fb-summary-anhang-09": "feuerbach_1822/anhang/anhang_09/summary",
+    "fb-anhang-container": "feuerbach_1822/anhang/index",
+    "feuerbach-1822-index": "feuerbach_1822/index",
+    "feuerbach-table-of-contents": "feuerbach_1822/index",
+    "feuerbach-1822-title-de": "feuerbach_1822/title-de",
+    "fb-00-de": "feuerbach_1822/vorrede/de",
+    "fb-de-vorrede-titel": "feuerbach_1822/vorrede/de",
+    "fb-de-vorrede-1": "feuerbach_1822/vorrede/de",
+    "fb-de-vorrede-2": "feuerbach_1822/vorrede/de",
+    "fb-de-vorrede-3": "feuerbach_1822/vorrede/de",
+    "fb-00": "feuerbach_1822/vorrede/index",
+    "fb-00-en": "feuerbach_1822/vorrede/index",
+    "fb-en-vorrede-1": "feuerbach_1822/vorrede/index",
+    "fb-en-vorrede-2": "feuerbach_1822/vorrede/index",
+    "fb-en-vorrede-3": "feuerbach_1822/vorrede/index",
+    "fb-00-notes": "feuerbach_1822/vorrede/notes",
+    "fb-00-summary": "feuerbach_1822/vorrede/summary",
+    "glossary": "glossary",
+    "term-euler-line": "glossary",
+    "term-nine-point-circle": "glossary",
+    "term-feuerbach-point": "glossary",
+    "term-tritangent-circles": "glossary",
+    "term-orthic-triangle": "glossary",
+    "term-feuerbach-triangle": "glossary",
+    "term-quadrance": "glossary",
+    "term-harmonic-range": "glossary",
+    "term-casus-irreducibilis": "glossary",
+    "term-symmetric-polynomials": "glossary",
+    "person-altshiller-court": "people/altshiller-court",
+    "person-apollonius": "people/apollonius",
+    "person-brianchon": "people/brianchon",
+    "person-buzengeiger": "people/buzengeiger",
+    "person-ceva": "people/ceva",
+    "person-euclid": "people/euclid",
+    "person-euler": "people/euler",
+    "person-fagnano": "people/fagnano",
+    "person-feuerbach": "people/feuerbach",
+    "person-fuss": "people/fuss",
+    "persons": "people/index",
+    "person-kimberling": "people/kimberling",
+    "person-lhuilier": "people/lhuilier",
+    "person-menelaus": "people/menelaus",
+    "person-pappus": "people/pappus",
+    "person-poncelet": "people/poncelet",
+    "person-stewart": "people/stewart",
+    "person-terquem": "people/terquem",
+    "person-wildberger": "people/wildberger",
+    "usage": "usage/index"
+  }
+}
